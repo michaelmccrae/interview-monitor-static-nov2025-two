@@ -3,7 +3,7 @@ import Version from './ver1'
 
 const page = () => {
   return (
-    <div className = "w-5/8"><Version /></div>
+    <div className = ""><Version /></div>
   )
 }
 
