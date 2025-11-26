@@ -161,7 +161,7 @@ export default function Page() {
       cleanRole !== "interviewer";
 
     return (
-      <div className={`flex ${alignment} w-full mb-6`}>
+      <div className={`flex ${alignment} w-full mb-2 px-4 lg:px-0`}>
         <div className="w-full max-w-full sm:max-w-3xl">
           <div
             className={`px-3 py-2 sm:px-4 sm:py-3 rounded-2xl border shadow-sm leading-relaxed break-words
@@ -229,7 +229,22 @@ export default function Page() {
   });
 
   return (
-    <div className="px-4 py-6 sm:px-6 sm:py-8 max-w-screen-xl mx-auto break-words overflow-x-hidden space-y-10">
+    <div
+    className="
+      px-4 py-6
+      sm:px-6 sm:py-8
+      max-w-screen-xl mx-auto
+      break-words overflow-x-hidden
+      space-y-10
+
+      /* NEW: tighten layout on large screens */
+      lg:flex            /* enable flex only on lg+ */
+      lg:flex-col        /* stack transcript vertically */
+      lg:items-center    /* center the whole column */
+      lg:gap-2           /* reduce wide spacing */
+      lg:w-5/8
+    "
+  >
       {/* TRANSCRIPT */}
       {mergedMeta.turns.map((turn) => (
         <TranscriptBubble key={turn.ID} turn={turn} />
