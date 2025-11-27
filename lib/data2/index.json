@@ -1,0 +1,7 @@
+{
+  "goldman1": {
+    "label": "Goldman 1",
+    "before": "data2/goldman1/beforeLLM.json",
+    "after": "data2/goldman1/afterLLM.json"
+  }
+}

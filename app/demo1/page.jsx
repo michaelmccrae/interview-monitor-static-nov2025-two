@@ -1,5 +1,5 @@
 import React from 'react'
-import Version from './ver1'
+import Version from './ver2'
 
 const page = () => {
   return (
