@@ -1,13 +1,13 @@
 {
   "goldman1": {
     "label": "Commodities Outlook: What's Driving Oil, Gold, and Base Metals",
-    "fulllabel": "Goldman Exchanges, Jul 1, 2025, https://www.goldmansachs.com/insights/goldman-sachs-exchanges/commodities-outlook-whats-driving-oil-gold-and-base-metals",
+    "moreinfo": "Goldman Exchanges, Jul 1, 2025, https://www.goldmansachs.com/insights/goldman-sachs-exchanges/commodities-outlook-whats-driving-oil-gold-and-base-metals",
     "before": "data2/goldman1/beforellm.json",
     "after":  "data2/goldman1/afterllm.json"
   },
    "harvard1": {
     "label": "Future of Business: Standard Bank's CEO on Driving Sustainable Growth and Shared Prosperity",
-    "fulllabel": "HBS podcast, 13 November 2025, https://audio.hbr.org/ideacast/20251113090425-1052b_FutureofBusiness_StandardBanksCEOonDrivingSustainableGrowthandSharedProsperity.mp3",
+    "moreinfo": "HBS podcast, 13 November 2025, https://audio.hbr.org/ideacast/20251113090425-1052b_FutureofBusiness_StandardBanksCEOonDrivingSustainableGrowthandSharedProsperity.mp3",
     "before": "data2/harvard1/beforellm.json",
     "after":  "data2/harvard1/afterllm.json"
    }
