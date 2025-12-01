@@ -1,22 +1,21 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, Suspense } from "react";
 import Link from "next/link";
-import { useSearchParams } from "next/navigation"; // 1. Import hook to read URL
+import { useSearchParams } from "next/navigation";
 import Display from "./display1.jsx";
 import registry from "@/lib/data2/index.json";
 
-export default function Page() {
-  const searchParams = useSearchParams(); // 2. Get current URL params
-  const activeKey = searchParams.get("key"); // 3. Read ?key=...
+// 1. We move your main logic into this "Content" component
+function TranscriptContent() {
+  const searchParams = useSearchParams(); 
+  const activeKey = searchParams.get("key"); 
 
   const [loading, setLoading] = useState(false);
   const [beforellm, setbeforellm] = useState(null);
   const [afterllm, setafterllm] = useState(null);
-  // We can derive currentKey from the URL now, but keeping state is fine for display
   const [currentKey, setCurrentKey] = useState(null); 
 
-  // 4. Listen for URL changes. If URL has ?key=..., load that transcript
   useEffect(() => {
     if (activeKey && registry[activeKey]) {
       loadTranscript(activeKey);
@@ -24,7 +23,6 @@ export default function Page() {
   }, [activeKey]);
 
   async function loadTranscript(key) {
-    // Prevent reloading if we are already showing this key (optional optimization)
     if (key === currentKey && beforellm) return;
 
     setLoading(true);
@@ -32,7 +30,6 @@ export default function Page() {
 
     const def = registry[key];
     if (!def) {
-      // No alert needed here usually, just don't load
       setLoading(false);
       return;
     }
@@ -60,21 +57,19 @@ export default function Page() {
       <div>
         <h1 className="text-xl font-bold mb-4">Available Transcripts</h1>
 
-        <ul className="space-y-4">
+        <ul className="space-y-3">
           {Object.entries(registry).map(([key, item]) => (
-            <li key={key} className="flex flex-col items-start text-left">
-              {/* 5. The Link Component */}
+            <li key={key} className="text-left">
               <Link
-                href={`?key=${key}`} // Updates URL to /transcripts?key=goldman1
-                className="text-blue-600 underline hover:text-blue-800 text-lg font-medium"
+                href={`?key=${key}`}
+                className="text-blue-600 underline hover:text-blue-800 font-medium"
               >
                 {item.label || key}
               </Link>
               
-              {/* 6. The Info Block (Left aligned, small font) */}
-              <div className="text-sm text-gray-500 mt-1">
-                {item.moreinfo}
-              </div>
+              <span className="text-gray-600">
+                {" - "}{item.moreinfo}
+              </span>
             </li>
           ))}
         </ul>
@@ -94,5 +89,14 @@ export default function Page() {
         </div>
       )}
     </div>
+  );
+}
+
+// 2. The Default Export now just wraps the content in Suspense
+export default function Page() {
+  return (
+    <Suspense fallback={<div className="p-6">Loading search parameters...</div>}>
+      <TranscriptContent />
+    </Suspense>
   );
 }
