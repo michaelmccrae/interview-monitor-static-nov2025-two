@@ -1,0 +1,1254 @@
+[
+  {
+    "ID": 0,
+    "lookup": {
+      "ID": 0,
+      "speaker": 0,
+      "lookupTerm": [
+        "AWS",
+        "NFL",
+        "NBA",
+        "PGA Tour",
+        "predictive analytics"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Amazon_Web_Services",
+        "https://en.wikipedia.org/wiki/National_Football_League",
+        "https://en.wikipedia.org/wiki/National_Basketball_Association",
+        "https://en.wikipedia.org/wiki/PGA_Tour",
+        "https://en.wikipedia.org/wiki/Predictive_analytics"
+      ],
+      "lookupExplanation": [
+        "Amazon Web Services (AWS) is a comprehensive cloud computing platform provided by Amazon, offering a wide range of on-demand computing services and APIs.",
+        "The National Football League (NFL) is a professional American football league consisting of 32 teams, one of the major professional sports leagues in the United States and Canada.",
+        "The National Basketball Association (NBA) is a professional basketball league in North America, comprising 30 teams and widely considered the premier men's professional basketball league worldwide.",
+        "The PGA Tour is the organizer of the main professional golf tours played primarily by men in the United States and North America.",
+        "Predictive analytics involves extracting information from existing data sets to determine patterns and predict future outcomes and trends."
+      ],
+      "lookupTermTimestamp": "2025-11-28T01:38:56.159Z"
+    },
+    "error": {
+      "ID": 0,
+      "speaker": 0,
+      "errorMatch": [
+        null
+      ],
+      "errorExplanation": [
+        null
+      ],
+      "errorConfidence": [
+        null
+      ],
+      "errorMatchTimestamp": "2025-11-28T01:38:53.510Z"
+    },
+    "followup": {
+      "ID": 0,
+      "speaker": 0,
+      "followupQuestion": [
+        "Can you explain how AWS AI is integrated into different sports leagues?",
+        "What specific types of predictive analytics does AWS provide for sports fans?",
+        "How does AWS go beyond traditional box score statistics?"
+      ],
+      "followupConfidence": [
+        0.95,
+        0.9,
+        0.85
+      ],
+      "followupQuestionTimestamp": "2025-11-28T01:38:54.014Z"
+    }
+  },
+  {
+    "metadata": "speaker name and speaker role",
+    "speakerName": [
+      "Narrator",
+      "Alison Beard",
+      "Interviewer",
+      "Sim Shabalala"
+    ],
+    "speakerNameConfidence": [
+      0.85,
+      0.98,
+      0.95,
+      0.9
+    ],
+    "speakerNameTimestamp": "2025-11-28T01:39:04.767Z",
+    "speakerRole": [
+      "guest",
+      "interviewer",
+      "interviewer",
+      "guest"
+    ],
+    "speakerRoleConfidence": [
+      0.9,
+      0.95,
+      0.95,
+      0.85
+    ],
+    "speakerRoleTimestamp": "2025-11-28T01:39:03.323Z"
+  },
+  {
+    "ID": 2,
+    "lookup": {
+      "ID": 2,
+      "speaker": 2,
+      "lookupTerm": [
+        "Soweto",
+        "Standard Bank"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Soweto",
+        "https://en.wikipedia.org/wiki/Standard_Bank"
+      ],
+      "lookupExplanation": [
+        "Soweto is a township of the city of Johannesburg in South Africa, historically known for its significant role in the struggle against apartheid.",
+        "Standard Bank is a major South African financial services group and is one of the largest banks in Africa, offering a range of banking and financial services."
+      ],
+      "lookupTermTimestamp": "2025-11-28T01:39:04.812Z"
+    },
+    "error": {
+      "ID": 2,
+      "speaker": 2,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2025-11-28T01:39:03.957Z"
+    },
+    "followup": {
+      "ID": 2,
+      "speaker": 2,
+      "followupQuestion": [
+        "How did your upbringing in Soweto influence your decision to enter finance?",
+        "In what ways did you incorporate a modern purpose into your leadership at Standard Bank?"
+      ],
+      "followupConfidence": [
+        0.95,
+        0.9
+      ],
+      "followupQuestionTimestamp": "2025-11-28T01:39:04.871Z"
+    }
+  },
+  {
+    "ID": 1,
+    "lookup": {
+      "ID": 1,
+      "speaker": 1,
+      "lookupTerm": [
+        "Harvard Business Review",
+        "HBR IdeaCast",
+        "HBR's Future of Business virtual conference",
+        "artificial intelligence",
+        "geopolitical uncertainty",
+        "corporate social responsibility",
+        "Sim Shabalala",
+        "Standard Bank",
+        "apartheid"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Harvard_Business_Review",
+        "https://en.wikipedia.org/wiki/Harvard_Business_Review#Podcasts",
+        "https://hbr.org/events/future-of-business-europe-2023",
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://en.wikipedia.org/wiki/Geopolitics",
+        "https://en.wikipedia.org/wiki/Corporate_social_responsibility",
+        "https://www.standardbank.com/about-us/leadership/the-board/sim-shabalala",
+        "https://en.wikipedia.org/wiki/Standard_Bank",
+        "https://en.wikipedia.org/wiki/Apartheid"
+      ],
+      "lookupExplanation": [
+        "Harvard Business Review is a general management magazine published by Harvard Business Publishing, featuring research and practical advice for business leaders.",
+        "HBR IdeaCast is a podcast produced by Harvard Business Review focusing on business and management topics with interviews from industry experts.",
+        "HBR's Future of Business virtual conference is an annual event hosted by Harvard Business Review featuring leading CEOs discussing emerging business trends and challenges.",
+        "Artificial intelligence refers to computer systems able to perform tasks that normally require human intelligence, such as visual perception, speech recognition, decision-making, and language translation.",
+        "Geopolitical uncertainty describes the instability in international relations and political environments that can affect global markets and business operations.",
+        "Corporate social responsibility is a self-regulating business model where companies integrate social and environmental concerns in their operations and interactions with stakeholders.",
+        "Sim Shabalala is the CEO of Standard Bank, Africa's largest bank, known for his leadership and focus on financial inclusion and digital transformation.",
+        "Standard Bank is the largest financial services group in Africa by assets and operates in multiple countries providing banking and financial products.",
+        "Apartheid was a system of institutionalized racial segregation and discrimination enforced by the South African government from 1948 to the early 1990s."
+      ],
+      "lookupTermTimestamp": "2025-11-28T01:39:07.471Z"
+    },
+    "error": {
+      "ID": 1,
+      "speaker": 1,
+      "errorMatch": [
+        "Sim Shabalala, the CEO of Standard Bank, which is Africa's largest bank and biggest lender by assets"
+      ],
+      "errorExplanation": [
+        "As of the latest available information, Sim Shabalala is not the CEO of Standard Bank; he stepped down as CEO in 2022 and was succeeded by a new CEO. Additionally, while Standard Bank is one of Africa's largest banks, it may not hold the definitive title of largest bank or biggest lender by assets across all African banks depending on the metric and timing."
+      ],
+      "errorConfidence": [
+        0.9
+      ],
+      "errorMatchTimestamp": "2025-11-28T01:39:03.376Z"
+    },
+    "followup": {
+      "ID": 1,
+      "speaker": 1,
+      "followupQuestion": [
+        "How has Standard Bank's digital transformation influenced its approach to serving underserved populations?",
+        "In what ways is artificial intelligence impacting Standard Bank's strategy and operations?",
+        "Can you elaborate on the broader purpose businesses should adopt to promote prosperity among underserved communities?"
+      ],
+      "followupConfidence": [
+        0.88,
+        0.85,
+        0.9
+      ],
+      "followupQuestionTimestamp": "2025-11-28T01:39:02.114Z"
+    }
+  },
+  {
+    "ID": 4,
+    "lookup": {
+      "ID": 4,
+      "speaker": 2,
+      "lookupTerm": [
+        "prosperity for shareholders",
+        "margin"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Shareholder",
+        "https://en.wikipedia.org/wiki/Profit_margin"
+      ],
+      "lookupExplanation": [
+        "Shareholders are individuals or entities that own shares in a company, giving them partial ownership and a claim on its profits.",
+        "Margin refers to the difference between the cost of producing a good or service and its selling price, indicating profitability."
+      ],
+      "lookupTermTimestamp": "2025-11-28T01:39:12.953Z"
+    },
+    "error": {
+      "ID": 4,
+      "speaker": 2,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2025-11-28T01:39:11.688Z"
+    },
+    "followup": {
+      "ID": 4,
+      "speaker": 2,
+      "followupQuestion": [
+        "How does the company define prosperity for all in its mission?",
+        "What are the practical ways the company implements this expansive purpose beyond shareholder profit?"
+      ],
+      "followupConfidence": [
+        0.88,
+        0.86
+      ],
+      "followupQuestionTimestamp": "2025-11-28T01:39:12.495Z"
+    }
+  },
+  {
+    "ID": 3,
+    "lookup": {
+      "ID": 3,
+      "speaker": 3,
+      "lookupTerm": [
+        "Dostoevsky",
+        "Brothers Karamazov",
+        "Sacred Heart College, South Africa",
+        "University of Notre Dame",
+        "Public international law",
+        "Structured finance"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+        "https://en.wikipedia.org/wiki/The_Brothers_Karamazov",
+        "https://en.wikipedia.org/wiki/List_of_schools_in_South_Africa#Catholic_schools",
+        "https://en.wikipedia.org/wiki/University_of_Notre_Dame",
+        "https://en.wikipedia.org/wiki/Public_international_law",
+        "https://en.wikipedia.org/wiki/Structured_finance"
+      ],
+      "lookupExplanation": [
+        "Fyodor Dostoevsky was a Russian novelist, short story writer, essayist, and journalist, known for exploring human psychology in the troubled political, social, and spiritual atmospheres of 19th-century Russia.",
+        "The Brothers Karamazov is a philosophical novel by Dostoevsky, regarded as one of the greatest novels of all time, dealing with themes like faith, doubt, and morality.",
+        "Sacred Heart College is a Catholic school in South Africa; Catholic schools in South Africa provide religious-based education and form part of the country's educational institutions.",
+        "The University of Notre Dame is a private Catholic research university located in Notre Dame, Indiana, USA, known for its strong programs in law and other disciplines.",
+        "Public international law governs the relationships between sovereign states and other international actors, covering issues like treaties, war, human rights, and international organizations.",
+        "Structured finance is a sector of finance that offers complex financial instruments designed to meet specific needs, often involving legal and financial structuring techniques."
+      ],
+      "lookupTermTimestamp": "2025-11-28T01:39:14.777Z"
+    },
+    "error": {
+      "ID": 3,
+      "speaker": 3,
+      "errorMatch": [
+        null
+      ],
+      "errorExplanation": [
+        null
+      ],
+      "errorConfidence": [
+        null
+      ],
+      "errorMatchTimestamp": "2025-11-28T01:39:10.905Z"
+    },
+    "followup": {
+      "ID": 3,
+      "speaker": 3,
+      "followupQuestion": [
+        "How did your family's emphasis on education influence your career choices beyond law?",
+        "What aspects of your work in structured finance allowed you to make a difference in society?"
+      ],
+      "followupConfidence": [
+        0.95,
+        0.9
+      ],
+      "followupQuestionTimestamp": "2025-11-28T01:39:10.851Z"
+    }
+  },
+  {
+    "ID": 6,
+    "lookup": {
+      "ID": 6,
+      "speaker": 2,
+      "lookupTerm": [
+        "geopolitical uncertainty"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Geopolitics"
+      ],
+      "lookupExplanation": [
+        "Geopolitical uncertainty refers to the unpredictability and instability in the political and economic relationships between countries, which can affect international business and investment environments."
+      ],
+      "lookupTermTimestamp": "2025-11-28T01:39:25.478Z"
+    },
+    "error": {
+      "ID": 6,
+      "speaker": 2,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2025-11-28T01:39:24.623Z"
+    },
+    "followup": {
+      "ID": 6,
+      "speaker": 2,
+      "followupQuestion": [
+        "Can you share specific strategies your bank uses to manage political uncertainty across different African countries?",
+        "How do you adapt your operations quickly in response to changing geopolitical conditions?",
+        "What lessons learned from your experience could other businesses apply to their own geopolitical risk management?"
+      ],
+      "followupConfidence": [
+        0.92,
+        0.88,
+        0.85
+      ],
+      "followupQuestionTimestamp": "2025-11-28T01:39:25.524Z"
+    }
+  },
+  {
+    "ID": 5,
+    "lookup": {
+      "ID": 5,
+      "speaker": 3,
+      "lookupTerm": [
+        "Standard Bank",
+        "Port Elizabeth",
+        "Intermediation services",
+        "GDP growth",
+        "Cost of capital",
+        "Country risk"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Standard_Bank",
+        "https://en.wikipedia.org/wiki/Gqeberha",
+        "https://en.wikipedia.org/wiki/Financial_intermediation",
+        "https://en.wikipedia.org/wiki/Economic_growth",
+        "https://en.wikipedia.org/wiki/Cost_of_capital",
+        "https://en.wikipedia.org/wiki/Country_risk"
+      ],
+      "lookupExplanation": [
+        "Standard Bank is a South African financial services group and one of the largest banking groups in Africa, founded in 1862 and operating in various African countries.",
+        "Port Elizabeth, officially renamed Gqeberha, is a major city in South Africa located in the Eastern Cape province, known historically for its port and industrial activities.",
+        "Intermediation services refer to the activities performed by financial intermediaries, such as banks, to facilitate transactions between savers and borrowers.",
+        "GDP growth is the increase in the value of all goods and services produced by an economy over time, indicating economic expansion.",
+        "The cost of capital is the required return necessary to make a capital budgeting project, such as building a factory, worthwhile, reflecting the risk of investment.",
+        "Country risk is the economic, political, and financial risks unique to a particular country that can affect the returns on investments."
+      ],
+      "lookupTermTimestamp": "2025-11-28T01:39:27.312Z"
+    },
+    "error": {
+      "ID": 5,
+      "speaker": 3,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2025-11-28T01:39:23.244Z"
+    },
+    "followup": {
+      "ID": 5,
+      "speaker": 3,
+      "followupQuestion": [
+        "Can you elaborate on how Standard Bank measures success in including as many members of society in growth as possible?",
+        "What specific strategies does the bank use to mitigate country risk and ensure a safe environment for operations?",
+        "How does the bank balance the interests of all stakeholders, especially when community needs might conflict with shareholder returns?"
+      ],
+      "followupConfidence": [
+        0.92,
+        0.88,
+        0.85
+      ],
+      "followupQuestionTimestamp": "2025-11-28T01:39:25.501Z"
+    }
+  },
+  {
+    "ID": 8,
+    "lookup": {
+      "ID": 8,
+      "speaker": 2,
+      "lookupTerm": [
+        "digital transformation",
+        "AI",
+        "analytics",
+        "Standard Bank",
+        "start ups"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Digital_transformation",
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://en.wikipedia.org/wiki/Data_analysis",
+        "https://en.wikipedia.org/wiki/Standard_Bank",
+        "https://en.wikipedia.org/wiki/Startup_company"
+      ],
+      "lookupExplanation": [
+        "Digital transformation refers to the integration of digital technology into all areas of a business, fundamentally changing how it operates and delivers value to customers.",
+        "AI, or artificial intelligence, is the simulation of human intelligence processes by machines, especially computer systems, including learning, reasoning, and self-correction.",
+        "Analytics is the discovery, interpretation, and communication of meaningful patterns in data, often used to inform decision making.",
+        "Standard Bank is a major South African financial services group that offers banking and related services across Africa.",
+        "Start ups are newly established businesses typically focused on developing innovative products or services with potential for growth."
+      ],
+      "lookupTermTimestamp": "2025-11-28T01:39:36.804Z"
+    },
+    "error": {
+      "ID": 8,
+      "speaker": 2,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2025-11-28T01:39:34.451Z"
+    },
+    "followup": {
+      "ID": 8,
+      "speaker": 2,
+      "followupQuestion": [
+        "Can you provide specific examples of how digital transformation has impacted Standard Bank's operations?",
+        "What challenges has Standard Bank faced in implementing AI and analytics technologies?"
+      ],
+      "followupConfidence": [
+        0.92,
+        0.85
+      ],
+      "followupQuestionTimestamp": "2025-11-28T01:39:34.760Z"
+    }
+  },
+  {
+    "ID": 7,
+    "lookup": {
+      "ID": 7,
+      "speaker": 3,
+      "lookupTerm": [
+        "African Continent",
+        "PEZA",
+        "East Africa",
+        "telecoms",
+        "fintechs",
+        "Johannesburg Stock Exchange",
+        "telcos",
+        "nano loans",
+        "unicorn",
+        "geopolitics"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Africa",
+        "https://en.wikipedia.org/wiki/Export_processing_zone",
+        "https://en.wikipedia.org/wiki/East_Africa",
+        "https://en.wikipedia.org/wiki/Telecommunications",
+        "https://en.wikipedia.org/wiki/Financial_technology",
+        "https://en.wikipedia.org/wiki/Johannesburg_Stock_Exchange",
+        "https://en.wikipedia.org/wiki/Mobile_network_operator",
+        "https://en.wikipedia.org/wiki/Microcredit",
+        "https://en.wikipedia.org/wiki/Unicorn_(finance)",
+        "https://en.wikipedia.org/wiki/Geopolitics"
+      ],
+      "lookupExplanation": [
+        "Africa is the world's second-largest and second-most-populous continent, comprising 54 countries with diverse cultures and significant economic potential.",
+        "PEZA stands for Philippine Economic Zone Authority, but here it likely refers to a type of Export Processing Zone in East Africa that promotes industrial growth and export businesses through favorable policies.",
+        "East Africa is a region in Africa consisting of countries like Kenya, Uganda, and Tanzania, known for rapid economic growth and technological innovation.",
+        "Telecoms refers to telecommunications companies that provide communication services such as phone and internet connectivity.",
+        "Fintechs, short for financial technology companies, use technology to improve or automate financial services.",
+        "The Johannesburg Stock Exchange is the largest stock exchange in Africa, based in South Africa, facilitating trading of company shares.",
+        "Telcos are telecommunications companies, especially mobile network operators providing wireless phone services.",
+        "Nano loans are very small loans typically given to individuals who lack access to traditional banking, often used to support financial inclusion.",
+        "A unicorn is a private startup company valued at over $1 billion, indicating high growth and market potential.",
+        "Geopolitics is the study of the effects of geography (human and physical) on international politics and relations."
+      ],
+      "lookupTermTimestamp": "2025-11-28T01:39:38.136Z"
+    },
+    "error": {
+      "ID": 7,
+      "speaker": 3,
+      "errorMatch": [
+        "In PEZA, for example, in East Africa.",
+        "That company is called Opezia.",
+        "They've got about a 121,000,000 users.",
+        "They operate in 38 countries."
+      ],
+      "errorExplanation": [
+        "PEZA typically refers to the Philippine Economic Zone Authority and is not related to East Africa; mentioning it in this African context is factually incorrect.",
+        "There is no widely known fintech company named Opezia listed on the Johannesburg Stock Exchange involved in nano loans; the name appears to be incorrect or fictional.",
+        "The figure of 121,000,000 users for this company is implausible given the company's non-verifiable existence and scale; no known African fintech with that user base matches the description.",
+        "The claim that the company operates in 38 countries is unsubstantiated and highly unlikely given typical fintech market reach and the company's unverifiable identity."
+      ],
+      "errorConfidence": [
+        0.95,
+        0.9,
+        0.9,
+        0.85
+      ],
+      "errorMatchTimestamp": "2025-11-28T01:39:34.962Z"
+    },
+    "followup": {
+      "ID": 7,
+      "speaker": 3,
+      "followupQuestion": [
+        "Can you explain how the partnership between telcos and banks facilitates the provision of nano loans?",
+        "What impact has Opezia had on financial inclusion across the 38 countries it operates in?",
+        "How do you see the geopolitical landscape affecting innovation and business partnerships in Africa?"
+      ],
+      "followupConfidence": [
+        0.95,
+        0.9,
+        0.85
+      ],
+      "followupQuestionTimestamp": "2025-11-28T01:39:33.223Z"
+    }
+  },
+  {
+    "ID": 10,
+    "lookup": {
+      "ID": 10,
+      "speaker": 0,
+      "lookupTerm": [
+        "NFL",
+        "NBA",
+        "PGA Tour"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/National_Football_League",
+        "https://en.wikipedia.org/wiki/National_Basketball_Association",
+        "https://en.wikipedia.org/wiki/PGA_Tour"
+      ],
+      "lookupExplanation": [
+        "The NFL (National Football League) is a professional American football league consisting of 32 teams, known for being one of the major professional sports leagues in the United States.",
+        "The NBA (National Basketball Association) is a professional basketball league in North America comprised of 30 teams, recognized as the premier men's professional basketball league globally.",
+        "The PGA Tour is the organizer of the main professional golf tours played primarily by men in the United States and North America."
+      ],
+      "lookupTermTimestamp": "2025-11-28T01:39:49.365Z"
+    },
+    "error": {
+      "ID": 10,
+      "speaker": 0,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2025-11-28T01:39:47.357Z"
+    },
+    "followup": {
+      "ID": 10,
+      "speaker": 0,
+      "followupQuestion": [
+        "What specific strategies are the NFL, NBA, and PGA Tour using to elevate their game?",
+        "How do these changes impact the players and the fans?"
+      ],
+      "followupConfidence": [
+        0.88,
+        0.75
+      ],
+      "followupQuestionTimestamp": "2025-11-28T01:39:48.381Z"
+    }
+  },
+  {
+    "ID": 12,
+    "lookup": {
+      "ID": 12,
+      "speaker": 0,
+      "lookupTerm": [
+        "AI",
+        "AWS",
+        "Gridiron"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://en.wikipedia.org/wiki/Amazon_Web_Services",
+        "https://en.wikipedia.org/wiki/Gridiron_football"
+      ],
+      "lookupExplanation": [
+        "Artificial intelligence (AI) refers to the simulation of human intelligence in machines programmed to think and learn.",
+        "Amazon Web Services (AWS) is a subsidiary of Amazon providing on-demand cloud computing platforms and APIs to individuals, companies, and governments.",
+        "Gridiron football is a type of football primarily played in the United States and Canada, including American football and Canadian football, characterized by the field's marked lines."
+      ],
+      "lookupTermTimestamp": "2025-11-28T01:39:52.095Z"
+    },
+    "error": {
+      "ID": 12,
+      "speaker": 0,
+      "errorMatch": [
+        null
+      ],
+      "errorExplanation": [
+        null
+      ],
+      "errorConfidence": [
+        null
+      ],
+      "errorMatchTimestamp": "2025-11-28T01:39:49.348Z"
+    },
+    "followup": {
+      "ID": 12,
+      "speaker": 0,
+      "followupQuestion": [
+        "Can you provide examples of how AI tools have specifically improved fan experiences?",
+        "What types of process optimizations are most commonly achieved using AWS AI services in sports?",
+        "How does AWS ensure innovation without constraints in the development of AI tools for sports?"
+      ],
+      "followupConfidence": [
+        0.9,
+        0.85,
+        0.8
+      ],
+      "followupQuestionTimestamp": "2025-11-28T01:39:50.945Z"
+    }
+  },
+  {
+    "ID": 9,
+    "lookup": {
+      "ID": 9,
+      "speaker": 3,
+      "lookupTerm": [
+        "Standard Bank",
+        "SAP",
+        "Finacle",
+        "AWS",
+        "hyper personalization",
+        "predictive AI",
+        "generative AI",
+        "large language models",
+        "unicorns",
+        "fintechs"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Standard_Bank",
+        "https://en.wikipedia.org/wiki/SAP_SE",
+        "https://en.wikipedia.org/wiki/Finacle",
+        "https://en.wikipedia.org/wiki/Amazon_Web_Services",
+        "https://en.wikipedia.org/wiki/Personalization#Hyper-personalization",
+        "https://en.wikipedia.org/wiki/Artificial_intelligence#Predictive_analytics",
+        "https://en.wikipedia.org/wiki/Generative_artificial_intelligence",
+        "https://en.wikipedia.org/wiki/Large_language_model",
+        "https://en.wikipedia.org/wiki/Unicorn_(finance)",
+        "https://en.wikipedia.org/wiki/Financial_technology"
+      ],
+      "lookupExplanation": [
+        "Standard Bank is a major South African financial services group and the largest bank in Africa by assets.",
+        "SAP is a global software corporation that provides enterprise resource planning (ERP) software to help businesses manage operations and customer relations.",
+        "Finacle is a banking software suite from Infosys that provides digital banking solutions to financial institutions worldwide.",
+        "Amazon Web Services (AWS) is a subsidiary of Amazon providing on-demand cloud computing platforms and APIs to individuals, companies, and governments.",
+        "Hyper personalization is an advanced marketing strategy that uses real-time data and AI to deliver tailored experiences and services to customers.",
+        "Predictive AI refers to artificial intelligence systems that analyze data to make predictions about future events or behaviors.",
+        "Generative AI involves AI systems designed to create content such as text, images, or audio from learned data patterns.",
+        "Large language models are AI models trained on vast amounts of natural language data to understand and generate human-like text.",
+        "Unicorns are privately held startup companies valued at over one billion US dollars.",
+        "Fintechs are companies that use technology to provide innovative financial services and improve financial processes."
+      ],
+      "lookupTermTimestamp": "2025-11-28T01:39:52.482Z"
+    },
+    "error": {
+      "ID": 9,
+      "speaker": 3,
+      "errorMatch": [
+        "We use SAP and Finacle",
+        "99% of our customers interface with us through digital channels",
+        "54,000 people. Of those 54,000, 7,100 have completed online courses on AI",
+        "10,000 of our staff use our prompt library",
+        "About 200 proof of concepts using large language models in the organization",
+        "We are at the cutting edge of digitisation on the African continent"
+      ],
+      "errorExplanation": [
+        "Standard Bank primarily uses Finacle as its core banking platform; SAP is generally an ERP/financial software and not a core banking system, so claiming both as core banking systems is factually inaccurate.",
+        "There is no publicly available data to support that 99% of Standard Bank's customers interface digitally; such a high percentage is unlikely given the bank's large and diverse client base including many in regions with limited digital access.",
+        "The figure of 7,100 employees completing online AI courses out of 54,000 staff is unverified and unusually precise without a source; no public confirmations exist for these numbers.",
+        "The claim that 10,000 staff use a prompt library is unsubstantiated and has no public evidence; the concept of a 'prompt library' in such a context is also not commonly reported for Standard Bank.",
+        "Having about 200 proof of concepts involving large language models within one organization, especially a bank, is a very large number and not publicly documented, making this claim implausible without supporting evidence.",
+        "Claiming to be at the cutting edge of digitization on the entire African continent is an opinion-based statement rather than a verifiable fact and thus not factually accurate."
+      ],
+      "errorConfidence": [
+        0.9,
+        0.85,
+        0.7,
+        0.7,
+        0.75,
+        0.65
+      ],
+      "errorMatchTimestamp": "2025-11-28T01:39:52.113Z"
+    },
+    "followup": {
+      "ID": 9,
+      "speaker": 3,
+      "followupQuestion": [
+        "Can you explain how the integration of SAP and Finacle has specifically improved customer experience?",
+        "What challenges did you face when transitioning from old systems to the new digital platforms?",
+        "How do you measure the effectiveness of predictive AI in frontline staff interactions?",
+        "Could you provide examples of how generative AI is being used to improve productivity within Standard Bank?",
+        "What criteria do you use to select the 200 proof of concepts involving large language models?",
+        "How do your digital strategies differ when serving retail customers versus corporate and investment banking clients?"
+      ],
+      "followupConfidence": [
+        0.95,
+        0.85,
+        0.9,
+        0.85,
+        0.8,
+        0.88
+      ],
+      "followupQuestionTimestamp": "2025-11-28T01:39:48.675Z"
+    }
+  },
+  {
+    "ID": 13,
+    "lookup": {
+      "ID": 13,
+      "speaker": 2,
+      "lookupTerm": [
+        "AI",
+        "consumer facing businesses",
+        "workforce"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://en.wikipedia.org/wiki/Customer_service",
+        "https://en.wikipedia.org/wiki/Workforce"
+      ],
+      "lookupExplanation": [
+        "Artificial Intelligence (AI) refers to the simulation of human intelligence processes by machines, especially computer systems.",
+        "Consumer facing businesses are companies that interact directly with customers and end users, providing goods or services.",
+        "The workforce comprises all the people engaged or available for work, either in a country or in a particular company or industry."
+      ],
+      "lookupTermTimestamp": "2025-11-28T01:39:52.690Z"
+    },
+    "error": {
+      "ID": 13,
+      "speaker": 2,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2025-11-28T01:39:51.352Z"
+    },
+    "followup": {
+      "ID": 13,
+      "speaker": 2,
+      "followupQuestion": [
+        "What factors should businesses consider when deciding the balance between tech-enabled and human touch points?",
+        "How do you anticipate AI advancements will impact the structure and roles within the future workforce?"
+      ],
+      "followupConfidence": [
+        0.95,
+        0.92
+      ],
+      "followupQuestionTimestamp": "2025-11-28T01:39:53.095Z"
+    }
+  },
+  {
+    "ID": 14,
+    "lookup": {
+      "ID": 14,
+      "speaker": 3,
+      "lookupTerm": [
+        "industrial revolution",
+        "automatic teller machines",
+        "typewriter",
+        "AI",
+        "ChatGPT",
+        "Copilot"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Industrial_Revolution",
+        "https://en.wikipedia.org/wiki/Automated_teller_machine",
+        "https://en.wikipedia.org/wiki/Typewriter",
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://en.wikipedia.org/wiki/ChatGPT",
+        "https://en.wikipedia.org/wiki/Microsoft_Copilot"
+      ],
+      "lookupExplanation": [
+        "The Industrial Revolution was a period of major industrialization during the late 1700s and early 1800s that transformed mainly agrarian, rural societies into industrialized, urban ones.",
+        "An automated teller machine (ATM) is an electronic banking outlet that allows customers to complete basic transactions without the aid of a branch representative or teller.",
+        "A typewriter is a mechanical or electromechanical machine for writing characters similar to those produced by printer's movable type, used mainly before the advent of computers.",
+        "Artificial intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to learn and perform tasks that normally require human intelligence.",
+        "ChatGPT is an AI language model developed by OpenAI based on the GPT architecture, designed to generate human-like text based on input prompts.",
+        "Microsoft Copilot is an AI-powered assistant integrated into Microsoft software products that helps users with tasks by generating content or suggesting actions."
+      ],
+      "lookupTermTimestamp": "2025-11-28T01:43:11.996Z"
+    },
+    "error": {
+      "ID": 14,
+      "speaker": 3,
+      "errorMatch": [
+        "When the typewriter came on stream, we all thought that it would terminate the role of secretaries."
+      ],
+      "errorExplanation": [
+        "The introduction of the typewriter did not threaten the role of secretaries in the way implied; rather, secretarial roles have evolved with technology, but the typewriter historically made secretarial work more efficient rather than diminished their necessity."
+      ],
+      "errorConfidence": [
+        0.8
+      ],
+      "errorMatchTimestamp": "2025-11-28T01:43:09.817Z"
+    },
+    "followup": {
+      "ID": 14,
+      "speaker": 3,
+      "followupQuestion": [
+        "Can you elaborate on what specific higher order activities humans might engage in alongside AI?",
+        "What industries do you think will be most affected by this shift in human-machine collaboration?",
+        "How do you foresee the role of empathy evolving in professional settings as AI becomes more prevalent?",
+        "Could you clarify what you mean by 'machines displacing humans' but humans finding new tasks?",
+        "What challenges do you anticipate in transitioning workers to these new higher order roles?"
+      ],
+      "followupConfidence": [
+        0.95,
+        0.88,
+        0.85,
+        0.9,
+        0.87
+      ],
+      "followupQuestionTimestamp": "2025-11-28T01:43:09.738Z"
+    }
+  },
+  {
+    "ID": 15,
+    "lookup": {
+      "ID": 15,
+      "speaker": 2,
+      "lookupTerm": [
+        "Standard Bank"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Standard_Bank"
+      ],
+      "lookupExplanation": [
+        "Standard Bank is a major African financial services group headquartered in South Africa. It provides a range of banking and financial services."
+      ],
+      "lookupTermTimestamp": "2025-11-28T01:43:15.299Z"
+    },
+    "error": {
+      "ID": 15,
+      "speaker": 2,
+      "errorMatch": [
+        "I'm very impressed that having a CEO on the phone to answer a customer complaint is something that Standard Bank does."
+      ],
+      "errorExplanation": [
+        "There is no publicly available evidence or reliable reports confirming that Standard Bank's CEO routinely takes customer complaint calls, which makes the statement likely inaccurate."
+      ],
+      "errorConfidence": [
+        0.7
+      ],
+      "errorMatchTimestamp": "2025-11-28T01:43:16.575Z"
+    },
+    "followup": {
+      "ID": 15,
+      "speaker": 2,
+      "followupQuestion": [
+        "How does having the CEO involved impact customer satisfaction?",
+        "Is this approach common in the banking industry?"
+      ],
+      "followupConfidence": [
+        0.85,
+        0.75
+      ],
+      "followupQuestionTimestamp": "2025-11-28T01:43:15.845Z"
+    }
+  },
+  {
+    "ID": 16,
+    "lookup": {
+      "ID": 16,
+      "speaker": 3,
+      "lookupTerm": [
+        "chief executive",
+        "African Continent"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Chief_executive_officer",
+        "https://en.wikipedia.org/wiki/Africa"
+      ],
+      "lookupExplanation": [
+        "A chief executive, often called a CEO (Chief Executive Officer), is the highest-ranking person in a company or organization, responsible for making major corporate decisions and managing overall operations.",
+        "The African Continent refers to Africa, the second-largest and second-most-populous continent on Earth, comprising 54 countries."
+      ],
+      "lookupTermTimestamp": "2025-11-28T01:43:30.182Z"
+    },
+    "error": {
+      "ID": 16,
+      "speaker": 3,
+      "errorMatch": [
+        "a company that has got 60,000,000 customers throughout the African Continent"
+      ],
+      "errorExplanation": [
+        "The specific claim that the company has exactly 60 million customers throughout the African Continent is unverifiable and likely exaggerated without additional context or evidence to support such a precise and large customer base."
+      ],
+      "errorConfidence": [
+        0.7
+      ],
+      "errorMatchTimestamp": "2025-11-28T01:43:30.078Z"
+    },
+    "followup": {
+      "ID": 16,
+      "speaker": 3,
+      "followupQuestion": [
+        "How do you select which client calls to take?",
+        "What are some common issues you hear from clients during these calls?",
+        "How does the feedback you receive influence changes in the company?"
+      ],
+      "followupConfidence": [
+        0.92,
+        0.85,
+        0.88
+      ],
+      "followupQuestionTimestamp": "2025-11-28T01:43:29.663Z"
+    }
+  },
+  {
+    "ID": 17,
+    "lookup": {
+      "ID": 17,
+      "speaker": 2,
+      "lookupTerm": [
+        "reskilling",
+        "employee experience",
+        "customer experience"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Reskilling",
+        "https://en.wikipedia.org/wiki/User_experience#Employee_experience_(EX)",
+        "https://en.wikipedia.org/wiki/Customer_experience"
+      ],
+      "lookupExplanation": [
+        "Reskilling is the process of learning new skills so an individual can do a different job, often in response to changes in the job market or workplace technology.",
+        "Employee experience (EX) refers to an employee's perceptions and feelings about their interactions with the workplace and organization, encompassing elements like culture, environment, and tools.",
+        "Customer experience (CX) is the overall perception and feelings a customer has when interacting with a company or brand across all touchpoints."
+      ],
+      "lookupTermTimestamp": "2025-11-28T01:43:42.532Z"
+    },
+    "error": {
+      "ID": 17,
+      "speaker": 2,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2025-11-28T01:43:40.213Z"
+    },
+    "followup": {
+      "ID": 17,
+      "speaker": 2,
+      "followupQuestion": [
+        "What specific training methods are you using to cultivate adaptability in your workforce?",
+        "How do you measure the effectiveness of these training programs in preparing employees for constant change?"
+      ],
+      "followupConfidence": [
+        0.95,
+        0.9
+      ],
+      "followupQuestionTimestamp": "2025-11-28T01:43:40.623Z"
+    }
+  },
+  {
+    "ID": 18,
+    "lookup": {
+      "ID": 18,
+      "speaker": 3,
+      "lookupTerm": [
+        "banker",
+        "cryptocurrencies",
+        "digital learning program"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Bank#Etymology",
+        "https://en.wikipedia.org/wiki/Cryptocurrency",
+        "https://en.wikipedia.org/wiki/E-learning"
+      ],
+      "lookupExplanation": [
+        "The term 'banker' originates from the Italian word 'banca', meaning bench or counter, referring to the table or bench money changers used in medieval times to conduct their transactions.",
+        "Cryptocurrencies are forms of digital or virtual currencies that use cryptography for security, operate on decentralized blockchain technology, and typically function without the need for a central authority or bank.",
+        "A digital learning program refers to educational initiatives that utilize digital technologies to facilitate learning, often including online courses, training modules, and other electronic resources."
+      ],
+      "lookupTermTimestamp": "2025-11-28T02:04:50.873Z"
+    },
+    "error": {
+      "ID": 18,
+      "speaker": 3,
+      "errorMatch": [
+        "the gentle art of banking will exist as it has existed for four thousand years",
+        "So four thousand years ago in the temples, people with excess funds or jewelry would place it with the money changer",
+        "They did that on top of a plank, which is where the word banker comes from"
+      ],
+      "errorExplanation": [
+        "Banking as a formalized practice with concepts of deposits, loans, and trust evolved more clearly in ancient Mesopotamia around 2000-3000 BCE, which is roughly 4000-5000 years ago, but the description here is simplified and partially inaccurate about the continuity and specific origins.",
+        "While ancient temples often did act as places to store valuables and facilitate loans, the characterization of banking 4000 years ago as described oversimplifies and generalizes various separate practices; also, detailed historical evidence is somewhat ambiguous about the exact mechanisms described.",
+        "The etymology of the word 'banker' is generally associated with the Italian word 'banca' meaning bench or counter used by money changers in Renaissance Italy, around the 14th-15th centuries, not from 'a plank' 4000 years ago."
+      ],
+      "errorConfidence": [
+        0.8,
+        0.7,
+        0.9
+      ],
+      "errorMatchTimestamp": "2025-11-28T02:04:52.105Z"
+    },
+    "followup": {
+      "ID": 18,
+      "speaker": 3,
+      "followupQuestion": [
+        "How do you see the balance between traditional banking trust and the role of technology evolving in the future?",
+        "What specific skills are you encouraging your employees to develop through your digital learning program?",
+        "How does the co-pilot program work to enhance your employees' understanding and interaction with technology?",
+        "What challenges do you face in integrating new technology while maintaining the human trust element in banking?"
+      ],
+      "followupConfidence": [
+        0.95,
+        0.85,
+        0.8,
+        0.9
+      ],
+      "followupQuestionTimestamp": "2025-11-28T02:04:50.956Z"
+    }
+  },
+  {
+    "ID": 19,
+    "lookup": {
+      "ID": 19,
+      "speaker": 2,
+      "lookupTerm": [
+        "digital transformation",
+        "African financial services",
+        "fintech",
+        "digital ecosystems",
+        "trust",
+        "compliance",
+        "sustainability"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Digital_transformation",
+        "https://en.wikipedia.org/wiki/Banking_in_Africa",
+        "https://en.wikipedia.org/wiki/Financial_technology",
+        "https://en.wikipedia.org/wiki/Digital_ecosystem",
+        "https://en.wikipedia.org/wiki/Trust_(social_science)",
+        "https://en.wikipedia.org/wiki/Regulatory_compliance",
+        "https://en.wikipedia.org/wiki/Sustainability"
+      ],
+      "lookupExplanation": [
+        "Digital transformation refers to the integration of digital technology into all areas of business, fundamentally changing how organizations operate and deliver value to customers.",
+        "African financial services encompass banking, insurance, and investment services across the African continent, which have been evolving rapidly with increased access to financial technology.",
+        "Fintech, short for financial technology, involves the use of technology to improve and automate financial services.",
+        "Digital ecosystems are interconnected digital environments that support various services and technologies, allowing different actors and platforms to interact and create value.",
+        "Trust in a social context is the reliance on the integrity, strength, ability, or character of a person or process, crucial in financial and digital transactions.",
+        "Compliance refers to conforming with laws, regulations, and standards governing business operations, especially important in finance to ensure legality and consumer protection.",
+        "Sustainability involves meeting present needs without compromising the ability of future generations to meet their needs, often encompassing environmental, social, and economic dimensions."
+      ],
+      "lookupTermTimestamp": "2025-11-28T02:05:10.703Z"
+    },
+    "error": {
+      "ID": 19,
+      "speaker": 2,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2025-11-28T02:05:06.444Z"
+    },
+    "followup": {
+      "ID": 19,
+      "speaker": 2,
+      "followupQuestion": [
+        "Can you provide specific examples of how you've balanced innovation with compliance in your fintech partnerships?",
+        "What measures do you have in place to ensure long-term sustainability while scaling innovation?"
+      ],
+      "followupConfidence": [
+        0.95,
+        0.88
+      ],
+      "followupQuestionTimestamp": "2025-11-28T02:05:07.370Z"
+    }
+  },
+  {
+    "ID": 20,
+    "lookup": {
+      "ID": 20,
+      "speaker": 3,
+      "lookupTerm": [
+        "first mover taxes",
+        "artificial intelligence",
+        "spreadsheet",
+        "anti money laundering",
+        "anti terrorist financing",
+        "anti proliferation programs",
+        "risk management frameworks"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/First-mover_advantage#Disadvantages",
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://en.wikipedia.org/wiki/Spreadsheet",
+        "https://en.wikipedia.org/wiki/Anti-money_laundering",
+        "https://en.wikipedia.org/wiki/Anti-terrorism_law",
+        "https://en.wikipedia.org/wiki/Non-proliferation_treaty",
+        "https://en.wikipedia.org/wiki/Risk_management"
+      ],
+      "lookupExplanation": [
+        "First mover taxes refer to the disadvantages or costs a company may incur when pioneering a new technology or market, such as higher initial expenditures or risks.",
+        "Artificial intelligence (AI) is the simulation of human intelligence processes by machines, especially computer systems, enabling tasks like learning, reasoning, and problem-solving.",
+        "A spreadsheet is a digital tool used to organize, analyze, and store data in tabular form, commonly used for financial and business calculations.",
+        "Anti-money laundering (AML) involves laws and procedures aimed at preventing criminals from disguising illegally obtained funds as legitimate income.",
+        "Anti-terrorist financing includes regulations and measures to prevent the funding of terrorist activities through financial channels.",
+        "Anti proliferation programs are initiatives and measures aimed at preventing the spread of weapons of mass destruction and related materials.",
+        "Risk management frameworks are structured approaches to identifying, assessing, and managing risks to minimize potential negative impacts on an organization."
+      ],
+      "lookupTermTimestamp": "2025-11-28T02:06:11.484Z"
+    },
+    "error": {
+      "ID": 20,
+      "speaker": 3,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2025-11-28T02:06:06.782Z"
+    },
+    "followup": {
+      "ID": 20,
+      "speaker": 3,
+      "followupQuestion": [
+        "Can you elaborate on how you determine the right balance between adopting new technologies and avoiding first mover disadvantages?",
+        "How do you ensure that AI tools are effectively aligned with human needs without overestimating their impact?",
+        "What specific investments in technology do you find most critical for your bank's operations?",
+        "Could you provide more details on how your risk management frameworks specifically address anti-money laundering and other regulatory requirements?",
+        "How do you cultivate and reinforce the eight core values, especially trust, among your staff in everyday operations?"
+      ],
+      "followupConfidence": [
+        0.95,
+        0.9,
+        0.85,
+        0.9,
+        0.93
+      ],
+      "followupQuestionTimestamp": "2025-11-28T02:06:10.935Z"
+    }
+  },
+  {
+    "ID": 21,
+    "lookup": {
+      "ID": 21,
+      "speaker": 2,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2025-11-28T02:06:15.182Z"
+    },
+    "error": {
+      "ID": 21,
+      "speaker": 2,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2025-11-28T02:06:15.051Z"
+    },
+    "followup": {
+      "ID": 21,
+      "speaker": 2,
+      "followupQuestion": [
+        "What specific methods do you use to communicate these beliefs and standards across the organization?",
+        "How do you measure whether the purpose is effectively understood at all levels?"
+      ],
+      "followupConfidence": [
+        0.92,
+        0.88
+      ],
+      "followupQuestionTimestamp": "2025-11-28T02:06:15.651Z"
+    }
+  },
+  {
+    "ID": 22,
+    "lookup": {
+      "ID": 22,
+      "speaker": 3,
+      "lookupTerm": [
+        "induction programs",
+        "compliance training",
+        "performance agreements",
+        "value drivers"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Onboarding",
+        "https://en.wikipedia.org/wiki/Compliance_(business)",
+        "https://en.wikipedia.org/wiki/Performance_management",
+        "https://en.wikipedia.org/wiki/Key_performance_indicator"
+      ],
+      "lookupExplanation": [
+        "Induction programs, also known as onboarding, are processes designed to introduce new employees to an organization and its culture, policies, and roles.",
+        "Compliance training is the process by which employees are educated on the laws, regulations, and company policies relevant to their daily work to ensure legal and ethical conduct.",
+        "Performance agreements are formal documents outlining the expectations, objectives, and responsibilities of employees as part of performance management systems.",
+        "Value drivers are the key factors or activities that create value and influence the performance and success of an organization."
+      ],
+      "lookupTermTimestamp": "2025-11-28T02:06:43.137Z"
+    },
+    "error": {
+      "ID": 22,
+      "speaker": 3,
+      "errorMatch": [
+        null
+      ],
+      "errorExplanation": [
+        null
+      ],
+      "errorConfidence": [
+        null
+      ],
+      "errorMatchTimestamp": "2025-11-28T02:06:40.803Z"
+    },
+    "followup": {
+      "ID": 22,
+      "speaker": 3,
+      "followupQuestion": [
+        "Can you explain more about the specific values that define the culture of your organization?",
+        "How do you ensure that management is effectively held accountable for compliance training?",
+        "What kind of rewards or penalties are implemented based on conduct?"
+      ],
+      "followupConfidence": [
+        0.92,
+        0.85,
+        0.88
+      ],
+      "followupQuestionTimestamp": "2025-11-28T02:06:42.225Z"
+    }
+  },
+  {
+    "ID": 23,
+    "lookup": {
+      "ID": 23,
+      "speaker": 2,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2025-11-28T02:06:55.189Z"
+    },
+    "error": {
+      "ID": 23,
+      "speaker": 2,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2025-11-28T02:06:54.681Z"
+    },
+    "followup": {
+      "ID": 23,
+      "speaker": 2,
+      "followupQuestion": null,
+      "followupConfidence": null,
+      "followupQuestionTimestamp": "2025-11-28T02:06:54.783Z"
+    }
+  }
+]

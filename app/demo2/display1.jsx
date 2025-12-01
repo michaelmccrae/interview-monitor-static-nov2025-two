@@ -1,148 +1,174 @@
 "use client";
 
 import React, { useMemo } from "react";
-import reactStringReplace from "react-string-replace";
 import { speakerColors } from "../../lib/colorbubble";
 
-export default function Page({ beforeLLM, afterLLM }) {
-  // ===========================================================
-  // 0. DEBUG LOGS (clearly labeled)
-  // ===========================================================
-  console.log(">>> CHILD beforeLLM:", beforeLLM);
-  console.log(">>> CHILD afterLLM:", afterLLM);
+export default function Display({ beforellm, afterllm }) {
+  console.log(">>> CHILD beforellm PROP:", beforellm);
+  console.log(">>> CHILD afterllm PROP:", afterllm);
+
+  // Normalize helper for fuzzy matching
+  function normalize(str) {
+    return str
+      .toLowerCase()
+      .replace(/[^\w\s]/g, "") // strip punctuation
+      .replace(/\s+/g, " ") // normalize spacing
+      .trim();
+  }
+
+  function firstWords(str, count = 6) {
+    return str.split(/\s+/).slice(0, count).join(" ");
+  }
 
   // ===========================================================
-  // 1. EXTRACT METADATA FROM afterLLM
+  // 1. METADATA EXTRACTION
   // ===========================================================
-  // The metadata block is the item containing BOTH:
-  //   - speakerName: []
-  //   - speakerRole: []
-  //
-  // based on your sample input.
   const extractedMetadata = useMemo(() => {
-    if (!Array.isArray(afterLLM)) return {};
-
+    if (!Array.isArray(afterllm)) return {};
     return (
-      afterLLM.find(
+      afterllm.find(
         (item) =>
-          item?.speakerName &&
-          Array.isArray(item.speakerName) &&
-          item?.speakerRole &&
-          Array.isArray(item.speakerRole)
+          Array.isArray(item?.speakerName) &&
+          Array.isArray(item?.speakerRole)
       ) || {}
     );
-  }, [afterLLM]);
+  }, [afterllm]);
 
   // ===========================================================
-  // 2. MERGE beforeLLM + afterLLM (turn-level metadata)
+  // 2. MERGE
   // ===========================================================
-  const merged = useMemo(() => {
-    if (!beforeLLM || !afterLLM) return [];
+  const mergedTurns = useMemo(() => {
+    if (!Array.isArray(beforellm) || !Array.isArray(afterllm)) return [];
 
-    const afterMap = new Map();
-    afterLLM.forEach((item) => {
-      if (item?.ID != null) afterMap.set(item.ID, item);
+    const map = new Map();
+    for (const item of afterllm) {
+      if (item?.ID != null) map.set(item.ID, item);
+    }
+
+    return beforellm.map((turn) => {
+      const enrich = map.get(turn.ID) || {};
+      return { ...turn, ...enrich };
     });
+  }, [beforellm, afterllm]);
 
-    return beforeLLM.map((turn) => {
-      const after = afterMap.get(turn.ID) || {};
-      return { ...turn, ...after };
-    });
-  }, [beforeLLM, afterLLM]);
-
-  // ===========================================================
-  // 3. Attach extracted metadata + merged turns
-  // ===========================================================
-  const mergedMeta = useMemo(() => {
-    return {
+  const mergedMeta = useMemo(
+    () => ({
       metadata: extractedMetadata,
-      turns: merged,
-    };
-  }, [extractedMetadata, merged]);
+      turns: mergedTurns,
+    }),
+    [extractedMetadata, mergedTurns]
+  );
 
-  // ===========================================================
-  //                 SUPPORTING FUNCTIONS
-  // ===========================================================
-
-  function getSpeakerLabel(turn, metadata) {
-    if (!metadata) return `Speaker ${turn.speaker}`;
-    const names = metadata.speakerName;
-    if (!Array.isArray(names) || names.length === 0)
-      return `Speaker ${turn.speaker}`;
-    return names[turn.speaker] || `Speaker ${turn.speaker}`;
+  if (!beforellm || !afterllm) {
+    return <div className="text-gray-500 p-4">Waiting for transcript data…</div>;
   }
 
-  function getSpeakerRole(turn, metadata) {
-    if (!metadata) return "";
-    const roles = metadata.speakerRole;
-    if (!Array.isArray(roles) || roles.length === 0) return "";
-    const role = roles[turn.speaker];
-    return role ? ` - ${role}` : "";
+  if (mergedMeta.turns.length === 0) {
+    return <div className="text-gray-500 p-4">No turns available…</div>;
   }
 
+  // ===========================================================
+  //                   HIGHLIGHT ENGINE (NEW)
+  // ===========================================================
   function highlightTerms(text, lookup, turnId, errorMatch) {
     if (!text || typeof text !== "string") return text;
 
-    const errors = Array.isArray(errorMatch)
+    const errorTerms = Array.isArray(errorMatch)
       ? errorMatch.filter(Boolean)
       : errorMatch
       ? [errorMatch]
       : [];
 
-    const lookups = lookup?.lookupTerm || [];
+    const lookupTerms = lookup?.lookupTerm || [];
+
     const matches = [];
 
-    function findAll(haystack, needle, type) {
-      if (!needle || typeof needle !== "string") return;
-      const regex = new RegExp(needle, "gi");
-      let m;
-      while ((m = regex.exec(haystack)) !== null) {
-        matches.push({
-          type,
-          start: m.index,
-          end: m.index + m[0].length,
-          text: m[0],
-          needle,
-        });
-      }
-    }
+    const raw = text;
+    const normalizedHaystack = normalize(text);
 
-    errors.forEach((err) => findAll(text, err, "error"));
-    lookups.forEach((term) => findAll(text, term, "lookup"));
+    // -------------------------
+    // STEP 1 — FUZZY ERROR MATCHES (FIRST PRIORITY)
+    // -------------------------
+    errorTerms.forEach((term) => {
+      if (!term) return;
 
-    if (matches.length === 0) return text;
+      const fuzzy = fuzzyFind(raw, term);
+if (fuzzy) {
+  matches.push({
+    type: "error",
+    start: fuzzy.start,
+    end: fuzzy.end,
+    text: raw.slice(fuzzy.start, fuzzy.end),
+    priority: 1,
+  });
+}
 
-    matches.sort((a, b) => {
-      if (a.start !== b.start) return a.start - b.start;
-      if (a.type === "error" && b.type === "lookup") return -1;
-      if (a.type === "lookup" && b.type === "error") return 1;
-      return 0;
     });
 
-    const segments = [];
+    // -------------------------
+    // STEP 2 — LOOKUP MATCHES (ONLY IF NOT OVERLAPPING ERRORS)
+    // -------------------------
+    lookupTerms.forEach((term) => {
+      if (!term) return;
+
+      const re = new RegExp(term, "gi");
+      let m;
+
+      while ((m = re.exec(raw)) !== null) {
+        const start = m.index;
+        const end = m.index + m[0].length;
+
+        const overlapsError = matches.some(
+          (err) =>
+            err.type === "error" &&
+            !(end <= err.start || start >= err.end)
+        );
+
+        if (!overlapsError) {
+          matches.push({
+            type: "lookup",
+            start,
+            end,
+            text: m[0],
+            needle: term,
+            priority: 2,
+          });
+        }
+      }
+    });
+
+    if (matches.length === 0) return raw;
+
+    // -------------------------
+    // STEP 3 — SORT BY RANGE + PRIORITY
+    // -------------------------
+    matches.sort((a, b) => {
+      if (a.start !== b.start) return a.start - b.start;
+      return a.priority - b.priority;
+    });
+
+    // -------------------------
+    // STEP 4 — BUILD SEGMENTS
+    // -------------------------
+    const out = [];
     let cursor = 0;
 
     for (const m of matches) {
-      if (m.start < cursor) continue;
-
       if (m.start > cursor) {
-        segments.push({ type: "text", text: text.slice(cursor, m.start) });
+        out.push({ type: "text", text: raw.slice(cursor, m.start) });
       }
-
-      segments.push({
-        type: m.type,
-        text: text.slice(m.start, m.end),
-        needle: m.needle,
-      });
-
+      out.push(m);
       cursor = m.end;
     }
 
-    if (cursor < text.length) {
-      segments.push({ type: "text", text: text.slice(cursor) });
+    if (cursor < raw.length) {
+      out.push({ type: "text", text: raw.slice(cursor) });
     }
 
-    return segments.map((seg, i) => {
+    // -------------------------
+    // STEP 5 — RENDER
+    // -------------------------
+    return out.map((seg, i) => {
       if (seg.type === "text") return seg.text;
 
       if (seg.type === "error") {
@@ -157,7 +183,7 @@ export default function Page({ beforeLLM, afterLLM }) {
       }
 
       if (seg.type === "lookup") {
-        const index = lookups.indexOf(seg.needle);
+        const index = lookupTerms.indexOf(seg.needle);
         return (
           <a
             key={`lk-${turnId}-${i}`}
@@ -173,28 +199,85 @@ export default function Page({ beforeLLM, afterLLM }) {
     });
   }
 
+  // ===========================================================
+  // Supporting utilities
+  // ===========================================================
+  function getSpeakerLabel(turn, metadata) {
+    const arr = metadata?.speakerName;
+    if (!Array.isArray(arr) || !arr.length) return `Speaker ${turn.speaker}`;
+    return arr[turn.speaker] ?? `Speaker ${turn.speaker}`;
+  }
+
+  function getSpeakerRole(turn, metadata) {
+    const arr = metadata?.speakerRole;
+    if (!Array.isArray(arr) || !arr.length) return "";
+    const role = arr[turn.speaker];
+    return role ? ` - ${role}` : "";
+  }
+
   function firstFiveWords(text) {
     if (Array.isArray(text)) text = text[0];
     if (typeof text !== "string") return "";
     return text.split(/\s+/).slice(0, 5).join(" ") + "…";
   }
 
+
+  
+
   // ===========================================================
-  //                 TRANSCRIPT BUBBLE
+  // Fuzzy Window Matcher
+  // ===========================================================
+
+function fuzzyFind(rawText, errorTerm) {
+  const normHay = normalize(rawText).split(" ");
+  const normNeed = normalize(errorTerm).split(" ");
+
+  // window size for matching
+  const W = Math.min(6, normNeed.length);
+
+  const targetKey = normNeed.slice(0, W).join(" ");
+
+  // sliding window over the haystack
+  for (let i = 0; i <= normHay.length - W; i++) {
+    const window = normHay.slice(i, i + W).join(" ");
+    if (window === targetKey) {
+      // reassemble the normalized window into raw text
+      const rawLower = rawText.toLowerCase();
+      const rawIndex = rawLower.indexOf(normNeed[0]); // best-effort
+
+      if (rawIndex !== -1) {
+        return {
+          start: rawIndex,
+          end: rawIndex + errorTerm.length,
+          key: window,
+        };
+      }
+    }
+  }
+
+  return null;
+}
+
+
+
+
+
+  // ===========================================================
+  // Bubble Component
   // ===========================================================
   function TranscriptBubble({ turn }) {
     const alignment =
       turn.speaker % 2 === 0 ? "justify-start" : "justify-end";
 
     const roleRaw = getSpeakerRole(turn, mergedMeta.metadata);
-    const cleanRole = roleRaw.replace(/^ - /, "").trim().toLowerCase();
 
-    const rawError = turn.error?.errorMatch;
-    const cleanErrors = Array.isArray(rawError)
-      ? rawError.filter((x) => typeof x === "string" && x.trim())
+    const errorList = Array.isArray(turn.error?.errorMatch)
+      ? turn.error.errorMatch.filter((x) => typeof x === "string" && x.trim())
       : [];
 
-    const hasErrors = cleanErrors.length > 0;
+    const showErrors = errorList.length > 0;
+
+    const cleanRole = roleRaw.replace(/^ - /, "").trim().toLowerCase();
 
     const showFollowup =
       turn.followup &&
@@ -225,44 +308,51 @@ export default function Page({ beforeLLM, afterLLM }) {
             </div>
           </div>
 
-          {/* META */}
-          <div className="mt-3 space-y-3">
-            {hasErrors && (
-              <div>
-                <div className="font-bold mb-1">⚠️ Error</div>
-                {cleanErrors.map((match, i) => (
-                  <div key={i} className="text-sm leading-relaxed break-words">
-                    “{firstFiveWords(match)}” –{" "}
-                    {Array.isArray(turn.error.errorExplanation)
-                      ? turn.error.errorExplanation[i]
-                      : turn.error.errorExplanation}
-                  </div>
-                ))}
-              </div>
-            )}
+          {/* ERROR + FOLLOWUP SECTION */}
+<div className="mt-3 space-y-3">
 
-            {showFollowup && (
-              <div>
-                <div className="font-bold mb-1">💬 Follow-up</div>
-                {turn.followup.followupQuestion.map((q, i) => (
-                  <div key={i} className="text-sm leading-relaxed break-words">
-                    {q}
-                  </div>
-                ))}
-              </div>
-            )}
-          </div>
+  {/* ERROR SECTION */}
+  {showErrors && (
+    <div>
+      <div className="font-bold mb-1">⚠️ Error</div>
+
+      {errorList.map((match, i) => (
+        <div key={i} className="text-sm leading-relaxed break-words">
+          “{firstFiveWords(match)}” –{" "}
+          {Array.isArray(turn.error.errorExplanation)
+            ? turn.error.errorExplanation[i]
+            : turn.error.errorExplanation}
         </div>
+      ))}
+    </div>
+  )}
+
+  {/* FOLLOW-UP SECTION */}
+  {showFollowup && (
+    <div>
+      <div className="font-bold mb-1">💬 Follow-up</div>
+
+      {turn.followup.followupQuestion.map((q, i) => (
+        <div key={i} className="text-sm leading-relaxed break-words">
+          {q}
+        </div>
+      ))}
+    </div>
+  )}
+
+</div>
+</div>
       </div>
     );
   }
 
   // ===========================================================
-  //                 GLOBAL LOOKUP SECTION
+  // References section
   // ===========================================================
   const allLookupItems = mergedMeta.turns.flatMap((turn) => {
-    if (!turn.lookup || !Array.isArray(turn.lookup.lookupTerm)) return [];
-    return turn.lookup.lookupTerm.map((term, i) => ({
+    const arr = turn.lookup?.lookupTerm;
+    if (!Array.isArray(arr)) return [];
+    return arr.map((term, i) => ({
       turnId: turn.ID,
       term,
       explanation: turn.lookup.lookupExplanation?.[i] || "",
@@ -271,21 +361,14 @@ export default function Page({ beforeLLM, afterLLM }) {
     }));
   });
 
-  // ===========================================================
-  //                 MAIN RENDER
-  // ===========================================================
   return (
     <div
       className="
-        px-4 py-6
-        sm:px-6 sm:py-8
+        px-4 py-6 sm:px-6 sm:py-8
         max-w-screen-xl mx-auto
         break-words overflow-x-hidden
         space-y-10
-        lg:flex
-        lg:flex-col
-        lg:items-center
-        lg:gap-2
+        lg:flex lg:flex-col lg:items-center lg:gap-2
         lg:w-5/8
       "
     >
@@ -295,12 +378,14 @@ export default function Page({ beforeLLM, afterLLM }) {
 
       {allLookupItems.length > 0 && (
         <div className="border-t pt-10 space-y-6">
-          <div className="text-lg font-semibold text-gray-800">References</div>
+          <div className="text-lg font-semibold text-gray-800">
+            References
+          </div>
 
           <div className="space-y-6">
             {allLookupItems.map((item) => (
               <div
-                key={`all-lookup-${item.turnId}-${item.index}`}
+                key={`lk-${item.turnId}-${item.index}`}
                 id={`lookup-${item.turnId}-${item.index}`}
                 className="space-y-1 break-words"
               >

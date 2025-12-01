@@ -1,0 +1,203 @@
+
+[
+  {
+    "speaker": 0,
+    "text": "Every second counts in sports, and AWS is changing the game. From the NFL to the NBA and the PGA Tour, the world's premier sports leagues are fueling innovation with AWS AI to give fans more of the insights they crave faster. From predictive analytics to advanced stats, AWS is going beyond the box score. Learn more at aws.com/sports.",
+    "startBeginning": 1.04,
+    "startEnd": 22.695,
+    "ID": 0,
+    "numberOfWords": 59
+  },
+  {
+    "speaker": 1,
+    "text": "I'm Alison Beard and this is the HBR IdeaCast. Our goal of this show and Harvard Business Review in general is to bring you all the research insights and advice you need to become a better leader and push your organization forward. A big part of that is learning from practitioners, the people running some of the world's most successful businesses, to see what they're doing and where they think the world is going next. That's why each year we host HBR's Future of Business virtual conference, bringing in leading CEOs from various industries to speak about hot topics like artificial intelligence, geopolitical uncertainty, and corporate social responsibility. On Thursdays for the next month, we'll be sharing some of those conversations here on IDEAcast, giving you a view into strategy making and innovation at some of the world's top companies and helping you see how you might apply their thinking to your own. First up is Sim Shabalala, the CEO of Standard Bank, which is Africa's largest bank and biggest lender by assets. Sim grew up in Sewetta Township during South Africa's apartheid era, so he learned early on how financial access or the lack thereof can improve or damage lives. After working as an attorney, he joined Standard Bank in 2000 and over the next thirteen years worked his way up to the CEO role where he's overseen both geographic expansion and digital transformation. I spoke with him about his journey to the c suite, how Standard is navigating the new AI era, and why businesses need a broader purpose, like promoting prosperity among underserved populations. Here's our conversation.",
+    "startBeginning": 36.98,
+    "startEnd": 132.905,
+    "ID": 1,
+    "numberOfWords": 270
+  },
+  {
+    "speaker": 2,
+    "text": "So, Sam, that rise from Soweto to the helm of Standard Bank is really remarkable. And I'm just interested to hear how that upbringing played into your decision to go into finance and then your leadership of the bank sort of with a modern day purpose that moved beyond its history.",
+    "startBeginning": 139.22499,
+    "startEnd": 155.64,
+    "ID": 2,
+    "numberOfWords": 51
+  },
+  {
+    "speaker": 3,
+    "text": "I grew up in a family that had a great admiration for education. My dad, for example, used to love reading Dostoevsky and had the brothers Karamazov on his shelf, and I would read that. And my mom was a nurse. My grandfather was a school teacher, and so was my grandmother. And so that family was a family that bought very highly of education and the need for the next generation to do better than the previous one. I was sent to a Catholic school in South Africa called Sacred Heart College, matriculated there, went on to study law, majored in philosophy in my undergraduate degree, and then did a a law degree thereafter. Practiced a little bit in South Africa for two years, discovered I did not like it, and went to the University of Notre Dame to do a master's into public international law. But I wanted to make a difference, and a friend of mine who was working in a small structured finance house said, how about coming to join us? I joined them, and I used that desire to make a difference in society, that desire to be at the center of activity, the understanding of law, human rights, using all of that to make a difference to stakeholders, and it was therefore at the center of my personal vision.",
+    "startBeginning": 156.80501,
+    "startEnd": 230.86,
+    "ID": 3,
+    "numberOfWords": 225
+  },
+  {
+    "speaker": 2,
+    "text": "Yes. And the company, you know, has a specific mission that is focused on prosperity for all. So why do you think that that's important, you know, beyond prosperity for shareholders or prosperity for clients who generate suitable margin? Why this expansive purpose?",
+    "startBeginning": 231.42,
+    "startEnd": 247.925,
+    "ID": 4,
+    "numberOfWords": 43
+  },
+  {
+    "speaker": 3,
+    "text": "To be frank, we learned very, very quickly, the current management team, that we needed to identify and rearticulate why Standard Bank exists. And we went through a long process of self examination, thinking through where that group comes from. As you would know, it was formed in October 1863. So it's an old company under the same name, by the way, the Standard Bank. And we thought deeply about why we exist. Our founders were people that were wool traders in Port Elizabeth in South Africa, and they were selling wool to The United Kingdom, and they therefore needed intermediation services. And so what is our purpose? Our purpose is to help people to grow, whether it be their own businesses, their families, their communities, and their environments. Hence, the purpose of the organisation described as Africa is our home. We drive our growth. What do we mean by growth? Simply as a banker, it means, you know, on the one hand, GDP growth, and then on the other hand, making sure that people are participating fully in that growth. So including as many members of society in that growth as is practical. That is very important, Alison, because the biggest input in the calculation of equity, our cost of capital, and indeed our cost of debt is country risk. And if the country that we're operating in is not safe, it just increases the cost of capital. And that is why it is so important for us as we think through generating returns that adequately reward our investors for being invested in us to think through all the components that make up that return. So in order for you to generate the revenues, you need to be in the right environment. Therefore, country risk matters. Therefore, the risk of the communities where you operate matters. Therefore, you need to think about all your stakeholders, your shareholders, your capital providers, your customers, your staff, and indeed the community where you are making your money.",
+    "startBeginning": 248.885,
+    "startEnd": 365.705,
+    "ID": 5,
+    "numberOfWords": 335
+  },
+  {
+    "speaker": 2,
+    "text": "Do you think that there are unique insights that you have as a bank that's operating in many African countries about sort of how to navigate very fast changing, sometimes politically uncertain environments that you could share with other businesses now as that geopolitical uncertainty seems to be ratcheting up for everyone?",
+    "startBeginning": 366.585,
+    "startEnd": 385.65,
+    "ID": 6,
+    "numberOfWords": 52
+  },
+  {
+    "speaker": 3,
+    "text": "In the last decade or so or last couple of decades, the African Continent has been a place where we've seen incredible innovations. In PEZA, for example, in East Africa. So huge developments in payments. We've seen great strides in inclusion through the use of telecoms, you know, by the cell phone companies. The combination of work done by cell phone companies and fintechs to include more people. Huge, huge contributions to innovation. There is a company that is listed on the Johannesburg Stock Exchange. That company is involved in using the platforms of telcos and uses data that is generated by those telcos in partnership with banks to provide nano loans or small loans to borrowers. That is a huge innovation, and it's a company we've been involved in from day one called Opezia. It's a fascinating story of a company that starts in 2012, now a unicorn, but a company that is calculated to provide services to millions of people. They've got about a 121,000,000 users. And what a story of inclusivity. They operate in 38 countries. So here's an opportunity to innovate on the African continent. As far as geopolitics is concerned, it's a huge topic. And perhaps let me just mention that as Africans, we try and operate in a way that is strategic by having partnerships and relationships with all the players, I suppose, in the geopolitical drama.",
+    "startBeginning": 386.665,
+    "startEnd": 481.335,
+    "ID": 7,
+    "numberOfWords": 233
+  },
+  {
+    "speaker": 2,
+    "text": "Well, it sounds like, you know, there's actually more learning on the digital transformation front in that African companies and start ups are embracing this pace of technological change, particularly with new advances in AI and analytics. So talk to me a bit about how digital transformation is helping, you know, you at Standard Bank live into your mission.",
+    "startBeginning": 482.375,
+    "startEnd": 506.555,
+    "ID": 8,
+    "numberOfWords": 59
+  },
+  {
+    "speaker": 3,
+    "text": "In the last twenty years at Standard Bank, we've invested a huge amount in our core banking system. In our case, we use SAP and Finacle. And that was necessary because we had old systems of account, and therefore, we put in SAP. That then put us in a position to be able to accelerate the speed with which we put in place systems and processes that improve the customer experience to such an extent that I can say to you, Alison, that about 99% of our customers interface with us through digital channels. The extent to which people use physical channels is now de minimis. And that we work with companies like AWS to improve the customer experience through hyper personalization. We are increasingly using predictive AI to help our frontline staff have meaningful and valuable conversations with their customers. That applies in the retail bank as much as it does in the corporate and investment bank. Our corporate investment bankers are provided with data and nudges, as it were, to have conversations with a treasurer on a particular topic if the treasurer has has phoned. So that's the predictive AI. On generative AI, like everybody else, we are feeding our way through this. We're using it to improve productivity. We employ let me just mention this. 54,000 people. Of those 54,000, 7,100 have completed online courses on AI, and that number is continuing to improve. 10,000 of our staff use our prompt library. I was making reference to the frontline and how they use hyper personalization. And we've got about 200 proof of concepts using large language models in the organization. And those proof of concepts range from risk management right across to the customer interface. So the summary is, here on the African continent, we are at the cutting edge of digitisation, whether it be in the nature of the unicorns or the fintechs, or Dezia that I was referring to, or a behemoth such as Standard Bank investing heavily in digitization in order to be ready for the new frontier, the new the new interface with the custom.",
+    "startBeginning": 507.67502,
+    "startEnd": 641.59,
+    "ID": 9,
+    "numberOfWords": 352
+  },
+  {
+    "speaker": 0,
+    "text": "In sports, winning is everything. That's why the NFL, NBA, and the PGA Tour are elevating their game with",
+    "startBeginning": 645.59,
+    "startEnd": 651.65497,
+    "ID": 10,
+    "numberOfWords": 19
+  },
+  {
+    "speaker": 3,
+    "text": "AWS",
+    "startBeginning": 651.77496,
+    "startEnd": 651.77496,
+    "ID": 11,
+    "numberOfWords": 1
+  },
+  {
+    "speaker": 0,
+    "text": "AI to turn data into insights, accelerate process optimization, and deliver game changing fan experiences. With the most comprehensive set of AI tools and services, AWS delivers innovation without constraints. From the gridiron to the green, learn how the biggest leagues are putting their data in play with AI at aws.com/sports.",
+    "startBeginning": 651.89496,
+    "startEnd": 672.6,
+    "ID": 12,
+    "numberOfWords": 51
+  },
+  {
+    "speaker": 2,
+    "text": "What do you see as the right balance of tech enabled versus human touch points for customers in the future? I think this is something that all consumer facing businesses are trying to figure out right now. How far can you go on AI, and what does the future workforce look like?",
+    "startBeginning": 680.255,
+    "startEnd": 698.2,
+    "ID": 13,
+    "numberOfWords": 52
+  },
+  {
+    "speaker": 3,
+    "text": "Allison, a frank answer from a failed lawyer who pretends to be a banker is I don't know. But I can tell you a couple of stories that sort of point us in the right direction. We know that the industrial revolution we're going through now is in structure, form, and process still different to previous revolution. So that's the first one. Machines will displace humans, but humans will find new tasks working in conjunction with machines. I'll take you back to when the automatic teller machines were introduced. People thought that that would terminate the role of tellers. Well, tellers have now become consultants. When the typewriter came on stream, we all thought that it would terminate the role of secretaries. Well, secretaries are now professional assistants. The point I'm making is they will always, in our view, be a role for the empathy, the serendipity, the problem solving that is necessary from humans working in conjunction with machines. I'm in the school of thought that says, yes. AI is definitely a new frontier, but it is not going to obliterate human activity. Humans will be able to move to higher order activity. So, for example, another example that we're working through now is you can use AI to replace analysts, for example. But that will release those analysts to do higher order work for which you can charge. And so my view is we will learn as we go along. We don't quite know how it will look, but we do know that it will change the way in which we we do business. One last thought. My last interface before joining this call was having to respond to a client's complaint. And I can bet you that ChatGPT would not have been able to respond to that client. It required somebody to listen to a very angry and annoyed client, talk them through the problem, and work through a solution with that client in a way that Copilot to ChattoptyPT would not have been able to.",
+    "startBeginning": 698.92,
+    "startEnd": 817.84,
+    "ID": 14,
+    "numberOfWords": 339
+  },
+  {
+    "speaker": 2,
+    "text": "I'm very impressed that having a CEO on the phone to answer a customer complaint is something that Standard Bank does.",
+    "startBeginning": 818.64,
+    "startEnd": 825.28,
+    "ID": 15,
+    "numberOfWords": 21
+  },
+  {
+    "speaker": 3,
+    "text": "Just to pick up on that point, one of the things I do to make sure that I remain conscious of what is going on in the organisation is I do take calls from clients from time to time. I do answer emails from time to time. Now it's not possible in a company that has got 60,000,000 customers throughout the African Continent for the chief executive to interface with all customers, but I do from time to time take those calls myself so that I I know what I'm talking about when I complain to my colleagues about the quality of product and service delivery, for example.",
+    "startBeginning": 825.815,
+    "startEnd": 856.335,
+    "ID": 16,
+    "numberOfWords": 108
+  },
+  {
+    "speaker": 2,
+    "text": "Yeah. And on the same note, you know, as you're trying to stay in touch with the employee experience and the customer experience, You know, how are you you talked about reskilling, but how are you training your workforce to operate with this sort of mindset of adaptability and constant change? You know, how are you bringing people on board to continue to work when the future is so uncertain?",
+    "startBeginning": 857.135,
+    "startEnd": 880.79504,
+    "ID": 17,
+    "numberOfWords": 70
+  },
+  {
+    "speaker": 3,
+    "text": "What is certain about the future, Alison, is that the gentle art of banking will exist as it has existed for four thousand years. So four thousand years ago in the temples, people with excess funds or jewelry would place it with the money changer. That person would take that money and then give it to somebody else who needed it and then would make sure that they get that money back or that jewelry back to give back to the owner when the owner demanded it. They did that on top of a plank, which is where the word banker comes from. And so the point is that banking has existed for four thousand years. There's no reason to believe that it will come to an end by virtue of the new technology that is coming. So I'm in that school of thought that says the technology is going to change the way in which we interface with our customers, but the need for us to understand and give people the confidence, the trust that when we take that deposits, they will get it back, I believe, will continue to exist. Juxtapose that against, I suppose, crypto, which is part of the major debate. One of the things cryptocurrencies do very, very well is that they remove that element of trust that has existed in the banking system. And in a way that, makes it anonymous, and it takes it out of the banking system. I do believe that the need for people to trust in the human dimension continues to exist, notwithstanding those new developments. And so what do we do to train our people? We encourage them, even our tellers, to broaden their knowledge base, which is why I made reference to that library. We encourage people to train themselves. We encourage them to form part of the co pilot program that we've got in our bank. We encourage people to broaden their learning. We've got an extensive digital learning program in the bank.",
+    "startBeginning": 882.155,
+    "startEnd": 985.32,
+    "ID": 18,
+    "numberOfWords": 337
+  },
+  {
+    "speaker": 2,
+    "text": "So we have a lot of audience questions coming in, so I wanna get to them. Fadwan is asking, given the accelerating pace of digital transformation in African financial services, how are you balancing innovation for inclusion, you know, such as the fintech partnerships you mentioned and the digital ecosystems with the need to protect trust, compliance, and long term sustainability? You know, how are you scaling innovation responsibly?",
+    "startBeginning": 986.2,
+    "startEnd": 1010.73004,
+    "ID": 19,
+    "numberOfWords": 69
+  },
+  {
+    "speaker": 3,
+    "text": "This is precisely the point that I was making. So firstly, we we do it making sure that we stay as close as possible to new technical developments and innovations without being at the cutting edge. So what we insist upon in our institution is that we do not want to pay first mover taxes. Secondly, artificial intelligence, frankly, is just a tool to meet human needs. That's very different from saying that artificial intelligence will obliterate, banking or insurance or and asset management. We think of it as a tool just like a spreadsheet that is gets used to meet customer needs. The third one is that we spend a lot of money on it. I joke with colleagues often to quote, former colleague of mine that a bank or an insurance company, more importantly, a bank, is a technology company with capital attached to it. And so you need the technology to be able to take those deposits, advance loans, manage the risk, and and so forth. The next consideration here is that the world is a very complicated place where anti money laundering, anti terrorist financing, anti proliferation programs are necessary to protect not just the financial system, but society against bad actors. And that banks are regulated tightly for that purpose in order to protect the system for its safety and soundness. So you need to have strong risk management frameworks, and you need to train your staff on that. And lastly, and very, very importantly, to take you right back, Alison, to the question you asked me. Values are actually the cornerstone of how to run a bank. We need to be certain that when we're not present, we can trust our staff to make the right decisions and do the right business the right way. And so the emphasis on values with trust, in our case, we've got eight values, and trust is the main one.",
+    "startBeginning": 1011.93,
+    "startEnd": 1123.6,
+    "ID": 20,
+    "numberOfWords": 322
+  },
+  {
+    "speaker": 2,
+    "text": "So that's related to a question that David Quandrow, I hope I'm pronouncing that right, is asking about how you ensure that those beliefs, those standards, that purpose is really filtering down to the entire organization.",
+    "startBeginning": 1124.56,
+    "startEnd": 1138.035,
+    "ID": 21,
+    "numberOfWords": 36
+  },
+  {
+    "speaker": 3,
+    "text": "We use it in every single speech we make. As you've noticed, I've mentioned Africa is our home. Secondly, I've mentioned values as an important element of defining the culture of the organization. We take people through induction programs when they join. We get people to take programs, compliance training, which is compulsory for everybody, including for myself. We monitor the compliance training that people go through, and we hold management to account on that compliance training. We devise our performance agreements, obviously, with all the value drivers that drive an organization, with conduct being an important part of that. We monitor it, and we reward and penalize people on the basis of their conduct as well.",
+    "startBeginning": 1139.475,
+    "startEnd": 1181.16,
+    "ID": 22,
+    "numberOfWords": 117
+  },
+  {
+    "speaker": 2,
+    "text": "We have an anonymous question, but it's related to your geographic expansion, which I really do wanna dig into. So anonymous is asking, do you apply the same innovation strategy for the whole region, or is it specific to each country?",
+    "startBeginning": 1181.8,
+    "startEnd": 1195.645,
+    "ID": 23,
+    "numberOfWords": 41
+  },
+  {
+    "speaker": 3,
+    "text": "So, Alison, a bank grows on the basis of GDP increases or GDP plus inflation as well as banking penetration. So that's the first principle. So we look around and see where's the fastest GDP growth happening, and how do we take advantage of that GDP growth. The second way in which you grow is by product proliferation. So you identify customer needs, and then you introduce products to a particular region, a particular country to meet those those needs. The third one is market penetration. So you identify segments that you're not servicing. So, for example, typically, a bank will start serving the top end of the market, and then it will increasingly move into the lower end as it identifies needs in those segments at the lower end. That's sort of the basic rubric, the basic background. The next thing you think about is if you see all of that",
+    "startBeginning": 1196.6849,
+    "startEnd": 1249.515,
+    "ID": 24,
+    "numberOfWords": 152
+  }
+]

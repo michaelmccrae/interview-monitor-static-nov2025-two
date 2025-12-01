@@ -1,6 +1,6 @@
 "use client";
 import React, { useState, useEffect, useMemo, useRef } from "react";
-import data from "../../lib/data/goldman.json";
+import data from "../../lib/data/hbs.json";
 import TestChild from './testchild'
 
 export default function SimulatedDeepgramFeed({ intervalMs = 30 }) {
