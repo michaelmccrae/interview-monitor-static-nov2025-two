@@ -3,18 +3,18 @@
 import { useState, useEffect, Suspense } from "react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
-import Display from "./display1.jsx";
+import Bubble from "./bubble1.jsx";
 import registry from "@/lib/data2/index.json";
+import Meta from './meta1'
 
-// 1. We move your main logic into this "Content" component
 function TranscriptContent() {
-  const searchParams = useSearchParams(); 
-  const activeKey = searchParams.get("key"); 
+  const searchParams = useSearchParams();
+  const activeKey = searchParams.get("key");
 
   const [loading, setLoading] = useState(false);
   const [beforellm, setbeforellm] = useState(null);
   const [afterllm, setafterllm] = useState(null);
-  const [currentKey, setCurrentKey] = useState(null); 
+  const [currentKey, setCurrentKey] = useState(null);
 
   useEffect(() => {
     if (activeKey && registry[activeKey]) {
@@ -58,20 +58,28 @@ function TranscriptContent() {
         <h1 className="text-xl font-bold mb-4">Available Transcripts</h1>
 
         <ul className="space-y-3">
-          {Object.entries(registry).map(([key, item]) => (
-            <li key={key} className="text-left">
-              <Link
-                href={`?key=${key}`}
-                className="text-blue-600 underline hover:text-blue-800 font-medium"
-              >
-                {item.label || key}
-              </Link>
-              
-              <span className="text-gray-600">
-                {" - "}{item.moreinfo}
-              </span>
-            </li>
-          ))}
+          {Object.entries(registry).map(([key, item]) => {
+            const isActive = key === activeKey;
+            
+            return (
+              <li key={key} className="text-left">
+                <Link
+                  href={`?key=${key}`}
+                  className={` ${
+                    isActive 
+                      ? "text-blue-900 font-bold " // Active Style (Red & Bold)
+                      : "text-blue-600 hover:text-blue-800 underline" // Inactive Style
+                  }`}
+                >
+                  {item.label || key}
+                </Link>
+                
+                <span className="text-gray-600">
+                  {" - "}{item.moreinfo}
+                </span>
+              </li>
+            );
+          })}
         </ul>
       </div>
 
@@ -81,18 +89,19 @@ function TranscriptContent() {
       {/* RENDER TRANSCRIPT */}
       {!loading && beforellm && afterllm && (
         <div className="mt-8 border-t pt-6">
-          <h2 className="text-lg font-semibold mb-3">
+          {/* <h2 className="text-lg font-semibold mb-3">
             Showing: {registry[currentKey]?.label}
-          </h2>
+          </h2> */}
 
-          <Display beforellm={beforellm} afterllm={afterllm} />
+          <Meta beforellm={beforellm} afterllm={afterllm} />
+
+          <Bubble beforellm={beforellm} afterllm={afterllm} />
         </div>
       )}
     </div>
   );
 }
 
-// 2. The Default Export now just wraps the content in Suspense
 export default function Page() {
   return (
     <Suspense fallback={<div className="p-6">Loading search parameters...</div>}>
