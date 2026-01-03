@@ -38,15 +38,15 @@ export async function POST(req) {
       }
     }
 
-    // ID of the last turn (optional for this logic, but kept from original)
+    // ID of the last turn
     const lastTurn = turnData[turnData.length - 1];
     const turnID = lastTurn.ID;
 
     // ------------------------------
-    // PROMPT
+    // PROMPT (your exact style)
     // ------------------------------
     const prompt = `
-You are an automated JSON generator. Your ONLY task is to infer the role of each unique speaker based on the conversation context.
+You are an automated JSON generator. Your ONLY task is to infer who is the interviewer and who is the guest.
 
 STRICT RULES:
 1. Output MUST be valid JSON.
@@ -54,16 +54,10 @@ STRICT RULES:
    - "speakerRole"
    - "speakerRoleConfidence"
    - "speakerRoleTimestamp"
-3. "speakerRole" MUST be an array of strings. The index of the array corresponds to the speaker ID (0, 1, 2, etc.).
-4. "speakerRoleConfidence" MUST be an array of numbers (0.0 to 1.0).
+3. "speakerRole" MUST be an array of strings.
+4. "speakerRoleConfidence" MUST be an array of numbers.
 5. "speakerRoleTimestamp" MUST be an ISO timestamp.
-
-ROLE CLASSIFICATION RULES:
-- "Interviewer": The host, moderator, or person asking the primary questions.
-- "Guest": A participant answering questions or being interviewed. (There can be multiple distinct guests).
-- "Announcer": A formalized voice used for intros, outros, ads, or disclaimers.
-- "Voiceover": A narrator providing context, usually not part of the direct conversation.
-- "Undefined": Background noise, unintelligible speakers, or if the role is impossible to determine.
+6. No explanation. No comments. JSON only.
 
 Analyze this array of conversation turns:
 
@@ -71,22 +65,18 @@ Analyze this array of conversation turns:
 ${JSON.stringify(turnData, null, 2)}
 </OBJECT>
 
-Return ONLY the JSON. No Markdown formatting.
+Return ONLY the JSON.
 `;
 
     console.log("🧠 Sending prompt to OpenAI...");
 
     // ------------------------------
-    // OPENAI CALL
+    // OPENAI CALL (same pattern as speakername6a)
     // ------------------------------
     const completion = await client.chat.completions.create({
-      model: "gpt-4o-mini", // Updated to valid model name
+      model: "gpt-4.1-mini",
       response_format: { type: "json_object" },
       messages: [
-        {
-          role: "system",
-          content: "You are a helpful assistant that outputs strict JSON.",
-        },
         {
           role: "user",
           content: prompt,

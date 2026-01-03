@@ -1,0 +1,8 @@
+{
+  "goldman1": {
+    "label": "Commodities Outlook: What's Driving Oil, Gold, and Base Metals",
+    "moreinfo": "Goldman Exchanges, Jul 1, 2025, https://www.goldmansachs.com/insights/goldman-sachs-exchanges/commodities-outlook-whats-driving-oil-gold-and-base-metals",
+    "before": "data3/goldman1/beforellm.json",
+    "after": "data3/goldman1/afterllm.json"
+  }
+}

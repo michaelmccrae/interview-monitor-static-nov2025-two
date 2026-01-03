@@ -6,7 +6,7 @@ const client = new OpenAI({
 });
 
 export async function POST(req) {
-  console.log("🚀 speakername6a POST starting...");
+  console.log("🚀 speakername POST starting...");
 
   try {
     let turnData = await req.json();

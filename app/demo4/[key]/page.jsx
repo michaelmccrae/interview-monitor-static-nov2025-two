@@ -1,4 +1,4 @@
-import registry from "@/lib/data2/index.json";
+import registry from "@/lib/data3/index.json";
 import TranscriptMerger from "./TranscriptMerger4";
 
 export default async function Demo3DetailPage({ params }) {
