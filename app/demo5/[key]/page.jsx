@@ -1,5 +1,5 @@
-import registry from "@/lib/data4/index.json";
-import TranscriptMerger from "./TranscriptMerger6";
+import registry from "@/lib/data5/index.json";
+import TranscriptMerger from "./TranscriptMerger1";
 
 export default async function Demo3DetailPage({ params }) {
   const { key } = await params;

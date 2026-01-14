@@ -1,0 +1,1562 @@
+[
+  {
+    "speaker": 0,
+    "text": "Markets move fast. Get the insights you need in ten minutes with Barclays Brief, a podcast from Barclays Investment Bank. Each week, our experts analyze market themes, helping you anticipate what's next. Listen to Barclays Brief wherever you get your podcasts.",
+    "startBeginning": 0.24,
+    "startEnd": 13.759999,
+    "ID": 0,
+    "numberOfWords": 41
+  },
+  {
+    "speaker": 1,
+    "text": "Donald Trump is rewriting the Washington rule book and reshaping the global economy. If you're trying to connect the dots behind the headlines, Bloomberg's Trumponomics podcast is here to help. I'm Stephanie Flanders, head of government and economics at Bloomberg. Every week, I'll bring you a smart focused conversation with reporters and experts from Washington, Wall Street, and beyond. Listen to new episodes every Wednesday and follow Trumponomics wherever you listen.",
+    "startBeginning": 16.185,
+    "startEnd": 43.635,
+    "ID": 1,
+    "numberOfWords": 71
+  },
+  {
+    "speaker": 2,
+    "text": "Pro drivers live for race day, but for small business owners, every day is race day. That's why going pro with Lenovo Pro matters. One on one advice, IT solutions, and customized hardware powered by Intel Core Ultra processors keep your business on the right track. Business goes pro with Lenovo Pro. Sign up for free at lenovo.com/pro. Lenovo. Lenovo.",
+    "startBeginning": 46.035,
+    "startEnd": 72.005005,
+    "ID": 2,
+    "numberOfWords": 60
+  },
+  {
+    "speaker": 3,
+    "text": "Bloomberg Audio Studios.",
+    "startBeginning": 78.565,
+    "startEnd": 79.685,
+    "ID": 3,
+    "numberOfWords": 3
+  },
+  {
+    "speaker": 4,
+    "text": "Podcasts, radio, news.",
+    "startBeginning": 80.725,
+    "startEnd": 82.645004,
+    "ID": 4,
+    "numberOfWords": 3
+  },
+  {
+    "speaker": 5,
+    "text": "Hello, and welcome to another episode of the Odd Lots podcast. I'm Joe Wiesenthal.",
+    "startBeginning": 94.26,
+    "startEnd": 97.94,
+    "ID": 5,
+    "numberOfWords": 14
+  },
+  {
+    "speaker": 6,
+    "text": "And I'm Tracy Alloway.",
+    "startBeginning": 98.655,
+    "startEnd": 99.215,
+    "ID": 6,
+    "numberOfWords": 4
+  },
+  {
+    "speaker": 5,
+    "text": "Tracy, there are just so many credit related things to talk about right now. All things credit.",
+    "startBeginning": 99.935,
+    "startEnd": 104.255,
+    "ID": 7,
+    "numberOfWords": 17
+  },
+  {
+    "speaker": 6,
+    "text": "I love it. I love it. Credit is interesting again.",
+    "startBeginning": 104.735,
+    "startEnd": 107.295,
+    "ID": 8,
+    "numberOfWords": 10
+  },
+  {
+    "speaker": 5,
+    "text": "This might be one of the only credit episodes that we've ever done where, like, I found the guest. Because I feel like when I think about, like, a all the credit episodes, it's usually, like, someone you know. And, randomly, I found someone who knows a little bit something about credit. So it's like, oh, let me do it. Let me",
+    "startBeginning": 107.695,
+    "startEnd": 120.39,
+    "ID": 9,
+    "numberOfWords": 62
+  },
+  {
+    "speaker": 6,
+    "text": "The stakes are high, Joe.",
+    "startBeginning": 120.63,
+    "startEnd": 121.509995,
+    "ID": 10,
+    "numberOfWords": 5
+  },
+  {
+    "speaker": 5,
+    "text": "I know. I was thinking about there because you're like, oh, Joe, you, like, pick someone who, like, doesn't know anything. No.",
+    "startBeginning": 121.83,
+    "startEnd": 126.149994,
+    "ID": 11,
+    "numberOfWords": 22
+  },
+  {
+    "speaker": 7,
+    "text": "I don't",
+    "startBeginning": 126.31,
+    "startEnd": 126.39,
+    "ID": 12,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 5,
+    "text": "think that I think we have a very knowledgeable credit guest, but I'm a little stressed about this aspect.",
+    "startBeginning": 126.549995,
+    "startEnd": 130.465,
+    "ID": 13,
+    "numberOfWords": 19
+  },
+  {
+    "speaker": 6,
+    "text": "I believe in you, Joe.",
+    "startBeginning": 130.865,
+    "startEnd": 131.585,
+    "ID": 14,
+    "numberOfWords": 5
+  },
+  {
+    "speaker": 5,
+    "text": "You do?",
+    "startBeginning": 131.825,
+    "startEnd": 131.985,
+    "ID": 15,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 6,
+    "text": "I trust your judgment. But to your point, there's a lot going on. So, obviously, there are concerns around private credit. We've had some idiosyncratic defaults and frauds in the market, and each one is special in their own way. Right. But I think the worrying aspect is that they keep coming to light. Yeah. Right? And so you've seen people like Jamie Dimon using the the cockroach analogy",
+    "startBeginning": 132.30501,
+    "startEnd": 154.505,
+    "ID": 16,
+    "numberOfWords": 69
+  },
+  {
+    "speaker": 5,
+    "text": "Yeah.",
+    "startBeginning": 155.065,
+    "startEnd": 155.065,
+    "ID": 17,
+    "numberOfWords": 1
+  },
+  {
+    "speaker": 6,
+    "text": "Which is now famous. And at the same time, you have the connection with AI, right, which we have spoken about a little bit on the podcast with Paul Kudrowski, all these complex circular financing structures that are driving a lot of the credit boom or have been driving a lot of the credit boom. And then at the same time, you also have the impact of AI on credit itself.",
+    "startBeginning": 155.38501,
+    "startEnd": 178.99,
+    "ID": 18,
+    "numberOfWords": 71
+  },
+  {
+    "speaker": 5,
+    "text": "Yeah. That's right. Because in theory, right, like, we've talked about this. We did that episode with Joel Wertheimer. That was in a slightly different context. But we've done these episodes about, you know, just the incredible length of deal text, etcetera. And perhaps if there's one area where maybe we could say with some high degree of confidence that large language models could be useful, it is, can we break down this, you know, multi 100 page agreement so that we don't have to have, you know, junior associates or junior lawyers or junior bankers up till four in the morning, making sure that every comma is in the right place, etcetera. In theory, this could be an area in which AI could be productively applied.",
+    "startBeginning": 179.55,
+    "startEnd": 218.97499,
+    "ID": 19,
+    "numberOfWords": 127
+  },
+  {
+    "speaker": 6,
+    "text": "You know, there was an actual case argued over a comma.",
+    "startBeginning": 219.45499,
+    "startEnd": 222.15,
+    "ID": 20,
+    "numberOfWords": 11
+  },
+  {
+    "speaker": 7,
+    "text": "Oh, yeah.",
+    "startBeginning": 222.70999,
+    "startEnd": 222.87,
+    "ID": 21,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 6,
+    "text": "What's that? Remember exactly what it was, but, like, you're absolutely right. The grammar, the specific words clearly matter in legal language. I would just add, one of the things that's been driving, arguably driving private credit is the boom in creditor on creditor violence in public deals.",
+    "startBeginning": 223.03,
+    "startEnd": 238.07501,
+    "ID": 22,
+    "numberOfWords": 48
+  },
+  {
+    "speaker": 5,
+    "text": "Yes.",
+    "startBeginning": 238.475,
+    "startEnd": 238.475,
+    "ID": 23,
+    "numberOfWords": 1
+  },
+  {
+    "speaker": 6,
+    "text": "So it was this idea that you could avoid that by having, you know, this private close relationship with your borrower where you are higher up in the waterfall Yeah. Of payment. So this is important.",
+    "startBeginning": 238.79501,
+    "startEnd": 249.28,
+    "ID": 24,
+    "numberOfWords": 36
+  },
+  {
+    "speaker": 5,
+    "text": "It would be really nice if you could upload a credit agreement to Chatt GPT and just say, make sure there's nothing in here that would get me in trouble. Make sure there's nothing in here that five years later, I will regret the placement of a certain account.",
+    "startBeginning": 249.76,
+    "startEnd": 261.28,
+    "ID": 25,
+    "numberOfWords": 49
+  },
+  {
+    "speaker": 6,
+    "text": "Sure I don't lose money in",
+    "startBeginning": 261.6,
+    "startEnd": 262.805,
+    "ID": 26,
+    "numberOfWords": 6
+  },
+  {
+    "speaker": 5,
+    "text": "that Make sure I don't lose money in some technical way. Anyway, so there's just a lot going on. I feel like we there's plenty of episodes to do on this. But we really do have the perfect guest, someone who literally sort of sits in the intersection of I think we identified three distinct trends here. We are gonna be speaking with Dan Wertman. He is the cofounder of a company called, Noetica AI, and it does exactly this. It sort of attempts to use AI to understand credits. It has a lot of understanding about deals and the text in them. He also just has a lot of understanding about AI, etcetera. So we can talk about all these things. Dan, thank you so much for, coming on the podcast.",
+    "startBeginning": 262.885,
+    "startEnd": 297.795,
+    "ID": 27,
+    "numberOfWords": 132
+  },
+  {
+    "speaker": 7,
+    "text": "Thanks so much for having me. I'm a fan of the show. Love to hear it. You guys are kinda like celebrities for me, so it's kinda fitting that I'm here because at least with folks at Bloomberg because many people think about us at Noetica like the Bloomberg for deal terms.",
+    "startBeginning": 298.515,
+    "startEnd": 313.78,
+    "ID": 28,
+    "numberOfWords": 52
+  },
+  {
+    "speaker": 5,
+    "text": "Okay. Well, let's see let's see if, you actually live up to that. No. But, so since I said I'm stressed that, oh, this time we're doing a credit episode, and I found the guest. Give us the quick version of, like, your career and what Noetica is.",
+    "startBeginning": 314.1,
+    "startEnd": 326.705,
+    "ID": 29,
+    "numberOfWords": 48
+  },
+  {
+    "speaker": 7,
+    "text": "Yeah. So I'll start with Noetica. What we build at Noetica is AI powered software for benchmarking real time data on what's market in credit, m and a, capital markets, deal terms.",
+    "startBeginning": 327.505,
+    "startEnd": 338.9,
+    "ID": 30,
+    "numberOfWords": 32
+  },
+  {
+    "speaker": 5,
+    "text": "Okay.",
+    "startBeginning": 339.22,
+    "startEnd": 339.22,
+    "ID": 31,
+    "numberOfWords": 1
+  },
+  {
+    "speaker": 7,
+    "text": "So said another way, we help folks like transactional attorneys, credit managers, bankers. We help them figure out whether the terms of their transactional agreements, like, think financing agreements, merger agreements, prospectuses, and really all other corporate transactions are on or off market by benchmarking them to market comps. So as far as the genesis of Knowetica, it was kinda born out of my own experience, in my career. So I started my career at BlackRock. I was on a team responsible for coming up with new financial products and fixing the markets. And we were developing these new interesting innovative structure products, and I just learned a ton about the capital markets ecosystem. And in particular, just this is a $50,000,000,000,000 global market. Yeah. And it runs on phone calls and relationships. And it's unbelievably antiquated. Then fast forward, I went back to get my GED. I joined Wachtell Lipton where I did corporate transactions. This is 2017 to 2022. So if if you guys remember that time, it was heyday of merger activity. Right. So I worked on, you know, T Mobile's buyout of Sprint, the biggest $30,000,000,000 commitment at the time, Algon Abbey, UC Raytheon. And I distinctly remember sitting down at my desk. I was looking at a transactional group in a multibillion dollar merger. And I was looking at a term, and I was trying to figure out whether I should help my client accept term a or term b in this context. And I was stuck. So I called senior partner on the deal. I said, hey. Where is the database of information where I could see exactly how this term should come out and quantify it for my client? And, you know, the answer was that doesn't exist. Now that was two and a half plus years ago now. I left to watch out to start Noetica with a fairly simple idea, which is AI enables us to finally quantify what market agreement terms should look like in these markets. You know, now we work with almost all the top 20 law firms on the street. We're helping them advise their clients on these deals. And And this year, we're on track to do about a trillion dollars of transactions through the platform. Wow.",
+    "startBeginning": 339.94,
+    "startEnd": 460.51498,
+    "ID": 32,
+    "numberOfWords": 381
+  },
+  {
+    "speaker": 5,
+    "text": "And you get 1% of that, so that's great.",
+    "startBeginning": 460.755,
+    "startEnd": 462.435,
+    "ID": 33,
+    "numberOfWords": 9
+  },
+  {
+    "speaker": 7,
+    "text": "You're",
+    "startBeginning": 462.915,
+    "startEnd": 462.915,
+    "ID": 34,
+    "numberOfWords": 1
+  },
+  {
+    "speaker": 6,
+    "text": "done. Well, talk to us about what these financing agreements actually look like and how, traditionally, they're sort of judged by both the investors and the lawyers who are looking at them.",
+    "startBeginning": 463.155,
+    "startEnd": 472.355,
+    "ID": 35,
+    "numberOfWords": 32
+  },
+  {
+    "speaker": 7,
+    "text": "Yeah. I mean so when I say deal terms, what I mean is deal terms are really the underpinning of the entire transactional system, the rules of the road. You could think about them like speed limits, double yellow lines, street lights. They're kind of the plumbing that goes into the transactions, putting in a way that people can understand. Imagine I go sign a lease. Mhmm. Most people are very familiar with certain things. Right? Like, the rent price, the how long the lease is.",
+    "startBeginning": 473.00998,
+    "startEnd": 501.72998,
+    "ID": 36,
+    "numberOfWords": 86
+  },
+  {
+    "speaker": 6,
+    "text": "Subletting policy.",
+    "startBeginning": 502.21,
+    "startEnd": 502.93,
+    "ID": 37,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 7,
+    "text": "Exactly. But if deep in that 20 page lease, the lease says, if the weather gets under 30 degrees at any time, you forfeit your right to the apartment. Well, that's a deal term, and that affects whether you want to accept that lease or not. And so it's the same in capital markets terms. To give you a more tangible example",
+    "startBeginning": 503.81,
+    "startEnd": 522.235,
+    "ID": 38,
+    "numberOfWords": 62
+  },
+  {
+    "speaker": 5,
+    "text": "Yeah.",
+    "startBeginning": 522.715,
+    "startEnd": 522.715,
+    "ID": 39,
+    "numberOfWords": 1
+  },
+  {
+    "speaker": 7,
+    "text": "Are you guys fast food people?",
+    "startBeginning": 523.195,
+    "startEnd": 524.235,
+    "ID": 40,
+    "numberOfWords": 6
+  },
+  {
+    "speaker": 5,
+    "text": "Yes. Yes.",
+    "startBeginning": 525.03503,
+    "startEnd": 525.435,
+    "ID": 41,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 7,
+    "text": "Okay. So I'm, like, a McDonald's guy. Yeah. And That's good. Whenever I go to McDonald's, I always order the 10 piece Chick fil A nugget. I've ordered the 10 piece hundreds of times. There's exactly three things that happen when you order a 10 piece. You open the box, you have nine pieces. Mhmm. You open the box, you have exactly 10 pieces. Or you open the box, and you have 11 pieces. Now, if you have nine pieces, you go to the counter, and you say, hey, I'm missing a piece. They give you a piece. You get the benefit of your bargain. If you get 10, you enjoy your McNuggets. If you get 11, what do you do?",
+    "startBeginning": 526.10004,
+    "startEnd": 556.49,
+    "ID": 42,
+    "numberOfWords": 121
+  },
+  {
+    "speaker": 6,
+    "text": "You stay quiet.",
+    "startBeginning": 557.13,
+    "startEnd": 557.52997,
+    "ID": 43,
+    "numberOfWords": 3
+  },
+  {
+    "speaker": 7,
+    "text": "Exactly. So you hit the jackpot. Right? Now there's this kind of unwritten rule in American consumerism, which is that if a company that's bigger than you gives you something by accident, then you get the benefit of that as a consumer. Well, in 2020, the exact kind of thing happened in the credit markets, but it ended very differently. Citibank sent $900,000,000 to lenders",
+    "startBeginning": 558.88995,
+    "startEnd": 583.33,
+    "ID": 44,
+    "numberOfWords": 65
+  },
+  {
+    "speaker": 5,
+    "text": "Right.",
+    "startBeginning": 583.81,
+    "startEnd": 583.81,
+    "ID": 45,
+    "numberOfWords": 1
+  },
+  {
+    "speaker": 7,
+    "text": "In full prepayment of a loan for Revlon, and they did so accidentally. Now they were supposed to just send an interest payment. At the time, the terms of the credit agreement were silent. The governing documentation associated with this loan didn't say what happens in that scenario. Long story short, many funds did not get back that hundreds of millions of dollars, and litigation ensued. But a deal term in credit deals called erroneous payment deal terms started popping up in the market. Nautica's data last clocked that deal term as of last quarter at 90% of deals. So if you don't have that term now in your deal Yeah. You're way off market in terms of the way the market actually operates. This is why deal terms are important. These are hundreds of millions of dollars at stake in the context of all these deals.",
+    "startBeginning": 584.29,
+    "startEnd": 628.575,
+    "ID": 46,
+    "numberOfWords": 147
+  },
+  {
+    "speaker": 5,
+    "text": "There there's something very lawyerly about like, I have to say, I've never counted the McNuggets. I just get it. So just as I would this example would have never occurred to me because I'm not the type of person that opens a box of McNuggets and starts",
+    "startBeginning": 628.895,
+    "startEnd": 639.68,
+    "ID": 47,
+    "numberOfWords": 48
+  },
+  {
+    "speaker": 6,
+    "text": "Clearly, you don't value McNuggets enough.",
+    "startBeginning": 640,
+    "startEnd": 641.76,
+    "ID": 48,
+    "numberOfWords": 6
+  },
+  {
+    "speaker": 5,
+    "text": "Evidently not. What are some other deal terms? So that's a great example that okay. Now after that incident, which was infamous, language about this started popping up. What are some other sort of classic and I'm sure they get much, much more esoteric than that. But what are some other, like, interesting deal terms that trend over time?",
+    "startBeginning": 642.08,
+    "startEnd": 659.885,
+    "ID": 49,
+    "numberOfWords": 59
+  },
+  {
+    "speaker": 7,
+    "text": "Yeah. So it's really interesting. So there there's a whole host of what I would call structural protections to a lot of these deals. These come in a lot of different flavors. Many people talk about them as things like anti PetSmart terms, things like J. Crew blockers, things like certain protections. What's your name? Block. Yeah. Right? Yeah. Let's talk about some of these. So anti PetSmart terms, these are protections that prevent guarantor releases when subsidiaries of the credit group become non wholly owned. In other words, it prevents value from being transferred away from the loan into some other Mhmm. Structure which doesn't provide credit support. Let me put this in a way that most people don't understand. If you were getting a mortgage Yeah. On your house, pretty simple framework. You take out the debt, you pay your mortgage payments, You pay a back loan. Bank can foreclose on your house if you stop paying the mortgage. But in the mortgage, if it said something like, well, if you sell any part of your home, front door, a window, a shingle, the bank loses the ability to foreclose on the house fully. Well, then what would you do? You would sell a single shingle.",
+    "startBeginning": 660.84503,
+    "startEnd": 724.77,
+    "ID": 50,
+    "numberOfWords": 208
+  },
+  {
+    "speaker": 5,
+    "text": "Oh, yeah.",
+    "startBeginning": 725.25,
+    "startEnd": 725.33,
+    "ID": 51,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 7,
+    "text": "You would stop paying your mortgage, and you get to keep your house, and you get the benefit of that. That's what anti PetSmart terms actually prevent. They prevent the ability for credit groups to actually sell a single equity and actually lose the credit support from that particular equity. So it's kind of interesting what we're seeing in the market right now. We have this really unique vantage point from the point of view of our software where we quantify trends in deal terms over time. And so we can actually very precisely tell you the percentages of deals that are actually getting a lot of these structural protections. It actually gives us this really unique window into the anxieties and the optimisms that are currently happening in the market. Some people think about this as kind of an early signal of something likely to come. So what are we seeing? Well, we're calling it a flight to fortification, and it's really happening on both issuers and borrowers. And I'll explain what I mean. We're seeing massive increases in lenders getting structural protections in these deals. Basically, these are protections that help make sure their collateral is locked, things like the anti PetSmart terms. In return, borrowers are getting the same fortification. In fact, they're getting more economic flexibility. And you could think about it as a way for them to weather the storm is how we're seeing it. So things like add backs to EBITDA, you know, more ability to send money to shareholders, more ability to make long term events. Let's talk about the actual specifics of what we're seeing. Anti pass smart terms, the one I just talked about. Mhmm. We clocked that at 28% of deals in q three. That was at 4% in 2023, and q two is at 25%. This is the highest we've ever recorded that term. J Crew Blockers, which prevent issuers from moving material IP outside of the credit group, that's at 45% of deals now. The baseline from 2023, 15%, and last quarter, it was 38%. Anti SIRTA protections, which are lien subordination protections, they actually help secure your place in line if and when some sort of distress activity happens. That's at eighty four percent of deals. That's the highest jump we've ever seen quarter over quarter. It went up from 61%. It's a 23 jump, and the baseline was 39% in 2023. That's pretty significant for a quarterly jump, and it really signals something about the market. On the quantitative side, we track a lot of stuff too, including the ratios under which borrowers need to maintain specific types of leverage. We saw that at 3.9 times EBITDA in q two, and it went down to three and a half times EBITDA. Again, that's signaling some sort of anxiety among the lender group that we wouldn't normally see. Now you may ask, what are borrowers getting for this? Again, they're getting more fortification. One of the ways this is coming up is in EBITDA AbEx. So EBITDA AbEx, basically, there's a very long and complicated calculation of cash flow in a lot of these deals. And the add backs to EBITDA basically allow borrowers and issuers to add back certain things to count them as cash flow today.",
+    "startBeginning": 725.64996,
+    "startEnd": 906.21497,
+    "ID": 52,
+    "numberOfWords": 551
+  },
+  {
+    "speaker": 6,
+    "text": "Flatter their balance sheet, basically.",
+    "startBeginning": 906.615,
+    "startEnd": 907.735,
+    "ID": 53,
+    "numberOfWords": 5
+  },
+  {
+    "speaker": 7,
+    "text": "Correct. One of the more interesting add backs that we track is what's called a cost savings add back so imagine a borrower knows it's gonna optimize some cost in the future If it can reasonably predict that cost, it can add that back to today's cash flow. That cost savings add back, whether it materializes or not, is added back to today's cash flow. 64% of deals now have cost savings add backs in them. That's the highest we've ever recorded. For deals with those add backs being above 20% of EBITDA, that came in at 51%, which is also the highest we've ever tracked, on the platform. They're also getting things like excluding lenders that are short in their debt. So for instance, folks may be familiar with what happened with the Windstream case a few years ago. What happened in that case is certain hedge funds were actually short the debt, the loan that was in default, and that makes them not exactly aligned Right. With the company that has the debt outstanding. Terms started popping up in the market, which we've tracked, which are called net short lender terms, which allow borrowers to exclude those lenders from voting. That is now in 13% of deals, which is the highest we've ever tracked. So you could see the fortification actually on both sides of the market, and it really signals, I think, to us that there's a risk allocation happening with a lot of these anxieties.",
+    "startBeginning": 908.295,
+    "startEnd": 995.76,
+    "ID": 54,
+    "numberOfWords": 249
+  },
+  {
+    "speaker": 0,
+    "text": "Today's markets move fast. Get the insights you need in ten minutes with the Barclays Brief, a new podcast from Barclays Investment Bank. Through sharp dialogue and scenario based analysis, our leading experts analyze key market themes each week. So whether you're managing a portfolio or leading a business, the Barclays Brief podcast can help you make smarter decisions today. Stay sharp. Stay briefed. Find Barclays Brief wherever you get your podcasts.",
+    "startBeginning": 1012.215,
+    "startEnd": 1039.705,
+    "ID": 55,
+    "numberOfWords": 72
+  },
+  {
+    "speaker": 6,
+    "text": "Hey there, Odd Lots listeners. As we come into 2026, we are realizing that one thing we're constantly thinking about on the show is how companies actually get built. Not just, like, the headline version of that story, but the messy operational reality of it.",
+    "startBeginning": 1042.585,
+    "startEnd": 1060.36,
+    "ID": 56,
+    "numberOfWords": 45
+  },
+  {
+    "speaker": 5,
+    "text": "Right. We love messy operational reality of things. The never ending quest to dive deeper, how companies make it big, what causes one company to succeed, why others fail.",
+    "startBeginning": 1060.84,
+    "startEnd": 1070.775,
+    "ID": 57,
+    "numberOfWords": 29
+  },
+  {
+    "speaker": 6,
+    "text": "Well, I have good news. That is exactly what the Acquired podcast does. Ben Gilbert and David Rosenthal pick a company and then explore all the ins and outs of its trajectory. Lots of detail there, how it scaled, the ups and downs, and so much more.",
+    "startBeginning": 1071.655,
+    "startEnd": 1087.695,
+    "ID": 58,
+    "numberOfWords": 47
+  },
+  {
+    "speaker": 5,
+    "text": "Yeah. And we actually we had them on Odd Lots back in February. We talked to them about everything from TSMC, NVIDIA, Mars, Hermes, scale, capital structure, the importance of incentives, all of the different, I guess, ingredients that go into some of the success of these names that we talk about every day.",
+    "startBeginning": 1088.1749,
+    "startEnd": 1105.64,
+    "ID": 59,
+    "numberOfWords": 54
+  },
+  {
+    "speaker": 6,
+    "text": "Also, their show actually turned 10 old in 2025 just like us. So we're, I guess, the same age in podcast years.",
+    "startBeginning": 1106.2001,
+    "startEnd": 1113.0801,
+    "ID": 60,
+    "numberOfWords": 22
+  },
+  {
+    "speaker": 5,
+    "text": "Big year. Anyway, if you like Odd Laws, the way we get into various market dynamics, how the economy actually works under the hood, you'll obviously appreciate and enjoy the acquired podcast. They do similar work, similar ideas, all focused context of individual company.",
+    "startBeginning": 1113.72,
+    "startEnd": 1128.9099,
+    "ID": 61,
+    "numberOfWords": 44
+  },
+  {
+    "speaker": 6,
+    "text": "So go check out the acquired podcast. You can find them wherever you get your podcasts.",
+    "startBeginning": 1129.5499,
+    "startEnd": 1133.87,
+    "ID": 62,
+    "numberOfWords": 16
+  },
+  {
+    "speaker": 4,
+    "text": "You wanna know what my evenings actually look like? Homework questions. Someone needs a permission slip signed. The dog's begging for a walk. Someone's yelling for a snack. And somewhere in the middle of all that, I'm supposed to figure out dinner? That's why HelloFresh has been a lifesaver. Fresh ingredients show up at my door, locally sourced when possible, simple step by step recipes that actually make sense. And no matter how chaotic the rest of my night gets, dinner is the one thing I don't have to stress about. I'm just cooking a delicious meal my family will actually eat, and it takes around thirty minutes. And honestly, the real value is knowing that even on the messiest nights, dinner's handled. That's one less thing pulling at me, and that matters. Take some stress out of your evenings right now. Get 50% off your first box plus free sides for life. That's right. Free sides for life. Go to hellofresh.ca and use code meal 50. That's hellofresh.c a code meal 50. HelloFresh, Canada's number one meal kit delivery service.",
+    "startBeginning": 1137.7899,
+    "startEnd": 1196.9601,
+    "ID": 63,
+    "numberOfWords": 181
+  },
+  {
+    "speaker": 2,
+    "text": "Pro drivers live for race day. But for small business owners, every day is race day. That's why going pro with Lenovo Pro matters. One on one advice, IT solutions, and customized hardware powered by Intel Core Ultra processors keep your business on the right track. Business goes pro with Lenovo Pro. Sign up for free at lenovo.com/pro. Lenovo. Lenovo.",
+    "startBeginning": 1198.3551,
+    "startEnd": 1224.245,
+    "ID": 64,
+    "numberOfWords": 60
+  },
+  {
+    "speaker": 6,
+    "text": "Joe, first of all, you know my husband was a corporate lawyer.",
+    "startBeginning": 1228.405,
+    "startEnd": 1230.725,
+    "ID": 65,
+    "numberOfWords": 12
+  },
+  {
+    "speaker": 7,
+    "text": "I am aware. Yes.",
+    "startBeginning": 1231.205,
+    "startEnd": 1231.845,
+    "ID": 66,
+    "numberOfWords": 4
+  },
+  {
+    "speaker": 5,
+    "text": "Yes. Yes.",
+    "startBeginning": 1232.005,
+    "startEnd": 1232.405,
+    "ID": 67,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 6,
+    "text": "Okay. So one of the things he's most proud of is he came up with some language in a deal shortly after the two thousand eight financial crisis, and it was he sent it to me just now. A significant dislocation in financial markets.",
+    "startBeginning": 1232.645,
+    "startEnd": 1244.97,
+    "ID": 68,
+    "numberOfWords": 44
+  },
+  {
+    "speaker": 7,
+    "text": "Uh-huh.",
+    "startBeginning": 1245.61,
+    "startEnd": 1245.61,
+    "ID": 69,
+    "numberOfWords": 1
+  },
+  {
+    "speaker": 6,
+    "text": "That was him, and that became, like, standard language in risk factors",
+    "startBeginning": 1246.0099,
+    "startEnd": 1250.09,
+    "ID": 70,
+    "numberOfWords": 12
+  },
+  {
+    "speaker": 7,
+    "text": "Oh, wow.",
+    "startBeginning": 1250.57,
+    "startEnd": 1250.6499,
+    "ID": 71,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 6,
+    "text": "At least in a bunch of UK deals.",
+    "startBeginning": 1250.8099,
+    "startEnd": 1252.0099,
+    "ID": 72,
+    "numberOfWords": 8
+  },
+  {
+    "speaker": 7,
+    "text": "That's his contribution.",
+    "startBeginning": 1252.625,
+    "startEnd": 1253.025,
+    "ID": 73,
+    "numberOfWords": 3
+  },
+  {
+    "speaker": 5,
+    "text": "I'm the inventor of this deal. So and so so so the inventor some people invent great medicine. Some people invent some new technology, and someone invents a new deal term that gets propagated across",
+    "startBeginning": 1253.905,
+    "startEnd": 1263.745,
+    "ID": 74,
+    "numberOfWords": 35
+  },
+  {
+    "speaker": 6,
+    "text": "That's right.",
+    "startBeginning": 1264.2251,
+    "startEnd": 1264.385,
+    "ID": 75,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 5,
+    "text": "Documents for years thereon after.",
+    "startBeginning": 1264.865,
+    "startEnd": 1266.385,
+    "ID": 76,
+    "numberOfWords": 5
+  },
+  {
+    "speaker": 6,
+    "text": "That's how it works. But, Dan, I wanted to ask you something. Okay. So you say there's more fortification in a lot of deal terms, more protections perhaps for both investors and lenders, I guess. One of the things we heard prior to 2020 and then for some years after it was we had this explosion in covelight deals. Right? Fewer protections for investors because everyone was so desperate supposedly for yield for that particular paper. So the balance of power shifted to the borrowers. They were able to dictate the terms. How are investors getting better protections now with, you know, credit spreads still at basically multi decade lows, which suggests that there's still a lot of demand and that they don't hold all the power in the market.",
+    "startBeginning": 1266.865,
+    "startEnd": 1312.735,
+    "ID": 77,
+    "numberOfWords": 130
+  },
+  {
+    "speaker": 7,
+    "text": "Yeah. I I think about it and what the data supports, that we see on the platform is I think about it less so as what they're getting, but more about what the terms actually reflect in terms of the macro environment that they're operating in. So for instance, right now, we're seeing this flight of fortification in part largely due to probably a few things. Number one being, you know, some of these headline risks that folks have been talking about, and we'll I'm sure we'll get into some of what's going on in the private credit market today. So people flooding into more structural protections because they're worried about their place in line if there is distress. I think number two is just macro wise, if you think about it in the credit markets, there was a ton of debt taken out in 2020, 2021, 2020, 2022. This leads to a lot of maturity walls upcoming, especially in 2027, 2020",
+    "startBeginning": 1313.615,
+    "startEnd": 1360.975,
+    "ID": 78,
+    "numberOfWords": 162
+  },
+  {
+    "speaker": 6,
+    "text": "say upcoming on the show. We say looming.",
+    "startBeginning": 1361.535,
+    "startEnd": 1362.975,
+    "ID": 79,
+    "numberOfWords": 8
+  },
+  {
+    "speaker": 5,
+    "text": "Looming. Yeah.",
+    "startBeginning": 1363.295,
+    "startEnd": 1363.695,
+    "ID": 80,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 7,
+    "text": "Looming. Yeah. Exactly. There are a lot of looming maturity walls in 2028, 2029 vintage. And you could think about it as, well, that's a macro factor that people are thinking about when they underwrite a loan because many of these deals actually have five year tenure, you know, seven year tenure, eight year tenure, in some cases, thirty year tenure. And so they're thinking about all these protections in the context of that market. I also think it's really interesting. Aside from the credit context right now, we're seeing a lot of structuring in terms happening in m and a markets. So things like regulatory uncertainty, things like tariffs, things like liability management, as we talked about, things like tax uncertainty. I'm happy to go into these, but we're seeing a lot of things in this area. One kind of small example of this, in situations where a buyer and a seller have regulatory uncertainty, which, you know, a lot of folks think about the administration, and they're not sure exactly how things are gonna play out. You actually see regulatory review in deals get hyper focused on. And it actually precipitated a new deal term this year, which we tracked in the market. We had anomalous term detection on the platform. We sent out a note to all of our clients, and it's called a new outside date structure term. Basically, what it does is it allows buyers of inquiries. It allows them to lock in their financing for longer and actually extend their financing. In the case scenario, regulatory review lacks. And that's just an example of the kind of innovation that's happening in the merger markets. In terms of tariffs, we picked up the first tariff event of default in a credit deal ever. It happened in a Superior Industries deal over the summer, which probably is unsurprising to you as an auto manufacturer deal that made a lot of parts in Mexico. That's down 5% of M and A deals for tariff based m and a carve outs and true liability of respect clauses.",
+    "startBeginning": 1364.095,
+    "startEnd": 1476.345,
+    "ID": 81,
+    "numberOfWords": 349
+  },
+  {
+    "speaker": 5,
+    "text": "Can we talk a little bit about you know, you're scanning these documents. Google's engram has existed for a long time. Tracking the prevalence of a term is not novel technology.",
+    "startBeginning": 1476.905,
+    "startEnd": 1488.06,
+    "ID": 82,
+    "numberOfWords": 31
+  },
+  {
+    "speaker": 6,
+    "text": "Control f exists.",
+    "startBeginning": 1488.7001,
+    "startEnd": 1489.34,
+    "ID": 83,
+    "numberOfWords": 3
+  },
+  {
+    "speaker": 5,
+    "text": "Control f. Yeah. I do. That's this is sort of, like, very it barely even counts as technology at that point. What is it that you you know, when you're talking about the changing prevalence of these terms, what is the actual novelty here that isn't just sort of, yeah, document search over time?",
+    "startBeginning": 1489.8201,
+    "startEnd": 1506.615,
+    "ID": 84,
+    "numberOfWords": 54
+  },
+  {
+    "speaker": 7,
+    "text": "Yeah. So, Tracy, your your husband's a a former corporate lawyer. Mhmm. You know, he would tell",
+    "startBeginning": 1507.1749,
+    "startEnd": 1511.655,
+    "ID": 85,
+    "numberOfWords": 17
+  },
+  {
+    "speaker": 6,
+    "text": "you corporate lawyer.",
+    "startBeginning": 1511.815,
+    "startEnd": 1512.615,
+    "ID": 86,
+    "numberOfWords": 3
+  },
+  {
+    "speaker": 7,
+    "text": "Recovering corporate lawyer. Exactly. I am myself as well. One of the things he would tell you is that there's constant innovation in these markets. These agreements are highly complicated. They're very long. They have a lot of what's called long range dependencies, which is that you may be used to seeing something in a particular area of the document Uh-huh. Said one way. Mhmm. But in reality, it turns out it's punted to three different causes deep down, and you actually have to go find that information. This is why",
+    "startBeginning": 1512.9349,
+    "startEnd": 1540.4249,
+    "ID": 87,
+    "numberOfWords": 91
+  },
+  {
+    "speaker": 6,
+    "text": "It's also jujitsu between the borrowers and the lenders. Right? Because, like, the borrowers are often trying to hide something that's favorable to them, or the lenders are trying to hide something favorable to them. So the structure and the way it's worded changes a lot to your point.",
+    "startBeginning": 1540.6649,
+    "startEnd": 1554.01,
+    "ID": 88,
+    "numberOfWords": 49
+  },
+  {
+    "speaker": 7,
+    "text": "Exactly. And these are sophisticated parties paying millions, sometimes hundreds of millions of dollars in advisory fees to make sure that these terms look the way they do. Now that leads to kind of the technological innovation that I think has enabled a lot of this. AI, for the first time, can attribute, in particular, new language models can attribute more semantic meaning to phrases and language that was impossible with things like engrams. Mhmm. And so what Oetica does is it uses a series of language models, including a multilayered information extraction system to make sure that it's encoding all the semantic meaning inside all these terms so that when you look at a j Krew Barker in the first way, it may be phrased a thousand different ways, but we can track that term over time. That has enabled the ability to actually quantify for the first time what a market agreement term looks like in these markets. And I think that's why it's so interesting to folks on the platform.",
+    "startBeginning": 1554.505,
+    "startEnd": 1611.875,
+    "ID": 89,
+    "numberOfWords": 173
+  },
+  {
+    "speaker": 6,
+    "text": "So I know you're not doing litigation, but I guess I'm curious how you deal with or if AI is helpful with, in litigation, what would be called precedent. But I'm assuming you're building up a big database of all these different deal documents. Is it useful is AI useful to go back and look at previous documents in order to shape new ones?",
+    "startBeginning": 1613.0751,
+    "startEnd": 1634.59,
+    "ID": 90,
+    "numberOfWords": 64
+  },
+  {
+    "speaker": 7,
+    "text": "Yeah. Exactly. So at Noetica, we are ultimately an AI powered software company, but we actually have the largest knowledge graph of deal terms in existence. So, Tracy, exactly what you said, it's a database, ultimately, of precedent comparable deal terms. And that database, this is gonna be mind blowing, has over billing terms in it. So digital largest in existence, we map that back to deal characteristics. It's the same in litigation. Right? So in transactional markets, folks are innovative, but they also wanna rely on something that has happened before, or at least in part, they wanna rely on something that has happened before. And so folks are constantly looking for ways to tie things back to comparable deal terms. It's the same in litigation. So, obviously, not my expertise, but the same concept, which is, you know, when you write a brief, you are constantly citing cases that the judge has, you know, relied on in the past. And, you know, for lawyers and, you know, outside of lawyers, even just deal professionals, generally bankers, credit managers, people are highly reliant on precedent.",
+    "startBeginning": 1635.825,
+    "startEnd": 1696.605,
+    "ID": 91,
+    "numberOfWords": 186
+  },
+  {
+    "speaker": 5,
+    "text": "What what is your tech stack? Or did you what do you build, and how much is it like, oh, you're using ChatGPT's API, etcetera. Like, okay. Yes. Large language models are good at identifying deal terms or novelty, etcetera. There's semantic meaning of these terms. But what did you actually build, and what do you actually employ in your technology?",
+    "startBeginning": 1697.485,
+    "startEnd": 1716.9099,
+    "ID": 92,
+    "numberOfWords": 61
+  },
+  {
+    "speaker": 7,
+    "text": "So we were started in 2022. So we're what you would call AI native. Uh-huh. And we were started in a system that already language models existed in. However, we because of the nature of the sensitive documents in terms that we deal with, especially for, you know, major law firms, financial institutions.",
+    "startBeginning": 1717.905,
+    "startEnd": 1735.16,
+    "ID": 93,
+    "numberOfWords": 53
+  },
+  {
+    "speaker": 5,
+    "text": "Like a big issue",
+    "startBeginning": 1735.7201,
+    "startEnd": 1736.12,
+    "ID": 94,
+    "numberOfWords": 4
+  },
+  {
+    "speaker": 7,
+    "text": "in them.",
+    "startBeginning": 1736.52,
+    "startEnd": 1736.76,
+    "ID": 95,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 5,
+    "text": "Right? That they don't wanna just be uploading their stuff to chat UPT. Right?",
+    "startBeginning": 1736.8401,
+    "startEnd": 1739.9601,
+    "ID": 96,
+    "numberOfWords": 14
+  },
+  {
+    "speaker": 7,
+    "text": "Exactly. And so we actually utilize, you know, adopted language models, open source language models that we adopt on our own proprietary datasets and then deploy in secure environments and single tenant architectures, you know, for individual instances of institutions that deploy our product. And so you could think about it as based on the language models that are ultimately underpinning a lot of the GPTs and the clouds. However, it's fine tuned to this particular dataset, which makes it obviously much better at handling this exact problem, which is a big problem in the market. Now we also layer on top of that information extraction model. So for instance, you may know that a term exists and what deal, but you may wanna know what terms should exist for a JPMorgan deal or for a B of A deal or for, you know, a particular type of counterparty. And so in those context, we actually wanna map those deal terms back to deal characteristics, and we actually utilize a lot of models to extract information and marry that with third party datasets. So that's a little bit about how the technology works. I think I always think about it from the user standpoint. What does the user really want? The user really wants to know how they're gonna advise their client on a particular merger, on a particular credit deal. How often does this come up? You always call your attorney, and you're trying to figure out, oh, is this market? Is it off market? And that's what our data provides.",
+    "startBeginning": 1740.4401,
+    "startEnd": 1819.32,
+    "ID": 97,
+    "numberOfWords": 262
+  },
+  {
+    "speaker": 6,
+    "text": "Okay. So structural fortifications in deal terms. What are you seeing right now? Because as we started this conversation, we were talking a lot about the recent blow ups in the private credit market. And if you look at some spreads on certain firms, certain bonds, it does seem like nervousness is creeping back into the market. I see spreads on, you know it's not private credit, but spreads on triple c rated debt have been creeping up recently. How scared or concerned are people right now?",
+    "startBeginning": 1820.12,
+    "startEnd": 1851.25,
+    "ID": 98,
+    "numberOfWords": 87
+  },
+  {
+    "speaker": 7,
+    "text": "Well, I, I recently wrote about this in the Wall Street Journal a little bit, and then folks contacted me and they kinda said, you know, you're causing a stir. And then I saw Howard Marks came out with his letter, which I think was called cockroaches in the coal mine. Mhmm. And it had a lot of the same themes. I think folks who have been around credit markets for a very long time can kinda see what's a little bit of what's going on. To us let me just talk about what the data supports. To us, what we see is creditors may be preparing this their system for distress. Okay. And I'll talk about what we're seeing in the data that kind of supports that. But you could think about it like the evolution of your house security. Right? So, you know, first, you lock the doors, then, you know, you get a bolt lock, which gives you better protection. You know? Then you, you know, you add a security system on top of that, an alarm system. And at the end, what do you do? You kinda count up all your valuables, and you insure them Mhmm. If people are gonna get into the house. And, you know, for the past few years, we've seen lenders really focus on keeping people out. This is the locks and the deadbolt, and this is what we were talking about with J. Crew Blockers. This is making sure you can't structure around me from a liability management perspective. But over the last quarter, something kind of changed, which is we started seeing people and lenders obsessed with lien subordination terms, which is the term that governs who gets paid first when everything falls apart. So this isn't really about preventing liability management exercises that much. It's it's actually about controlling the recovery when a bankruptcy does happen. And so we clocked that term at 84% of deals in q three, biggest quarterly jump we've ever seen from the prior quarter. It's also the highest we've ever clocked that term. So this begs the question of why. Why are creditors so focused on making sure their place in line is",
+    "startBeginning": 1852.3251,
+    "startEnd": 1973.3251,
+    "ID": 99,
+    "numberOfWords": 370
+  },
+  {
+    "speaker": 6,
+    "text": "In recovery.",
+    "startBeginning": 1973.805,
+    "startEnd": 1974.125,
+    "ID": 100,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 7,
+    "text": "In recovery is the same. Perhaps it's a reaction to the liability management transactions we've talked about. Mhmm. So perhaps folks are thinking that that will precipitate. Perhaps it's a reaction to some of the maturity walls that folks understand. Or perhaps it's some of what I was saying in the op ed, which is folks are seeing that there may be distress events on the horizon, and they wanna make sure that if there is, they have the most negotiating leverage as possible.",
+    "startBeginning": 1974.765,
+    "startEnd": 2000.275,
+    "ID": 101,
+    "numberOfWords": 84
+  },
+  {
+    "speaker": 6,
+    "text": "Hey there, Odd Lots listeners. As we come into 2026, we are realizing that one thing we're constantly thinking about on the show is how companies actually get built. Not just, like, the headline version of that story, but the messy operational reality of it.",
+    "startBeginning": 2017.08,
+    "startEnd": 2034.835,
+    "ID": 102,
+    "numberOfWords": 45
+  },
+  {
+    "speaker": 5,
+    "text": "Right. We love messy operational reality of things. The never ending quest to dive deeper, how companies make it big, what causes one company to succeed, why others fail.",
+    "startBeginning": 2035.315,
+    "startEnd": 2045.2301,
+    "ID": 103,
+    "numberOfWords": 29
+  },
+  {
+    "speaker": 6,
+    "text": "Well, I have good news. That is exactly what the Acquired podcast does. Ben Gilbert and David Rosenthal pick a company and then explore all the ins and outs of its trajectory. Lots of detail there, how it scaled, the ups and downs, and so much more.",
+    "startBeginning": 2046.11,
+    "startEnd": 2062.215,
+    "ID": 104,
+    "numberOfWords": 47
+  },
+  {
+    "speaker": 5,
+    "text": "Yeah. And we actually had them on Odd Lots back in February. We talked to them about everything from TSMC, NVIDIA, Mars, Hermes, scale, capital structure, the importance of incentives, all of the different, I guess, ingredients that go into some of the success of these names that we talk about every day.",
+    "startBeginning": 2062.615,
+    "startEnd": 2080.105,
+    "ID": 105,
+    "numberOfWords": 53
+  },
+  {
+    "speaker": 6,
+    "text": "Also, their show actually turned ten years old in 2025 just like us. So we're, I guess, the same age in podcast years.",
+    "startBeginning": 2080.6648,
+    "startEnd": 2087.625,
+    "ID": 106,
+    "numberOfWords": 23
+  },
+  {
+    "speaker": 5,
+    "text": "Big year. Anyway, if you like Odd Laws, the way we get into various market dynamics, how the economy actually works under the hood, you'll obviously appreciate and enjoy the acquired podcast. They do similar work, similar ideas, all focused on the context of individual company.",
+    "startBeginning": 2088.105,
+    "startEnd": 2103.38,
+    "ID": 107,
+    "numberOfWords": 46
+  },
+  {
+    "speaker": 6,
+    "text": "So go check out the acquired podcast. You can find them wherever you get your podcasts.",
+    "startBeginning": 2104.02,
+    "startEnd": 2108.34,
+    "ID": 108,
+    "numberOfWords": 16
+  },
+  {
+    "speaker": 4,
+    "text": "You wanna know what my evenings actually look like? Homework questions. Someone needs a permission slip signed. The dog's begging for a walk. Someone's yelling for a snack. And somewhere in the middle of all that, I'm supposed to figure out dinner? That's why HelloFresh has been a lifesaver. Fresh ingredients show up at my door locally sourced when possible. Simple step by step recipes that actually make sense. And no matter how chaotic the rest of my night gets, dinner is the one thing I don't have to stress about. I'm just cooking a delicious meal my family will actually eat, and it takes around thirty minutes. And honestly, the real value is knowing that even on the messiest nights, dinner's handled. That's one less thing pulling at me, and that matters. Take some stress out of your evenings right now. Get 50% off your first box plus free sides for life. That's right. Free sides for life. Go to hellofresh.ca and use code meal 50. That's hellofresh.c a code meal 50. HelloFresh, Canada's number one meal kit delivery service.",
+    "startBeginning": 2112.2148,
+    "startEnd": 2171.455,
+    "ID": 109,
+    "numberOfWords": 181
+  },
+  {
+    "speaker": 2,
+    "text": "There's no championship league for small business owners. But if there was, you'd be at the top of the standings. Because going pro with LenovoPro means you've got the winning formation. One on one advice, IT solutions, and customized hardware powered by Intel Core Ultra processors help you stay ahead of the competition. Business goes pro with Lenovo Pro. Sign up for free at lenovo.com/pro.",
+    "startBeginning": 2172.175,
+    "startEnd": 2195.645,
+    "ID": 110,
+    "numberOfWords": 65
+  },
+  {
+    "speaker": 5,
+    "text": "So I know it's broad statements, but, you know, when we look at the sort of environment under which companies like First Brands or Tricolor, some of these other ones that have gone into distress very rapidly, when we look back at when these were birthed, etcetera, can we say, like, these were sloppy times? These were loose, sloppy times that people are not thinking much about either just quality due diligence or diligent terms?",
+    "startBeginning": 2202.96,
+    "startEnd": 2229.7651,
+    "ID": 111,
+    "numberOfWords": 75
+  },
+  {
+    "speaker": 7,
+    "text": "Yeah. So I think with First Brands is a great example. Right? So First Brands is an automotive replacement company. Right? So they make things like brakes and",
+    "startBeginning": 2230.69,
+    "startEnd": 2241.25,
+    "ID": 112,
+    "numberOfWords": 28
+  },
+  {
+    "speaker": 5,
+    "text": "Yeah.",
+    "startBeginning": 2241.6501,
+    "startEnd": 2241.6501,
+    "ID": 113,
+    "numberOfWords": 1
+  },
+  {
+    "speaker": 7,
+    "text": "Wipers and filtration systems. Beginning in 2019, that company effectively rapidly expanded through debt fueled acquisitions, and it dramatically increased its scale. But I think what First Brands illustrates is something that, you know, we might get into with the private credit markets, which is that they primarily funded these acquisitions with large debt facilities. Then tariffs hit in April 2025, which obviously changed their business because they actually do a lot of manufacturing. And that kinda magnified problems. So you could think about one of the main problems with FirstBrands, which is also kind of some of what folks are worried about in the private credit markets today, is what's called off balance sheet financing. What First Brand used is a lot of, you know, receivables financing facilities that weren't properly disclosed to a lot of folks that were lending to the company. In fact, I think in that sense, just to give you a sense of quantum, this is over $11,000,000,000 of total obligations that they had when they actually, started disclosing it in terms of off balance sheet financing. And, you know, they were disclosing things like 5 to $6,000,000,000 of actual debt obligations. And so this led one of the creditors' lawyers to say that $2,300,000,000 just disappeared. And so that structure, the ability for First Prince to get that debt was made possible by the private credit markets and how deep the private credit markets have become. Because if you're a big credit manager in private credit markets, you could fund, you know, that type of receivable facility to a First Brands. And First Brands could use that facility to then, you know, make sure they are constantly, continuing to acquire new businesses and and keep rolling over the the cash.",
+    "startBeginning": 2242.05,
+    "startEnd": 2353.22,
+    "ID": 114,
+    "numberOfWords": 296
+  },
+  {
+    "speaker": 6,
+    "text": "I have a theory that receivables financing and factoring is to the private credit market what French quants who went to that one really elite school",
+    "startBeginning": 2354.42,
+    "startEnd": 2363.2751,
+    "ID": 115,
+    "numberOfWords": 26
+  },
+  {
+    "speaker": 5,
+    "text": "I like this theory.",
+    "startBeginning": 2363.675,
+    "startEnd": 2364.155,
+    "ID": 116,
+    "numberOfWords": 4
+  },
+  {
+    "speaker": 6,
+    "text": "Are to, to trading blow ups.",
+    "startBeginning": 2364.475,
+    "startEnd": 2366.235,
+    "ID": 117,
+    "numberOfWords": 6
+  },
+  {
+    "speaker": 5,
+    "text": "I like that theory.",
+    "startBeginning": 2366.875,
+    "startEnd": 2367.435,
+    "ID": 118,
+    "numberOfWords": 4
+  },
+  {
+    "speaker": 6,
+    "text": "Yeah. Thanks. So the other thing we wanted to ask you about, and, again, we referenced this in the intro, is we are seeing these really complicated deals that I admittedly cannot keep track of in the AI market where, you know, one company is gonna buy chips from this other company, and then that company is gonna borrow from whoever and use the chip's funding to pay them back. And then that money somehow goes into the company that is buying the stuff in the first place. It is all very circular, all very incestuous in many ways in my mind. Are you examining those types of deals or just putting on your credit expertise hat? If you see something like that, what are you thinking?",
+    "startBeginning": 2367.915,
+    "startEnd": 2405.54,
+    "ID": 119,
+    "numberOfWords": 127
+  },
+  {
+    "speaker": 7,
+    "text": "Yeah. Well, it it's probably helpful to kind of talk about some of the structure of these deals, which I think, again, is made possible by how deep the private credit markets have become. And usually, when I I do that, I try to think about let's try to make this a little bit more fun. So imagine for a minute, Joe, you just love pizza.",
+    "startBeginning": 2406.34,
+    "startEnd": 2425.225,
+    "ID": 120,
+    "numberOfWords": 66
+  },
+  {
+    "speaker": 5,
+    "text": "Yeah. He",
+    "startBeginning": 2425.7852,
+    "startEnd": 2426.105,
+    "ID": 121,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 6,
+    "text": "does love pizza.",
+    "startBeginning": 2426.345,
+    "startEnd": 2426.665,
+    "ID": 122,
+    "numberOfWords": 3
+  },
+  {
+    "speaker": 7,
+    "text": "I do.",
+    "startBeginning": 2426.905,
+    "startEnd": 2426.985,
+    "ID": 123,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 5,
+    "text": "I had it yesterday twice.",
+    "startBeginning": 2427.065,
+    "startEnd": 2427.865,
+    "ID": 124,
+    "numberOfWords": 5
+  },
+  {
+    "speaker": 7,
+    "text": "There you go. You're a pizza fanatic. You love it so much that you decide to eat pizza every single meal of every single day for the rest of your life. Like, you are committed to subsisting on",
+    "startBeginning": 2428.185,
+    "startEnd": 2437.97,
+    "ID": 125,
+    "numberOfWords": 38
+  },
+  {
+    "speaker": 6,
+    "text": "pizza. To the carbs.",
+    "startBeginning": 2438.29,
+    "startEnd": 2439.33,
+    "ID": 126,
+    "numberOfWords": 4
+  },
+  {
+    "speaker": 7,
+    "text": "Exactly. So, Joe, you made that decision. You come to me and you say, hey, Dan. I'm gonna eat pizza for every meal of my entire life. How about you open a pizza restaurant for me to eat at? It'll be really lucrative. You have a",
+    "startBeginning": 2440.13,
+    "startEnd": 2453.305,
+    "ID": 127,
+    "numberOfWords": 46
+  },
+  {
+    "speaker": 5,
+    "text": "I see where I was wondering where you were going with this, but this is actually a very good to know to you. Right? Like, you would have to have a lot of confidence in me to commit to my word if you're gonna open a restaurant. I",
+    "startBeginning": 2453.625,
+    "startEnd": 2462.05,
+    "ID": 128,
+    "numberOfWords": 48
+  },
+  {
+    "speaker": 7,
+    "text": "keep Yeah. Now now you come to me and you say, this is gonna be super lucrative. Yeah. Here's how we're gonna fund it. 10% equity. The bank is gonna give you 90% of the funding in leverage, and it's Dan's restaurant. Joe, you don't own the restaurant Yeah. But you're gonna eat at it",
+    "startBeginning": 2462.21,
+    "startEnd": 2475.415,
+    "ID": 129,
+    "numberOfWords": 55
+  },
+  {
+    "speaker": 5,
+    "text": "every single day. Full beneficiary of it.",
+    "startBeginning": 2475.4949,
+    "startEnd": 2476.855,
+    "ID": 130,
+    "numberOfWords": 7
+  },
+  {
+    "speaker": 7,
+    "text": "Full beneficiary of the restaurant, but it's 90% levered. Okay. So I open the restaurant. You eat there every single day. Now Tracy, Joe comes to you for a personal loan to fund his lifestyle.",
+    "startBeginning": 2476.935,
+    "startEnd": 2488.215,
+    "ID": 131,
+    "numberOfWords": 35
+  },
+  {
+    "speaker": 6,
+    "text": "His pizza eating lifestyle.",
+    "startBeginning": 2489.31,
+    "startEnd": 2490.4302,
+    "ID": 132,
+    "numberOfWords": 4
+  },
+  {
+    "speaker": 5,
+    "text": "Tracy trust me. She would lend it to me. Yeah.",
+    "startBeginning": 2490.99,
+    "startEnd": 2492.59,
+    "ID": 133,
+    "numberOfWords": 10
+  },
+  {
+    "speaker": 7,
+    "text": "Well, here's the question. Right? Should you, Tracy, consider the 90% levered pizza restaurant that Joe is eating at for all his meals? Now, on the one hand, it's not Joe's loan. Right? So he's not on hook with the pizza restaurant goes under. On the other hand, it's Joe's only source of food, which is",
+    "startBeginning": 2492.99,
+    "startEnd": 2513.355,
+    "ID": 134,
+    "numberOfWords": 56
+  },
+  {
+    "speaker": 6,
+    "text": "Joe will die without the restaurant.",
+    "startBeginning": 2513.595,
+    "startEnd": 2514.7148,
+    "ID": 135,
+    "numberOfWords": 6
+  },
+  {
+    "speaker": 7,
+    "text": "Which is his he's committed to the restaurant. And it kinda makes the restaurant intertwined with Joe's ability to pay your personal loan back. So I guess that's the question.",
+    "startBeginning": 2515.275,
+    "startEnd": 2524.79,
+    "ID": 136,
+    "numberOfWords": 30
+  },
+  {
+    "speaker": 5,
+    "text": "No. That's great. So now let's take it out of pizza. Who is So that's whatever. Like okay. Now who is the chips buyer or whatever?",
+    "startBeginning": 2525.3499,
+    "startEnd": 2531.91,
+    "ID": 137,
+    "numberOfWords": 26
+  },
+  {
+    "speaker": 7,
+    "text": "This is essentially what's what's happening with off balance sheet financing and data center deals. So and it includes Meta's I I'm sure you saw the Hyperion deal, which is Meta's AI infrastructure deal with Blue Owl, except I think it's even more intriguing than some of the pizza stuff. So Meta and Blue Owl basically created a joint venture in a special purpose vehicle, not that different than the restaurant. And the deal is the joint venture would be owned 20% by Meta, 80% by Blue Owl. So Blue Owl controls it, and it would effectively be funded with 90% leverage. So call it $30,000,000,000 of total enterprise value, $3,000,000,000 of equity, $27,000,000,000 give or take of debt. In other words, Blue Owl is effectively owning the restaurant. Meta is effectively eating at the restaurant, and the bank's funded with 90% leverage. So what this does is it keeps the debt off of Meta's books, right, while also giving investors, credit managers, the ability to put money against a data center asset. So Meta, in this deal, will make rent payments associated with the data center based on its cost of power. That's the cash flow that's going to the SPV, and that effectively funds the interest expense. Let's just talk about the debt for a second. Yeah. In a normal LBO context, 90% leverage is pretty exceptionally high. Most people would consider 50 to 80% leverage to be relatively normal for a stable cash flow business. So the debt itself is actually quite high on some of these structures. The only reason it was possible was because it was given an investment grade credit rating, and in part because Meta agreed to a four year operating lease with what's called a residual value guarantee, which means that Meta is guaranteeing a capped amount of some of that cash flow. However, that guarantee is capped and is only partial, which is why they don't have to take it onto their books and why it would be a footnote as a contingent debt obligation in their balance sheet. Now let's talk about the asset that's being underwritten. This isn't pizza. Pizza actually has a stable price. Right? We have thousands of years of history on pizza. Right? And you can track that price over time. Data centers optimized for GPU performance on training fundamental AI models, not so much of a mature asset. Actually, I think most folks would think about it as a burgeoning asset. Now I'm in this world. I mean, folks, there's high amount of demand for a lot of this compute, and I I definitely think the demand is there. But at the end of the day, it's an immature asset with a price that isn't so well defined. So just to recap, you've got off balance sheet financing, which isn't reflected with whoever is lending money to Meta or even buying its equity, with 90% leverage on an immature asset. And I think that's why these deals are so interesting. So from our point of view, I mean, to make sure you get the terms right, and, you know, we will look at these data center. A lot of these these types of financings run through our platform all the time. To make sure you get the terms right on what this structural protections look like in these deals is critical for the fortification of something that is in the structure. So",
+    "startBeginning": 2532.39,
+    "startEnd": 2710.635,
+    "ID": 138,
+    "numberOfWords": 577
+  },
+  {
+    "speaker": 6,
+    "text": "I know we've seen these idiosyncratic blow ups in the private credit market so far, but just looking at the AI market in particular and the financing there, it feels like right now people are still willing to lend money. And we've talked about this on the show before, but a lot of the AI competition is couched in this existential language of you either win at AI or die, basically, and so the spending keeps going. What is your guess on, like, the thing that kind of knocks that cycle or that flywheel and tears it apart?",
+    "startBeginning": 2711.915,
+    "startEnd": 2747.095,
+    "ID": 139,
+    "numberOfWords": 98
+  },
+  {
+    "speaker": 7,
+    "text": "So I'm obviously in the AI industry. We're we're in the credit industry, so we see both sides of this phenomenon. I fundamentally believe AI is a paradigm shift. I would not have left, you know, the deal markets if I didn't think that. And I think what we're witnessing is very similar to the Internet in the nineteen nineties or the iPhone in the February or social media in the twenty tens. And I think this paradigm shift is going to ultimately change a ton of industries, including capital markets and finance and law and all these amazing industries. And so that, I think, is very true. But I also think two things can be true. I think AI can be a generation defining category and a technology that's upending a lot of industries. But I also think that categories will have winners and losers. Mhmm. And when folks are racing to define a category, as, you know, you often see with a lot of these transformational types of technology, there may be more losers in the headlines than you're used to seeing in a lot of these markets, but the winners will be bigger than anyone's ever imagined.",
+    "startBeginning": 2748.24,
+    "startEnd": 2818.33,
+    "ID": 140,
+    "numberOfWords": 200
+  },
+  {
+    "speaker": 5,
+    "text": "Alright. So if I don't eat the pizza, someone else is gonna pick up the pizza, and they're gonna they're gonna eat it.",
+    "startBeginning": 2818.8901,
+    "startEnd": 2823.85,
+    "ID": 141,
+    "numberOfWords": 23
+  },
+  {
+    "speaker": 7,
+    "text": "Look. What we focus on in Know What Again is in a market moving this fast Yeah. We all need to pay attention to the terms that are actually underpinning a lot of these markets to make sure if there is any bleeding, that bleeding gets stopped as quickly as possible. Just to give you one last example from a recent market deal, you can look at the Frank JPM deal as, like, a really interesting one. This is, you know, this was a deal where JPMorgan paid paid a $175,000,000 to acquire a company. It's a very small deal, but to acquire a company called Frank, which is a streamlined FAFSA kind of support service.",
+    "startBeginning": 2824.205,
+    "startEnd": 2857.3352,
+    "ID": 142,
+    "numberOfWords": 116
+  },
+  {
+    "speaker": 5,
+    "text": "Oh, I know. I remember this.",
+    "startBeginning": 2858.215,
+    "startEnd": 2859.5752,
+    "ID": 143,
+    "numberOfWords": 6
+  },
+  {
+    "speaker": 7,
+    "text": "It turned out",
+    "startBeginning": 2859.975,
+    "startEnd": 2860.2952,
+    "ID": 144,
+    "numberOfWords": 3
+  },
+  {
+    "speaker": 5,
+    "text": "Yeah.",
+    "startBeginning": 2860.695,
+    "startEnd": 2860.695,
+    "ID": 145,
+    "numberOfWords": 1
+  },
+  {
+    "speaker": 7,
+    "text": "There was a lot of synthetically made up types of data in that business. And the",
+    "startBeginning": 2861.0952,
+    "startEnd": 2867.0151,
+    "ID": 146,
+    "numberOfWords": 16
+  },
+  {
+    "speaker": 5,
+    "text": "founders go into prison. Right?",
+    "startBeginning": 2867.0952,
+    "startEnd": 2868.135,
+    "ID": 147,
+    "numberOfWords": 5
+  },
+  {
+    "speaker": 7,
+    "text": "Allegedly, there's a lot of there's a lot of made up, stuff in the business. And I think there's",
+    "startBeginning": 2869.07,
+    "startEnd": 2873.31,
+    "ID": 148,
+    "numberOfWords": 19
+  },
+  {
+    "speaker": 5,
+    "text": "a couple of executive who worked at Frank Sends to sixty eight months in prison. Yeah.",
+    "startBeginning": 2873.4302,
+    "startEnd": 2877.71,
+    "ID": 149,
+    "numberOfWords": 16
+  },
+  {
+    "speaker": 7,
+    "text": "Yeah. And so but I I think the most interesting part about this particular transaction to me is JPM ended up signing a merger agreement that said that the indemnification for the founders' litigation, for any founders' litigation, would be paid for by JPM.",
+    "startBeginning": 2878.19,
+    "startEnd": 2895.23,
+    "ID": 150,
+    "numberOfWords": 44
+  },
+  {
+    "speaker": 5,
+    "text": "Right. They paid her lawyer.",
+    "startBeginning": 2895.63,
+    "startEnd": 2896.3499,
+    "ID": 151,
+    "numberOfWords": 5
+  },
+  {
+    "speaker": 7,
+    "text": "They paid a $115,000,000 in legal expenses for her lawyer on her fraud. K. And so when you're moving really fast",
+    "startBeginning": 2896.83,
+    "startEnd": 2903.55,
+    "ID": 152,
+    "numberOfWords": 21
+  },
+  {
+    "speaker": 5,
+    "text": "Yeah.",
+    "startBeginning": 2903.95,
+    "startEnd": 2903.95,
+    "ID": 153,
+    "numberOfWords": 1
+  },
+  {
+    "speaker": 7,
+    "text": "Right, you can kind of ignore some of the nuts and bolts. But I think it's actually even more critical and fast moving markets.",
+    "startBeginning": 2904.5898,
+    "startEnd": 2910.665,
+    "ID": 154,
+    "numberOfWords": 24
+  },
+  {
+    "speaker": 5,
+    "text": "Dan Wertman, cofounder of Noetica. Thank you so much for, coming on Appa.",
+    "startBeginning": 2911.3052,
+    "startEnd": 2914.585,
+    "ID": 155,
+    "numberOfWords": 13
+  },
+  {
+    "speaker": 7,
+    "text": "Thank you. Thanks for having me.",
+    "startBeginning": 2915.3052,
+    "startEnd": 2916.425,
+    "ID": 156,
+    "numberOfWords": 6
+  },
+  {
+    "speaker": 5,
+    "text": "Tracy, I wasn't really sure where he was going with that pizza analogy, but it actually does make a lot of sense. And it's something I think is a phenomenon in just a lot of financial transactions, which is how much, like, in certain environments, the lender and the creditor are, like, both each other's like, they're both leaning on each other. They're both the creditor and lender.",
+    "startBeginning": 2929.28,
+    "startEnd": 2947.7048,
+    "ID": 157,
+    "numberOfWords": 68
+  },
+  {
+    "speaker": 6,
+    "text": "They're relying on each",
+    "startBeginning": 2948.1501,
+    "startEnd": 2948.79,
+    "ID": 158,
+    "numberOfWords": 4
+  },
+  {
+    "speaker": 5,
+    "text": "other. Yeah. At the same time. Yeah.",
+    "startBeginning": 2948.95,
+    "startEnd": 2950.07,
+    "ID": 159,
+    "numberOfWords": 7
+  },
+  {
+    "speaker": 6,
+    "text": "Much in the way you rely on pizza.",
+    "startBeginning": 2950.31,
+    "startEnd": 2951.59,
+    "ID": 160,
+    "numberOfWords": 8
+  },
+  {
+    "speaker": 5,
+    "text": "You would lend to me to buy to eat pizza. Right?",
+    "startBeginning": 2952.07,
+    "startEnd": 2954.1501,
+    "ID": 161,
+    "numberOfWords": 11
+  },
+  {
+    "speaker": 6,
+    "text": "I would.",
+    "startBeginning": 2954.55,
+    "startEnd": 2954.71,
+    "ID": 162,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 5,
+    "text": "Thank you, chief.",
+    "startBeginning": 2955.11,
+    "startEnd": 2955.51,
+    "ID": 163,
+    "numberOfWords": 3
+  },
+  {
+    "speaker": 6,
+    "text": "If it if it was a matter of survival Yeah.",
+    "startBeginning": 2955.71,
+    "startEnd": 2958.07,
+    "ID": 164,
+    "numberOfWords": 10
+  },
+  {
+    "speaker": 5,
+    "text": "If it's a matter of survival. Thank you.",
+    "startBeginning": 2958.23,
+    "startEnd": 2959.51,
+    "ID": 165,
+    "numberOfWords": 8
+  },
+  {
+    "speaker": 6,
+    "text": "I appreciate it. Because you wanna eat really expensive pizza, then no.",
+    "startBeginning": 2959.6702,
+    "startEnd": 2962.55,
+    "ID": 166,
+    "numberOfWords": 12
+  },
+  {
+    "speaker": 5,
+    "text": "You know, the other thing too is just, like, from talking to you over these years, you know, how many times I've heard something, there's a lot of cove light stuff going. It is interesting to think that, like, you don't often hear that quantified, what that means. Right? Things are, like, cove light these days, etcetera. And the idea that, like, maybe we could get better numbers on some of these things seems like potentially labor saving for lawyers, stuff like that.",
+    "startBeginning": 2963.0151,
+    "startEnd": 2984.73,
+    "ID": 167,
+    "numberOfWords": 83
+  },
+  {
+    "speaker": 6,
+    "text": "I don't know. The, the specific numbers on specific deal terms were really interesting to me. And the idea that even today, lawyers and bankers still have trouble anticipating every single thing that could happen to a particular deal, and so they're having to react to it and come up with the new terms, the new deal language, and insert them into the documentation. I find that interesting. The tariff example.",
+    "startBeginning": 2985.1301,
+    "startEnd": 3007.04,
+    "ID": 168,
+    "numberOfWords": 71
+  },
+  {
+    "speaker": 5,
+    "text": "You know, the problem is is that AI is and this is I'm certain if we talk about this more. AI will be used to come up with new deal terms, and Yeah. The cat and mouse game will continue forever. So I suspect that we are not going to have lawyers will always find new work to do, and they'll just get work they'll just get more creative about outsmarting the systems that are designed to detect these phenomena.",
+    "startBeginning": 3007.52,
+    "startEnd": 3028.305,
+    "ID": 169,
+    "numberOfWords": 80
+  },
+  {
+    "speaker": 7,
+    "text": "We will",
+    "startBeginning": 3028.945,
+    "startEnd": 3029.105,
+    "ID": 170,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 6,
+    "text": "end up with thousands and thousands of pages of term sheets that, like, humans are just physically incapable of reading. It has to be read by AI.",
+    "startBeginning": 3029.2651,
+    "startEnd": 3037.98,
+    "ID": 171,
+    "numberOfWords": 27
+  },
+  {
+    "speaker": 5,
+    "text": "I probably literally, that is what's gonna happen.",
+    "startBeginning": 3038.3,
+    "startEnd": 3040.22,
+    "ID": 172,
+    "numberOfWords": 8
+  },
+  {
+    "speaker": 6,
+    "text": "Yeah. Alright. Shall we leave it there?",
+    "startBeginning": 3040.6199,
+    "startEnd": 3042.06,
+    "ID": 173,
+    "numberOfWords": 7
+  },
+  {
+    "speaker": 7,
+    "text": "Let's",
+    "startBeginning": 3042.22,
+    "startEnd": 3042.22,
+    "ID": 174,
+    "numberOfWords": 1
+  },
+  {
+    "speaker": 5,
+    "text": "leave it there.",
+    "startBeginning": 3042.46,
+    "startEnd": 3042.78,
+    "ID": 175,
+    "numberOfWords": 3
+  },
+  {
+    "speaker": 6,
+    "text": "Alright. This has been another episode of the Odd Thoughts podcast. I'm Tracy Alloway. You can follow me at Tracy Alloway.",
+    "startBeginning": 3043.02,
+    "startEnd": 3047.82,
+    "ID": 176,
+    "numberOfWords": 21
+  },
+  {
+    "speaker": 5,
+    "text": "And I'm Jill Weisenthal. You can follow me at the stalwart. Follow our producers, Carmen Rodriguez at Carmen Arman, Dashiell Bennett at DashBot, and Cale Brooks at Cale Brooks. For more Odd Lots content, go to bloomberg.com/oddlots where we have the daily newsletter and all of our episodes. And you can chat about all of these topics twenty four seven in our Discord, discord.gg/oddlots.",
+    "startBeginning": 3048.435,
+    "startEnd": 3066.9001,
+    "ID": 177,
+    "numberOfWords": 64
+  },
+  {
+    "speaker": 6,
+    "text": "And if you enjoy Odd Lots, if you like it when we dive deep into deal documentation, then please leave us a positive review on your favorite podcast platform. And remember, if you are a Bloomberg subscriber, you can listen to all of our episodes absolutely ad free. All you need to do is find the Bloomberg channel on Apple Podcasts and follow the instructions there. Thanks for listening.",
+    "startBeginning": 3068.98,
+    "startEnd": 3088.095,
+    "ID": 178,
+    "numberOfWords": 69
+  },
+  {
+    "speaker": 2,
+    "text": "Pro drivers live for race day. But for small business owners, every day is race day. That's why going pro with Lenovo Pro matters. One on one advice, IT solutions, and customized hardware powered by Intel Core Ultra processors keep your business on the right track. Business goes pro with Lenovo Pro. Sign up for free at lenovo.com/pro.",
+    "startBeginning": 3120.46,
+    "startEnd": 3142.895,
+    "ID": 179,
+    "numberOfWords": 58
+  },
+  {
+    "speaker": 7,
+    "text": "I'm",
+    "startBeginning": 3147.17,
+    "startEnd": 3147.17,
+    "ID": 180,
+    "numberOfWords": 1
+  },
+  {
+    "speaker": 3,
+    "text": "Carol Masser.",
+    "startBeginning": 3151.25,
+    "startEnd": 3151.57,
+    "ID": 181,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 8,
+    "text": "And I'm Tim Stenevek inviting you to join us for the Bloomberg Businessweek daily podcast.",
+    "startBeginning": 3151.97,
+    "startEnd": 3156.05,
+    "ID": 182,
+    "numberOfWords": 15
+  },
+  {
+    "speaker": 3,
+    "text": "Now every day, we are bringing you reporting from the magazine that helps global leaders stay ahead.",
+    "startBeginning": 3156.6099,
+    "startEnd": 3160.985,
+    "ID": 183,
+    "numberOfWords": 17
+  },
+  {
+    "speaker": 8,
+    "text": "We've got insight on the people, the companies, and trends that are shaping today's complex economy.",
+    "startBeginning": 3161.3052,
+    "startEnd": 3165.225,
+    "ID": 184,
+    "numberOfWords": 16
+  },
+  {
+    "speaker": 3,
+    "text": "That's right, Tim. We're all over global business, finance, tech news, all as it is happening in real time, and we've got complete coverage of The US market close. Gotta say, basically, if it impacts financial markets, if it impacts companies, if it's impacting trends and narratives that are out there, we are on it.",
+    "startBeginning": 3165.7852,
+    "startEnd": 3180.1802,
+    "ID": 185,
+    "numberOfWords": 55
+  },
+  {
+    "speaker": 8,
+    "text": "We also have a lot of fun doing it. Bloomberg Businessweek also brings you the analysis behind the headlines through conversations with our expert guests.",
+    "startBeginning": 3180.4202,
+    "startEnd": 3187.54,
+    "ID": 186,
+    "numberOfWords": 25
+  },
+  {
+    "speaker": 3,
+    "text": "And we are doing this all live each weekday, and then we bring you the best analysis in our daily podcast.",
+    "startBeginning": 3187.86,
+    "startEnd": 3192.975,
+    "ID": 187,
+    "numberOfWords": 21
+  },
+  {
+    "speaker": 8,
+    "text": "Search for Bloomberg Business Week on YouTube, Apple, Spotify, or anywhere else you listen.",
+    "startBeginning": 3193.615,
+    "startEnd": 3197.375,
+    "ID": 188,
+    "numberOfWords": 14
+  },
+  {
+    "speaker": 3,
+    "text": "Check it out on your way home from work to",
+    "startBeginning": 3197.7751,
+    "startEnd": 3199.215,
+    "ID": 189,
+    "numberOfWords": 10
+  },
+  {
+    "speaker": 7,
+    "text": "catch up on the conversations that you missed during",
+    "startBeginning": 3199.375,
+    "startEnd": 3199.5352,
+    "ID": 190,
+    "numberOfWords": 9
+  },
+  {
+    "speaker": 3,
+    "text": "the business day.",
+    "startBeginning": 3199.855,
+    "startEnd": 3201.72,
+    "ID": 191,
+    "numberOfWords": 3
+  },
+  {
+    "speaker": 8,
+    "text": "And on the weekend, check it out for a complete wrap up of your business week.",
+    "startBeginning": 3202.2,
+    "startEnd": 3205.6401,
+    "ID": 192,
+    "numberOfWords": 16
+  },
+  {
+    "speaker": 3,
+    "text": "That's the Bloomberg Business Week daily podcast. I'm Carol Masser.",
+    "startBeginning": 3206.04,
+    "startEnd": 3208.68,
+    "ID": 193,
+    "numberOfWords": 10
+  },
+  {
+    "speaker": 8,
+    "text": "And I'm Tim Stanovec. Subscribe today wherever you get your podcasts.",
+    "startBeginning": 3209,
+    "startEnd": 3212.12,
+    "ID": 194,
+    "numberOfWords": 11
+  }
+]

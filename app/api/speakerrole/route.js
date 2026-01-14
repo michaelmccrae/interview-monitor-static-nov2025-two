@@ -11,76 +11,62 @@ export async function POST(req) {
   try {
     let turnData = await req.json();
 
-    console.log("🔥 RAW BODY RECEIVED:", JSON.stringify(turnData, null, 2));
-
     // ------------------------------
-    // BASIC VALIDATION
+    // 1. ANALYZE SPEAKER IDs
     // ------------------------------
     if (!Array.isArray(turnData)) {
-      return NextResponse.json(
-        { error: "Payload must be an array of turn objects" },
-        { status: 400 }
-      );
+      return NextResponse.json({ error: "Payload must be an array" }, { status: 400 });
     }
 
-    for (const t of turnData) {
-      if (!t || typeof t !== "object") {
-        return NextResponse.json(
-          { error: "Each turn must be an object" },
-          { status: 400 }
-        );
-      }
-      if (!t.text || typeof t.text !== "string") {
-        return NextResponse.json(
-          { error: "Each turn object must contain a text field" },
-          { status: 400 }
-        );
-      }
-    }
+    // Find the highest speaker ID to constrain the LLM
+    const speakerIds = turnData.map(t => t.speaker).filter(s => typeof s === 'number');
+    const maxSpeakerId = speakerIds.length > 0 ? Math.max(...speakerIds) : 0;
+    const expectedLength = maxSpeakerId + 1;
 
-    // ID of the last turn (optional for this logic, but kept from original)
-    const lastTurn = turnData[turnData.length - 1];
-    const turnID = lastTurn.ID;
+    console.log(`📊 Max Speaker ID: ${maxSpeakerId} (Expecting array of length ${expectedLength})`);
 
     // ------------------------------
-    // PROMPT
+    // 2. PROMPT
     // ------------------------------
     const prompt = `
-You are an automated JSON generator. Your ONLY task is to infer the role of each unique speaker based on the conversation context.
+You are an automated JSON generator. Your ONLY task is to infer the role of each unique speaker ID found in the conversation.
 
-STRICT RULES:
-1. Output MUST be valid JSON.
-2. Allowed keys ONLY:
-   - "speakerRole"
-   - "speakerRoleConfidence"
-   - "speakerRoleTimestamp"
-3. "speakerRole" MUST be an array of strings. The index of the array corresponds to the speaker ID (0, 1, 2, etc.).
-4. "speakerRoleConfidence" MUST be an array of numbers (0.0 to 1.0).
-5. "speakerRoleTimestamp" MUST be an ISO timestamp.
+STRICT DATA RULES:
+1. The conversation has Speaker IDs ranging from 0 to ${maxSpeakerId}.
+2. Your "speakerRole" array MUST have exactly ${expectedLength} items.
+   - Index 0 corresponds to Speaker 0.
+   - Index 1 corresponds to Speaker 1.
+   - ...
+   - Index ${maxSpeakerId} corresponds to Speaker ${maxSpeakerId}.
+3. Do NOT output a role for every turn. Consolidate by Speaker ID.
+
+OUTPUT FORMAT:
+{
+  "speakerRole": ["RoleForSpeaker0", "RoleForSpeaker1", ...],
+  "speakerRoleConfidence": [0.9, 1.0, ...],
+  "speakerRoleTimestamp": "ISO_STRING"
+}
 
 ROLE CLASSIFICATION RULES:
-- "Interviewer": The host, moderator, or person asking the primary questions.
-- "Guest": A participant answering questions or being interviewed. (There can be multiple distinct guests).
-- "Announcer": A formalized voice used for intros, outros, ads, or disclaimers.
-- "Voiceover": A narrator providing context, usually not part of the direct conversation.
-- "Undefined": Background noise, unintelligible speakers, or if the role is impossible to determine.
+- "Interviewer": The host or moderator. Leads the show.
+- "Guest": A participant answering questions.
+- "Announcer": A voice used ONLY for intros, outros, or ads.
+- "Voiceover": Narrator providing context.
+- "Undefined": Background noise or impossible to determine.
 
-Analyze this array of conversation turns:
-
+Analyze this conversation:
 <OBJECT>
 ${JSON.stringify(turnData, null, 2)}
 </OBJECT>
 
-Return ONLY the JSON. No Markdown formatting.
+Return ONLY the JSON.
 `;
 
-    console.log("🧠 Sending prompt to OpenAI...");
-
     // ------------------------------
-    // OPENAI CALL
+    // 3. OPENAI CALL
     // ------------------------------
     const completion = await client.chat.completions.create({
-      model: "gpt-4o-mini", // Updated to valid model name
+      model: "gpt-4o-mini", 
       response_format: { type: "json_object" },
       messages: [
         {
@@ -95,43 +81,37 @@ Return ONLY the JSON. No Markdown formatting.
     });
 
     const raw = completion.choices[0].message.content;
-    console.log("📥 Raw model JSON:", raw);
-
     let parsed;
     try {
       parsed = JSON.parse(raw);
     } catch (err) {
-      console.error("❌ JSON parse error:", err);
-      return NextResponse.json(
-        { error: "Invalid JSON from model", raw },
-        { status: 500 }
-      );
+      return NextResponse.json({ error: "Invalid JSON from model", raw }, { status: 500 });
     }
 
     // ------------------------------
-    // WHITELIST ONLY ALLOWED KEYS
+    // 4. SANITIZATION LAYER
     // ------------------------------
-    const allowed = new Set([
-      "speakerRole",
-      "speakerRoleConfidence",
-      "speakerRoleTimestamp",
-    ]);
-
-    for (const key of Object.keys(parsed)) {
-      if (!allowed.has(key)) delete parsed[key];
+    // Ensure array length matches expected speakers (fill missing with "Undefined")
+    if (Array.isArray(parsed.speakerRole)) {
+        // Truncate if too long (fix for your specific bug)
+        if (parsed.speakerRole.length > expectedLength) {
+            parsed.speakerRole = parsed.speakerRole.slice(0, expectedLength);
+            if (parsed.speakerRoleConfidence) {
+                parsed.speakerRoleConfidence = parsed.speakerRoleConfidence.slice(0, expectedLength);
+            }
+        }
+        
+        // Pad if too short
+        while (parsed.speakerRole.length < expectedLength) {
+            parsed.speakerRole.push("Undefined");
+            if (parsed.speakerRoleConfidence) parsed.speakerRoleConfidence.push(0);
+        }
     }
 
     // Server timestamp override
     parsed.speakerRoleTimestamp = new Date().toISOString();
 
-    // ------------------------------
-    // FINAL RESPONSE
-    // ------------------------------
-    const finalResponse = {
-      // ID: turnID,
-      // "metadata": "speaker role",
-      ...parsed,
-    };
+    const finalResponse = { ...parsed };
 
     console.log("📤 Sending final:", finalResponse);
     return NextResponse.json(finalResponse, { status: 200 });

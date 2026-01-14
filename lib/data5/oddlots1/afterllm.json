@@ -1,0 +1,4162 @@
+[
+  {
+    "metadata": "speaker name and speaker role",
+    "speakerName": [
+      null,
+      "Stephanie Flanders",
+      "Alex Boris",
+      "Tracy Alloway",
+      "Joe Wiesenthal",
+      "Joe Wiesenthal",
+      "Tracy Alloway"
+    ],
+    "speakerNameConfidence": [
+      null,
+      "High",
+      "High",
+      "High",
+      "High",
+      null,
+      null
+    ],
+    "speakerNameTimestamp": "2026-01-14T07:14:48.359Z",
+    "speakerRole": [
+      "Announcer",
+      "Interviewer",
+      "Announcer",
+      "Interviewer",
+      "Guest",
+      "Voiceover",
+      "Guest"
+    ],
+    "speakerRoleConfidence": [
+      1,
+      1,
+      0.9,
+      0.9,
+      1,
+      1,
+      1
+    ],
+    "speakerRoleTimestamp": "2026-01-14T07:14:54.995Z",
+    "speakerStats": {
+      "0": {
+        "turns": 6,
+        "words": 339,
+        "duration": 123.20969699999993
+      },
+      "1": {
+        "turns": 207,
+        "words": 9114,
+        "duration": 2726.4682170000015
+      },
+      "2": {
+        "turns": 18,
+        "words": 867,
+        "duration": 285.7325999999998
+      },
+      "3": {
+        "turns": 159,
+        "words": 4692,
+        "duration": 1496.437022999999
+      },
+      "4": {
+        "turns": 12,
+        "words": 1119,
+        "duration": 366.1805999999988
+      },
+      "5": {
+        "turns": 186,
+        "words": 15405,
+        "duration": 4342.883010000001
+      },
+      "6": {
+        "turns": 3,
+        "words": 477,
+        "duration": 172.46879999999965
+      }
+    },
+    "speakerCorrections": {
+      "6": 1,
+      "9": 3,
+      "40": 5,
+      "46": 5,
+      "64": 5,
+      "66": 5,
+      "84": 5,
+      "93": 1,
+      "95": 1,
+      "114": 5,
+      "118": 5,
+      "120": 5,
+      "124": 1,
+      "126": 1,
+      "133": 5,
+      "137": 5,
+      "145": 5,
+      "166": 1,
+      "173": 5,
+      "178": 1,
+      "179": 5,
+      "180": 1,
+      "185": 3,
+      "187": 3,
+      "189": 3,
+      "194": 2
+    }
+  },
+  {
+    "ID": 1,
+    "lookup": {
+      "ID": 1,
+      "speaker": 1,
+      "lookupTerm": [
+        "Trumponomics",
+        "Bloomberg"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Trumponomics",
+        "https://en.wikipedia.org/wiki/Bloomberg_L.P."
+      ],
+      "lookupExplanation": [
+        "Trumponomics refers to the economic policies and strategies associated with Donald Trump's administration.",
+        "Bloomberg L.P. is a global financial services, software, and media company, best known for its Bloomberg Terminal and news services."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:14:45.505Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 0,
+    "lookup": {
+      "ID": 0,
+      "speaker": 0,
+      "lookupTerm": [
+        "Barclays",
+        "Barclays Investment Bank",
+        "podcast"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Barclays",
+        "https://en.wikipedia.org/wiki/Barclays#Investment_banking",
+        "https://en.wikipedia.org/wiki/Podcast"
+      ],
+      "lookupExplanation": [
+        "Barclays is a British multinational investment bank and financial services company.",
+        "Barclays Investment Bank provides strategic advisory, capital raising, and risk management solutions.",
+        "A podcast is a series of spoken-word, audio episodes focusing on various topics that can be downloaded or streamed."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:14:45.586Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 3,
+    "lookup": {
+      "ID": 3,
+      "speaker": 3,
+      "lookupTerm": [
+        "Bloomberg Audio Studios"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Bloomberg_L.P."
+      ],
+      "lookupExplanation": [
+        "Bloomberg Audio Studios is a part of Bloomberg L.P., which provides financial software, data, and media services."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:14:45.825Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 2,
+    "lookup": {
+      "ID": 2,
+      "speaker": 2,
+      "lookupTerm": [
+        "Lenovo",
+        "Intel Core Ultra",
+        "Intel Wi Fi 6E"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Lenovo",
+        "https://en.wikipedia.org/wiki/Intel_Core#Core_Ultra",
+        "https://en.wikipedia.org/wiki/Intel#Wi-Fi_6E"
+      ],
+      "lookupExplanation": [
+        "Lenovo is a Chinese multinational technology company specializing in computers, tablets, smartphones, and other electronic devices.",
+        "Intel Core Ultra is a brand for Intel processors that are designed for high-performance computing, particularly in gaming and demanding applications.",
+        "Intel Wi Fi 6E is an extension of the Wi-Fi 6 standard, providing greater bandwidth and faster connection times, particularly beneficial for high-quality streaming and gaming."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:14:46.613Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 4,
+    "lookup": {
+      "ID": 4,
+      "speaker": 4,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:14:46.972Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 5,
+    "lookup": {
+      "ID": 5,
+      "speaker": 1,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:14:47.555Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 6,
+    "lookup": {
+      "ID": 6,
+      "speaker": 3,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:14:47.947Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 9,
+    "lookup": {
+      "ID": 9,
+      "speaker": 1,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:14:48.792Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 8,
+    "lookup": {
+      "ID": 8,
+      "speaker": 3,
+      "lookupTerm": [
+        "AI",
+        "billion dollar"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://en.wikipedia.org/wiki/Billion"
+      ],
+      "lookupExplanation": [
+        "Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think and learn.",
+        "A billion is a numerical value equal to one thousand million (1,000,000,000)."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:14:50.056Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 7,
+    "lookup": {
+      "ID": 7,
+      "speaker": 1,
+      "lookupTerm": [
+        "AI",
+        "2026",
+        "2028"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://en.wikipedia.org/wiki/2026",
+        "https://en.wikipedia.org/wiki/2028"
+      ],
+      "lookupExplanation": [
+        "AI stands for artificial intelligence, which refers to the simulation of human intelligence in machines.",
+        "The year 2026 is a future year in the 21st century.",
+        "The year 2028 is also a future year in the 21st century."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:14:50.165Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 10,
+    "lookup": {
+      "ID": 10,
+      "speaker": 3,
+      "lookupTerm": [
+        "Disney",
+        "OpenAI"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/The_Walt_Disney_Company",
+        "https://en.wikipedia.org/wiki/OpenAI"
+      ],
+      "lookupExplanation": [
+        "The Walt Disney Company is an American diversified multinational mass media and entertainment conglomerate headquartered in Burbank, California.",
+        "OpenAI is an artificial intelligence research organization that aims to promote and develop friendly AI for the benefit of humanity."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:14:50.825Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 12,
+    "lookup": {
+      "ID": 12,
+      "speaker": 3,
+      "lookupTerm": [
+        "executive order",
+        "data privacy rights"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Executive_order",
+        "https://en.wikipedia.org/wiki/Privacy_rights"
+      ],
+      "lookupExplanation": [
+        "An executive order is a directive issued by the President of the United States to manage the operations of the federal government.",
+        "Data privacy rights refer to the legal rights and principles that govern the protection of personal data and the individual's ability to control their own information."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:14:51.720Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 14,
+    "lookup": {
+      "ID": 14,
+      "speaker": 3,
+      "lookupTerm": [
+        "AI",
+        "China",
+        "regulation"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://en.wikipedia.org/wiki/China",
+        "https://en.wikipedia.org/wiki/Regulation"
+      ],
+      "lookupExplanation": [
+        "Artificial intelligence (AI) refers to the simulation of human intelligence in machines programmed to think like humans and mimic their actions.",
+        "China is a country in East Asia, the world's most populous country, and plays a significant role in global politics and economics.",
+        "Regulation is a rule or directive made and maintained by an authority, often aimed at controlling or governing conduct."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:14:53.089Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 13,
+    "lookup": {
+      "ID": 13,
+      "speaker": 1,
+      "lookupTerm": [
+        "AI",
+        "regulate"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://en.wikipedia.org/wiki/Regulation"
+      ],
+      "lookupExplanation": [
+        "Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think and learn like humans.",
+        "Regulation refers to the rules and guidelines established by authorities to control or manage specific activities or fields, often for the purpose of protecting the public and ensuring fair practices."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:14:53.400Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 18,
+    "lookup": {
+      "ID": 18,
+      "speaker": 3,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:14:54.562Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 16,
+    "lookup": {
+      "ID": 16,
+      "speaker": 3,
+      "lookupTerm": [
+        "Palantir",
+        "Super PAC"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Palantir_Technologies",
+        "https://en.wikipedia.org/wiki/Super_PAC"
+      ],
+      "lookupExplanation": [
+        "Palantir Technologies is a public American software company that specializes in big data analytics.",
+        "A Super PAC (Political Action Committee) is a type of independent political action committee that may raise unlimited sums of money from corporations, unions, and individuals to advocate for or against political candidates."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:14:54.773Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 11,
+    "lookup": {
+      "ID": 11,
+      "speaker": 1,
+      "lookupTerm": [
+        "AI",
+        "labor market",
+        "electricity cost",
+        "water consumption",
+        "wealth inequality",
+        "tech industry"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://en.wikipedia.org/wiki/Labor_market",
+        "https://en.wikipedia.org/wiki/Electricity_company",
+        "https://en.wikipedia.org/wiki/Water_resource_management",
+        "https://en.wikipedia.org/wiki/Inequality",
+        "https://en.wikipedia.org/wiki/Technology_industry"
+      ],
+      "lookupExplanation": [
+        "Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think and learn.",
+        "The labor market is the supply and demand for labor, in which employees provide the supply and employers the demand.",
+        "Electricity cost is the charge to consumers for the use of electric power, and can vary based on generation methods and rates.",
+        "Water consumption refers to the amount of water used by individuals, households, and industries for various purposes.",
+        "Wealth inequality refers to the unequal distribution of assets among residents of an economy, which can lead to social and economic disparities.",
+        "The tech industry encompasses businesses involved in the development, production, and distribution of technology-related goods and services."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:14:54.895Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 20,
+    "lookup": {
+      "ID": 20,
+      "speaker": 5,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:14:55.677Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 15,
+    "lookup": {
+      "ID": 15,
+      "speaker": 1,
+      "lookupTerm": [
+        "AI",
+        "OpenAI",
+        "super PAC",
+        "Manhattan"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://en.wikipedia.org/wiki/OpenAI",
+        "https://en.wikipedia.org/wiki/Super_PAC",
+        "https://en.wikipedia.org/wiki/Manhattan"
+      ],
+      "lookupExplanation": [
+        "Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think and learn.",
+        "OpenAI is an artificial intelligence research organization aiming to promote and develop friendly AI for the benefit of humanity.",
+        "A super PAC (Political Action Committee) is an organization that raises money to influence elections, which can spend unlimited amounts of money independently of a candidate's campaign.",
+        "Manhattan is one of the five boroughs of New York City, known for its significant cultural, financial, and commercial centers."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:14:55.984Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 19,
+    "lookup": {
+      "ID": 19,
+      "speaker": 1,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:14:56.029Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 17,
+    "lookup": {
+      "ID": 17,
+      "speaker": 1,
+      "lookupTerm": [
+        "AI",
+        "Palantir"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://en.wikipedia.org/wiki/Palantir_Technologies"
+      ],
+      "lookupExplanation": [
+        "Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are designed to think and act like humans.",
+        "Palantir Technologies is a public American software company that specializes in big data analytics."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:14:56.297Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 23,
+    "lookup": {
+      "ID": 23,
+      "speaker": 1,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:14:56.565Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 21,
+    "lookup": {
+      "ID": 21,
+      "speaker": 1,
+      "lookupTerm": [
+        "twelfth district"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/District_(United_States)"
+      ],
+      "lookupExplanation": [
+        "In the United States, a district often refers to a specific electoral area from which representatives are elected, such as congressional or state legislative districts."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:14:57.114Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 26,
+    "lookup": {
+      "ID": 26,
+      "speaker": 5,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:14:58.004Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 24,
+    "lookup": {
+      "ID": 24,
+      "speaker": 5,
+      "lookupTerm": [
+        "The Bronx"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/The_Bronx"
+      ],
+      "lookupExplanation": [
+        "The Bronx is one of the five boroughs of New York City, known for its cultural diversity and as the birthplace of hip-hop music."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:14:58.108Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 25,
+    "lookup": {
+      "ID": 25,
+      "speaker": 1,
+      "lookupTerm": [
+        "Jack Schlossberg"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Jack_Schlossberg"
+      ],
+      "lookupExplanation": [
+        "Jack Schlossberg is an American attorney and the only grandson of President John F. Kennedy."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:14:59.087Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 22,
+    "lookup": {
+      "ID": 22,
+      "speaker": 5,
+      "lookupTerm": [
+        "George Conway",
+        "Bethesda",
+        "district"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/George_Conway",
+        "https://en.wikipedia.org/wiki/Bethesda,_Maryland",
+        "https://en.wikipedia.org/wiki/District_(United_States)"
+      ],
+      "lookupExplanation": [
+        "George Conway is an American attorney and political commentator known for his criticism of former President Donald Trump.",
+        "Bethesda is a census-designated place in Montgomery County, Maryland, known for its affluent community and proximity to Washington, D.C.",
+        "In the context of the U.S., a district often refers to an electoral district that elects a representative to a legislative body."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:14:59.214Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 28,
+    "lookup": {
+      "ID": 28,
+      "speaker": 3,
+      "lookupTerm": [
+        "Palantir"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Palantir_Technologies"
+      ],
+      "lookupExplanation": [
+        "Palantir Technologies is a public American software company that specializes in big data analytics."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:00.035Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 30,
+    "lookup": {
+      "ID": 30,
+      "speaker": 1,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:00.372Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 27,
+    "lookup": {
+      "ID": 27,
+      "speaker": 1,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:00.751Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 29,
+    "lookup": {
+      "ID": 29,
+      "speaker": 5,
+      "lookupTerm": [
+        "Palantir"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Palantir_Technologies"
+      ],
+      "lookupExplanation": [
+        "Palantir Technologies is a public American software company that specializes in big data analytics."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:00.885Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 34,
+    "lookup": {
+      "ID": 34,
+      "speaker": 1,
+      "lookupTerm": [
+        "RAISE Act"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/RAISE_Act"
+      ],
+      "lookupExplanation": [
+        "The RAISE Act is a proposed immigration reform bill aimed at reducing legal immigration to the United States and changing the green card system to prioritize high-skilled workers."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:02.804Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 33,
+    "lookup": {
+      "ID": 33,
+      "speaker": 5,
+      "lookupTerm": [
+        "RAISE Act",
+        "AI research"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/RAISE_Act",
+        "https://en.wikipedia.org/wiki/Artificial_intelligence_research"
+      ],
+      "lookupExplanation": [
+        "The RAISE Act is a legislative proposal aimed at regulating the use of artificial intelligence to ensure safety and ethical standards in its development.",
+        "AI research involves the scientific study of algorithms and systems that can exhibit intelligent behavior, mimicking cognitive functions such as learning, reasoning, and problem-solving."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:03.975Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 36,
+    "lookup": {
+      "ID": 36,
+      "speaker": 3,
+      "lookupTerm": [
+        "Google"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Google"
+      ],
+      "lookupExplanation": [
+        "Google is a multinational technology company that specializes in Internet-related services and products, including online advertising technologies, a search engine, cloud computing, software, and hardware."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:05.017Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 37,
+    "lookup": {
+      "ID": 37,
+      "speaker": 5,
+      "lookupTerm": [
+        "lobbying"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Lobbying"
+      ],
+      "lookupExplanation": [
+        "Lobbying is the act of influencing decisions made by government officials, typically legislators or members of regulatory agencies."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:06.417Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 31,
+    "lookup": {
+      "ID": 31,
+      "speaker": 5,
+      "lookupTerm": [
+        "Palantir",
+        "DMV",
+        "transformers",
+        "Bert",
+        "Laser",
+        "anti money laundering",
+        "counter terrorist financing"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Palantir_Technologies",
+        "https://en.wikipedia.org/wiki/Department_of_Motor_Vehicles",
+        "https://en.wikipedia.org/wiki/Transformer_(mechanical_engineering)",
+        "https://en.wikipedia.org/wiki/BERT_(language_model)",
+        "https://en.wikipedia.org/wiki/Laser",
+        "https://en.wikipedia.org/wiki/Money_laundering",
+        "https://en.wikipedia.org/wiki/Counter-terrorism_financing"
+      ],
+      "lookupExplanation": [
+        "Palantir Technologies is a public American software company that specializes in big data analytics.",
+        "The Department of Motor Vehicles (DMV) is a state-level government agency in the United States that administers vehicle registration and driver licensing.",
+        "In the context of machine learning, transformers are a type of model architecture used for processing sequential data, such as text.",
+        "BERT (Bidirectional Encoder Representations from Transformers) is a pre-trained transformer model designed for natural language processing tasks.",
+        "A laser is a device that emits light through a process of optical amplification based on the stimulated emission of electromagnetic radiation.",
+        "Anti-money laundering (AML) refers to laws, regulations, and procedures aimed at preventing criminals from disguising illegally obtained funds as legitimate income.",
+        "Counter-terrorism financing (CTF) involves measures to prevent and combat the financing of terrorism."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:06.482Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 32,
+    "lookup": {
+      "ID": 32,
+      "speaker": 1,
+      "lookupTerm": [
+        "Palantir",
+        "AI Super PAC",
+        "Boris",
+        "Jerry Nadler",
+        "state assembly"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Palantir_Technologies",
+        "https://en.wikipedia.org/wiki/Super_PAC",
+        "https://en.wikipedia.org/wiki/Boris_Johnson",
+        "https://en.wikipedia.org/wiki/Jerry_Nadler",
+        "https://en.wikipedia.org/wiki/State_assembly"
+      ],
+      "lookupExplanation": [
+        "Palantir Technologies is a public American software company that specializes in big data analytics.",
+        "A Super PAC is a type of independent political action committee that can raise and spend unlimited amounts of money to advocate for or against political candidates.",
+        "Boris Johnson is a British politician who served as the Prime Minister of the United Kingdom from July 2019 to September 2021.",
+        "Jerry Nadler is an American politician and member of the Democratic Party who has served as a member of the U.S. House of Representatives since 1992.",
+        "A state assembly is a legislative body in a U.S. state that typically has the authority to make laws and control spending."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:06.950Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 39,
+    "lookup": {
+      "ID": 39,
+      "speaker": 5,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:07.753Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 40,
+    "lookup": {
+      "ID": 40,
+      "speaker": 1,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:07.978Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 38,
+    "lookup": {
+      "ID": 38,
+      "speaker": 1,
+      "lookupTerm": [
+        "regulation",
+        "incumbents",
+        "safety violations"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Regulation",
+        "https://en.wikipedia.org/wiki/Incumbent",
+        "https://en.wikipedia.org/wiki/Safety"
+      ],
+      "lookupExplanation": [
+        "Regulation refers to the rules or directives made and maintained by an authority to regulate conduct in a particular area.",
+        "Incumbents are companies or individuals that currently hold a position or role, particularly in a market or industry, and may have advantages over new entrants.",
+        "Safety violations are breaches of established safety standards or regulations that are intended to protect individuals and the environment."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:08.821Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 44,
+    "lookup": {
+      "ID": 44,
+      "speaker": 3,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:09.887Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 43,
+    "lookup": {
+      "ID": 43,
+      "speaker": 5,
+      "lookupTerm": [
+        "RAISE Act"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/RAISE_Act"
+      ],
+      "lookupExplanation": [
+        "The RAISE Act (Reforming American Immigration for Strong Employment Act) is a legislative proposal aimed at reducing legal immigration to the United States, focusing on high-skilled workers."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:11.221Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 42,
+    "lookup": {
+      "ID": 42,
+      "speaker": 3,
+      "lookupTerm": [
+        "black box problem",
+        "redlining",
+        "proxy data"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Black_box",
+        "https://en.wikipedia.org/wiki/Redlining",
+        "https://en.wikipedia.org/wiki/Proxy_variable"
+      ],
+      "lookupExplanation": [
+        "The black box problem refers to the difficulty in understanding how complex algorithms or models make decisions, as their internal workings are not transparent.",
+        "Redlining is a discriminatory practice in which services (financial and otherwise) are withheld from residents of certain areas based on their race or ethnicity.",
+        "Proxy data is information that can be used to indirectly infer something that is not easily measurable, such as a person's race or income based on other data points."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:11.325Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 35,
+    "lookup": {
+      "ID": 35,
+      "speaker": 5,
+      "lookupTerm": [
+        "Meta",
+        "Google",
+        "XAI",
+        "OpenAI",
+        "Thropic",
+        "Amazon",
+        "DeepSeek",
+        "Mistral",
+        "tobacco companies"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Meta_Platforms",
+        "https://en.wikipedia.org/wiki/Google",
+        "https://en.wikipedia.org/wiki/XAI",
+        "https://en.wikipedia.org/wiki/OpenAI",
+        "https://en.wikipedia.org/wiki/Thropic",
+        "https://en.wikipedia.org/wiki/Amazon_(company)",
+        "https://en.wikipedia.org/wiki/DeepSeek",
+        "https://en.wikipedia.org/wiki/Mistral_(company)",
+        "https://en.wikipedia.org/wiki/Tobacco"
+      ],
+      "lookupExplanation": [
+        "Meta Platforms, Inc., formerly known as Facebook, Inc., is a technology conglomerate that owns several products and services, including social media platforms.",
+        "Google LLC is a multinational technology company specializing in Internet-related services and products, including online advertising, search engines, cloud computing, and software.",
+        "XAI refers to eXplainable Artificial Intelligence, a set of processes aimed at making AI decisions transparent and understandable.",
+        "OpenAI is an AI research organization known for developing advanced AI models, including GPT-3 and DALL-E.",
+        "Thropic is a company involved in developing artificial intelligence technologies, focusing on the responsible and safe deployment of such technologies.",
+        "Amazon.com, Inc. is a multinational technology company known for its e-commerce platform, cloud computing services, and various consumer electronics.",
+        "DeepSeek is a technology or product focusing on enhanced data searching capabilities, possibly in the context of machine learning or AI.",
+        "Mistral is a company known for its contributions to AI and machine learning, although specific details may vary.",
+        "Tobacco companies are corporations involved in the manufacturing and selling of tobacco products, often scrutinized for their health impacts."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:11.405Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 47,
+    "lookup": {
+      "ID": 47,
+      "speaker": 5,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:12.342Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 48,
+    "lookup": {
+      "ID": 48,
+      "speaker": 3,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:12.444Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 45,
+    "lookup": {
+      "ID": 45,
+      "speaker": 5,
+      "lookupTerm": [
+        "fake emails",
+        "model"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Fraudulent_email",
+        "https://en.wikipedia.org/wiki/Model_(social_science)"
+      ],
+      "lookupExplanation": [
+        "Fake emails are deceptive messages often used for fraud or misinformation, typically sent to manipulate the recipient.",
+        "In social science, a model is a representation of a concept or phenomenon that helps to explain, predict, or control aspects of reality."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:12.523Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 41,
+    "lookup": {
+      "ID": 41,
+      "speaker": 5,
+      "lookupTerm": [
+        "RAISE Act",
+        "FLOPS",
+        "knowledge distillation",
+        "DeepSeq"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/RAISE_Act",
+        "https://en.wikipedia.org/wiki/FLOPS",
+        "https://en.wikipedia.org/wiki/Knowledge_distillation",
+        "https://en.wikipedia.org/wiki/DeepSeq"
+      ],
+      "lookupExplanation": [
+        "The RAISE Act is a proposed legislation in the United States aimed at promoting artificial intelligence development.",
+        "FLOPS (floating-point operations per second) is a unit of measurement for computer performance, particularly in tasks that require a large number of calculations.",
+        "Knowledge distillation is a process in machine learning where a smaller model is trained to replicate the behavior of a larger, more complex model.",
+        "DeepSeq is a hypothetical or conceptual term referring to a deep learning model or system, though specific information may not be widely available."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:12.612Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 46,
+    "lookup": {
+      "ID": 46,
+      "speaker": 1,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:12.834Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 53,
+    "lookup": {
+      "ID": 53,
+      "speaker": 3,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:13.931Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 49,
+    "lookup": {
+      "ID": 49,
+      "speaker": 1,
+      "lookupTerm": [
+        "Deepsea",
+        "DeepSeek",
+        "open source"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Open_source",
+        "https://en.wikipedia.org/wiki/DeepSeek",
+        "https://en.wikipedia.org/wiki/Open_source"
+      ],
+      "lookupExplanation": [
+        "Open source refers to software that is released with a license that allows anyone to inspect, modify, and enhance it.",
+        "DeepSeek is a specific technology or application within the context provided, but more context would be needed for a detailed definition.",
+        "Open source refers to software that is released with a license that allows anyone to inspect, modify, and enhance it."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:15.665Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 52,
+    "lookup": {
+      "ID": 52,
+      "speaker": 5,
+      "lookupTerm": [
+        "AI",
+        "chatbots",
+        "RAISE Act"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://en.wikipedia.org/wiki/Chatbot",
+        "https://en.wikipedia.org/wiki/RAISE_Act"
+      ],
+      "lookupExplanation": [
+        "AI, or artificial intelligence, refers to the simulation of human intelligence in machines that are programmed to think and learn.",
+        "A chatbot is a software application designed to simulate human conversation through text or voice interactions.",
+        "The RAISE Act is a proposed legislation in the US aimed at regulating the use of artificial intelligence, although it may not have a widely recognized definition."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:16.191Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 51,
+    "lookup": {
+      "ID": 51,
+      "speaker": 3,
+      "lookupTerm": [
+        "RAISE Act",
+        "executive order",
+        "AI"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/RAISE_Act",
+        "https://en.wikipedia.org/wiki/Executive_order",
+        "https://en.wikipedia.org/wiki/Artificial_intelligence"
+      ],
+      "lookupExplanation": [
+        "The RAISE Act, or Reforming American Immigration for Strong Employment Act, is a proposed legislation in the United States aimed at overhauling the legal immigration system.",
+        "An executive order is a directive issued by the President of the United States to manage the operations of the federal government.",
+        "Artificial intelligence (AI) is intelligence demonstrated by machines, in contrast to the natural intelligence displayed by humans and animals."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:16.272Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 54,
+    "lookup": {
+      "ID": 54,
+      "speaker": 5,
+      "lookupTerm": [
+        "executive order",
+        "New York"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Executive_order",
+        "https://en.wikipedia.org/wiki/New_York_(state)"
+      ],
+      "lookupExplanation": [
+        "An executive order is a directive issued by the President or a state governor that manages the operations of the government.",
+        "New York is a state in the northeastern United States, known for its significant cultural, financial, and political impact."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:16.861Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 57,
+    "lookup": {
+      "ID": 57,
+      "speaker": 3,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:17.348Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 55,
+    "lookup": {
+      "ID": 55,
+      "speaker": 3,
+      "lookupTerm": [
+        "Netflix",
+        "chatbots"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Netflix",
+        "https://en.wikipedia.org/wiki/Chatbot"
+      ],
+      "lookupExplanation": [
+        "Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more.",
+        "A chatbot is a software application designed to simulate human conversation, often used in customer service."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:18.078Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 56,
+    "lookup": {
+      "ID": 56,
+      "speaker": 1,
+      "lookupTerm": [
+        "chatbot"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Chatbot"
+      ],
+      "lookupExplanation": [
+        "A chatbot is a software application designed to simulate human conversation through voice commands or text chats."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:18.452Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 50,
+    "lookup": {
+      "ID": 50,
+      "speaker": 5,
+      "lookupTerm": [
+        "DeepSeek",
+        "App Store",
+        "RAISE Act",
+        "Google",
+        "Meta"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/DeepSeek",
+        "https://en.wikipedia.org/wiki/App_Store",
+        "https://en.wikipedia.org/wiki/RAISE_Act",
+        "https://en.wikipedia.org/wiki/Google",
+        "https://en.wikipedia.org/wiki/Meta_Platforms"
+      ],
+      "lookupExplanation": [
+        "DeepSeek is a technology or company involved in model development, specifically in the context of AI or data processing.",
+        "The App Store is a digital distribution platform for mobile applications on iOS, allowing users to browse and download apps.",
+        "The RAISE Act is legislation aimed at enhancing standards and compliance in specific industries, possibly related to tech or safety.",
+        "Google is a multinational technology company specializing in Internet-related services and products that include search engines, online advertising technologies, cloud computing, and software.",
+        "Meta Platforms, Inc. is a technology conglomerate that owns Facebook, Instagram, WhatsApp, and Oculus, primarily focusing on social media and virtual reality."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:18.511Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 60,
+    "lookup": {
+      "ID": 60,
+      "speaker": 3,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:19.078Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 61,
+    "lookup": {
+      "ID": 61,
+      "speaker": 5,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:19.477Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 62,
+    "lookup": {
+      "ID": 62,
+      "speaker": 3,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:19.734Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 58,
+    "lookup": {
+      "ID": 58,
+      "speaker": 1,
+      "lookupTerm": [
+        "AI",
+        "bipartisan"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://en.wikipedia.org/wiki/Bipartisanship"
+      ],
+      "lookupExplanation": [
+        "Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think and learn.",
+        "Bipartisanship is the agreement or cooperation between two political parties that usually oppose each other's policies."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:19.835Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 63,
+    "lookup": {
+      "ID": 63,
+      "speaker": 5,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:20.108Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 64,
+    "lookup": {
+      "ID": 64,
+      "speaker": 3,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:20.432Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 66,
+    "lookup": {
+      "ID": 66,
+      "speaker": 3,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:20.835Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 59,
+    "lookup": {
+      "ID": 59,
+      "speaker": 5,
+      "lookupTerm": [
+        "AI",
+        "RAISE Act"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://en.wikipedia.org/wiki/RAISE_Act"
+      ],
+      "lookupExplanation": [
+        "Artificial intelligence (AI) is intelligence demonstrated by machines, in contrast to the natural intelligence displayed by humans and animals.",
+        "The RAISE Act (Reforming American Immigration for Strong Employment Act) is a proposal aimed at reforming the U.S. immigration system to prioritize highly skilled workers."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:20.914Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 67,
+    "lookup": {
+      "ID": 67,
+      "speaker": 5,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:21.182Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 68,
+    "lookup": {
+      "ID": 68,
+      "speaker": 1,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:21.344Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 69,
+    "lookup": {
+      "ID": 69,
+      "speaker": 3,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:21.791Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 72,
+    "lookup": {
+      "ID": 72,
+      "speaker": 3,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:22.472Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 65,
+    "lookup": {
+      "ID": 65,
+      "speaker": 5,
+      "lookupTerm": [
+        "tariffs",
+        "nationalism",
+        "AI"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Tariff",
+        "https://en.wikipedia.org/wiki/Nationalism",
+        "https://en.wikipedia.org/wiki/Artificial_intelligence"
+      ],
+      "lookupExplanation": [
+        "A tariff is a tax imposed by a government on goods and services imported from other countries.",
+        "Nationalism is a political, social, and economic system that promotes the interests of a particular nation, often in contrast to foreign influences.",
+        "Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think and learn."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:23.375Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 73,
+    "lookup": {
+      "ID": 73,
+      "speaker": 1,
+      "lookupTerm": [
+        "operational reality",
+        "companies"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Operations_management",
+        "https://en.wikipedia.org/wiki/Company"
+      ],
+      "lookupExplanation": [
+        "Operational reality refers to the actual conditions and challenges faced by organizations in their day-to-day operations.",
+        "A company is a legal entity that engages in business activities, selling goods or services to generate profit."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:24.186Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 71,
+    "lookup": {
+      "ID": 71,
+      "speaker": 0,
+      "lookupTerm": [
+        "Barclays Investment Bank",
+        "Barclays Brief"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Barclays",
+        "https://en.wikipedia.org/wiki/Podcast"
+      ],
+      "lookupExplanation": [
+        "Barclays Investment Bank is the investment banking division of Barclays, a British multinational investment bank and financial services company.",
+        "A podcast is a digital audio file made available on the internet for downloading to a computer or mobile device, typically available as a series."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:24.634Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 74,
+    "lookup": {
+      "ID": 74,
+      "speaker": 3,
+      "lookupTerm": [
+        "Acquired podcast"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Acquired"
+      ],
+      "lookupExplanation": [
+        "The Acquired podcast is a show that focuses on the history and business strategies of various companies, featuring deep dives into their growth and challenges."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:24.996Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 76,
+    "lookup": {
+      "ID": 76,
+      "speaker": 3,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:25.305Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 78,
+    "lookup": {
+      "ID": 78,
+      "speaker": 3,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:25.827Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 70,
+    "lookup": {
+      "ID": 70,
+      "speaker": 5,
+      "lookupTerm": [
+        "Super PAC",
+        "Marc Andreessen",
+        "Joe Lonsdale",
+        "Greg Brockman",
+        "OpenAI"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Super_PAC",
+        "https://en.wikipedia.org/wiki/Marc_Andreessen",
+        "https://en.wikipedia.org/wiki/Joe_Lonsdale",
+        "https://en.wikipedia.org/wiki/Greg_Brockman",
+        "https://en.wikipedia.org/wiki/OpenAI"
+      ],
+      "lookupExplanation": [
+        "A Super PAC is a type of independent political action committee that can raise and spend unlimited amounts of money to advocate for or against political candidates.",
+        "Marc Andreessen is an American entrepreneur, investor, and software engineer, known for co-founding Netscape and Andreessen Horowitz.",
+        "Joe Lonsdale is an American entrepreneur and investor, co-founder of Palantir Technologies and founder of 8VC.",
+        "Greg Brockman is the co-founder and president of OpenAI, an artificial intelligence research organization.",
+        "OpenAI is an AI research organization focused on developing and promoting friendly AI for the benefit of humanity."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:26.749Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 79,
+    "lookup": {
+      "ID": 79,
+      "speaker": 4,
+      "lookupTerm": [
+        "HelloFresh"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/HelloFresh"
+      ],
+      "lookupExplanation": [
+        "HelloFresh is a meal kit delivery service that provides users with pre-portioned ingredients and recipe instructions to prepare meals at home."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:27.476Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 77,
+    "lookup": {
+      "ID": 77,
+      "speaker": 1,
+      "lookupTerm": [
+        "Acquired podcast",
+        "market dynamics",
+        "economy"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Acquired_(podcast)",
+        "https://en.wikipedia.org/wiki/Market_dynamics",
+        "https://en.wikipedia.org/wiki/Economy"
+      ],
+      "lookupExplanation": [
+        "Acquired is a podcast that discusses major acquisitions and the stories behind them.",
+        "Market dynamics refer to the forces that impact the supply and demand of goods and services in a market.",
+        "An economy is the large set of inter-related production and consumption activities that aid in determining how resources are allocated."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:27.682Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 75,
+    "lookup": {
+      "ID": 75,
+      "speaker": 1,
+      "lookupTerm": [
+        "TSMC",
+        "NVIDIA",
+        "Mars",
+        "Hermes"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Taiwan_Semiconductor_Manufacturing_Company",
+        "https://en.wikipedia.org/wiki/Nvidia",
+        "https://en.wikipedia.org/wiki/Mars_(planet)",
+        "https://en.wikipedia.org/wiki/Herm%C3%A8s"
+      ],
+      "lookupExplanation": [
+        "TSMC (Taiwan Semiconductor Manufacturing Company) is the world's largest dedicated independent semiconductor foundry.",
+        "NVIDIA is a multinational technology company known for its graphics processing units (GPUs) and AI computing technology.",
+        "Mars is the fourth planet from the Sun in the Solar System, known for its reddish appearance.",
+        "Hermès is a French luxury goods manufacturer known for its leather, lifestyle accessories, and ready-to-wear items."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:28.490Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 81,
+    "lookup": {
+      "ID": 81,
+      "speaker": 5,
+      "lookupTerm": [
+        "Lenovo"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Lenovo"
+      ],
+      "lookupExplanation": [
+        "Lenovo is a Chinese multinational technology company specializing in computers, smartphones, and other electronic products."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:28.672Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 80,
+    "lookup": {
+      "ID": 80,
+      "speaker": 2,
+      "lookupTerm": [
+        "Intel Core Ultra",
+        "Wi Fi 6E"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Intel_Core",
+        "https://en.wikipedia.org/wiki/IEEE_802.11#Wi-Fi_6E"
+      ],
+      "lookupExplanation": [
+        "Intel Core Ultra processors are a line of high-performance processors designed for gaming and other intensive tasks.",
+        "Wi-Fi 6E is an extension of Wi-Fi 6 that operates in the 6 GHz band, providing faster speeds and reduced latency."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:28.779Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 84,
+    "lookup": {
+      "ID": 84,
+      "speaker": 1,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:29.592Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 86,
+    "lookup": {
+      "ID": 86,
+      "speaker": 3,
+      "lookupTerm": [
+        "AI"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence"
+      ],
+      "lookupExplanation": [
+        "Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think and learn."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:30.743Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 83,
+    "lookup": {
+      "ID": 83,
+      "speaker": 5,
+      "lookupTerm": [
+        "chatbots",
+        "AI",
+        "pedagogy"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Chatbot",
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://en.wikipedia.org/wiki/Pedagogy"
+      ],
+      "lookupExplanation": [
+        "A chatbot is a software application designed to simulate conversation with human users, especially over the Internet.",
+        "Artificial intelligence (AI) is intelligence demonstrated by machines, in contrast to the natural intelligence displayed by humans and animals.",
+        "Pedagogy is the method and practice of teaching, especially as an academic subject or theoretical concept."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:31.169Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 87,
+    "lookup": {
+      "ID": 87,
+      "speaker": 5,
+      "lookupTerm": [
+        "Chachi b t"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/ChatGPT"
+      ],
+      "lookupExplanation": [
+        "ChatGPT is a conversational artificial intelligence model developed by OpenAI that uses machine learning to generate human-like text responses."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:31.843Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 88,
+    "lookup": {
+      "ID": 88,
+      "speaker": 3,
+      "lookupTerm": [
+        "Teddy Ruxpin"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Teddy_Ruxpin"
+      ],
+      "lookupExplanation": [
+        "Teddy Ruxpin is a storytelling animatronic toy that was first released in 1985, notable for its ability to tell stories from cassette tapes inserted in its back."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:32.651Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 82,
+    "lookup": {
+      "ID": 82,
+      "speaker": 1,
+      "lookupTerm": [
+        "AI",
+        "safety",
+        "ethics",
+        "job displacement"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://en.wikipedia.org/wiki/Safety",
+        "https://en.wikipedia.org/wiki/Ethics",
+        "https://en.wikipedia.org/wiki/Unemployment"
+      ],
+      "lookupExplanation": [
+        "Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions.",
+        "Safety is the condition of being protected from or unlikely to cause danger, risk, or injury.",
+        "Ethics is a branch of philosophy dealing with values related to human conduct, with respect to the rightness and wrongness of certain actions and the goodness and badness of the motives and ends of such actions.",
+        "Job displacement refers to a situation where workers lose their jobs due to a variety of factors, including technological changes, market dynamics, or policy decisions."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:32.722Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 89,
+    "lookup": {
+      "ID": 89,
+      "speaker": 1,
+      "lookupTerm": [
+        "Saint Mark's Street"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Saint_Mark's_Church_in-the-Bowery"
+      ],
+      "lookupExplanation": [
+        "Saint Mark's Street is a street located in the East Village of Manhattan, New York City, known for its historic buildings and cultural significance."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:33.481Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 90,
+    "lookup": {
+      "ID": 90,
+      "speaker": 5,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:33.653Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 91,
+    "lookup": {
+      "ID": 91,
+      "speaker": 2,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:33.742Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 93,
+    "lookup": {
+      "ID": 93,
+      "speaker": 3,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:34.667Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 92,
+    "lookup": {
+      "ID": 92,
+      "speaker": 1,
+      "lookupTerm": [
+        "animatronic",
+        "LLM"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Animatronics",
+        "https://en.wikipedia.org/wiki/Language_model"
+      ],
+      "lookupExplanation": [
+        "Animatronics refers to the use of robotic devices to emulate a human or animal, often used in movies and theme parks.",
+        "LLM stands for large language model, which is a type of artificial intelligence that can understand and generate human-like text based on input."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:35.207Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 94,
+    "lookup": {
+      "ID": 94,
+      "speaker": 1,
+      "lookupTerm": [
+        "Uniqlo"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Uniqlo"
+      ],
+      "lookupExplanation": [
+        "Uniqlo is a Japanese casual wear designer, manufacturer, and retailer."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:35.355Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 95,
+    "lookup": {
+      "ID": 95,
+      "speaker": 3,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:35.493Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 96,
+    "lookup": {
+      "ID": 96,
+      "speaker": 1,
+      "lookupTerm": [],
+      "lookupLink": [],
+      "lookupExplanation": [],
+      "lookupTermTimestamp": "2026-01-14T07:15:35.994Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 98,
+    "lookup": {
+      "ID": 98,
+      "speaker": 1,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:36.282Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 97,
+    "lookup": {
+      "ID": 97,
+      "speaker": 3,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:36.621Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 99,
+    "lookup": {
+      "ID": 99,
+      "speaker": 5,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:36.940Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 85,
+    "lookup": {
+      "ID": 85,
+      "speaker": 5,
+      "lookupTerm": [
+        "education system",
+        "workforce",
+        "environment",
+        "grid",
+        "ratepayers",
+        "private capital",
+        "data centers",
+        "renewable energy",
+        "interconnects"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Education_system",
+        "https://en.wikipedia.org/wiki/Workforce",
+        "https://en.wikipedia.org/wiki/Environment",
+        "https://en.wikipedia.org/wiki/Electric_grid",
+        "https://en.wikipedia.org/wiki/Ratepayer",
+        "https://en.wikipedia.org/wiki/Private_capital",
+        "https://en.wikipedia.org/wiki/Data_center",
+        "https://en.wikipedia.org/wiki/Renewable_energy",
+        "https://en.wikipedia.org/wiki/Interconnection_(telecommunications)"
+      ],
+      "lookupExplanation": [
+        "An education system refers to the structure and processes through which education is delivered and organized in a society.",
+        "Workforce refers to the group of individuals who are engaged in or available for work, particularly in a specific industry or sector.",
+        "The environment encompasses the natural world, including air, water, land, and ecosystems, as well as the interactions among them.",
+        "The grid, or electric grid, is a system of interconnected electrical components that deliver electricity from producers to consumers.",
+        "Ratepayers are individuals or businesses that pay for utilities like electricity, water, or gas.",
+        "Private capital refers to investments made by private entities—such as individuals or firms—in businesses or projects, typically with the expectation of financial return.",
+        "Data centers are facilities used to house computer systems and associated components, including telecommunications and storage systems.",
+        "Renewable energy is energy that is generated from natural processes that are replenished constantly, such as solar, wind, and hydro power.",
+        "Interconnects are the physical or logical connections that link different telecommunications networks or electricity grids together."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:37.200Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 100,
+    "lookup": {
+      "ID": 100,
+      "speaker": 1,
+      "lookupTerm": [
+        "AI"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence"
+      ],
+      "lookupExplanation": [
+        "Artificial intelligence (AI) refers to the simulation of human intelligence in machines that are designed to think and act like humans."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:38.059Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 104,
+    "lookup": {
+      "ID": 104,
+      "speaker": 1,
+      "lookupTerm": [
+        "cryptographic proof"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Cryptographic_proof"
+      ],
+      "lookupExplanation": [
+        "Cryptographic proof refers to methods used in cryptography to verify the authenticity and integrity of information, typically by employing techniques such as digital signatures or hash functions."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:39.390Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 103,
+    "lookup": {
+      "ID": 103,
+      "speaker": 5,
+      "lookupTerm": [
+        "deepfakes",
+        "C2PA",
+        "HTTPS"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Deepfake",
+        "https://en.wikipedia.org/wiki/C2PA",
+        "https://en.wikipedia.org/wiki/HTTPS"
+      ],
+      "lookupExplanation": [
+        "Deepfakes are synthetic media in which a person's likeness is replaced with someone else's in a video or image, often created using artificial intelligence techniques.",
+        "C2PA (Coalition for Content Provenance and Authenticity) is a standard for establishing the provenance of digital content, focused on providing verifiable information about the origin and history of content.",
+        "HTTPS (HyperText Transfer Protocol Secure) is an extension of HTTP that provides secure communication over a computer network, widely used on the internet."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:40.755Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 102,
+    "lookup": {
+      "ID": 102,
+      "speaker": 1,
+      "lookupTerm": [
+        "Gemini",
+        "bioweapons",
+        "AI image"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Gemini_(project)",
+        "https://en.wikipedia.org/wiki/Bioweapons",
+        "https://en.wikipedia.org/wiki/Artificial_intelligence_generated_art"
+      ],
+      "lookupExplanation": [
+        "Gemini is a project developed by Google DeepMind that is focused on advancing artificial intelligence, specifically in generating images and understanding language.",
+        "Bioweapons are weapons that use biological agents such as bacteria, viruses, or other pathogens to harm or kill people, animals, or plants.",
+        "AI image refers to images that are generated through artificial intelligence algorithms, which can create realistic depictions that may be indistinguishable from real photographs."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:40.849Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 105,
+    "lookup": {
+      "ID": 105,
+      "speaker": 5,
+      "lookupTerm": [
+        "HTTP"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol"
+      ],
+      "lookupExplanation": [
+        "HTTP stands for Hypertext Transfer Protocol, which is an application protocol for distributed, collaborative, hypermedia information systems."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:40.908Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 106,
+    "lookup": {
+      "ID": 106,
+      "speaker": 3,
+      "lookupTerm": [
+        "new age of Sexism"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/New_Age_of_Sexism"
+      ],
+      "lookupExplanation": [
+        "The New Age of Sexism is a term that refers to the contemporary issues of gender discrimination and exploitation, particularly in relation to technology."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:41.823Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 109,
+    "lookup": {
+      "ID": 109,
+      "speaker": 5,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:42.181Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 101,
+    "lookup": {
+      "ID": 101,
+      "speaker": 5,
+      "lookupTerm": [
+        "nuclear energy",
+        "nuclear fission",
+        "nuclear fusion",
+        "AI",
+        "multiple sclerosis",
+        "autoimmune diseases",
+        "bioweapon"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Nuclear_energy",
+        "https://en.wikipedia.org/wiki/Nuclear_fission",
+        "https://en.wikipedia.org/wiki/Nuclear_fusion",
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://en.wikipedia.org/wiki/Multiple_sclerosis",
+        "https://en.wikipedia.org/wiki/Autoimmune_disease",
+        "https://en.wikipedia.org/wiki/Bioweapon"
+      ],
+      "lookupExplanation": [
+        "Nuclear energy is the energy released during nuclear reactions, particularly fission and fusion.",
+        "Nuclear fission is the process of splitting a heavy atomic nucleus into smaller nuclei, releasing energy.",
+        "Nuclear fusion is the process where two light atomic nuclei combine to form a heavier nucleus, releasing energy.",
+        "AI, or artificial intelligence, refers to the simulation of human intelligence in machines that are programmed to think and learn.",
+        "Multiple sclerosis is a chronic disease affecting the central nervous system, leading to varying degrees of disability.",
+        "Autoimmune diseases occur when the immune system mistakenly attacks the body's own cells.",
+        "A bioweapon is a weapon that uses biological agents, such as bacteria or viruses, to cause harm to humans, animals, or plants."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:42.429Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 110,
+    "lookup": {
+      "ID": 110,
+      "speaker": 1,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:42.737Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 108,
+    "lookup": {
+      "ID": 108,
+      "speaker": 1,
+      "lookupTerm": [
+        "Palantir"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Palantir_Technologies"
+      ],
+      "lookupExplanation": [
+        "Palantir Technologies is a public American software company that specializes in big data analytics."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:43.071Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 114,
+    "lookup": {
+      "ID": 114,
+      "speaker": 1,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:44.024Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 112,
+    "lookup": {
+      "ID": 112,
+      "speaker": 3,
+      "lookupTerm": [
+        "Palantir"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Palantir_Technologies"
+      ],
+      "lookupExplanation": [
+        "Palantir Technologies is a public American software company that specializes in big data analytics."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:45.152Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 107,
+    "lookup": {
+      "ID": 107,
+      "speaker": 5,
+      "lookupTerm": [
+        "AI preemption",
+        "federal standards",
+        "deep fake porn"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Preemption_(law)",
+        "https://en.wikipedia.org/wiki/Federal_standard",
+        "https://en.wikipedia.org/wiki/Deepfake"
+      ],
+      "lookupExplanation": [
+        "AI preemption refers to the legal and legislative measures that prevent states or local governments from enacting their own regulations in the area of artificial intelligence.",
+        "Federal standards are regulations established by the national government that set minimum requirements that states and local agencies must follow.",
+        "Deep fake porn refers to manipulated video or audio that uses artificial intelligence to create fake representations of individuals, often with the intent to harm or deceive."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:45.215Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 115,
+    "lookup": {
+      "ID": 115,
+      "speaker": 5,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:45.234Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 118,
+    "lookup": {
+      "ID": 118,
+      "speaker": 1,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:46.603Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 117,
+    "lookup": {
+      "ID": 117,
+      "speaker": 5,
+      "lookupTerm": [
+        "data"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Data"
+      ],
+      "lookupExplanation": [
+        "Data refers to information processed or stored by a computer, including text, numbers, and multimedia. It can be used for analysis and decision-making."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:47.260Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 116,
+    "lookup": {
+      "ID": 116,
+      "speaker": 1,
+      "lookupTerm": [
+        "data lake"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Data_lake"
+      ],
+      "lookupExplanation": [
+        "A data lake is a centralized repository that allows you to store all your structured and unstructured data at any scale."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:47.324Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 120,
+    "lookup": {
+      "ID": 120,
+      "speaker": 1,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:48.057Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 121,
+    "lookup": {
+      "ID": 121,
+      "speaker": 5,
+      "lookupTerm": [
+        "Palantir",
+        "ontology"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Palantir_Technologies",
+        "https://en.wikipedia.org/wiki/Ontology_(information_science)"
+      ],
+      "lookupExplanation": [
+        "Palantir Technologies is a public American software company that specializes in big data analytics.",
+        "In information science, ontology refers to a formal representation of a set of concepts within a domain and the relationships between those concepts."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:49.892Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 113,
+    "lookup": {
+      "ID": 113,
+      "speaker": 5,
+      "lookupTerm": [
+        "data integration",
+        "data analysis",
+        "data lakes",
+        "data clouds",
+        "Palantir"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Data_integration",
+        "https://en.wikipedia.org/wiki/Data_analysis",
+        "https://en.wikipedia.org/wiki/Data_lake",
+        "https://en.wikipedia.org/wiki/Cloud_storage",
+        "https://en.wikipedia.org/wiki/Palantir_Technologies"
+      ],
+      "lookupExplanation": [
+        "Data integration is the process of combining data from different sources to give a unified view.",
+        "Data analysis is the science of examining raw data to uncover trends and insights.",
+        "A data lake is a centralized repository that allows you to store all structured and unstructured data at any scale.",
+        "Data clouds refer to cloud-based storage solutions that enable users to store and manage their data remotely.",
+        "Palantir Technologies is a public American software company that specializes in big data analytics."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:50.100Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 123,
+    "lookup": {
+      "ID": 123,
+      "speaker": 1,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:50.170Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 125,
+    "lookup": {
+      "ID": 125,
+      "speaker": 1,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:50.982Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 124,
+    "lookup": {
+      "ID": 124,
+      "speaker": 3,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:51.021Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 122,
+    "lookup": {
+      "ID": 122,
+      "speaker": 3,
+      "lookupTerm": [
+        "Palantir",
+        "government software"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Palantir_Technologies",
+        "https://en.wikipedia.org/wiki/Government_software"
+      ],
+      "lookupExplanation": [
+        "Palantir Technologies is a public American software company that specializes in big data analytics.",
+        "Government software refers to the software used by government agencies to carry out operations and manage data."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:51.101Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 126,
+    "lookup": {
+      "ID": 126,
+      "speaker": 3,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:51.458Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 127,
+    "lookup": {
+      "ID": 127,
+      "speaker": 1,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:51.933Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 131,
+    "lookup": {
+      "ID": 131,
+      "speaker": 1,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:52.811Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 111,
+    "lookup": {
+      "ID": 111,
+      "speaker": 5,
+      "lookupTerm": [
+        "Palantir",
+        "Census Bureau",
+        "Bureau of Economic Analysis",
+        "GDP",
+        "Department of Justice",
+        "opioid epidemic",
+        "Veterans Affairs",
+        "CDC"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Palantir_Technologies",
+        "https://en.wikipedia.org/wiki/United_States_Census_Bureau",
+        "https://en.wikipedia.org/wiki/Bureau_of_Economic_Analysis",
+        "https://en.wikipedia.org/wiki/Gross_domestic_product",
+        "https://en.wikipedia.org/wiki/United_States_Department_of_Justice",
+        "https://en.wikipedia.org/wiki/Opioid_epidemic",
+        "https://en.wikipedia.org/wiki/United_States_Department_of_Veterans_Affairs",
+        "https://en.wikipedia.org/wiki/Centers_for_Disease_Control_and_Prevention"
+      ],
+      "lookupExplanation": [
+        "Palantir Technologies is a public American software company that specializes in big data analytics.",
+        "The United States Census Bureau is the government agency responsible for producing data about the American people and economy.",
+        "The Bureau of Economic Analysis is an agency within the U.S. Department of Commerce that provides essential information about the U.S. economy.",
+        "Gross Domestic Product (GDP) is the monetary measure of the market value of all final goods and services produced in a specific time period.",
+        "The United States Department of Justice is a federal executive department responsible for enforcing laws and defending the interests of the U.S.",
+        "The opioid epidemic refers to the rapid increase in the use of prescription and non-prescription opioid drugs in the United States.",
+        "The United States Department of Veterans Affairs is a government agency that provides vital services to American veterans.",
+        "The Centers for Disease Control and Prevention (CDC) is the national public health agency of the United States, improving health and safety through surveillance and prevention."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:53.189Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 128,
+    "lookup": {
+      "ID": 128,
+      "speaker": 5,
+      "lookupTerm": [
+        "Palantir",
+        "data implementation"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Palantir_Technologies",
+        "https://en.wikipedia.org/wiki/Data_analysis"
+      ],
+      "lookupExplanation": [
+        "Palantir Technologies is a public American software company that specializes in big data analytics.",
+        "Data implementation refers to the process of executing data management plans and using data for practical purposes."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:53.965Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 133,
+    "lookup": {
+      "ID": 133,
+      "speaker": 3,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:54.118Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 119,
+    "lookup": {
+      "ID": 119,
+      "speaker": 5,
+      "lookupTerm": [
+        "Palantir",
+        "ontology",
+        "Department of Justice",
+        "Great Recession",
+        "mortgages",
+        "securities",
+        "loan tape",
+        "ediscovery software"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Palantir_Technologies",
+        "https://en.wikipedia.org/wiki/Ontology_(information_science)",
+        "https://en.wikipedia.org/wiki/United_States_Department_of_Justice",
+        "https://en.wikipedia.org/wiki/Great_Recession",
+        "https://en.wikipedia.org/wiki/Mortgage",
+        "https://en.wikipedia.org/wiki/Security_(finance)",
+        "https://en.wikipedia.org/wiki/Loan",
+        "https://en.wikipedia.org/wiki/E-discovery"
+      ],
+      "lookupExplanation": [
+        "Palantir Technologies is a public American software company that specializes in big data analytics.",
+        "In information science, ontology refers to a formal representation of a set of concepts within a domain and the relationships between those concepts.",
+        "The United States Department of Justice is a federal executive department responsible for the enforcement of the law and administration of justice.",
+        "The Great Recession was a severe global economic crisis that occurred from 2007 to 2009.",
+        "A mortgage is a loan used to purchase real estate, with the property itself serving as collateral.",
+        "In finance, a security is a financial instrument that represents an ownership position, a creditor relationship, or rights to ownership.",
+        "A loan tape is a list that provides detailed information about the loans included in a mortgage-backed security.",
+        "E-discovery software is used in the legal field to search, collect, and analyze electronic data that may be relevant to legal cases."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:55.160Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 129,
+    "lookup": {
+      "ID": 129,
+      "speaker": 3,
+      "lookupTerm": [
+        "alpha",
+        "civil service",
+        "bill execution",
+        "response rates"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Alpha_(finance)",
+        "https://en.wikipedia.org/wiki/Civil_service_(United_States)",
+        "https://en.wikipedia.org/wiki/Bill_(law)",
+        "https://en.wikipedia.org/wiki/Response_rate"
+      ],
+      "lookupExplanation": [
+        "In finance, alpha is a measure of an investment's performance on a risk-adjusted basis.",
+        "The civil service refers to the body of government employees who are hired and not elected.",
+        "Bill execution refers to the process of carrying out the provisions of a bill that has been enacted into law.",
+        "Response rates refer to the proportion of individuals who respond to a survey, petition, or public inquiry."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:55.867Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 137,
+    "lookup": {
+      "ID": 137,
+      "speaker": 1,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:56.646Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 130,
+    "lookup": {
+      "ID": 130,
+      "speaker": 5,
+      "lookupTerm": [
+        "statutory maximum",
+        "telemarketers",
+        "negotiated settlements",
+        "New York"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Statutory_maximum",
+        "https://en.wikipedia.org/wiki/Telemarketing",
+        "https://en.wikipedia.org/wiki/Settlement_(law)",
+        "https://en.wikipedia.org/wiki/New_York_City"
+      ],
+      "lookupExplanation": [
+        "The statutory maximum refers to the highest limit of penalties or fines established by law.",
+        "Telemarketers are individuals or companies that promote goods or services to potential customers over the phone.",
+        "Negotiated settlements are agreements reached between parties in a legal dispute to resolve the matter without going to trial.",
+        "New York City is the most populous city in the United States, known for its significant influence on culture, finance, and international trade."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:56.868Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 132,
+    "lookup": {
+      "ID": 132,
+      "speaker": 5,
+      "lookupTerm": [
+        "mopeds",
+        "New York State",
+        "New York City"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Moped",
+        "https://en.wikipedia.org/wiki/New_York_(state)",
+        "https://en.wikipedia.org/wiki/New_York_City"
+      ],
+      "lookupExplanation": [
+        "A moped is a small, lightweight motorcycle designed for low-speed travel, typically with a bicycle-like design.",
+        "New York State is a state in the Northeastern United States, known for its diverse geography and significant cultural and economic influence.",
+        "New York City is the largest city in the United States, known for its role as a major financial, cultural, and immigration hub."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:57.382Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 135,
+    "lookup": {
+      "ID": 135,
+      "speaker": 1,
+      "lookupTerm": [
+        "hedge fund"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Hedge_fund"
+      ],
+      "lookupExplanation": [
+        "A hedge fund is an investment fund that pools capital from accredited individuals or institutional investors and invests in a variety of assets, often using complex strategies intended to generate high returns."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:57.538Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 138,
+    "lookup": {
+      "ID": 138,
+      "speaker": 5,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:57.820Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 134,
+    "lookup": {
+      "ID": 134,
+      "speaker": 5,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:57.903Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 139,
+    "lookup": {
+      "ID": 139,
+      "speaker": 3,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:58.044Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 136,
+    "lookup": {
+      "ID": 136,
+      "speaker": 5,
+      "lookupTerm": [
+        "hedge fund"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Hedge_fund"
+      ],
+      "lookupExplanation": [
+        "A hedge fund is an investment fund that pools capital from accredited investors or institutional investors and invests in a variety of assets, often employing strategies that may involve derivatives and leverage to generate high returns."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:15:58.358Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 142,
+    "lookup": {
+      "ID": 142,
+      "speaker": 5,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:58.969Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 145,
+    "lookup": {
+      "ID": 145,
+      "speaker": 4,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:15:59.229Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 143,
+    "lookup": {
+      "ID": 143,
+      "speaker": 1,
+      "lookupTerm": [
+        "Trump",
+        "AI"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Donald_Trump",
+        "https://en.wikipedia.org/wiki/Artificial_intelligence"
+      ],
+      "lookupExplanation": [
+        "Donald Trump is an American businessman, television personality, and politician who served as the 45th president of the United States from 2017 to 2021.",
+        "Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think and learn like humans."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:16:00.607Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 140,
+    "lookup": {
+      "ID": 140,
+      "speaker": 5,
+      "lookupTerm": [
+        "delivery apps",
+        "drivers",
+        "registration"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Delivery_app",
+        "https://en.wikipedia.org/wiki/Driver_(profession)",
+        "https://en.wikipedia.org/wiki/Registration"
+      ],
+      "lookupExplanation": [
+        "Delivery apps are online platforms that facilitate the ordering and delivery of goods, such as food and groceries.",
+        "A driver is an individual who operates a vehicle as part of their job, especially in the transport sector.",
+        "Registration typically refers to the process of enrolling or signing up for something, such as a professional license or membership."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:16:01.438Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 146,
+    "lookup": {
+      "ID": 146,
+      "speaker": 5,
+      "lookupTerm": [
+        "New Yorkers",
+        "subscription"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/New_York_City",
+        "https://en.wikipedia.org/wiki/Subscription"
+      ],
+      "lookupExplanation": [
+        "New Yorkers are residents of New York City, the most populous city in the United States.",
+        "A subscription is an arrangement to receive something, typically a publication or service, on a regular basis in exchange for payment."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:16:01.573Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 147,
+    "lookup": {
+      "ID": 147,
+      "speaker": 3,
+      "lookupTerm": [
+        "Conde Nast"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Cond%C3%A9_Nast"
+      ],
+      "lookupExplanation": [
+        "Conde Nast is a global media company known for publishing magazines such as Vogue, The New Yorker, and Vanity Fair."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:16:01.674Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 141,
+    "lookup": {
+      "ID": 141,
+      "speaker": 1,
+      "lookupTerm": [
+        "telemarketers",
+        "AI generated books",
+        "low trust society"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Telemarketing",
+        "https://en.wikipedia.org/wiki/Artificial_intelligence#Applications_in_writing",
+        "https://en.wikipedia.org/wiki/Trust#Low_trust_society"
+      ],
+      "lookupExplanation": [
+        "Telemarketers are individuals or companies that conduct sales and marketing activities over the telephone.",
+        "AI generated books refer to texts that are created using artificial intelligence technologies, which can produce written content across various genres.",
+        "A low trust society is characterized by skepticism and suspicion among its members, leading to reduced cooperation and increased conflict."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:16:01.741Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 148,
+    "lookup": {
+      "ID": 148,
+      "speaker": 5,
+      "lookupTerm": [],
+      "lookupLink": [],
+      "lookupExplanation": [],
+      "lookupTermTimestamp": "2026-01-14T07:16:01.873Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 149,
+    "lookup": {
+      "ID": 149,
+      "speaker": 3,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:16:02.347Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 144,
+    "lookup": {
+      "ID": 144,
+      "speaker": 5,
+      "lookupTerm": [
+        "AI",
+        "Amazon",
+        "New York State Assembly",
+        "telemarketing",
+        "click to cancel"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://en.wikipedia.org/wiki/Amazon_(company)",
+        "https://en.wikipedia.org/wiki/New_York_State_Assembly",
+        "https://en.wikipedia.org/wiki/Telemarketing",
+        "https://en.wikipedia.org/wiki/Click_to_cancel"
+      ],
+      "lookupExplanation": [
+        "Artificial Intelligence (AI) refers to the simulation of human intelligence processes by machines, especially computer systems.",
+        "Amazon is a multinational technology company based in Seattle, known for its e-commerce platform, cloud computing, and artificial intelligence.",
+        "The New York State Assembly is the lower house of the New York State Legislature, composed of elected officials who represent various districts.",
+        "Telemarketing is a method of direct marketing in which sales representatives contact potential customers via telephone.",
+        "Click to cancel refers to a user interface design that allows consumers to cancel subscription services by simply clicking a button, making it more straightforward than traditional methods."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:16:02.715Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 153,
+    "lookup": {
+      "ID": 153,
+      "speaker": 3,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:16:02.971Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 150,
+    "lookup": {
+      "ID": 150,
+      "speaker": 1,
+      "lookupTerm": [
+        "operational reality",
+        "companies",
+        "succeed",
+        "fail"
+      ],
+      "lookupLink": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "lookupExplanation": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:16:03.141Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 155,
+    "lookup": {
+      "ID": 155,
+      "speaker": 3,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:16:03.707Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 151,
+    "lookup": {
+      "ID": 151,
+      "speaker": 3,
+      "lookupTerm": [
+        "Acquired podcast"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Acquired_(podcast)"
+      ],
+      "lookupExplanation": [
+        "Acquired is a podcast where hosts discuss the histories and acquisitions of various companies."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:16:03.933Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 156,
+    "lookup": {
+      "ID": 156,
+      "speaker": 4,
+      "lookupTerm": [
+        "HelloFresh"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/HelloFresh"
+      ],
+      "lookupExplanation": [
+        "HelloFresh is a meal kit delivery service that provides customers with pre-portioned ingredients and recipes to prepare meals at home."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:16:04.925Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 154,
+    "lookup": {
+      "ID": 154,
+      "speaker": 1,
+      "lookupTerm": [
+        "market dynamics",
+        "economy"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Market_dynamics",
+        "https://en.wikipedia.org/wiki/Economy"
+      ],
+      "lookupExplanation": [
+        "Market dynamics refers to the forces that impact the supply and demand of goods and services in a market.",
+        "An economy is a system of production, distribution, and consumption of goods and services in a society or geographic area."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:16:05.257Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 158,
+    "lookup": {
+      "ID": 158,
+      "speaker": 5,
+      "lookupTerm": [
+        "overclocking",
+        "Lenovo"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Overclocking",
+        "https://en.wikipedia.org/wiki/Lenovo"
+      ],
+      "lookupExplanation": [
+        "Overclocking is the practice of increasing the clock rate of a computer's CPU beyond its rated specifications to improve performance.",
+        "Lenovo is a Chinese multinational technology company that designs, develops, manufactures, and sells consumer electronics, personal computers, and other technology products."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:16:06.937Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 159,
+    "lookup": {
+      "ID": 159,
+      "speaker": 3,
+      "lookupTerm": [
+        "digital assets",
+        "cryptocurrency",
+        "tokenization"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Digital_asset",
+        "https://en.wikipedia.org/wiki/Cryptocurrency",
+        "https://en.wikipedia.org/wiki/Token_(cryptography)"
+      ],
+      "lookupExplanation": [
+        "Digital assets are assets that exist in a digital form and have value, including cryptocurrencies and tokens.",
+        "Cryptocurrency is a digital or virtual currency that uses cryptography for security and operates on a technology called blockchain.",
+        "Tokenization is the process of converting rights to an asset into a digital token on a blockchain."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:16:07.760Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 157,
+    "lookup": {
+      "ID": 157,
+      "speaker": 2,
+      "lookupTerm": [
+        "Lenovo",
+        "Intel Core Ultra",
+        "Wi-Fi 6E"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Lenovo",
+        "https://en.wikipedia.org/wiki/Intel_Core",
+        "https://en.wikipedia.org/wiki/IEEE_802.11ax"
+      ],
+      "lookupExplanation": [
+        "Lenovo is a multinational technology company that designs, develops, manufactures, and sells consumer electronics, personal computers, and related services.",
+        "Intel Core Ultra processors are a line of high-performance processors designed for a variety of computing tasks including gaming.",
+        "Wi-Fi 6E is an extension of Wi-Fi 6 that operates in the 6 GHz band, providing higher speeds and lower latency for wireless networks."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:16:08.435Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 152,
+    "lookup": {
+      "ID": 152,
+      "speaker": 1,
+      "lookupTerm": [
+        "TSMC",
+        "Nvidia",
+        "Mars",
+        "Hermes",
+        "capital structure",
+        "incentives"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Taiwan_Semiconductor_Manufacturing_Company",
+        "https://en.wikipedia.org/wiki/Nvidia",
+        "https://en.wikipedia.org/wiki/Mars_(planet)",
+        "https://en.wikipedia.org/wiki/Herm%C3%A8s",
+        "https://en.wikipedia.org/wiki/Capital_structure",
+        "https://en.wikipedia.org/wiki/Incentive"
+      ],
+      "lookupExplanation": [
+        "TSMC (Taiwan Semiconductor Manufacturing Company) is the world's largest dedicated independent semiconductor foundry.",
+        "Nvidia is an American technology company known for its graphics processing units (GPUs) and is a leader in AI computing.",
+        "Mars is the fourth planet from the Sun and is often referred to as the Red Planet due to its reddish appearance.",
+        "Hermes is a French luxury goods manufacturer known for its high-quality fashion accessories, leather goods, and ready-to-wear clothing.",
+        "Capital structure refers to the mix of debt and equity that a company uses to finance its operations and growth.",
+        "Incentives are tools or rewards provided to motivate individuals or organizations to act in a desired manner."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:16:08.462Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 161,
+    "lookup": {
+      "ID": 161,
+      "speaker": 1,
+      "lookupTerm": [
+        "New York 12th Congressional District",
+        "GDP"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/New_York%27s_12th_congressional_district",
+        "https://en.wikipedia.org/wiki/Gross_domestic_product"
+      ],
+      "lookupExplanation": [
+        "The New York 12th Congressional District is a congressional district for the United States House of Representatives in New York City, encompassing parts of Manhattan and Brooklyn.",
+        "Gross Domestic Product (GDP) is the total monetary value of all finished goods and services produced within a country's borders in a specific time period."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:16:08.638Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 163,
+    "lookup": {
+      "ID": 163,
+      "speaker": 1,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:16:09.028Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 162,
+    "lookup": {
+      "ID": 162,
+      "speaker": 5,
+      "lookupTerm": [
+        "Fortune 500"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Fortune_500"
+      ],
+      "lookupExplanation": [
+        "The Fortune 500 is an annual list compiled and published by Fortune magazine, ranking the 500 largest U.S. companies by total revenue for their respective fiscal years."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:16:09.243Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 166,
+    "lookup": {
+      "ID": 166,
+      "speaker": 3,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:16:09.549Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 167,
+    "lookup": {
+      "ID": 167,
+      "speaker": 1,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:16:10.088Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 164,
+    "lookup": {
+      "ID": 164,
+      "speaker": 5,
+      "lookupTerm": [
+        "redistricting"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Redistricting"
+      ],
+      "lookupExplanation": [
+        "Redistricting is the process of redrawing electoral district boundaries, typically occurring every ten years after the census."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:16:10.301Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 160,
+    "lookup": {
+      "ID": 160,
+      "speaker": 5,
+      "lookupTerm": [
+        "crypto",
+        "limited purpose trust",
+        "BIT license",
+        "stablecoins",
+        "DFS"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Cryptocurrency",
+        "https://en.wikipedia.org/wiki/Trust_law",
+        "https://en.wikipedia.org/wiki/Bitcoin#Licensing",
+        "https://en.wikipedia.org/wiki/Stability_of_value#Stablecoin",
+        "https://en.wikipedia.org/wiki/Department_of_Financial_Services"
+      ],
+      "lookupExplanation": [
+        "Crypto, short for cryptocurrency, is a digital or virtual currency that uses cryptography for security and operates independently of a central authority.",
+        "A limited purpose trust is a trust designed to fulfill a specific purpose rather than managing assets for the benefit of specific beneficiaries.",
+        "A BIT license refers to the New York State's BitLicense regulation for businesses involved in virtual currency activities.",
+        "Stablecoins are a type of cryptocurrency designed to maintain a stable value against a benchmark, such as a fiat currency.",
+        "DFS stands for the Department of Financial Services, which regulates financial services and products in the state of New York."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:16:10.677Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 168,
+    "lookup": {
+      "ID": 168,
+      "speaker": 5,
+      "lookupTerm": [
+        "Palantir",
+        "software patents"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Palantir_Technologies",
+        "https://en.wikipedia.org/wiki/Software_patent"
+      ],
+      "lookupExplanation": [
+        "Palantir Technologies is a public American software company that specializes in big data analytics.",
+        "A software patent is a patent that protects a specific software program or method of operation, allowing the inventor exclusive rights to use and implement it."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:16:11.946Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 171,
+    "lookup": {
+      "ID": 171,
+      "speaker": 1,
+      "lookupTerm": [
+        "correlation"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Correlation"
+      ],
+      "lookupExplanation": [
+        "Correlation is a statistical measure that expresses the extent to which two variables are linearly related."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:16:12.092Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 170,
+    "lookup": {
+      "ID": 170,
+      "speaker": 5,
+      "lookupTerm": [
+        "Bloomberg terminal"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Bloomberg_Terminal"
+      ],
+      "lookupExplanation": [
+        "The Bloomberg Terminal is a software system provided by Bloomberg L.P. that enables professionals in finance and other industries to access the Bloomberg Professional service, through which they can monitor and analyze real-time financial market data, news, and other information."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:16:12.609Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 169,
+    "lookup": {
+      "ID": 169,
+      "speaker": 3,
+      "lookupTerm": [
+        "Hedge Funds",
+        "Bloomberg Terminal"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Hedge_fund",
+        "https://en.wikipedia.org/wiki/Bloomberg_Terminal"
+      ],
+      "lookupExplanation": [
+        "Hedge funds are investment funds that employ various strategies to earn active returns for their investors.",
+        "The Bloomberg Terminal is a computer software system provided by Bloomberg L.P. that enables financial professionals to access the Bloomberg Professional service."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:16:12.716Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 173,
+    "lookup": {
+      "ID": 173,
+      "speaker": 1,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:16:13.141Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 174,
+    "lookup": {
+      "ID": 174,
+      "speaker": 5,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:16:13.239Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 172,
+    "lookup": {
+      "ID": 172,
+      "speaker": 5,
+      "lookupTerm": [
+        "universal pre-k",
+        "early childcare"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Universal_pre_k",
+        "https://en.wikipedia.org/wiki/Child_care"
+      ],
+      "lookupExplanation": [
+        "Universal pre-k refers to a publicly funded program that provides preschool education to all children, regardless of family income.",
+        "Early childcare involves the care and education of children from birth to age five, a key period for their development."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:16:13.591Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 165,
+    "lookup": {
+      "ID": 165,
+      "speaker": 1,
+      "lookupTerm": [
+        "giga flops",
+        "anti AI",
+        "open standards",
+        "digital encryption"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/FLOPS",
+        "https://en.wikipedia.org/wiki/Artificial_intelligence#Criticism",
+        "https://en.wikipedia.org/wiki/Open_standards",
+        "https://en.wikipedia.org/wiki/Digital_encryption"
+      ],
+      "lookupExplanation": [
+        "Giga flops is a measure of a computer's performance, defined as a billion floating-point operations per second.",
+        "Anti AI refers to individuals or groups who criticize the development and deployment of artificial intelligence technologies.",
+        "Open standards are publicly available specifications that can be used by anyone to ensure interoperability and compatibility of products and services.",
+        "Digital encryption is the process of encoding information in such a way that only authorized parties can access it, ensuring data security."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:16:13.925Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 177,
+    "lookup": {
+      "ID": 177,
+      "speaker": 1,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:16:14.187Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 179,
+    "lookup": {
+      "ID": 179,
+      "speaker": 1,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:16:14.437Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 178,
+    "lookup": {
+      "ID": 178,
+      "speaker": 5,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:16:14.735Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 175,
+    "lookup": {
+      "ID": 175,
+      "speaker": 1,
+      "lookupTerm": [
+        "AI",
+        "code generation apps"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://en.wikipedia.org/wiki/Code_generation"
+      ],
+      "lookupExplanation": [
+        "Artificial intelligence (AI) is the simulation of human intelligence processes by machines, especially computer systems.",
+        "Code generation is the process of converting a high-level programming language into a lower-level language or executable code."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:16:15.193Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 180,
+    "lookup": {
+      "ID": 180,
+      "speaker": 5,
+      "lookupTerm": [],
+      "lookupLink": [],
+      "lookupExplanation": [],
+      "lookupTermTimestamp": "2026-01-14T07:16:15.257Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 185,
+    "lookup": {
+      "ID": 185,
+      "speaker": 1,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:16:16.224Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 181,
+    "lookup": {
+      "ID": 181,
+      "speaker": 1,
+      "lookupTerm": [
+        "artificial intelligence",
+        "AI critics"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://en.wikipedia.org/wiki/Criticism_of_artificial_intelligence"
+      ],
+      "lookupExplanation": [
+        "Artificial intelligence (AI) is intelligence demonstrated by machines, in contrast to the natural intelligence displayed by humans and animals.",
+        "AI critics analyze and critique the development and implications of artificial intelligence, often raising ethical, social, and technical concerns."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:16:17.540Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 176,
+    "lookup": {
+      "ID": 176,
+      "speaker": 5,
+      "lookupTerm": [
+        "coder",
+        "AI",
+        "chat gpt",
+        "Claude",
+        "Gemini"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Computer_programming",
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://en.wikipedia.org/wiki/ChatGPT",
+        "https://en.wikipedia.org/wiki/Claude_(AI)",
+        "https://en.wikipedia.org/wiki/Gemini_(artificial_intelligence)"
+      ],
+      "lookupExplanation": [
+        "A coder, or programmer, is a person who writes computer software.",
+        "Artificial intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think and learn.",
+        "ChatGPT is a chatbot developed by OpenAI that is designed to engage in conversation and answer questions.",
+        "Claude is an AI model developed by Anthropic, focusing on conversational applications and safety.",
+        "Gemini is a family of AI models developed by Google DeepMind for various applications including natural language processing."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:16:17.723Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 186,
+    "lookup": {
+      "ID": 186,
+      "speaker": 3,
+      "lookupTerm": [
+        "regulatory burden"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Regulation"
+      ],
+      "lookupExplanation": [
+        "A regulatory burden refers to the costs and challenges that businesses face due to regulations imposed by government authorities."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:16:17.967Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 184,
+    "lookup": {
+      "ID": 184,
+      "speaker": 3,
+      "lookupTerm": [
+        "censorship",
+        "trolling"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Censorship",
+        "https://en.wikipedia.org/wiki/Trolling_(Internet)"
+      ],
+      "lookupExplanation": [
+        "Censorship is the suppression of speech, public communication, or other information. It can be conducted by governments, private organizations, or individuals.",
+        "Trolling is a term used in Internet culture to describe the act of making comments or posting provocative content online with the intent of inciting anger or reaction."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:16:18.368Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 182,
+    "lookup": {
+      "ID": 182,
+      "speaker": 3,
+      "lookupTerm": [
+        "big tech",
+        "regulation",
+        "privacy"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Big_tech",
+        "https://en.wikipedia.org/wiki/Regulation",
+        "https://en.wikipedia.org/wiki/Privacy"
+      ],
+      "lookupExplanation": [
+        "Big tech refers to the major technology companies that dominate significant portions of the market, often characterized by large earnings and influence over the economy and society.",
+        "Regulation is the management of complex systems according to a set of rules and trends, often involving governmental oversight to ensure compliance with laws and policies.",
+        "Privacy refers to the right of an individual or group to seclude themselves or information about themselves and is often associated with data security in the digital context."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:16:18.452Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 187,
+    "lookup": {
+      "ID": 187,
+      "speaker": 1,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:16:18.592Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 188,
+    "lookup": {
+      "ID": 188,
+      "speaker": 3,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:16:18.950Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 190,
+    "lookup": {
+      "ID": 190,
+      "speaker": 3,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:16:19.304Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 189,
+    "lookup": {
+      "ID": 189,
+      "speaker": 1,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-14T07:16:19.429Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 183,
+    "lookup": {
+      "ID": 183,
+      "speaker": 1,
+      "lookupTerm": [
+        "DeepSeek",
+        "App Store",
+        "AI",
+        "incumbents",
+        "monetary fine"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/DeepSeek",
+        "https://en.wikipedia.org/wiki/App_Store",
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://en.wikipedia.org/wiki/Incumbent",
+        "https://en.wikipedia.org/wiki/Fine_(penalty)"
+      ],
+      "lookupExplanation": [
+        "DeepSeek is a hypothetical or fictional entity referenced for discussion purposes, and as a result, no specific article exists.",
+        "The App Store is a digital distribution platform for mobile apps, primarily for Apple's iOS operating system.",
+        "Artificial intelligence (AI) is intelligence demonstrated by machines, in contrast to the natural intelligence displayed by humans and animals.",
+        "An incumbent is a current officeholder or entity that has a significant position in a market or industry.",
+        "A monetary fine is a financial penalty imposed by a court or regulatory authority for violating laws or regulations."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:16:19.574Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 191,
+    "lookup": {
+      "ID": 191,
+      "speaker": 1,
+      "lookupTerm": [
+        "Bloomberg",
+        "Discord"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Bloomberg_L.P.",
+        "https://en.wikipedia.org/wiki/Discord_(software)"
+      ],
+      "lookupExplanation": [
+        "Bloomberg L.P. is a global financial services, software, and media company headquartered in New York City.",
+        "Discord is a VoIP, instant messaging and digital distribution platform designed for creating communities."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:16:21.001Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 192,
+    "lookup": {
+      "ID": 192,
+      "speaker": 3,
+      "lookupTerm": [
+        "Bloomberg",
+        "Apple Podcasts"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Bloomberg_L.P.",
+        "https://en.wikipedia.org/wiki/Apple_Podcasts"
+      ],
+      "lookupExplanation": [
+        "Bloomberg L.P. is a global financial services, software, and media company.",
+        "Apple Podcasts is a podcast app provided by Apple Inc. for listening to podcasts."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:16:21.005Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 193,
+    "lookup": {
+      "ID": 193,
+      "speaker": 2,
+      "lookupTerm": [
+        "Lenovo"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Lenovo"
+      ],
+      "lookupExplanation": [
+        "Lenovo is a multinational technology company with headquarters in Beijing, China, and Morrisville, North Carolina, United States, known for its computers, smartphones, and other electronic devices."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:16:21.121Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 194,
+    "lookup": {
+      "ID": 194,
+      "speaker": 1,
+      "lookupTerm": [
+        "Intel Core"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Intel_Core"
+      ],
+      "lookupExplanation": [
+        "Intel Core is a brand name used for a series of mid-range to high-end consumer and business microprocessors developed by Intel."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:16:21.152Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 195,
+    "lookup": {
+      "ID": 195,
+      "speaker": 2,
+      "lookupTerm": [
+        "Ultra processors",
+        "Intel Wi Fi six e",
+        "overclocking",
+        "Lenovo"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Processor_(computing)",
+        "https://en.wikipedia.org/wiki/IEEE_802.11ax",
+        "https://en.wikipedia.org/wiki/Overclocking",
+        "https://en.wikipedia.org/wiki/Lenovo"
+      ],
+      "lookupExplanation": [
+        "Ultra processors refer to high-performance processors designed for demanding computing tasks, particularly in gaming and content creation.",
+        "Intel Wi-Fi 6E is an enhanced version of Wi-Fi 6 that operates on the 6 GHz band, providing greater speeds and reduced latency.",
+        "Overclocking is the practice of increasing the clock speed of a computer component beyond its factory settings to achieve higher performance.",
+        "Lenovo is a multinational technology company known for its computers, smartphones, and electronic devices."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:16:24.147Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  },
+  {
+    "ID": 196,
+    "lookup": {
+      "ID": 196,
+      "speaker": 6,
+      "lookupTerm": [
+        "Bloomberg Law",
+        "congress",
+        "supreme court",
+        "corporate law",
+        "constitutional law"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Bloomberg_Law",
+        "https://en.wikipedia.org/wiki/United_States_Congress",
+        "https://en.wikipedia.org/wiki/Supreme_Court_of_the_United_States",
+        "https://en.wikipedia.org/wiki/Corporate_law",
+        "https://en.wikipedia.org/wiki/Constitutional_law"
+      ],
+      "lookupExplanation": [
+        "Bloomberg Law is a subscription-based legal research and business intelligence platform that provides access to legal content and resources.",
+        "The United States Congress is the bicameral legislature of the federal government of the United States, consisting of the Senate and the House of Representatives.",
+        "The Supreme Court of the United States is the highest court in the federal judiciary of the United States, composed of nine justices.",
+        "Corporate law is the body of law governing the rights, relations, and conduct of persons, companies, organizations, and businesses.",
+        "Constitutional law involves the interpretation and application of the constitution of a state or nation, primarily concerning the limits and powers of government institutions."
+      ],
+      "lookupTermTimestamp": "2026-01-14T07:16:26.091Z"
+    },
+    "error": {
+      "error": "Missing 'text' field in target turn"
+    }
+  }
+]

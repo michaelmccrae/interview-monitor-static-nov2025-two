@@ -1,0 +1,1578 @@
+[
+  {
+    "speaker": 0,
+    "text": "Markets move fast. Get the insights you need in ten minutes with Barclays Brief, a podcast from Barclays Investment Bank. Each week, our experts analyze market themes, helping you anticipate what's next. Listen to Barclays Brief wherever you get your podcasts.",
+    "startBeginning": 0.24,
+    "startEnd": 13.759999,
+    "ID": 0,
+    "numberOfWords": 41
+  },
+  {
+    "speaker": 1,
+    "text": "Donald Trump is rewriting the Washington rule book and reshaping the global economy. If you're trying to connect the dots behind the headlines, Bloomberg's Trumponomics podcast is here to help. I'm Stephanie Flanders, head of government and economics at Bloomberg. Every week, I'll bring you a smart focused conversation with reporters and experts from Washington, Wall Street, and beyond. Listen to new episodes every Wednesday and follow Trumponomics wherever you listen.",
+    "startBeginning": 16.185,
+    "startEnd": 43.635,
+    "ID": 1,
+    "numberOfWords": 71
+  },
+  {
+    "speaker": 2,
+    "text": "In the heat of battle, your squad relies on you. Don't let them down. Unlock elite gaming tech at lenovo.com. Dominate every match with next level speed, seamless streaming, and performance that won't quit. Push your gameplay beyond performance with Intel Core Ultra processors for the next era of gaming. Upgrade to smooth, high quality streaming with Intel Wi Fi 6E and maximize game performance with enhanced overclocking. Win the tech search. Power up at lenovo.com.",
+    "startBeginning": 45.315,
+    "startEnd": 69.02,
+    "ID": 2,
+    "numberOfWords": 76
+  },
+  {
+    "speaker": 3,
+    "text": "Bloomberg Audio Studios.",
+    "startBeginning": 78.195,
+    "startEnd": 79.235,
+    "ID": 3,
+    "numberOfWords": 3
+  },
+  {
+    "speaker": 4,
+    "text": "Podcasts, radio, news.",
+    "startBeginning": 80.355,
+    "startEnd": 82.275,
+    "ID": 4,
+    "numberOfWords": 3
+  },
+  {
+    "speaker": 1,
+    "text": "Hello, and welcome to another episode of the Odd Lots podcast. I'm Joe Wiesenthal.",
+    "startBeginning": 93.36,
+    "startEnd": 97.119995,
+    "ID": 5,
+    "numberOfWords": 14
+  },
+  {
+    "speaker": 3,
+    "text": "And I'm Tracy Alloway.",
+    "startBeginning": 97.759995,
+    "startEnd": 98.479996,
+    "ID": 6,
+    "numberOfWords": 4
+  },
+  {
+    "speaker": 1,
+    "text": "You know, obviously, we've been talking about I think 2028 is gonna be a big election for AI. Really, 2026. Actually, now. You know? It's not really even a prediction. This is just a description of fact. AI is going to be very big for politics.",
+    "startBeginning": 99.284996,
+    "startEnd": 111.365,
+    "ID": 7,
+    "numberOfWords": 46
+  },
+  {
+    "speaker": 3,
+    "text": "Yeah. I think it's inescapable at this point. AI is sort of dominating the news cycle as well. I know it's a running joke on the podcast, but every time we record an AI related episode, another headline hits the terminal about, you know, some new billion dollar billions.",
+    "startBeginning": 112.03001,
+    "startEnd": 129.285,
+    "ID": 8,
+    "numberOfWords": 49
+  },
+  {
+    "speaker": 1,
+    "text": "That we just got.",
+    "startBeginning": 129.685,
+    "startEnd": 130.245,
+    "ID": 9,
+    "numberOfWords": 4
+  },
+  {
+    "speaker": 3,
+    "text": "Disney to make $1,000,000,000 equity investment in OpenAI.",
+    "startBeginning": 131.045,
+    "startEnd": 134.64499,
+    "ID": 10,
+    "numberOfWords": 8
+  },
+  {
+    "speaker": 1,
+    "text": "Literally every time we do an episode, especially about AI, but even though there's some headline about a new investment, which just goes to show. But, you know, I the fact that it's gonna dominate politics is the least surprising thing ever because Yeah. It touches on everything. Anything that's politically sensitive, the labor market. Right? That's obvious big one. Electricity cost, water consumption, wealth and inequality, and who has the power, and who's accumulating more and more money in the tech industry, and who's not, and all this thing. Like, there is hardly a political topic that in some way, I feel like AI does not exacerbate in",
+    "startBeginning": 136.005,
+    "startEnd": 170.57,
+    "ID": 11,
+    "numberOfWords": 109
+  },
+  {
+    "speaker": 3,
+    "text": "some way. Absolutely. Meanwhile, the other big news politically when it comes to AI this week is that Trump issued an executive order for a national rule on AI Yeah. Which a lot of people who are trying to safeguard the system and protect data privacy rights, that sort of thing, do not want.",
+    "startBeginning": 171.09001,
+    "startEnd": 190.125,
+    "ID": 12,
+    "numberOfWords": 54
+  },
+  {
+    "speaker": 1,
+    "text": "Well, this is the other thing. So it's all this anxiety for various reasons. Pick your poison, whether it's gonna displace the jobs, whether AI is gonna be too woke and come up with versions of history that people don't like, whether it's gonna, you know, just rot our minds with slop or, you know, whether it's gonna turn us all into paperclips. So you say, okay. We should regulate. But what does that even look like? Like, what is a sort of productive regulation look like such that, okay. Hopefully, we could maintain positive aspects of the technological development while capping the downsides. Right. That would be nice. I would love that. But, like, how how exactly do you do that?",
+    "startBeginning": 190.925,
+    "startEnd": 229.92,
+    "ID": 13,
+    "numberOfWords": 122
+  },
+  {
+    "speaker": 3,
+    "text": "The argument that you hear from AI proponents is that any regulation needs to balance, you know, safety with innovation because there's also the question of China, which Yeah. That's another hot button political topic. Right? The this idea that The US is in an existential battle with China Yeah. Over AI, and we have to win at all costs. Therefore, the industry must not be tightly regulated.",
+    "startBeginning": 230.23999,
+    "startEnd": 253.585,
+    "ID": 14,
+    "numberOfWords": 68
+  },
+  {
+    "speaker": 1,
+    "text": "Yeah. Right. So it's also a geopolitical element. Anyway, so we mentioned AI is gonna be big in politics. We really do have the perfect guest because we're gonna be speaking to someone that the AI industry is actually targeting, someone that the AI industry is actively trying to stop. There's this new super pack, and I think it has some entries and money and maybe a little some executives from OpenAI, etcetera. Anyway, they wanna, like, you know, make sure that sort of AI sympathetic politicians do well, but they're also targeting politicians that they perceive to be too negative, and they've even named names, which I think is super interesting, and we have them. So we are gonna be speaking with Alex Boris. He's a state assembly member here in New York. He's also a candidate in the primary for the 12th District, which is here in Manhattan, which, like, I feel like a thousand people are gonna be running for this open seat. I feel like if you were targeted by the AI industry, that is probably some of the best advertising you could get in a very crowded field where it's just like there's gonna be a million choices. Also",
+    "startBeginning": 254.38501,
+    "startEnd": 313.77,
+    "ID": 15,
+    "numberOfWords": 204
+  },
+  {
+    "speaker": 3,
+    "text": "yeah. I was gonna say what you're gonna say next, I think, but he used to work at Palantir as a data scientist, and Palantir is one of the companies backing Yeah. That Super PAC.",
+    "startBeginning": 314.65,
+    "startEnd": 323.77,
+    "ID": 16,
+    "numberOfWords": 35
+  },
+  {
+    "speaker": 1,
+    "text": "So you know what I think we should do? Can we talk about AI for, like, five minutes and then make this a fifty minute episode about what Palantir does for someone who used to work? That's my goal for this.",
+    "startBeginning": 324.33,
+    "startEnd": 332.595,
+    "ID": 17,
+    "numberOfWords": 41
+  },
+  {
+    "speaker": 3,
+    "text": "Why don't we just make it a series?",
+    "startBeginning": 332.995,
+    "startEnd": 334.035,
+    "ID": 18,
+    "numberOfWords": 8
+  },
+  {
+    "speaker": 1,
+    "text": "Let's just make it a series. Anyway, Alex Boris, thank you so much for coming on Odd Laws.",
+    "startBeginning": 334.595,
+    "startEnd": 338.915,
+    "ID": 19,
+    "numberOfWords": 18
+  },
+  {
+    "speaker": 5,
+    "text": "Thank you for having me.",
+    "startBeginning": 339.315,
+    "startEnd": 340.035,
+    "ID": 20,
+    "numberOfWords": 5
+  },
+  {
+    "speaker": 1,
+    "text": "So what's the deal? Like, people are flying in from around the country just to run for this twelfth district seat that's opened up.",
+    "startBeginning": 340.35498,
+    "startEnd": 346.59,
+    "ID": 21,
+    "numberOfWords": 24
+  },
+  {
+    "speaker": 5,
+    "text": "Yeah. Most recently, George Conway who lives in Bethesda, Maryland said that he was gonna move to the district and run. You just have to live in the state.",
+    "startBeginning": 346.99,
+    "startEnd": 354.27,
+    "ID": 22,
+    "numberOfWords": 29
+  },
+  {
+    "speaker": 1,
+    "text": "You don't have to live in",
+    "startBeginning": 354.43,
+    "startEnd": 355.23,
+    "ID": 23,
+    "numberOfWords": 6
+  },
+  {
+    "speaker": 5,
+    "text": "the district to run. So, last week, someone who lives in The Bronx also declared for this.",
+    "startBeginning": 355.39,
+    "startEnd": 359.565,
+    "ID": 24,
+    "numberOfWords": 17
+  },
+  {
+    "speaker": 1,
+    "text": "Is this the one Jack Schlossberg? Is he running?",
+    "startBeginning": 359.885,
+    "startEnd": 361.405,
+    "ID": 25,
+    "numberOfWords": 9
+  },
+  {
+    "speaker": 5,
+    "text": "Jack is also running. Yes. I think there's 10 declared candidates now and and more to come, I'm sure.",
+    "startBeginning": 361.725,
+    "startEnd": 366.365,
+    "ID": 26,
+    "numberOfWords": 19
+  },
+  {
+    "speaker": 1,
+    "text": "What a farce.",
+    "startBeginning": 367.005,
+    "startEnd": 367.325,
+    "ID": 27,
+    "numberOfWords": 3
+  },
+  {
+    "speaker": 3,
+    "text": "How did you actually transition from being a data scientist at Palantir to politics? It's not a natural progression for a lot of people.",
+    "startBeginning": 367.965,
+    "startEnd": 375.3,
+    "ID": 28,
+    "numberOfWords": 24
+  },
+  {
+    "speaker": 5,
+    "text": "Well, what brought me to Palantir in the first place was the ability to work with government. And actually What",
+    "startBeginning": 375.69998,
+    "startEnd": 380.18,
+    "ID": 29,
+    "numberOfWords": 20
+  },
+  {
+    "speaker": 1,
+    "text": "year are we talking about, by the way?",
+    "startBeginning": 380.34,
+    "startEnd": 381.3,
+    "ID": 30,
+    "numberOfWords": 8
+  },
+  {
+    "speaker": 5,
+    "text": "So I I joined Palantir in 2014. I left in 2019. And so many people think of government as just passing the bills, but that's not how most citizens interact with government. It's can I get to the DMV and get my license renewed quickly? It's starting a business. It's the day to day interactions, and that implementation was an exciting thing to work on. So I was at Palantir for four and a half years. I then went to a couple of startups afterwards. One that used early transformers, Bert and Laser, to help banks with anti money laundering counter terrorist financing, and then a startup that worked with municipalities to better distribute aid. So the I had this through line of actually having government deliver on its promises throughout.",
+    "startBeginning": 381.38,
+    "startEnd": 421.445,
+    "ID": 31,
+    "numberOfWords": 131
+  },
+  {
+    "speaker": 1,
+    "text": "We're gonna talk more about Palantir later. So I'm reading this is from there was a recent political pro article. AI Super PAC leading the future say they are spinning up a multimillion dollar effort to sink Boris' nascent primary campaign to replace retiring Manhattan representative Jerry Nadler. Okay. So what is it about your time in the state assembly such that you got on their radar?",
+    "startBeginning": 422.245,
+    "startEnd": 444.545,
+    "ID": 32,
+    "numberOfWords": 67
+  },
+  {
+    "speaker": 5,
+    "text": "Most prominently, I I've done a number of bills while there. I've passed 27 bills in my three years, which coincidentally is the same number congress as a whole passed in 2023. But there's one bill in particular that caught their eye, which is the RAISE Act. And this bill would, for the first time, put safety standards on advanced AI research. They really didn't like that bill. And so they announced me as public enemy number one, and the initial announcement said they're planning to spend multiple millions against me. Last week, they upped it to $10,000,000. I'm hoping if the campaign continues, I can use up all a 100,000,000 that they've planned, but we'll see where it goes.",
+    "startBeginning": 445.98502,
+    "startEnd": 480.725,
+    "ID": 33,
+    "numberOfWords": 120
+  },
+  {
+    "speaker": 1,
+    "text": "What was in the RAISE Act? Like, what was the gist of this bill that they had?",
+    "startBeginning": 480.965,
+    "startEnd": 483.92502,
+    "ID": 34,
+    "numberOfWords": 17
+  },
+  {
+    "speaker": 5,
+    "text": "Yeah. So it was requiring the major Frontier Labs. So we're talking Meta, Google, XAI, XAI, OpenAI, and Thropic. That's probably all it would apply to right now. I think over time, maybe Amazon gets in there in DeepSeek and maybe Mistral, but it's a single digit number of companies. And they would have to have a public safety plan that they disclose and stuck to, Also, disclose critical safety incidents, so things that go wrong that could lead to increased risk. Your model weights get stolen. They you lose control of the model, etcetera. And it that if your models fail your own tests, that you can't release that model. And that's designed to counteract what we saw with the tobacco companies where they knew that cigarettes were causing cancer but denied it publicly and continued to release the product. This is saying, hey, you companies, you're the experts. But if you're getting reports back that this is very dangerous, you need to take action on that.",
+    "startBeginning": 484.165,
+    "startEnd": 533.215,
+    "ID": 35,
+    "numberOfWords": 168
+  },
+  {
+    "speaker": 3,
+    "text": "It also proposes fines for violations. Right? I think it's up to $10,000,000 for the first, and then subsequent ones are $30,000,000. Does that actually matter to tech companies? Like, I know they care, like, they care about money. But, like, if Google is pulling in a 100,000,000,000 per year, it can, you know, it can pay 3,000,000,000 fines.",
+    "startBeginning": 534.015,
+    "startEnd": 555.62,
+    "ID": 36,
+    "numberOfWords": 59
+  },
+  {
+    "speaker": 5,
+    "text": "Absolutely. In my opinion, those fines are too low. The original version had 10% of their training cost, and it would scale up with what they're investing. Mhmm. But, generally, in New York, we don't like an uncapped maximum fine, so that was part of the negotiations. I agree. I think there could be companies that just say, we're gonna ignore this. I think the fact that they're spending nearly that amount lobbying against it suggests that they do think it has some teeth.",
+    "startBeginning": 556.775,
+    "startEnd": 580.4,
+    "ID": 37,
+    "numberOfWords": 84
+  },
+  {
+    "speaker": 1,
+    "text": "Talk to us a little bit more about what specifically would in your which what would trigger the fines? Because there I could see some very perverse things going on. First of all, I could see smaller companies that are right at the edge where it's like, okay. Maybe this isn't a big deal for Google, but this is a bigger deal for a smaller company that's just starting out. We don't wanna lock in just the hands of the biggest players. Right? Because regulation can serve that. It can perversely lock in the incumbents because they're the only ones who could deal with the regulatory thicket. There are also issues that could arise where, well, if I'm gonna get fined really badly, I'm just I'm gonna look the other way. I'm not gonna notice what these say safety violations are. But talk to us about what are, in your view, the formal triggers such that the bill does not have these sort of perverse incentives.",
+    "startBeginning": 581.52,
+    "startEnd": 628.6,
+    "ID": 38,
+    "numberOfWords": 166
+  },
+  {
+    "speaker": 5,
+    "text": "Yeah. I feel like this is the form where I can really get into the details on it.",
+    "startBeginning": 629.08,
+    "startEnd": 631.96,
+    "ID": 39,
+    "numberOfWords": 18
+  },
+  {
+    "speaker": 1,
+    "text": "So let",
+    "startBeginning": 632.12,
+    "startEnd": 632.36,
+    "ID": 40,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 5,
+    "text": "let's dive in. There's a two part test for the RAISE Act to apply. The first is that you're a company that has spent a $100,000,000 specifically on compute, specifically on the final training run of models. So not the tests that lead up to it, but actually the final pre training and post training before you put the model out. That's one part. So it doesn't apply if you're an academic institution. It doesn't apply if you spent less than a 100,000,000. The second part is how do you define a frontier model. And the easy way is you have trained a model that itself by itself was a $100,000,000 in compute and had 10 to the 26 FLOPS, computational operations and training. Right? It's a measure of the complexity and the size of the model. That's a standard one that people have dealt with for a while. And so that's when I listed the five companies that I think it applies to. Those are the companies I think have trained one of those a 100,000,010 to the 26. But there's a second way that you can be a Frontier model, and that is you are trained via the specific process of knowledge distillation, and at least 5,000,000 is spent on that. So knowledge distillation is a technique of training a small model based on the outputs of a larger model, and it's a way to kind of shortcut a lot of the training and get a smaller model that has similar capabilities. Importantly, it's the technique that China has been using to catch up to The US because of our limits on compute to China, because of the export controls. That's how they're making their advanced models. And so this is the only bill that I know of that would apply some regulatory scrutiny to, for example, DeepSeq.",
+    "startBeginning": 632.52,
+    "startEnd": 724.66003,
+    "ID": 41,
+    "numberOfWords": 310
+  },
+  {
+    "speaker": 3,
+    "text": "How do you actually solve, I I guess, the black box problem? This idea that, you know, you have these models, algorithms, whatever, and no one really has very good insight into what they're actually doing. And even if you have rules against something like redlining, the models can use proxy data to determine, you know, someone's race or someone's gender income, whatever. How do you do that?",
+    "startBeginning": 725.725,
+    "startEnd": 749.5,
+    "ID": 42,
+    "numberOfWords": 68
+  },
+  {
+    "speaker": 5,
+    "text": "Well, on on those kinds of questions around discrimination, you're right. It it's very challenging to know what the intent of a model is. And, you know, everyone there there's a whole subset of people who that are really against when you anthropomorphize any model, but I'm just gonna keep saying intent and desire, and we could have that conversation separately. So it's tough to know a model's intent, but you can know its impact. So to be clear, the RAISE Act doesn't deal at all with those questions of discrimination. There's other bills pending in the legislature that do, and I think it's an important one. But in that and in the safety aspects, you can do a variety of tests to see how does it behave in certain circumstances. And you've seen outside researchers, you've seen companies themselves set up their models in what appear to be compromising situations and see how it behaves. So there was one test that was done where a model was told it was gonna be shut down, but was given access to what it thought was a company's email server.",
+    "startBeginning": 750.155,
+    "startEnd": 803.4,
+    "ID": 43,
+    "numberOfWords": 188
+  },
+  {
+    "speaker": 3,
+    "text": "Oh, I remember this. Yeah.",
+    "startBeginning": 804.28,
+    "startEnd": 805.64,
+    "ID": 44,
+    "numberOfWords": 5
+  },
+  {
+    "speaker": 5,
+    "text": "And they had planted fake emails that the engineer conducting the test was having an affair. And so the model, after being told it was shut down, sent a message to the engineer saying, I'm gonna send these emails to your wife What?",
+    "startBeginning": 806.2,
+    "startEnd": 819.735,
+    "ID": 45,
+    "numberOfWords": 43
+  },
+  {
+    "speaker": 1,
+    "text": "If you",
+    "startBeginning": 820.055,
+    "startEnd": 820.215,
+    "ID": 46,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 5,
+    "text": "shut me down. So I don't know the intent of the model. I don't know exactly what's going on, but I know that that is behavior you probably wanna work out of the model before it's released.",
+    "startBeginning": 820.375,
+    "startEnd": 828.22,
+    "ID": 47,
+    "numberOfWords": 37
+  },
+  {
+    "speaker": 3,
+    "text": "It's pretty creative at the very least.",
+    "startBeginning": 828.77997,
+    "startEnd": 830.45996,
+    "ID": 48,
+    "numberOfWords": 7
+  },
+  {
+    "speaker": 1,
+    "text": "Yeah. To some extent, it shows they're working. You know, you mentioned Deepsea. It's an open source piece of software. They're in China. The people at DeepSeek are not going to concern themselves with some legislation in the New York State Assembly. Anyone with an Internet connection can theoretically download that model and run it on any server. Intuitively, this feels like it hobbles the American companies who have to abide by American laws, etcetera, and advantages open source models that are just, like, maybe not even have a company behind them in the future, etcetera. Why does this not have a negative disparate impact on our own companies?",
+    "startBeginning": 830.94,
+    "startEnd": 869.815,
+    "ID": 49,
+    "numberOfWords": 109
+  },
+  {
+    "speaker": 5,
+    "text": "DeepSeek open sourced the model, but they are still a company that wants to profit, and they sell things on top of it. So DeepSeek's available in the App Store. If they don't pay fines in The US, we can have an injunction to take them out of the App Store, and they want businesses to use it. So there is still a real reason for them to comply with The US. But on the flip side of it, how it could hobble these companies, we're not asking them to do much more than they've already committed to publicly. They made White House voluntary commitments in 2023 and 2024. They've had international summits like the Seoul Summit where they put forward basically plans to do exactly this. What the RAISE Act does is lock in place a floor so that when they're rushing for the next quarterly reporting or their next fundraising round, they don't have an incentive to cut out on safety. And I would say that the labs themselves, the lobbyists for the labs, did an estimate for what it would take to comply with the RAISE Act, and they have every incentive to expand that estimate. Say this will hobble us. We you know, we're gonna leave. And the estimate they came back with was that it would require Google or Meta to have one extra full time employee.",
+    "startBeginning": 870.455,
+    "startEnd": 933.16003,
+    "ID": 50,
+    "numberOfWords": 232
+  },
+  {
+    "speaker": 3,
+    "text": "Oh, wow. How would the RAISE Act actually interact with this new executive order that Trump just put out for a single national rule for AI?",
+    "startBeginning": 933.8,
+    "startEnd": 943.24,
+    "ID": 51,
+    "numberOfWords": 26
+  },
+  {
+    "speaker": 5,
+    "text": "So Trump is threatening to withhold funding from states and to sue states that do any sort of regulation around AI. New York already does a bunch of it. So regardless of whether the governor signs the RAISE Act or not, we would probably be in Trump's crosshairs. For example, the governor this year put forward regulations around chatbots requiring them to disclose that they're an AI model at the start and every three hours of continuous conversation.",
+    "startBeginning": 944.88495,
+    "startEnd": 968.14996,
+    "ID": 52,
+    "numberOfWords": 78
+  },
+  {
+    "speaker": 3,
+    "text": "And That seems so basic.",
+    "startBeginning": 969.18994,
+    "startEnd": 970.31,
+    "ID": 53,
+    "numberOfWords": 5
+  },
+  {
+    "speaker": 5,
+    "text": "So basic. And requires them to be on the lookout and to alert for when there's language that might indicate potential self harm and to refer people to resources, which also seems really basic. But that would violate this executive order. And so we're sort of in for a penny and for a pound at this point, and I think we need to stand up for New York families.",
+    "startBeginning": 970.955,
+    "startEnd": 989.82,
+    "ID": 54,
+    "numberOfWords": 69
+  },
+  {
+    "speaker": 3,
+    "text": "Joe, I get notifications if I watch too many episodes of a show on Netflix. Right? You can imagine people constantly talking to chatbots needing reminders too.",
+    "startBeginning": 990.46,
+    "startEnd": 999.10004,
+    "ID": 55,
+    "numberOfWords": 27
+  },
+  {
+    "speaker": 1,
+    "text": "I feel like I've never had a three hour conversation with a chat. If I ever have a three hour conversation with a chatbot, Tracy, let me",
+    "startBeginning": 1000.04504,
+    "startEnd": 1005.92505,
+    "ID": 56,
+    "numberOfWords": 27
+  },
+  {
+    "speaker": 3,
+    "text": "I'm I'm gonna keep an eye on you in the office.",
+    "startBeginning": 1006.28503,
+    "startEnd": 1008.445,
+    "ID": 57,
+    "numberOfWords": 11
+  },
+  {
+    "speaker": 1,
+    "text": "You know, talk to us a little bit more about the politics of AI within Albany right now. Is this the kind of thing is there a bipartisan sort of anxiety? Talk, yeah, talk to us about the vibe, Tory.",
+    "startBeginning": 1009.005,
+    "startEnd": 1021.17,
+    "ID": 58,
+    "numberOfWords": 40
+  },
+  {
+    "speaker": 5,
+    "text": "I think it's it's similar to what you see nationally, which is there are some, especially on the right, that just think the only thing that matters is how fast AI moves and not who it hurts. There are some, especially on the left, that don't want want this technology put back in the box. Right? And then there's most people in the middle that say, hey. We need to balance the benefits of it and the potential safety of it. And the RAISE Act is squarely within that that realm. It passed with cosponsors who are both Democrats and Republicans. The majority of Republicans voted for it in the assembly, and every single Republican state senator voted for it. So, Tracy, at the start, you were mentioning that proponents are the ones who are balancing safety and innovation. By that measure, everyone voting for it is a proponent.",
+    "startBeginning": 1021.49,
+    "startEnd": 1063.515,
+    "ID": 59,
+    "numberOfWords": 149
+  },
+  {
+    "speaker": 3,
+    "text": "Why do you think Trump is doing this?",
+    "startBeginning": 1064.635,
+    "startEnd": 1066.715,
+    "ID": 60,
+    "numberOfWords": 8
+  },
+  {
+    "speaker": 5,
+    "text": "I love why do you think Trump questions. No. No. No. No. No. No.",
+    "startBeginning": 1067.275,
+    "startEnd": 1069.9149,
+    "ID": 61,
+    "numberOfWords": 14
+  },
+  {
+    "speaker": 3,
+    "text": "Honestly, on it's a basic question, but I'm very curious to hear your answer.",
+    "startBeginning": 1070.235,
+    "startEnd": 1073.835,
+    "ID": 62,
+    "numberOfWords": 14
+  },
+  {
+    "speaker": 5,
+    "text": "I, for so many reasons, wish I understood that man better, but also feel like it would not be good for my mental health if I did. It is tough to understand because it's so different from his policy everywhere else.",
+    "startBeginning": 1074.71,
+    "startEnd": 1087.1901,
+    "ID": 63,
+    "numberOfWords": 41
+  },
+  {
+    "speaker": 3,
+    "text": "Right.",
+    "startBeginning": 1087.51,
+    "startEnd": 1087.51,
+    "ID": 64,
+    "numberOfWords": 1
+  },
+  {
+    "speaker": 5,
+    "text": "Right? He is putting forward tariffs and having this nationalistic protective sort of anti trade agenda on food and on diapers and on toys. But then when it comes to AI",
+    "startBeginning": 1087.91,
+    "startEnd": 1099.2749,
+    "ID": 65,
+    "numberOfWords": 31
+  },
+  {
+    "speaker": 3,
+    "text": "Pencils now.",
+    "startBeginning": 1099.595,
+    "startEnd": 1100.1549,
+    "ID": 66,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 5,
+    "text": "Pencils.",
+    "startBeginning": 1100.875,
+    "startEnd": 1100.875,
+    "ID": 67,
+    "numberOfWords": 1
+  },
+  {
+    "speaker": 1,
+    "text": "Mhmm.",
+    "startBeginning": 1101.755,
+    "startEnd": 1101.755,
+    "ID": 68,
+    "numberOfWords": 1
+  },
+  {
+    "speaker": 3,
+    "text": "He says we don't need so many pencils.",
+    "startBeginning": 1101.995,
+    "startEnd": 1103.2749,
+    "ID": 69,
+    "numberOfWords": 8
+  },
+  {
+    "speaker": 5,
+    "text": "My wife and I just had our first kid who's four months, so you see where my head's at with diapers and toys as we come into the holiday. Pencils are still a few years off. And then when it comes to AI, he just wants to push America's agenda everywhere and say no regulation whatsoever. So it's confusing. What I can say is that a number of the people behind the Super PAC targeting me are the same people that were funding his campaign. You had Marc Andreessen put 5 and a half million into his campaign. You had Joe Lonsdale put 1,000,000 into his campaign. You had Greg Brockman, the president of OpenAI, put at least 2 and a half million into tearing down the White House to build the ballroom. And so you have a lot of people around Trump at fundraising events and at other events who are pushing this agenda, and he seems to have empowered them.",
+    "startBeginning": 1104.9299,
+    "startEnd": 1146.965,
+    "ID": 70,
+    "numberOfWords": 162
+  },
+  {
+    "speaker": 0,
+    "text": "Today's markets move fast. Get the insights you need in ten minutes with the Barclays brief, a new podcast from Barclays Investment Bank. Through sharp dialogue and scenario based analysis, our leading experts analyze key market themes each week. So whether you're managing a portfolio or leading a business, the Barclays Brief podcast can help you make smarter decisions today. Stay sharp. Stay briefed. Find Barclays Brief wherever you get your podcasts.",
+    "startBeginning": 1163.0701,
+    "startEnd": 1190.62,
+    "ID": 71,
+    "numberOfWords": 72
+  },
+  {
+    "speaker": 3,
+    "text": "Hey there, Odd Lots listeners. As we come into 2026, we are realizing that one thing we're constantly thinking about on the show is how companies actually get built. Not just, like, the headline version of that story, but the messy operational reality of it.",
+    "startBeginning": 1193.5,
+    "startEnd": 1211.245,
+    "ID": 72,
+    "numberOfWords": 45
+  },
+  {
+    "speaker": 1,
+    "text": "Right. We love messy operational reality of things. The never ending quest to dive deeper, how companies make it big, what causes one company to succeed, why others fail.",
+    "startBeginning": 1211.725,
+    "startEnd": 1221.61,
+    "ID": 73,
+    "numberOfWords": 29
+  },
+  {
+    "speaker": 3,
+    "text": "Well, I have good news. That is exactly what the Acquired podcast does. Ben Gilbert and David Rosenthal pick a company and then explore all the ins and outs of its trajectory. Lots of detail there. How it scaled, the ups and downs, and so much more.",
+    "startBeginning": 1222.5701,
+    "startEnd": 1238.6749,
+    "ID": 74,
+    "numberOfWords": 47
+  },
+  {
+    "speaker": 1,
+    "text": "Yeah. And we actually we had them on Odd Lots back in February. We talked to them about everything from TSMC, NVIDIA, Mars, Hermes, scale, capital structure, the importance of incentives, all of the different, I guess, ingredients that go into some of the success of these names that we talk about every day.",
+    "startBeginning": 1238.995,
+    "startEnd": 1256.5651,
+    "ID": 75,
+    "numberOfWords": 54
+  },
+  {
+    "speaker": 3,
+    "text": "Also, their show actually turned 10 years old in 2025 just like us. So we're, I guess, the same age in podcast years.",
+    "startBeginning": 1257.125,
+    "startEnd": 1264.005,
+    "ID": 76,
+    "numberOfWords": 23
+  },
+  {
+    "speaker": 1,
+    "text": "Big year. Anyway, if you like Odd Laws, the way we get into various market dynamics, how the economy actually works under the hood, you'll obviously appreciate and enjoy the Acquired podcast. They do similar work, similar ideas, all focused on the context of individual company.",
+    "startBeginning": 1264.5651,
+    "startEnd": 1279.76,
+    "ID": 77,
+    "numberOfWords": 46
+  },
+  {
+    "speaker": 3,
+    "text": "So go check out the Acquired podcast. You can find them wherever you get your podcasts.",
+    "startBeginning": 1280.4,
+    "startEnd": 1284.72,
+    "ID": 78,
+    "numberOfWords": 16
+  },
+  {
+    "speaker": 4,
+    "text": "Okay. New year, fresh start. And honestly, I'm starting with dinner. This year, I'm being smarter about where my energy goes, and dinner was taking way too much of it. I just signed up for HelloFresh, and they take fresh start to a whole new level. Fresh high quality ingredients delivered right to my door, locally sourced whenever possible. Everything pre portioned, nothing wasted. Now I'm not dragging myself through weekend grocery runs or panic staring at the fridge at 05:30 trying to make something out of random leftovers. And I'm definitely not tossing up food I never used or falling back on expensive takeout apps because I ran out of ideas. Yeah. That happened a lot. Just simple stress free recipes and meals that help me save more, waste less, and for the first time in a long time, I actually look forward to dinner. Get your fresh start right now and get 50% off your first box plus free sides for life with HelloFresh. That's right. Free sides for life. Go to hellofresh.ca and use code yum 50. That's hellofresh.c a code yum 50.",
+    "startBeginning": 1288.785,
+    "startEnd": 1349.355,
+    "ID": 79,
+    "numberOfWords": 186
+  },
+  {
+    "speaker": 2,
+    "text": "In the heat of battle, your squad relies on you. Don't let them down. Unlock elite gaming tech at lenovo.com. Dominate every match with next level quit. Push your gameplay beyond performance with Intel Core Ultra processors for the next era of gaming. Upgrade to smooth, high quality streaming with Intel Wi Fi 6E and maximize game performance with enhanced overclocking. Win the tech search. Power up at lenovo.com.",
+    "startBeginning": 1350.155,
+    "startEnd": 1373.745,
+    "ID": 80,
+    "numberOfWords": 69
+  },
+  {
+    "speaker": 5,
+    "text": "Lenovo. Lenovo.",
+    "startBeginning": 1375.185,
+    "startEnd": 1376.465,
+    "ID": 81,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 1,
+    "text": "So one of the things about the politics of AI, and I mentioned at the beginning, it's very multifaceted because there are people that are worried about safety, people are worried about ethics, people are worried about water, people are worried about electricity, people are worried about job displacement, etcetera. As a candidate for office, how do you think about some of these other AI concerns out there beyond simply the safety stuff?",
+    "startBeginning": 1380.225,
+    "startEnd": 1404.035,
+    "ID": 82,
+    "numberOfWords": 73
+  },
+  {
+    "speaker": 5,
+    "text": "Oh, there's a lot that we need to do. The chatbots, I think, are, in some sense, safety when you think of what's happening to kids, but very much talked about in a different sort of conversation. And even expanding that out to AI's effect on our kids broadly in our education system. Well, you can imagine a really positive world where every student has an individualized tutor at exactly their level and teaches them in the exact way that they want to learn to supplement what they're getting from teachers. But what we have right now is we haven't updated our pedagogy, and so a lot of people think assigning an essay still teaches critical thinking.",
+    "startBeginning": 1404.6749,
+    "startEnd": 1438.0651,
+    "ID": 83,
+    "numberOfWords": 117
+  },
+  {
+    "speaker": 1,
+    "text": "Yeah. Right?",
+    "startBeginning": 1438.385,
+    "startEnd": 1438.7051,
+    "ID": 84,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 5,
+    "text": "We need to do a lot on the education system. We need to do a lot on the workforce, as you mentioned. We need to do a lot on the environment, and we're missing a golden opportunity here because our grid is extremely old, and we need to pay for the upgrades, and government doesn't really know how to do that. We've been passing off the cost to ratepayers. Now you have an unlimited set of private capital, it seems, that wants to invest to build data centers. Why aren't we using that to actually upgrade our grid and to require renewable energy and have it there? Instead, we're building these data centers but saying rate payers have to pay for the the interconnects. It makes no sense.",
+    "startBeginning": 1438.865,
+    "startEnd": 1475.4601,
+    "ID": 85,
+    "numberOfWords": 128
+  },
+  {
+    "speaker": 3,
+    "text": "Does this issue, just AI in general, does it actually resonate with voters at the moment? Because in some sense, you're trying to get ahead of things. Right? Because in the future I know we said AI is all over the news, and we see it everywhere. But in the future, it's gonna be more embedded in our lives. So you're trying to get ahead of that. Do people care at the moment?",
+    "startBeginning": 1476.42,
+    "startEnd": 1496.5851,
+    "ID": 86,
+    "numberOfWords": 73
+  },
+  {
+    "speaker": 5,
+    "text": "It's already embedded in their lives. They're seeing it. And it's not just, you know, their kids in school. It's not just the entry level unemployment at 9%. You know, we just saw a teddy bear that was sent out with Chachi b t embedded in it that taught a kid how to find matches.",
+    "startBeginning": 1497.4,
+    "startEnd": 1512.565,
+    "ID": 87,
+    "numberOfWords": 55
+  },
+  {
+    "speaker": 3,
+    "text": "It's Teddy Ruxpin upgraded. Do you remember that?",
+    "startBeginning": 1513.205,
+    "startEnd": 1515.765,
+    "ID": 88,
+    "numberOfWords": 8
+  },
+  {
+    "speaker": 1,
+    "text": "I was walking down Saint Mark's Street the other day.",
+    "startBeginning": 1516.8049,
+    "startEnd": 1519.125,
+    "ID": 89,
+    "numberOfWords": 10
+  },
+  {
+    "speaker": 5,
+    "text": "Mhmm.",
+    "startBeginning": 1519.445,
+    "startEnd": 1519.445,
+    "ID": 90,
+    "numberOfWords": 1
+  },
+  {
+    "speaker": 2,
+    "text": "I",
+    "startBeginning": 1519.765,
+    "startEnd": 1519.765,
+    "ID": 91,
+    "numberOfWords": 1
+  },
+  {
+    "speaker": 1,
+    "text": "have to say, unfortunately, I thought those were pretty clever. Someone set up a thing where there was, like, like, a animatronic puppet that had a camera in it, and then it was embedded with an LLM. It was doing insult comics of the people who were walking by.",
+    "startBeginning": 1519.9249,
+    "startEnd": 1534.5299,
+    "ID": 92,
+    "numberOfWords": 49
+  },
+  {
+    "speaker": 3,
+    "text": "Oh my god.",
+    "startBeginning": 1535.09,
+    "startEnd": 1535.49,
+    "ID": 93,
+    "numberOfWords": 3
+  },
+  {
+    "speaker": 1,
+    "text": "So, like, someone would walk by, and they're like, so you think you bought it, like, with the big Uniqlo bag? It's like, so you think you bought enough at Uniqlo today? But I was like, oh, this is a lot of fun.",
+    "startBeginning": 1535.8099,
+    "startEnd": 1545.025,
+    "ID": 94,
+    "numberOfWords": 43
+  },
+  {
+    "speaker": 3,
+    "text": "To you?",
+    "startBeginning": 1545.105,
+    "startEnd": 1545.345,
+    "ID": 95,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 1,
+    "text": "Super clever. My kids loved it. It was like, I was like, oh, this was like this is like a really clever thing.",
+    "startBeginning": 1545.665,
+    "startEnd": 1550.065,
+    "ID": 96,
+    "numberOfWords": 23
+  },
+  {
+    "speaker": 3,
+    "text": "Wait. What did it say to you, though?",
+    "startBeginning": 1550.385,
+    "startEnd": 1551.425,
+    "ID": 97,
+    "numberOfWords": 8
+  },
+  {
+    "speaker": 1,
+    "text": "What did it say? I think I stayed out. I watched the other people go by. I stood up and said, oh, this is actually I don't know. I don't know. They my kids loved it. They thought",
+    "startBeginning": 1551.7699,
+    "startEnd": 1559.5299,
+    "ID": 98,
+    "numberOfWords": 38
+  },
+  {
+    "speaker": 5,
+    "text": "We'll leave that as an exercise to the listener and",
+    "startBeginning": 1559.69,
+    "startEnd": 1561.21,
+    "ID": 99,
+    "numberOfWords": 10
+  },
+  {
+    "speaker": 1,
+    "text": "walk by and go back. Yeah. What it would have said? What does it say to you? Are you optimistic about AI? Like, are you pro AI in the sense that you think that this will be important productive positive technology that is important to continue developing?",
+    "startBeginning": 1561.37,
+    "startEnd": 1574.025,
+    "ID": 100,
+    "numberOfWords": 47
+  },
+  {
+    "speaker": 5,
+    "text": "It can be, but only if the American people have a voice in how it develops. It is the technology that has the widest bounds of what could potentially come from it, and the only thing that comes close is nuclear energy and nuclear fission. Right? So if you put yourself in the mindset of someone in the nineteen thirties, you had one set of people saying nuclear fusion is coming. We're about to have clean, unlimited energy and live in utopia. And you had another set of people that said we're all gonna be dead from nuclear bombs in ten years. Right? And the reality is we've ended up somewhere in the middle. AI, we're at that moment right now where you have people saying basically that wide of a potential outcome, and it's up to us in our policy to make sure that the worst case doesn't happen so that we can have as much of the best case as possible. Like, what AI could do for medical research, for curing diseases is remarkable. My mom has multiple sclerosis. Autoimmune diseases are some of the hardest for modern medicine to deal with. I am incredibly optimistic of what could come from some of this research. It's just that the same capabilities that will allow us to cure diseases could, in the wrong hands, allow someone to build a bioweapon, and we just need to be thoughtful on how we go.",
+    "startBeginning": 1574.905,
+    "startEnd": 1644.62,
+    "ID": 101,
+    "numberOfWords": 242
+  },
+  {
+    "speaker": 1,
+    "text": "I guess I'm I'm worried about bioweapons. I'm also worried about very mundane things. Just like the new Gemini image generator is just stunning to me in terms of the degree of fidelity, like, how easily you really can't tell anymore. Like, a year ago, you could say, oh, that looks like an AI image. We're basically past that. Other things, like, bots and stuff like that, things that replicate our voice. These aren't, like, ultra science fiction things, like a machine that's going to, like, manufacture a bioweapon or something like that. But they're day to day pervasive phenomenon that's sort of, like, they're gonna make me trust people less. They're gonna make it harder to communicate. Like, this sort of what do we do about that?",
+    "startBeginning": 1645.34,
+    "startEnd": 1685.455,
+    "ID": 102,
+    "numberOfWords": 128
+  },
+  {
+    "speaker": 5,
+    "text": "Can we nerd out about deepfakes? Because this is a solvable problem and one that that I think most people are missing the boat on. So it's always been presented to us as, like, oh, you'll have to learn how to see what's wrong with an AI image. Like, that's never gonna work. They're gonna get better and better. Maybe we're already past the point where a human could see it. But that's not how we've solved these problems in the past. If you go back to the nineties, people said we'll never have Internet banking because you don't know that the computer on the other end is actually the one that you're talking to. And then we move from HTTP to HTTPS. That was a solvable problem. That basically same technique works for images, video, and for audio. So there is a free open source metadata standard that industry has created called C2PA, Content Credential Provenance Authority, that you can attach to any standard file format that cryptographically proves whether that content was taken from a real device generated by AI and or how it was edited over time. The challenge is the creator has to attach it, and so you need to get to a place where that is the default option.",
+    "startBeginning": 1685.615,
+    "startEnd": 1750.15,
+    "ID": 103,
+    "numberOfWords": 214
+  },
+  {
+    "speaker": 1,
+    "text": "So if you see an image and it doesn't have that cryptographic proof, you should be skeptical. Like, that would be get to that place. Idea where it's so pervasive Yes. That the expectation is I could test very quickly whether the creator has attached this.",
+    "startBeginning": 1750.4701,
+    "startEnd": 1765.2949,
+    "ID": 104,
+    "numberOfWords": 46
+  },
+  {
+    "speaker": 5,
+    "text": "It'd be like going to your banking website and only loading HTTP. Right? You would instantly be suspect.",
+    "startBeginning": 1765.5349,
+    "startEnd": 1770.1749,
+    "ID": 105,
+    "numberOfWords": 18
+  },
+  {
+    "speaker": 3,
+    "text": "But you can still produce the images. And I guess I've I've been reading a book called the new age of Sexism, and it's about technology and discrimination against women. And it has some awful, awful stories of schoolgirls whose classmates, like, you know, put them in porn videos and things like that. And one of the problems is there's no rule saying that you can't actually do that. So even if you know that it's fake, it can still be harmful. What do you do about that?",
+    "startBeginning": 1770.8949,
+    "startEnd": 1797.615,
+    "ID": 106,
+    "numberOfWords": 88
+  },
+  {
+    "speaker": 5,
+    "text": "Well, there all are laws in New York state that ban it and in other states have taken action, and that's yet another reason why this AI preemption is such a scary thought because states are leading the way right now in stopping some of these absolute worst uses. I'm very excited for congress to actually solve these problems, for there to actually be federal standards. I'm running on the platform of creating these federal standards. But until they do, stopping states from taking action like against deep fake porn of children, I mean, that's the stakes of what we're talking about.",
+    "startBeginning": 1798.095,
+    "startEnd": 1827.9651,
+    "ID": 107,
+    "numberOfWords": 102
+  },
+  {
+    "speaker": 1,
+    "text": "Can we talk about Palantir for a second?",
+    "startBeginning": 1828.8451,
+    "startEnd": 1830.365,
+    "ID": 108,
+    "numberOfWords": 8
+  },
+  {
+    "speaker": 5,
+    "text": "Definitely. So it's a rough segue, but yeah.",
+    "startBeginning": 1830.8451,
+    "startEnd": 1833.4501,
+    "ID": 109,
+    "numberOfWords": 8
+  },
+  {
+    "speaker": 1,
+    "text": "What did you do there?",
+    "startBeginning": 1834.17,
+    "startEnd": 1834.81,
+    "ID": 110,
+    "numberOfWords": 5
+  },
+  {
+    "speaker": 5,
+    "text": "So I I joined Palantir as a data scientist in 2014, and I left as one of the five overall leads of the government business. I spent the vast majority of my time in the federal civilian side of it. So I worked with the Census Bureau and the Bureau of Economic Analysis on updating how they calculate GDP. We actually made a change to the way they account for spending around moving holidays, holidays that are sometimes in q one, sometimes in q two, like Easter. A paper I'm very, very proud of, and it's a rounding error error of a rounding error on how we calculate GDP, but it did actually lead to a change. I led our work with the Department of Justice to go after the opioid epidemic and to solve some violent crimes. I worked with Veterans Affairs to better staff their hospitals to make sure that veterans get the care that they deserve and need. I worked with the CDC to better track epidemics. It was about allowing government to make better use of the data that they already had to serve the American people.",
+    "startBeginning": 1835.61,
+    "startEnd": 1891.24,
+    "ID": 111,
+    "numberOfWords": 191
+  },
+  {
+    "speaker": 3,
+    "text": "And what does Palantir actually do? I feel like we ask this question a lot. But",
+    "startBeginning": 1891.88,
+    "startEnd": 1895.24,
+    "ID": 112,
+    "numberOfWords": 16
+  },
+  {
+    "speaker": 5,
+    "text": "Well, I think it's because it's a fundamentally unsexy thing, and people like to dress it up. But it's data integration and analysis. It's making it different data sources that you have access to talk to each other, be updated constantly. Like, Palantir was founded around a time when data lakes and data clouds were, like, the big thing",
+    "startBeginning": 1896.28,
+    "startEnd": 1916.555,
+    "ID": 113,
+    "numberOfWords": 59
+  },
+  {
+    "speaker": 1,
+    "text": "I was",
+    "startBeginning": 1916.7151,
+    "startEnd": 1916.795,
+    "ID": 114,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 5,
+    "text": "talking about. Again? Yeah. Exactly. But it's just",
+    "startBeginning": 1916.9551,
+    "startEnd": 1920.0751,
+    "ID": 115,
+    "numberOfWords": 8
+  },
+  {
+    "speaker": 1,
+    "text": "putting Actually, I'm asking, what is a data lake? I'm seeing this Well, that's right. I don't know what that means.",
+    "startBeginning": 1920.5599,
+    "startEnd": 1924.72,
+    "ID": 116,
+    "numberOfWords": 21
+  },
+  {
+    "speaker": 5,
+    "text": "Putting all of your data in one place",
+    "startBeginning": 1925.36,
+    "startEnd": 1926.5599,
+    "ID": 117,
+    "numberOfWords": 8
+  },
+  {
+    "speaker": 1,
+    "text": "Okay. So",
+    "startBeginning": 1926.88,
+    "startEnd": 1927.12,
+    "ID": 118,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 5,
+    "text": "people can access it. Right? And that was supposed to revolutionize everyone's ability to do anything, but some just putting data in one place doesn't actually make a change. Some of the things that Palantir has really put at the forefront, like an ontology. Right? A view from on high of what each piece of data is supposed to mean can actually lead to better analysis. So I'll give you an example from my work at the Department of Justice. And I actually I have two software patents for this project, which was we were helping them analyze banks' behavior leading up to the Great Recession and how they were packaging mortgages into securities, and each security would have a loan tape. Here's the thousand loans that are in it. And some of those loans would not be up to the standards that were required, and that would occasionally be flagged before an issuance. Hey. This loan isn't up to your standards. They would pull the loan out, and then their next issuance put the loan back in. Right? And so if you could find that pattern of behavior, you could maybe prove that they had knowledge that that loan wasn't good and we're still putting it out there. The problem is that ediscovery software, right, all the data was there, but it was just taught to think of an Excel document as a document that a lawyer would read. And so there was no way in the software to track those individual loans.",
+    "startBeginning": 1927.28,
+    "startEnd": 2003.24,
+    "ID": 119,
+    "numberOfWords": 254
+  },
+  {
+    "speaker": 1,
+    "text": "But if",
+    "startBeginning": 2004.04,
+    "startEnd": 2004.12,
+    "ID": 120,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 5,
+    "text": "you think of an individual loan as its own object, that should be something that can be searched and tracked across the database, then that analysis becomes very easy to do. So that was something that we enabled at Palantir was putting this ontology of what's the right level for each object. Oh, a loan is a meaningful instance. Let's make it so you can search and analyze an individual loan versus a document.",
+    "startBeginning": 2004.2,
+    "startEnd": 2024.4349,
+    "ID": 121,
+    "numberOfWords": 74
+  },
+  {
+    "speaker": 3,
+    "text": "How has your experience at Palantir actually informed your approach to government? Because we've done episodes on why government software is so bad, and I think you're one of the few politicians out there who actually knows how to code. Possibly the only one.",
+    "startBeginning": 2025.84,
+    "startEnd": 2040.535,
+    "ID": 122,
+    "numberOfWords": 44
+  },
+  {
+    "speaker": 1,
+    "text": "No. There's gonna be a couple others.",
+    "startBeginning": 2041.0951,
+    "startEnd": 2042.2151,
+    "ID": 123,
+    "numberOfWords": 7
+  },
+  {
+    "speaker": 3,
+    "text": "You think?",
+    "startBeginning": 2042.615,
+    "startEnd": 2042.775,
+    "ID": 124,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 1,
+    "text": "Two or three. Okay. I don't know.",
+    "startBeginning": 2043.655,
+    "startEnd": 2044.855,
+    "ID": 125,
+    "numberOfWords": 7
+  },
+  {
+    "speaker": 3,
+    "text": "We'll find them.",
+    "startBeginning": 2045.3351,
+    "startEnd": 2045.735,
+    "ID": 126,
+    "numberOfWords": 3
+  },
+  {
+    "speaker": 1,
+    "text": "Yeah. I am",
+    "startBeginning": 2046.055,
+    "startEnd": 2046.775,
+    "ID": 127,
+    "numberOfWords": 3
+  },
+  {
+    "speaker": 5,
+    "text": "the first Democrat elected in New York State at any level with a degree in computer science. I do think there have been nationwide, like, four or five congress members that have that, so they're they're out there. Mhmm. But my time at Palantir informs what I do in government, I think, in two main ways. The first is the work isn't done when the bill is signed. Right? It's about the actual implementation. Everything Palantir does is about implementing things that have already been passed, and there's huge challenges in getting it to work. But the second thing is that basis in data and actually tracking your results and seeing how you've done over time. So few politicians will say, hey. That bill I passed two years ago, here's how it's working. And even more rare is here's how it's not. I did my town hall three weeks ago. I once a year get up in front of my entire constituency, spend two hours answering any questions people have. We don't screen it at all. But I let off actually with, hey. Here's a bill I passed a year ago, and the data shows it's not working. And here's what I've learned about that and how we're gonna change that.",
+    "startBeginning": 2046.935,
+    "startEnd": 2103.0051,
+    "ID": 128,
+    "numberOfWords": 211
+  },
+  {
+    "speaker": 3,
+    "text": "How exactly do you judge performance by the government? Because I like the idea of, like, tracking, I guess, alpha in the civil service in some way. But would it just be based on the bill execution or, I guess, response rates from the public? How would you do that?",
+    "startBeginning": 2103.885,
+    "startEnd": 2118.8801,
+    "ID": 129,
+    "numberOfWords": 50
+  },
+  {
+    "speaker": 5,
+    "text": "So I'll give you an example. We passed a bill to raise the statutory maximum fine on telemarketers. By far, my most popular bill. But the question is that's the statutory maximum. Does that actually lead to more fines, to higher fines, to more negotiated settlements? It's raising that pressure. And so we just looked at the secretary of state's data of how much were the fines before that bill was passed and afterwards, and we found there were four times as many fines actually there. So raising the statutory max brought the bad companies to the table to actually negotiate and, hopefully, is changing that behavior. The example I gave of one that didn't work was around mopeds and e bikes in New York. So, you know, this is I'm gonna be very local to New York. I know there's a a nationwide,",
+    "startBeginning": 2119.28,
+    "startEnd": 2160.965,
+    "ID": 130,
+    "numberOfWords": 144
+  },
+  {
+    "speaker": 1,
+    "text": "Nationwide primary, but it'd be nice if there were some can some talk of actual relevant things for the 12th District.",
+    "startBeginning": 2162.685,
+    "startEnd": 2168.64,
+    "ID": 131,
+    "numberOfWords": 21
+  },
+  {
+    "speaker": 5,
+    "text": "So so we have these delivery vehicles that are whizzing all over, and people are scared as they see them go the wrong way, etcetera. And there's a lot of discussion about what we can do to make people safe on the streets. One aspect is that mopeds were already required to be registered in New York State, but almost never were. So I passed a bill that would require mopeds to be registered at the point of sale. Right? So think about how many mopeds you think exist in New York City. The number that were actually registered when the bill came into effect this January was about 1,700.",
+    "startBeginning": 2169.1199,
+    "startEnd": 2199.28,
+    "ID": 132,
+    "numberOfWords": 110
+  },
+  {
+    "speaker": 3,
+    "text": "Wow. And",
+    "startBeginning": 2200.8801,
+    "startEnd": 2201.9202,
+    "ID": 133,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 5,
+    "text": "so I",
+    "startBeginning": 2202.04,
+    "startEnd": 2202.32,
+    "ID": 134,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 1,
+    "text": "feel like, by the way, this would be, like, one of those, like, hedge fund interview questions. How many mopeds are in New York City? I wanna see how your brain thinks.",
+    "startBeginning": 2202.4001,
+    "startEnd": 2209.835,
+    "ID": 135,
+    "numberOfWords": 32
+  },
+  {
+    "speaker": 5,
+    "text": "And I think if your answer is 1,700, the hedge fund's not hiring you. Right? Like, that is not what you would estimate. Right. My thesis was it was that people were walking out of the store without registering and",
+    "startBeginning": 2210.315,
+    "startEnd": 2218.155,
+    "ID": 136,
+    "numberOfWords": 40
+  },
+  {
+    "speaker": 1,
+    "text": "being",
+    "startBeginning": 2218.395,
+    "startEnd": 2218.395,
+    "ID": 137,
+    "numberOfWords": 1
+  },
+  {
+    "speaker": 5,
+    "text": "told to do that. We looked a month ago. The number that are registered is now 1,400. So it's not that people weren't registering when they came to the store. It's that registration expires after a year, and no one's reregistering. So that was an example of, like, I had a thesis. I passed the bill. I think the bill's still overall good. People should register as they leave the store. Yeah. But it didn't actually solve the problem we were out to solve, and here's now what I'm gonna do about it. And I think we need a lot more of that in government.",
+    "startBeginning": 2218.555,
+    "startEnd": 2241.435,
+    "ID": 138,
+    "numberOfWords": 105
+  },
+  {
+    "speaker": 3,
+    "text": "Wait. What are you gonna do about it?",
+    "startBeginning": 2241.915,
+    "startEnd": 2243.0352,
+    "ID": 139,
+    "numberOfWords": 8
+  },
+  {
+    "speaker": 5,
+    "text": "Well, we're we're thinking about how we can encourage the actual register the reregistration over time. So one of the aspects is requiring all of the delivery apps to actually check that the drivers are registered when they sign up and to make sure they keep that up to date.",
+    "startBeginning": 2243.355,
+    "startEnd": 2255.71,
+    "ID": 140,
+    "numberOfWords": 50
+  },
+  {
+    "speaker": 1,
+    "text": "Makes sense to me. You know, it feels like we're, like, in this sort of era of everyday you mentioned telemarketers. Like, we're just, like, waiting through the muck of, like, low level scams everywhere. Every day I get text messages, and then they'll say, like, from an unknown number. I'll be like, Joe, are you coming to barbecue? And I'm like, I don't know. I might have, like, sent I might have agreed to eat barbecue with someone. That sounds like something I could've done, but I'm, like, pretty sure it's fake. There's a you go on, like, Amazon, and there's AI generated books about books and every author. Just generally, it feels like we're in a culture and economy and era of, like, persistent low level grift across almost every dimension of our lives. And I'm sure there's many reasons for it. But when people talk about a low trust society and what's happening, how much of this do you think is just because, like, we are inundated with people trying to rob us every day in somewhat digitally or otherwise?",
+    "startBeginning": 2256.59,
+    "startEnd": 2315.6902,
+    "ID": 141,
+    "numberOfWords": 183
+  },
+  {
+    "speaker": 5,
+    "text": "I think that's a big part of it. And the only way to solve that problem is you need actual enforcement. You need there to be consequences.",
+    "startBeginning": 2316.455,
+    "startEnd": 2322.135,
+    "ID": 142,
+    "numberOfWords": 27
+  },
+  {
+    "speaker": 1,
+    "text": "You know, just sorry. Just to follow-up on this. Like, I well, I guess the reason I'm asking is because, you know, it's like someone running for office. They moved to the 12th District, and they're like, I'm gonna call out Trump's corruption. And there are and all these, like, Trump is a lot all this, like, big stuff, and it you know, whatever. Many of these issues are, like, you know, legitimate, etcetera. But almost nobody in elected office seems to be just, like, talking about, like, who's gonna do something about the text message scams? Who's gonna be do something about the AI books? All of these, like, big national issues, but the that doesn't affect me on a day to day basis. The way this sort of, like, persistent abuse of technology constantly does every minute of my life.",
+    "startBeginning": 2322.775,
+    "startEnd": 2363.3801,
+    "ID": 143,
+    "numberOfWords": 142
+  },
+  {
+    "speaker": 5,
+    "text": "I I think that's why podcasts like this are great because you get into the details. No. The the top level news doesn't cover a lot of that. Right? I have a colleague, John Rivera, who has a bill in the state assembly on requiring disclosure for AI generated books on Amazon. Like, that specific example is a bill that exists in New York. The telemarketing bill I pass also applies to text messages, and so we tell people how to report those and maybe get fines coming from that. I think this is key to both parties in 2026 is talking about just government's effect and trying to make life a little bit better. I think my other most popular bill besides the telemarketing one was my click to cancel bill this year to allow New Yorkers",
+    "startBeginning": 2364.4202,
+    "startEnd": 2402.07,
+    "ID": 144,
+    "numberOfWords": 138
+  },
+  {
+    "speaker": 4,
+    "text": "I love that.",
+    "startBeginning": 2402.55,
+    "startEnd": 2402.95,
+    "ID": 145,
+    "numberOfWords": 3
+  },
+  {
+    "speaker": 5,
+    "text": "It's now you're right. As of October 1, New Yorkers need to be able to cancel subscription the same way they signed up for it.",
+    "startBeginning": 2403.565,
+    "startEnd": 2409.085,
+    "ID": 146,
+    "numberOfWords": 25
+  },
+  {
+    "speaker": 3,
+    "text": "I have a Conde Nast subscription that I've been trying to cancel for, like, a year, and I cannot log in to the site. I can't find the original email where I've, like, actually signed up for it, and that's, I think, $12 a month that I'm just wasting.",
+    "startBeginning": 2409.485,
+    "startEnd": 2422.35,
+    "ID": 147,
+    "numberOfWords": 49
+  },
+  {
+    "speaker": 5,
+    "text": "I mean, government needs to get big things done. Absolutely. But we also need to get small things right. Yeah. We just need to make life better.",
+    "startBeginning": 2422.9102,
+    "startEnd": 2428.51,
+    "ID": 148,
+    "numberOfWords": 27
+  },
+  {
+    "speaker": 3,
+    "text": "Hey there, Odd Lots listeners. As we come into 2026, we are realizing that one thing we're constantly thinking about on the show is how companies actually get built. Not just, like, the headline version of that story, but the messy operational reality of it.",
+    "startBeginning": 2444.88,
+    "startEnd": 2462.7952,
+    "ID": 149,
+    "numberOfWords": 45
+  },
+  {
+    "speaker": 1,
+    "text": "Right. We love messy operational reality of things. The never ending quest to dive deeper, how companies make it big, what causes one company to succeed, why others fail.",
+    "startBeginning": 2463.195,
+    "startEnd": 2473.13,
+    "ID": 150,
+    "numberOfWords": 29
+  },
+  {
+    "speaker": 3,
+    "text": "Well, I have good news. That is exactly what the Acquired podcast does. Ben Gilbert and David Rosenthal pick a company and then explore all the ins and outs of its trajectory. Trajectory. Lots of detail there, how it scaled, the ups and downs, and so much more.",
+    "startBeginning": 2474.09,
+    "startEnd": 2490.2073,
+    "ID": 151,
+    "numberOfWords": 48
+  },
+  {
+    "speaker": 1,
+    "text": "Yeah. And we actually we had them on Odd Lots back in February. We talked to them about everything from TSMC, Nvidia, Mars, Hermes, scale, capital structure, the importance of incentives, all of the different, I guess, ingredients that go into some of the success of these names that we talk about every day.",
+    "startBeginning": 2490.5752,
+    "startEnd": 2508.03,
+    "ID": 152,
+    "numberOfWords": 54
+  },
+  {
+    "speaker": 3,
+    "text": "Also, their show actually turned 10 years old in 2025 just like us. So we're, I guess, the same age in podcast years.",
+    "startBeginning": 2508.51,
+    "startEnd": 2515.4348,
+    "ID": 153,
+    "numberOfWords": 23
+  },
+  {
+    "speaker": 1,
+    "text": "Big year. Anyway, if you like Odd Laws, the way we get into various market dynamics, how the economy actually works under the hood, You'll obviously appreciate and enjoy the acquired podcast. They do similar work, similar ideas, all focused on the context of individual company.",
+    "startBeginning": 2516.2349,
+    "startEnd": 2531.27,
+    "ID": 154,
+    "numberOfWords": 46
+  },
+  {
+    "speaker": 3,
+    "text": "So go check out the acquired podcast. You can find them wherever you get your podcasts.",
+    "startBeginning": 2531.9102,
+    "startEnd": 2536.23,
+    "ID": 155,
+    "numberOfWords": 16
+  },
+  {
+    "speaker": 4,
+    "text": "You wanna know what my evenings actually look like? Homework questions. Someone needs a permission slip signed. The dog's begging for a walk. Someone's yelling for a snack. And somewhere in the middle of all that, I'm supposed to figure out dinner? That's why HelloFresh has been a lifesaver. Fresh ingredients show up at my door locally sourced when possible. Simple step by step recipes that actually make sense. And no matter how chaotic the rest of my night gets, dinner is the one thing I don't have to stress about. I'm just cooking a delicious meal my family will actually eat, and it takes around thirty minutes. And honestly, the real value is knowing that even on the messiest nights, dinner's handled. That's one less thing pulling at me, and that matters. Take some stress out of your evenings right now. Get 50% off your first box plus free sides for life. That's right. Free sides for life. Go to hellofresh.ca and use code meal 50. That's hellofresh.c a code meal 50. HelloFresh, Canada's number one meal kit delivery service.",
+    "startBeginning": 2540.1748,
+    "startEnd": 2599.345,
+    "ID": 156,
+    "numberOfWords": 181
+  },
+  {
+    "speaker": 2,
+    "text": "In the heat of battle, your squad relies on you. Don't let them down. Unlock elite gaming tech at lenovo.com. Dominate every match with next level speed, seamless streaming, and performance that won't quit. Push your gameplay beyond performance with Intel Core Ultra processors for the next era of gaming. Upgrade to smooth, high quality streaming with Intel Wi Fi six e and maximize game performance with",
+    "startBeginning": 2600.065,
+    "startEnd": 2624.2864,
+    "ID": 157,
+    "numberOfWords": 67
+  },
+  {
+    "speaker": 5,
+    "text": "enhanced overclocking. Win the tech search. Power up at lenovo.com.",
+    "startBeginning": 2624.743,
+    "startEnd": 2628.8506,
+    "ID": 158,
+    "numberOfWords": 10
+  },
+  {
+    "speaker": 3,
+    "text": "Apropos of nothing. This is a completely random seg. But one of the interesting things about Eric Adams was his interest in digital assets and cryptocurrency and tokenization and all of that. What did you think about those efforts? Do they actually matter to the industry and to New York more widely, or is it just sort of a pet project?",
+    "startBeginning": 2630.46,
+    "startEnd": 2653.2449,
+    "ID": 159,
+    "numberOfWords": 61
+  },
+  {
+    "speaker": 5,
+    "text": "I have not seen the direct results of what he was working on. That doesn't mean they weren't there. It's just not where I have been focused. I actually worked on a a different bill this year around crypto in the legislature where New York really took the lead in creating legal structures for many of these companies through the limited purpose trust and the BIT license. But now with new action at the federal level, they have said, you know, there's gonna be federal licensing for these trust companies for stablecoins, and they will defer to states, but only if the states have detailed rules in legislation or regulation, in statute or regulation. And New York's done it almost all by guidance. And so I really fought for a bill this year to standardize what DFS had done in random opinions, put it into statute so that people know what the rules of the road are, and so that New York can keep its regulatory structure. It passed the senate. Unfortunately, we didn't get it done in the assembly, and now most of the companies in New York are just applying for the federal charter, and we as New Yorkers are gonna lose our ability to engage. So I think regardless of your broad view on crypto, finding ways to set rules of the road that allow for innovation and allow for us to have a say in how it develops is something everyone should get behind.",
+    "startBeginning": 2655.405,
+    "startEnd": 2729.03,
+    "ID": 160,
+    "numberOfWords": 248
+  },
+  {
+    "speaker": 1,
+    "text": "Yeah. I'm looking at a map of the New York 12th Congressional District. I think one thing that really stands out is not some weird snaky district. It's just a real big square in the middle of Manhattan. Like, people who don't live here might not appreciate. This is, like, this is prime real estate you're right for. I'd argue I mean, this is this might be the highest GDP district in the world or in the country or pretty close to it. Right?",
+    "startBeginning": 2729.5898,
+    "startEnd": 2751.17,
+    "ID": 161,
+    "numberOfWords": 84
+  },
+  {
+    "speaker": 5,
+    "text": "Pretty close to it, if not the one. Yes. There's more Fortune 500 companies headquartered there than I think at least 37 states.",
+    "startBeginning": 2751.41,
+    "startEnd": 2757.09,
+    "ID": 162,
+    "numberOfWords": 23
+  },
+  {
+    "speaker": 1,
+    "text": "You're a few blocks away from me, by the way. I'm in the East Village. It looks like it just cuts off a few blocks.",
+    "startBeginning": 2757.49,
+    "startEnd": 2762.445,
+    "ID": 163,
+    "numberOfWords": 25
+  },
+  {
+    "speaker": 5,
+    "text": "We'll fix it in redistricting.",
+    "startBeginning": 2762.925,
+    "startEnd": 2763.645,
+    "ID": 164,
+    "numberOfWords": 5
+  },
+  {
+    "speaker": 1,
+    "text": "It must be weird, like, you know, thinking about going back to the beginning with the tech industry and criticizing you. And it must be sort of weird that, like, you're a politician who could actually, like, talk in, like, giga flops and and stuff like that. Because there's a lot of, like, anti AI people, etcetera, whatever, or open standards for digital encryption. It must be kinda interesting that okay. Here is someone who wants to, like, hold the industry to some legislative standards who is frankly, like",
+    "startBeginning": 2765.5652,
+    "startEnd": 2793.595,
+    "ID": 165,
+    "numberOfWords": 89
+  },
+  {
+    "speaker": 3,
+    "text": "Knowledgeable. Informed.",
+    "startBeginning": 2795.115,
+    "startEnd": 2795.755,
+    "ID": 166,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 1,
+    "text": "Yeah. Yeah. Knowledgeable. Yeah. That must be sort of weird for them.",
+    "startBeginning": 2796.395,
+    "startEnd": 2799.275,
+    "ID": 167,
+    "numberOfWords": 12
+  },
+  {
+    "speaker": 5,
+    "text": "I think it is, and I think it's why all of their spending against me so far is backfiring because people people are like, oh, yeah. Who is this guy who doesn't understand tech, who's doing uninformed things? And then it's like, wait. It's the guy with software patents who worked at Palantir who has a master's in computer science. There is a a disconnect there. I think, you know, I have support from a lot of the people that are, like, my age that work in the tech industry, the ones actually building it because they see the power of what they're building and think there should be some protections for it. It's really those at the top who are, I think, primarily focused on profits that don't want government getting involved at all.",
+    "startBeginning": 2799.915,
+    "startEnd": 2833.325,
+    "ID": 168,
+    "numberOfWords": 135
+  },
+  {
+    "speaker": 3,
+    "text": "I have a theoretical question going back to the idea of hedge funds asking random questions to see how you think. If you had, I don't know, a Bloomberg terminal equivalent of government data, what would you be most excited about looking up? Or what correlation would you be most excited about finding?",
+    "startBeginning": 2834.02,
+    "startEnd": 2854.475,
+    "ID": 169,
+    "numberOfWords": 53
+  },
+  {
+    "speaker": 5,
+    "text": "That is a great question. I'm gonna stall at first by pointing out that I actually do have a certification in the Bloomberg terminal from my first job. So I'm I'm imagining this realistically.",
+    "startBeginning": 2855.355,
+    "startEnd": 2865.41,
+    "ID": 170,
+    "numberOfWords": 34
+  },
+  {
+    "speaker": 1,
+    "text": "So you know that all we do on the terminal is just look at two lines that correlate. I've proved correlation. I think",
+    "startBeginning": 2867.09,
+    "startEnd": 2874.3699,
+    "ID": 171,
+    "numberOfWords": 23
+  },
+  {
+    "speaker": 5,
+    "text": "ways of running more well, not maybe running more natural experiments, but looking at over time how investments the government make pays off. So we only budget year by year. And so you have things like investing in early childcare that boosts your immediate who can be employed, but also, like, will help the kids if you have universal pre k, etcetera. But that payback in the government, if you're just thinking fiscally, is not gonna come for",
+    "startBeginning": 2875.41,
+    "startEnd": 2904.35,
+    "ID": 172,
+    "numberOfWords": 78
+  },
+  {
+    "speaker": 1,
+    "text": "Right.",
+    "startBeginning": 2904.6702,
+    "startEnd": 2904.6702,
+    "ID": 173,
+    "numberOfWords": 1
+  },
+  {
+    "speaker": 5,
+    "text": "Twenty, thirty years. And as we budget year to year, that is we think of that as a cost. I think if we had more ways of tying the effects previously in budgets with what we're seeing now, it would change radically where we would invest.",
+    "startBeginning": 2904.99,
+    "startEnd": 2919.075,
+    "ID": 174,
+    "numberOfWords": 46
+  },
+  {
+    "speaker": 1,
+    "text": "Have you played around with the AI code generation apps, Mudje?",
+    "startBeginning": 2920.18,
+    "startEnd": 2922.82,
+    "ID": 175,
+    "numberOfWords": 11
+  },
+  {
+    "speaker": 5,
+    "text": "Yeah. Yeah. So I, when I came into office Yeah. One of the things I really wanted was a coder on staff. I was like, there's so many creative things we could do of doing prototypes of government software or playing with the data, but we don't pay legislative staff nearly enough. It's one of one of the positions I've been most radicalized in office. But I had this idea of all these projects I wanted to get done, and finally this year, Hunter College gave me an intern that was a CS major. And so I gave her this list of, like, 10 projects, and she got through three of them, and they were great. But then I looked at the other seven, and I was like, these are things that I know how to do, but it's not, like, worth my time at the moment versus all the things I have to do. But has AI coding sped up how quickly I can do these that becomes worth it? And I using I mostly use chat g p t, which, you know, I know Claude and Gemini I played with, but I was able to knock out three of those projects this year because of how more advanced the coding has become. So",
+    "startBeginning": 2923.3,
+    "startEnd": 2984.6099,
+    "ID": 176,
+    "numberOfWords": 215
+  },
+  {
+    "speaker": 1,
+    "text": "Yeah. It's pretty cool. Yeah. Alex Boris, thank you so much for coming on Odd Laws. That was",
+    "startBeginning": 2985.01,
+    "startEnd": 2989.985,
+    "ID": 177,
+    "numberOfWords": 18
+  },
+  {
+    "speaker": 5,
+    "text": "a lot",
+    "startBeginning": 2990.0251,
+    "startEnd": 2990.0652,
+    "ID": 178,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 1,
+    "text": "of fun.",
+    "startBeginning": 2990.145,
+    "startEnd": 2990.225,
+    "ID": 179,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 5,
+    "text": "Thanks for having",
+    "startBeginning": 2990.465,
+    "startEnd": 2990.865,
+    "ID": 180,
+    "numberOfWords": 3
+  },
+  {
+    "speaker": 1,
+    "text": "me. It must be kinda weird. You know, I I said it near the end, but an AI critic that knows something about tech because there are a lot of AI critics out there, and I don't get the impression a lot of them are particularly actually well informed and do not actually understand the sort of strongest version of the argument that they're running against. So it's interesting that this pack, this pro artificial intelligence pack, has decided to target someone who I think a lot of people listen to. It's like, oh, actually, he knows what he's talking about. He sounds pretty reasonable.",
+    "startBeginning": 2995.0251,
+    "startEnd": 3032.45,
+    "ID": 181,
+    "numberOfWords": 105
+  },
+  {
+    "speaker": 3,
+    "text": "He's also the first one they're targeting. Right? Yeah. So it'll be interesting to see who they go after Yeah. After him. The other thing I was thinking is if you think about one of the threats to big tech's business models Yeah. It's it's always regulation. Right? Or at least they say it's regulation. They they seem to hate regulation or overregulation, I should say. So if you think about proposing some basic safety guardrails and privacy, that would seem like a good thing to me in the sense that maybe you could restore some of the trust or faith between the general population and the big tech companies, and then you wouldn't get these massive fights about everything else. But that's probably a long shot.",
+    "startBeginning": 3032.93,
+    "startEnd": 3076.965,
+    "ID": 182,
+    "numberOfWords": 127
+  },
+  {
+    "speaker": 1,
+    "text": "It does seem like, I have to say that while a lot of what he said made a lot of sense, or sort of sounded very reasonable, You know, I do think that it's legitimate concern. Like, these issues aren't gonna hobble DeepSeek. Now will deep does DeepSeek wanna be in the App Store, and can US laws enjoin them from being in the App Store? Sure. But they're not going to hobble DeepSeek's development of a model. And if they want to be a dominant player in every country but The US and they're completely unconstrained and the American advanced labs are are constrained, I do think that is a legitimate concern that the industry might have. I also think it's a probably a legitimate concern that you don't wanna disincentivize the reporting of safety issues. That if a company gets penalized for acknowledging that something in their model, like, violated some safety line, you do not wanna have the risk of, like, oh, we're just gonna ignore this. And I think it's reasonable that the industry might be concerned that regulations could benefit the incumbents. You know? He he argued against that. He's like, oh, no. Like, this is not gonna affect, like, startups, etcetera. But there is always that risk that a monetary fine is something that's very easy for big companies to pay and more marginal ones are more difficult. So, you know, these are very tricky things. But, you know, on the service, more than on the service, an extremely knowledgeable guy who what he says, none of it sounds particularly ridiculous. And I have to say, if I were running in a primary that had, like, 25 people, including, like, a Kennedy air and some guy on Twitter who, like, posts orange man bad a lot of times, that sounds like a good way to stand out from the crowd to be the AI industry's number one target.",
+    "startBeginning": 3077.445,
+    "startEnd": 3186.845,
+    "ID": 183,
+    "numberOfWords": 324
+  },
+  {
+    "speaker": 3,
+    "text": "You know, I agree with you on the incumbent point. But just in terms of US versus China, I think people forget that China has its own restrictions. Quite Yeah. Sure. Yeah. Yeah. Yeah. On censorship. Right? And trolling, I guess, every single communication in the world in case someone mentions a certain cartoon character",
+    "startBeginning": 3187.565,
+    "startEnd": 3204.63,
+    "ID": 184,
+    "numberOfWords": 55
+  },
+  {
+    "speaker": 1,
+    "text": "Yeah.",
+    "startBeginning": 3205.2698,
+    "startEnd": 3205.2698,
+    "ID": 185,
+    "numberOfWords": 1
+  },
+  {
+    "speaker": 3,
+    "text": "Seems like that's that's a big regulatory burden",
+    "startBeginning": 3205.75,
+    "startEnd": 3208.47,
+    "ID": 186,
+    "numberOfWords": 8
+  },
+  {
+    "speaker": 1,
+    "text": "barrier. Yeah.",
+    "startBeginning": 3208.7898,
+    "startEnd": 3209.2698,
+    "ID": 187,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 3,
+    "text": "As well. So I I don't know. I find the the competition aspect of it overhyped in some sense. But, anyway, we could talk about this for ages, and a lot of these issues are clearly, like, ongoing, and no one has the the solution yet. We're trying to work that out. Alright. Shall we leave it there?",
+    "startBeginning": 3209.67,
+    "startEnd": 3226.6401,
+    "ID": 188,
+    "numberOfWords": 58
+  },
+  {
+    "speaker": 1,
+    "text": "Let's leave it there.",
+    "startBeginning": 3226.8,
+    "startEnd": 3227.36,
+    "ID": 189,
+    "numberOfWords": 4
+  },
+  {
+    "speaker": 3,
+    "text": "This has been another episode of the Odd Lots podcast. I'm Tracy Alloway. You can follow me at Tracy Alloway.",
+    "startBeginning": 3227.76,
+    "startEnd": 3232.8801,
+    "ID": 190,
+    "numberOfWords": 20
+  },
+  {
+    "speaker": 1,
+    "text": "And I'm Jill Weisenthal. You can follow me at the stalwart. Follow our guest, Alex Boris. He's at Alex Boris. Follow our producers, Carmen Rodriguez at Carmen Armit, Dasho Bennett at DashBot, and Cale Brooks at Cale Brooks. And for more Odd Lots content, you can find all of our episodes in the daily newsletter at bloomberg.com/oddlots, and you can chat with fellow listeners in our Discord twenty four seven, discord.gg/oddlots.",
+    "startBeginning": 3233.4402,
+    "startEnd": 3255.02,
+    "ID": 191,
+    "numberOfWords": 71
+  },
+  {
+    "speaker": 3,
+    "text": "And if you enjoy Oddlots, if you like it when we do these AI episodes, then please leave a positive review on your favorite podcast platform. And remember, if you are are a Bloomberg subscriber, you can listen to all of our episodes absolutely ad free. All you need to do is find the Bloomberg channel on Apple Podcasts and follow the instructions there. Thanks for listening.",
+    "startBeginning": 3257.26,
+    "startEnd": 3276.405,
+    "ID": 192,
+    "numberOfWords": 67
+  },
+  {
+    "speaker": 2,
+    "text": "In the heat of battle, your squad relies on you. Don't let them down. Unlock elite gaming tech at lenovo.com. Dominate every match with next level speed, seamless streaming, and performance that won't quit. Push your gameplay beyond performance",
+    "startBeginning": 3308.27,
+    "startEnd": 3320.19,
+    "ID": 193,
+    "numberOfWords": 39
+  },
+  {
+    "speaker": 1,
+    "text": "with Intel Core",
+    "startBeginning": 3322.4548,
+    "startEnd": 3322.5828,
+    "ID": 194,
+    "numberOfWords": 3
+  },
+  {
+    "speaker": 2,
+    "text": "Ultra processors for the next era of gaming. Upgrade to smooth, high quality streaming with Intel Wi Fi six e and maximize game performance with enhanced overclocking. Win the tech search. Power up at lenovo.com. Lenovo. Lenovo.",
+    "startBeginning": 3322.647,
+    "startEnd": 3334.4548,
+    "ID": 195,
+    "numberOfWords": 37
+  },
+  {
+    "speaker": 6,
+    "text": "I'm June Grosso inviting you to join me for the Bloomberg Law podcast. Every weekday, we help you make sense of the legal stories that shape the nation and the world. Listen for complete analysis of the biggest court cases, the latest actions from congress and regulators, and the legal moves driving the markets. From corporate law to constitutional law, and from state courts to the supreme court. At Bloomberg Law, we go beyond the day's headlines. We speak with top attorneys, judges, scholars, and policy experts to break down what the rulings really mean. We do this every weekday, then bring you the best conversations in our daily podcast. Search for Bloomberg Law on YouTube, Apple, Spotify, or anywhere else you listen. On the East Coast, listen as you start your day. And on the West Coast, catch up in the evening. That's the Bloomberg Law podcast with me, June Grosso. Subscribe today wherever you get your podcast.",
+    "startBeginning": 3339.15,
+    "startEnd": 3396.6396,
+    "ID": 196,
+    "numberOfWords": 159
+  }
+]

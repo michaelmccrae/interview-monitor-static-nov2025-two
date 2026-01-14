@@ -1,3 +1,4 @@
+// /api/followup/route.ts
 import { NextResponse } from "next/server";
 import OpenAI from "openai";
 
@@ -7,45 +8,59 @@ const client = new OpenAI({
 
 export async function POST(req) {
   try {
-    const {
-      questionText,
-      answerText,
-      interviewerName,
-      guestName,
-    } = await req.json();
+    const { contextTurns, targetTurnID } = await req.json();
 
-    if (!answerText) {
-      return NextResponse.json(
-        { error: "Missing answer text" },
-        { status: 400 }
-      );
+    if (!Array.isArray(contextTurns) || contextTurns.length === 0) {
+      return NextResponse.json({ error: "Invalid context payload" }, { status: 400 });
     }
 
-    // UPDATED PROMPT: Schema now uses responseSummation and responseScore
+    const lastTurn = contextTurns[contextTurns.length - 1];
+
+    if (lastTurn.ID !== targetTurnID) {
+      return NextResponse.json({ error: "ID mismatch" }, { status: 400 });
+    }
+
+    const wordCount = lastTurn.text?.trim().split(/\s+/).length || 0;
+    if (wordCount < 10) {
+      return NextResponse.json(createNullResponse(targetTurnID, lastTurn.speaker));
+    }
+
     const prompt = `
-You are an expert interviewer. Assess how the Guest answered the Interviewer's question.
+You are an expert interview analyst.
 
-Interviewer: ${interviewerName}
-Guest: ${guestName}
+You are given a short conversation context.
+The FINAL turn is the Target Turn.
 
-Interviewer's Question:
-"${questionText || "No preceding question found."}"
+Your task:
+Decide whether the Target Turn merits follow-up questions.
+If so, generate 2–3 probing follow-up questions.
 
-Guest's Response:
-"${answerText}"
+DO NOT generate follow-ups if:
+- The turn is an advertisement or promotion
+- The turn is pleasantry or filler
+- The turn is too vague or short
+- The turn adds no new information
 
-Your job:
-1. Provide a concise summation of whether the guest addressed the specific points asked.
-2. Assign a relevance score (0.0 to 1.0) on how directly they answered.
+If follow-ups are inappropriate, return null.
 
-<SCHEMA>
+CONTEXT:
+${JSON.stringify(
+  contextTurns.map(t => ({
+    speaker: t.speaker,
+    text: t.text
+  })),
+  null,
+  2
+)}
+
+<JSON SCHEMA>
 {
-  "responseSummation": "String",
-  "responseScore": Number
+  "isSubstantive": Boolean,
+  "reasoning": "Short explanation",
+  "followupQuestion": ["String"] OR null,
+  "followupConfidence": [Number] OR null
 }
-</SCHEMA>
-
-Return ONLY JSON matching the schema above.
+</JSON SCHEMA>
 `;
 
     const completion = await client.chat.completions.create({
@@ -57,16 +72,35 @@ Return ONLY JSON matching the schema above.
       ],
     });
 
-    const parsed = JSON.parse(
-      completion.choices[0].message.content
+    const parsed = JSON.parse(completion.choices[0].message.content);
+
+    if (!parsed.isSubstantive || !parsed.followupQuestion) {
+      return NextResponse.json(createNullResponse(targetTurnID, lastTurn.speaker));
+    }
+
+    return NextResponse.json(
+      {
+        ID: targetTurnID,
+        speaker: lastTurn.speaker,
+        followupQuestion: parsed.followupQuestion,
+        followupConfidence: parsed.followupConfidence || [],
+        followupQuestionTimestamp: new Date().toISOString(),
+      },
+      { status: 200 }
     );
 
-    return NextResponse.json(parsed, { status: 200 });
-  } catch (error) {
-    console.error("Server Error:", error);
-    return NextResponse.json(
-      { error: "Internal Server Error", details: error.message },
-      { status: 500 }
-    );
+  } catch (err) {
+    console.error("🚨 /api/followup error", err);
+    return NextResponse.json({ error: "Internal Server Error" }, { status: 500 });
   }
+}
+
+function createNullResponse(id, speaker) {
+  return {
+    ID: id,
+    speaker,
+    followupQuestion: null,
+    followupConfidence: null,
+    followupQuestionTimestamp: new Date().toISOString(),
+  };
 }

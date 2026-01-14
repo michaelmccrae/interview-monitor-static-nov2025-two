@@ -1,0 +1,3422 @@
+[
+  {
+    "metadata": "speaker name and speaker role",
+    "speakerName": [
+      "Dan Wertman",
+      "Joe",
+      "Tracy",
+      "Unidentified Male 5",
+      "Unidentified Male 6",
+      "Unidentified Male 7",
+      "Unidentified Male 3",
+      "Unidentified Male 4",
+      "Unidentified Male 2"
+    ],
+    "speakerNameConfidence": [
+      0.95,
+      0.95,
+      0.9,
+      0.8,
+      0.7,
+      0.99,
+      0.99,
+      0.98
+    ],
+    "speakerNameTimestamp": "2026-01-10T04:09:05.311Z",
+    "speakerRole": [
+      "Undefined",
+      "Guest",
+      "Announcer",
+      "Undefined",
+      "Guest",
+      "Guest",
+      "Guest",
+      "Interviewer"
+    ],
+    "speakerRoleConfidence": [
+      0.95,
+      0.95,
+      0.95,
+      0.5,
+      1,
+      1,
+      1,
+      0.9
+    ],
+    "speakerRoleTimestamp": "2026-01-10T04:09:05.065Z"
+  },
+  {
+    "ID": 2,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 2,
+      "speaker": 2,
+      "lookupTerm": [
+        "Lenovo",
+        "Intel Core Ultra"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Lenovo",
+        "https://en.wikipedia.org/wiki/Intel_Core"
+      ],
+      "lookupExplanation": [
+        "Lenovo is a Chinese multinational technology company specializing in computer hardware and electronics.",
+        "Intel Core is a brand name used by Intel for a series of mid-range to high-end consumer and business microprocessors."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:09:03.175Z"
+    },
+    "error": {
+      "ID": 2,
+      "speaker": 2,
+      "errorMatch": [
+        "customized hardware powered by Intel Core Ultra processors"
+      ],
+      "errorExplanation": [
+        "Intel Core Ultra processors were announced in 2023 and started shipping in mid to late 2023; availability in Lenovo Pro customized hardware may vary and was not broadly established at the time this statement was made."
+      ],
+      "errorConfidence": [
+        0.6
+      ],
+      "errorMatchTimestamp": "2026-01-10T04:09:02.773Z"
+    }
+  },
+  {
+    "ID": 1,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 1,
+      "speaker": 1,
+      "lookupTerm": [
+        "Bloomberg",
+        "Trumponomics",
+        "Wall Street"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Bloomberg_L.P.",
+        "https://en.wikipedia.org/wiki/Trumponomics",
+        "https://en.wikipedia.org/wiki/Wall_Street"
+      ],
+      "lookupExplanation": [
+        "Bloomberg L.P. is a private financial, software, data, and media company headquartered in New York City.",
+        "Trumponomics refers to the economic policies of Donald Trump during his presidency, characterized by tax cuts and deregulation.",
+        "Wall Street is a financial district in New York City that serves as the heart of the U.S. financial system."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:09:03.843Z"
+    },
+    "error": {
+      "ID": 1,
+      "speaker": 1,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-10T04:09:01.410Z"
+    }
+  },
+  {
+    "ID": 0,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 0,
+      "speaker": 0,
+      "lookupTerm": [
+        "Barclays Investment Bank",
+        "Barclays Brief"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Barclays#Barclays_Investment_Bank",
+        "https://en.wikipedia.org/wiki/Barclays"
+      ],
+      "lookupExplanation": [
+        "Barclays Investment Bank is the investment banking division of Barclays, providing financial advisory, capital raising, and risk management services.",
+        "Barclays is a British multinational investment bank and financial services company, offering a range of services including personal banking, corporate banking, and wealth management."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:09:03.920Z"
+    },
+    "error": {
+      "ID": 0,
+      "speaker": 0,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-10T04:09:01.902Z"
+    }
+  },
+  {
+    "ID": 3,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 3,
+      "speaker": 3,
+      "lookupTerm": [
+        "Bloomberg Audio Studios"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Bloomberg"
+      ],
+      "lookupExplanation": [
+        "Bloomberg Audio Studios is a part of Bloomberg L.P., which provides audio services, including radio broadcasts and podcasts, focused on financial news and information."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:09:04.527Z"
+    },
+    "error": {
+      "ID": 3,
+      "speaker": 3,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-10T04:09:04.039Z"
+    }
+  },
+  {
+    "ID": 5,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 5,
+      "speaker": 5,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-10T04:09:04.969Z"
+    },
+    "error": {
+      "ID": 5,
+      "speaker": 5,
+      "errorMatch": [
+        null
+      ],
+      "errorExplanation": [
+        null
+      ],
+      "errorConfidence": [
+        null
+      ],
+      "errorMatchTimestamp": "2026-01-10T04:09:05.400Z"
+    }
+  },
+  {
+    "ID": 6,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 6,
+      "speaker": 6,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-10T04:09:05.749Z"
+    },
+    "error": {
+      "ID": 6,
+      "speaker": 6,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-10T04:09:05.923Z"
+    }
+  },
+  {
+    "ID": 4,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 4,
+      "speaker": 4,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-10T04:09:05.279Z"
+    },
+    "error": {
+      "ID": 4,
+      "speaker": 4,
+      "errorMatch": [],
+      "errorExplanation": [],
+      "errorConfidence": [],
+      "errorMatchTimestamp": "2026-01-10T04:09:06.153Z"
+    }
+  },
+  {
+    "ID": 8,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 8,
+      "speaker": 6,
+      "lookupTerm": [
+        "Credit"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Credit"
+      ],
+      "lookupExplanation": [
+        "Credit is the ability to obtain goods or services before payment, based on the trust that payment will be made in the future."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:09:07.137Z"
+    },
+    "error": {
+      "ID": 8,
+      "speaker": 6,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-10T04:09:07.047Z"
+    }
+  },
+  {
+    "ID": 7,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 7,
+      "speaker": 5,
+      "lookupTerm": [
+        "credit"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Credit"
+      ],
+      "lookupExplanation": [
+        "Credit is the ability to borrow money or access goods or services with the understanding that you'll pay later."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:09:07.917Z"
+    },
+    "error": {
+      "ID": 7,
+      "speaker": 5,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-10T04:09:06.423Z"
+    }
+  },
+  {
+    "ID": 10,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 10,
+      "speaker": 6,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-10T04:09:07.223Z"
+    },
+    "error": {
+      "ID": 10,
+      "speaker": 6,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-10T04:09:07.922Z"
+    }
+  },
+  {
+    "ID": 11,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 11,
+      "speaker": 5,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-10T04:09:08.177Z"
+    },
+    "error": {
+      "ID": 11,
+      "speaker": 5,
+      "errorMatch": [],
+      "errorExplanation": [],
+      "errorConfidence": [],
+      "errorMatchTimestamp": "2026-01-10T04:09:08.089Z"
+    }
+  },
+  {
+    "ID": 9,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 9,
+      "speaker": 5,
+      "lookupTerm": [
+        "credit episodes"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Credit"
+      ],
+      "lookupExplanation": [
+        "Credit episodes refer to events or situations involving the use of credit, typically in financial contexts such as borrowing or lending."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:09:08.731Z"
+    },
+    "error": {
+      "ID": 9,
+      "speaker": 5,
+      "errorMatch": [
+        null
+      ],
+      "errorExplanation": [
+        null
+      ],
+      "errorConfidence": [
+        null
+      ],
+      "errorMatchTimestamp": "2026-01-10T04:09:08.103Z"
+    }
+  },
+  {
+    "ID": 13,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 13,
+      "speaker": 5,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-10T04:09:09.182Z"
+    },
+    "error": {
+      "ID": 13,
+      "speaker": 5,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-10T04:09:08.995Z"
+    }
+  },
+  {
+    "ID": 12,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 12,
+      "speaker": 7,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-10T04:09:09.466Z"
+    },
+    "error": {
+      "ID": 12,
+      "speaker": 7,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-10T04:09:09.505Z"
+    }
+  },
+  {
+    "ID": 14,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 14,
+      "speaker": 6,
+      "lookupTerm": [],
+      "lookupLink": [],
+      "lookupExplanation": [],
+      "lookupTermTimestamp": "2026-01-10T04:09:09.646Z"
+    },
+    "error": {
+      "ID": 14,
+      "speaker": 6,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-10T04:09:09.718Z"
+    }
+  },
+  {
+    "ID": 15,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 15,
+      "speaker": 5,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-10T04:09:09.888Z"
+    },
+    "error": {
+      "ID": 15,
+      "speaker": 5,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-10T04:09:10.067Z"
+    }
+  },
+  {
+    "ID": 17,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 17,
+      "speaker": 5,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-10T04:09:10.643Z"
+    },
+    "error": {
+      "ID": 17,
+      "speaker": 5,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-10T04:09:10.692Z"
+    }
+  },
+  {
+    "ID": 18,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 18,
+      "speaker": 6,
+      "lookupTerm": [
+        "AI",
+        "credit boom"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://en.wikipedia.org/wiki/Credit_boom"
+      ],
+      "lookupExplanation": [
+        "Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think and learn.",
+        "A credit boom is a period characterized by a rapid increase in the availability of credit and borrowing, often leading to higher levels of consumption and investment."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:09:13.037Z"
+    },
+    "error": {
+      "ID": 18,
+      "speaker": 6,
+      "errorMatch": [
+        null
+      ],
+      "errorExplanation": [
+        null
+      ],
+      "errorConfidence": [
+        null
+      ],
+      "errorMatchTimestamp": "2026-01-10T04:09:10.929Z"
+    }
+  },
+  {
+    "ID": 20,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 20,
+      "speaker": 6,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-10T04:09:11.943Z"
+    },
+    "error": {
+      "ID": 20,
+      "speaker": 6,
+      "errorMatch": [
+        "You know, there was an actual case argued over a comma."
+      ],
+      "errorExplanation": [
+        "There is no verifiable evidence of any actual legal case being decided solely based on the presence or absence of a comma. While commas sometimes play a role in legal interpretations, no case has been formally 'argued over a comma' as the determining issue."
+      ],
+      "errorConfidence": [
+        0.7
+      ],
+      "errorMatchTimestamp": "2026-01-10T04:09:13.108Z"
+    }
+  },
+  {
+    "ID": 21,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 21,
+      "speaker": 7,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-10T04:09:13.294Z"
+    },
+    "error": {
+      "ID": 21,
+      "speaker": 7,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-10T04:09:12.777Z"
+    }
+  },
+  {
+    "ID": 19,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 19,
+      "speaker": 5,
+      "lookupTerm": [
+        "large language models",
+        "AI"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Large_language_model",
+        "https://en.wikipedia.org/wiki/Artificial_intelligence"
+      ],
+      "lookupExplanation": [
+        "Large language models are a type of statistical model that uses deep learning techniques to generate human-like text based on input data.",
+        "Artificial intelligence (AI) is the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:09:13.757Z"
+    },
+    "error": {
+      "ID": 19,
+      "speaker": 5,
+      "errorMatch": [
+        null
+      ],
+      "errorExplanation": [
+        null
+      ],
+      "errorConfidence": [
+        null
+      ],
+      "errorMatchTimestamp": "2026-01-10T04:09:11.570Z"
+    }
+  },
+  {
+    "ID": 23,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 23,
+      "speaker": 5,
+      "lookupTerm": [],
+      "lookupLink": [],
+      "lookupExplanation": [],
+      "lookupTermTimestamp": "2026-01-10T04:09:13.930Z"
+    },
+    "error": {
+      "ID": 23,
+      "speaker": 5,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-10T04:09:14.201Z"
+    }
+  },
+  {
+    "ID": 16,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 16,
+      "speaker": 6,
+      "lookupTerm": [
+        "private credit",
+        "idiosyncratic defaults",
+        "Jamie Dimon",
+        "cockroach analogy"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Private_credit",
+        "https://en.wikipedia.org/wiki/Default",
+        "https://en.wikipedia.org/wiki/Jamie_Dimon",
+        "https://en.wikipedia.org/wiki/Cockroach_analogy"
+      ],
+      "lookupExplanation": [
+        "Private credit refers to debt financing provided by non-bank entities and is typically issued to companies that may not have access to traditional bank loans.",
+        "Idiosyncratic defaults occur when a specific entity fails to meet its debt obligations due to unique or individual circumstances, rather than systemic factors.",
+        "Jamie Dimon is an American businessman and the chairman and CEO of JPMorgan Chase, one of the largest financial institutions in the United States.",
+        "The cockroach analogy suggests that if one problem is discovered, there may be many more hidden issues, similar to how seeing one cockroach indicates there are likely more nearby."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:09:14.794Z"
+    },
+    "error": {
+      "ID": 16,
+      "speaker": 6,
+      "errorMatch": [
+        "jamie dimon using the cockroach analogy"
+      ],
+      "errorExplanation": [
+        "There is no well-documented or public record of Jamie Dimon using the specific 'cockroach analogy' related to private credit defaults or market issues."
+      ],
+      "errorConfidence": [
+        0.8
+      ],
+      "errorMatchTimestamp": "2026-01-10T04:09:11.192Z"
+    }
+  },
+  {
+    "ID": 24,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 24,
+      "speaker": 6,
+      "lookupTerm": [
+        "waterfall",
+        "borrower"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Waterfall_(finance)",
+        "https://en.wikipedia.org/wiki/Borrower"
+      ],
+      "lookupExplanation": [
+        "In finance, a 'waterfall' refers to a method of distributing cash flows or payments among different classes or tranches of debt or equity holders, typically prioritizing those with higher seniority.",
+        "A 'borrower' is an individual or entity that takes out a loan from a lender, with the agreement to pay back the borrowed amount, usually with interest, over a specified period."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:09:17.276Z"
+    },
+    "error": {
+      "ID": 24,
+      "speaker": 6,
+      "errorMatch": [
+        "having, you know, this private close relationship with your borrower where you are higher up in the waterfall"
+      ],
+      "errorExplanation": [
+        "Being 'higher up in the waterfall' refers to priority in payment order in structured finance, typically unrelated to having a private close relationship with the borrower. The waterfall order is determined by security interests and contractual agreements, not by interpersonal relationships."
+      ],
+      "errorConfidence": [
+        0.9
+      ],
+      "errorMatchTimestamp": "2026-01-10T04:09:16.758Z"
+    }
+  },
+  {
+    "ID": 25,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 25,
+      "speaker": 5,
+      "lookupTerm": [
+        "Chatt GPT",
+        "credit agreement"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/ChatGPT",
+        "https://en.wikipedia.org/wiki/Credit_agreement"
+      ],
+      "lookupExplanation": [
+        "ChatGPT is a conversational AI model developed by OpenAI that can engage in dialogue and perform various language tasks.",
+        "A credit agreement is a contract between a lender and a borrower that outlines the terms and conditions related to a loan or line of credit."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:09:17.832Z"
+    },
+    "error": {
+      "ID": 25,
+      "speaker": 5,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-10T04:09:17.655Z"
+    }
+  },
+  {
+    "ID": 22,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 22,
+      "speaker": 6,
+      "lookupTerm": [
+        "private credit",
+        "creditor on creditor violence"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Private_credit",
+        "https://en.wikipedia.org/wiki/Creditor"
+      ],
+      "lookupExplanation": [
+        "Private credit refers to investments made in debt by non-bank entities, including private equity firms and hedge funds, as opposed to traditional bank loans.",
+        "Creditor on creditor violence refers to the competitive and often aggressive behavior among creditors when they pursue their interests in public deals, potentially leading to conflicts."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:09:15.399Z"
+    },
+    "error": {
+      "ID": 22,
+      "speaker": 6,
+      "errorMatch": [
+        "the boom in creditor on creditor violence in public deals"
+      ],
+      "errorExplanation": [
+        "The phrase 'creditor on creditor violence in public deals' is not a recognized or factual description within finance or legal contexts. There is no evidence or common understanding of a 'boom' in such violence related to public deals."
+      ],
+      "errorConfidence": [
+        0.9
+      ],
+      "errorMatchTimestamp": "2026-01-10T04:09:18.405Z"
+    }
+  },
+  {
+    "ID": 26,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 26,
+      "speaker": 6,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-10T04:09:17.670Z"
+    },
+    "error": {
+      "ID": 26,
+      "speaker": 6,
+      "errorMatch": [
+        "Sure I don't lose money in"
+      ],
+      "errorExplanation": [
+        "The statement 'Sure I don't lose money in' is factually unverifiable and likely incorrect since it implies certainty about never losing money, which is unlikely and cannot be confirmed without additional context."
+      ],
+      "errorConfidence": [
+        0.8
+      ],
+      "errorMatchTimestamp": "2026-01-10T04:09:18.465Z"
+    }
+  },
+  {
+    "ID": 28,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 28,
+      "speaker": 7,
+      "lookupTerm": [
+        "Bloomberg",
+        "Noetica"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Bloomberg_L.P.",
+        "https://en.wikipedia.org/wiki/Noetica"
+      ],
+      "lookupExplanation": [
+        "Bloomberg L.P. is a global financial services, software, and media company headquartered in New York City, known for its Bloomberg Terminal which provides financial data and trading tools.",
+        "Noetica is a technology company that specializes in providing tools for the financial services industry, focusing on improving deal-making processes."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:09:20.284Z"
+    },
+    "error": {
+      "ID": 28,
+      "speaker": 7,
+      "errorMatch": [
+        null
+      ],
+      "errorExplanation": [
+        null
+      ],
+      "errorConfidence": [
+        null
+      ],
+      "errorMatchTimestamp": "2026-01-10T04:09:18.702Z"
+    }
+  },
+  {
+    "ID": 29,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 29,
+      "speaker": 5,
+      "lookupTerm": [
+        "Noetica"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Noetica"
+      ],
+      "lookupExplanation": [
+        "Noetica is a technology company that provides software solutions for the management of contact centers."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:09:20.332Z"
+    },
+    "error": {
+      "ID": 29,
+      "speaker": 5,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-10T04:09:19.384Z"
+    }
+  },
+  {
+    "ID": 27,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 27,
+      "speaker": 5,
+      "lookupTerm": [
+        "Noetica AI",
+        "AI"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Noetica",
+        "https://en.wikipedia.org/wiki/Artificial_intelligence"
+      ],
+      "lookupExplanation": [
+        "Noetica AI is a company that focuses on leveraging artificial intelligence to enhance understanding of data, particularly in finance.",
+        "Artificial intelligence (AI) refers to the simulation of human intelligence in machines designed to think and act like humans."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:09:20.431Z"
+    },
+    "error": {
+      "ID": 27,
+      "speaker": 5,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-10T04:09:18.514Z"
+    }
+  },
+  {
+    "ID": 31,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 31,
+      "speaker": 5,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-10T04:09:20.370Z"
+    },
+    "error": {
+      "ID": 31,
+      "speaker": 5,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-10T04:09:21.233Z"
+    }
+  },
+  {
+    "ID": 34,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 34,
+      "speaker": 7,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-10T04:09:22.492Z"
+    },
+    "error": {
+      "ID": 34,
+      "speaker": 7,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-10T04:09:22.215Z"
+    }
+  },
+  {
+    "ID": 33,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 33,
+      "speaker": 5,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-10T04:09:21.157Z"
+    },
+    "error": {
+      "ID": 33,
+      "speaker": 5,
+      "errorMatch": [
+        "And you get 1% of that, so that's great."
+      ],
+      "errorExplanation": [
+        "Without context specifying what 'that' refers to or that a 1% gain is indeed great, this statement could be misleading or inaccurate if 1% is minimal or insignificant in the context."
+      ],
+      "errorConfidence": [
+        0.5
+      ],
+      "errorMatchTimestamp": "2026-01-10T04:09:22.947Z"
+    }
+  },
+  {
+    "ID": 30,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 30,
+      "speaker": 7,
+      "lookupTerm": [
+        "Noetica",
+        "AI",
+        "benchmarking",
+        "credit",
+        "M&A",
+        "capital markets",
+        "deal terms"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Noetica",
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://en.wikipedia.org/wiki/Benchmarking",
+        "https://en.wikipedia.org/wiki/Credit",
+        "https://en.wikipedia.org/wiki/Mergers_and_acquisitions",
+        "https://en.wikipedia.org/wiki/Capital_market",
+        "https://en.wikipedia.org/wiki/Deal_terms"
+      ],
+      "lookupExplanation": [
+        "Noetica is a company specializing in AI-driven solutions.",
+        "AI (Artificial Intelligence) refers to the simulation of human intelligence in machines.",
+        "Benchmarking is the process of comparing business processes and performance metrics to industry bests or best practices.",
+        "Credit refers to the ability to borrow money or access goods or services with the understanding that payment will be made later.",
+        "M&A (Mergers and Acquisitions) is the process of consolidating companies or assets.",
+        "Capital markets are financial markets where buyers and sellers engage in the trade of financial securities.",
+        "Deal terms refer to the specific conditions and agreements established in a transaction."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:09:24.599Z"
+    },
+    "error": {
+      "ID": 30,
+      "speaker": 7,
+      "errorMatch": [
+        "Noetica is AI powered software for benchmarking real time data on what's market in credit, m and a, capital markets, deal terms."
+      ],
+      "errorExplanation": [
+        "Noetica is not publicly documented as AI powered software specifically for benchmarking real time data on credit, M&A, capital markets, and deal terms. The description may be inaccurate or incomplete regarding the company's actual product focus."
+      ],
+      "errorConfidence": [
+        0.7
+      ],
+      "errorMatchTimestamp": "2026-01-10T04:09:21.088Z"
+    }
+  },
+  {
+    "ID": 35,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 35,
+      "speaker": 6,
+      "lookupTerm": [
+        "financing agreements",
+        "investors",
+        "lawyers"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Financing_agreement",
+        "https://en.wikipedia.org/wiki/Investor",
+        "https://en.wikipedia.org/wiki/Lawyer"
+      ],
+      "lookupExplanation": [
+        "A financing agreement is a contract between a lender and a borrower outlining the terms of a loan.",
+        "An investor is an individual or entity that allocates capital with the expectation of a future financial return.",
+        "A lawyer is a professional who is qualified to offer advice about the law or represent clients in legal matters."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:09:25.129Z"
+    },
+    "error": {
+      "ID": 35,
+      "speaker": 6,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-10T04:09:23.267Z"
+    }
+  },
+  {
+    "ID": 37,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 37,
+      "speaker": 6,
+      "lookupTerm": [
+        "Subletting policy"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Sublet"
+      ],
+      "lookupExplanation": [
+        "A subletting policy refers to the rules and regulations governing the sublease of rental properties, where the original tenant rents out the property to another tenant for a portion of the lease term."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:09:25.913Z"
+    },
+    "error": {
+      "ID": 37,
+      "speaker": 6,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-10T04:09:25.288Z"
+    }
+  },
+  {
+    "ID": 36,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 36,
+      "speaker": 7,
+      "lookupTerm": [
+        "deal terms",
+        "transactional system",
+        "lease"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Term_sheet",
+        "https://en.wikipedia.org/wiki/Transaction_(business)",
+        "https://en.wikipedia.org/wiki/Lease"
+      ],
+      "lookupExplanation": [
+        "Deal terms refer to the specific conditions and clauses agreed upon in a business transaction, often outlined in a term sheet.",
+        "A transactional system is a framework that facilitates transactions, ensuring efficient and orderly operations in business.",
+        "A lease is a contractual agreement where one party pays the other for the use of an asset, typically real estate, for a specified time."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:09:26.458Z"
+    },
+    "error": {
+      "ID": 36,
+      "speaker": 7,
+      "errorMatch": [
+        null
+      ],
+      "errorExplanation": [
+        null
+      ],
+      "errorConfidence": [
+        null
+      ],
+      "errorMatchTimestamp": "2026-01-10T04:09:24.054Z"
+    }
+  },
+  {
+    "ID": 39,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 39,
+      "speaker": 5,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-10T04:09:26.241Z"
+    },
+    "error": {
+      "ID": 39,
+      "speaker": 5,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-10T04:09:26.774Z"
+    }
+  },
+  {
+    "ID": 38,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 38,
+      "speaker": 7,
+      "lookupTerm": [
+        "lease",
+        "capital markets"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Lease",
+        "https://en.wikipedia.org/wiki/Capital_markets"
+      ],
+      "lookupExplanation": [
+        "A lease is a contractual agreement between a lessor and lessee wherein the lessee pays for the use of an asset, typically real estate, for a specified period.",
+        "Capital markets are financial markets where long-term debt or equity-backed securities are bought and sold."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:09:26.813Z"
+    },
+    "error": {
+      "ID": 38,
+      "speaker": 7,
+      "errorMatch": [
+        "if the weather gets under 30 degrees at any time, you forfeit your right to the apartment"
+      ],
+      "errorExplanation": [
+        "It is extremely unlikely that a residential lease legally includes a clause forfeiting the right to an apartment based on the outdoor temperature dropping below 30 degrees, as such a clause would be unenforceable and unusual in lease agreements."
+      ],
+      "errorConfidence": [
+        0.9
+      ],
+      "errorMatchTimestamp": "2026-01-10T04:09:27.152Z"
+    }
+  },
+  {
+    "ID": 40,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 40,
+      "speaker": 7,
+      "lookupTerm": [
+        "fast food"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Fast_food"
+      ],
+      "lookupExplanation": [
+        "Fast food is a type of mass-produced food designed for commercial resale, with a strong priority placed on speed of service."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:09:27.877Z"
+    },
+    "error": {
+      "ID": 40,
+      "speaker": 7,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-10T04:09:27.694Z"
+    }
+  },
+  {
+    "ID": 41,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 41,
+      "speaker": 5,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-10T04:09:27.948Z"
+    },
+    "error": {
+      "ID": 41,
+      "speaker": 5,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-10T04:09:28.332Z"
+    }
+  },
+  {
+    "ID": 32,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 32,
+      "speaker": 7,
+      "lookupTerm": [
+        "BlackRock",
+        "capital markets",
+        "merger activity",
+        "T Mobile",
+        "Sprint"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/BlackRock",
+        "https://en.wikipedia.org/wiki/Capital_market",
+        "https://en.wikipedia.org/wiki/Mergers_and_acquisitions",
+        "https://en.wikipedia.org/wiki/T-Mobile_US",
+        "https://en.wikipedia.org/wiki/Sprint_Corp."
+      ],
+      "lookupExplanation": [
+        "BlackRock is an American global investment management corporation that manages assets on behalf of clients worldwide.",
+        "Capital markets are financial markets where long-term debt or equity-backed securities are bought and sold.",
+        "Merger activity refers to the process where two or more companies combine, often resulting in a new entity or the absorption of one company into another.",
+        "T-Mobile US is a wireless network operator in the United States, known for its role in mobile telecommunications.",
+        "Sprint Corporation was a major telecommunications company in the United States, which merged with T-Mobile US in 2020."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:09:24.367Z"
+    },
+    "error": {
+      "ID": 32,
+      "speaker": 7,
+      "errorMatch": [
+        "I started my career at BlackRock. I was on a team responsible for coming up with new financial products and fixing the markets.",
+        "I went back to get my GED.",
+        "I joined Wachtell Lipton where I did corporate transactions. This is 2017 to 2022.",
+        "I worked on, you know, T Mobile's buyout of Sprint, the biggest $30,000,000,000 commitment at the time.",
+        "Now that was two and a half plus years ago now.",
+        "I left to watch out to start Noetica with a fairly simple idea...",
+        "This year, we're on track to do about a trillion dollars of transactions through the platform."
+      ],
+      "errorExplanation": [
+        "BlackRock is an asset management firm and does not have a team dedicated to 'fixing the markets' as a mission; the statement is vague and misrepresentative.",
+        "GED is a high school equivalency diploma which would typically be obtained before starting a professional career; getting a GED after working at BlackRock is factually implausible.",
+        "The law firm is Wachtell, Lipton, Rosen & Katz (commonly 'Wachtell Lipton'), not 'Wachtell Lipton' as stated; also, the timeframe of 2017 to 2022 is not confirmed and merges with later dates misaligned with prior claims.",
+        "T-Mobile's acquisition of Sprint was valued at approximately $26 billion, not exactly $30 billion, and it was announced in 2018, closer to that date than the general statement; 'biggest $30 billion commitment' is slightly inaccurate.",
+        "If the talk takes place in 2023 or later, 'two and a half plus years ago' from 2017-2022 period is inconsistent and unclear.",
+        "The name is 'Knowetica' but speaker says 'Noetica' – there is a discrepancy in the company name.",
+        "Claiming to be on track to do about a trillion dollars of transactions through the platform in a single year is extremely high and lacks public verification; no known platform in legal transactional benchmarking has reported such volume."
+      ],
+      "errorConfidence": [
+        0.8,
+        0.9,
+        0.7,
+        0.6,
+        0.7,
+        0.9,
+        0.8
+      ],
+      "errorMatchTimestamp": "2026-01-10T04:09:28.815Z"
+    }
+  },
+  {
+    "ID": 43,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 43,
+      "speaker": 3,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-10T04:09:29.106Z"
+    },
+    "error": {
+      "ID": 43,
+      "speaker": 3,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-10T04:09:28.949Z"
+    }
+  },
+  {
+    "ID": 42,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 42,
+      "speaker": 7,
+      "lookupTerm": [
+        "McDonald's",
+        "Chick-fil-A"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/McDonald%27s",
+        "https://en.wikipedia.org/wiki/Chick-fil-A"
+      ],
+      "lookupExplanation": [
+        "McDonald's is an American fast-food restaurant chain, founded in 1940, known for its burgers, fries, and breakfast items.",
+        "Chick-fil-A is an American fast-food restaurant chain specializing in chicken sandwiches, founded in 1946."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:09:29.636Z"
+    },
+    "error": {
+      "ID": 42,
+      "speaker": 7,
+      "errorMatch": [
+        "10 piece Chick fil A nugget",
+        "you open the box, you have nine pieces"
+      ],
+      "errorExplanation": [
+        "McDonald's does not sell Chick-fil-A nuggets, as Chick-fil-A is a separate fast-food chain.",
+        "If you order a 10 piece nugget, you should receive 10 nuggets, not 9."
+      ],
+      "errorConfidence": [
+        1,
+        1
+      ],
+      "errorMatchTimestamp": "2026-01-10T04:09:29.659Z"
+    }
+  },
+  {
+    "ID": 45,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 45,
+      "speaker": 6,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-10T04:09:30.083Z"
+    },
+    "error": {
+      "ID": 45,
+      "speaker": 6,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-10T04:09:29.970Z"
+    }
+  },
+  {
+    "ID": 44,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 44,
+      "speaker": 7,
+      "lookupTerm": [
+        "McNuggets"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Chicken_McNuggets"
+      ],
+      "lookupExplanation": [
+        "Chicken McNuggets are a type of chicken nugget produced by the fast-food restaurant chain McDonald's."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:09:30.492Z"
+    },
+    "error": {
+      "ID": 44,
+      "speaker": 7,
+      "errorMatch": [
+        "You open the box, you have exactly 10 pieces. Or you open the box, and you have 11 pieces."
+      ],
+      "errorExplanation": [
+        "Typically, McDonald's Chicken McNuggets boxes contain an exact number of nuggets depending on the size of the box (e.g., 6, 10, 20). Having exactly 10 or 11 pieces in a standard box is inaccurate, as boxes do not randomly contain 11 pieces."
+      ],
+      "errorConfidence": [
+        0.9
+      ],
+      "errorMatchTimestamp": "2026-01-10T04:09:30.811Z"
+    }
+  },
+  {
+    "ID": 47,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 47,
+      "speaker": 5,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-10T04:09:31.350Z"
+    },
+    "error": {
+      "ID": 47,
+      "speaker": 5,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-10T04:09:30.934Z"
+    }
+  },
+  {
+    "ID": 49,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 49,
+      "speaker": 5,
+      "lookupTerm": [
+        "McNuggets"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Chicken_McNuggets"
+      ],
+      "lookupExplanation": [
+        "Chicken McNuggets are bite-sized pieces of fried or baked chicken that are served by McDonald's."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:09:32.666Z"
+    },
+    "error": {
+      "ID": 49,
+      "speaker": 5,
+      "errorMatch": [
+        null
+      ],
+      "errorExplanation": [
+        null
+      ],
+      "errorConfidence": [
+        null
+      ],
+      "errorMatchTimestamp": "2026-01-10T04:09:32.478Z"
+    }
+  },
+  {
+    "ID": 46,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 46,
+      "speaker": 7,
+      "lookupTerm": [
+        "American consumerism",
+        "Citibank",
+        "credit markets"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Consumerism",
+        "https://en.wikipedia.org/wiki/Citigroup",
+        "https://en.wikipedia.org/wiki/Credit_market"
+      ],
+      "lookupExplanation": [
+        "American consumerism refers to the cultural phenomenon where the acquisition of goods and services is a significant aspect of individual and societal satisfaction in the United States.",
+        "Citibank is a global bank and a financial services corporation, a subsidiary of Citigroup, based in New York City.",
+        "Credit markets are part of the financial market where borrowers and lenders engage in the lending and borrowing of debt instruments."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:09:33.329Z"
+    },
+    "error": {
+      "ID": 46,
+      "speaker": 7,
+      "errorMatch": [
+        "Citibank sent $900,000,000 to lenders"
+      ],
+      "errorExplanation": [
+        "There is no verifiable public record or credible report confirming that Citibank sent exactly $900 million to lenders by mistake in 2020."
+      ],
+      "errorConfidence": [
+        0.9
+      ],
+      "errorMatchTimestamp": "2026-01-10T04:09:31.556Z"
+    }
+  },
+  {
+    "ID": 51,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 51,
+      "speaker": 5,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-10T04:09:33.379Z"
+    },
+    "error": {
+      "ID": 51,
+      "speaker": 5,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-10T04:09:33.438Z"
+    }
+  },
+  {
+    "ID": 50,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 50,
+      "speaker": 6,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-10T04:09:32.420Z"
+    },
+    "error": {
+      "ID": 50,
+      "speaker": 6,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-10T04:09:33.474Z"
+    }
+  },
+  {
+    "ID": 48,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 48,
+      "speaker": 7,
+      "lookupTerm": [
+        "Revlon",
+        "credit agreement",
+        "litigation",
+        "erroneous payment deal terms"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Revlon",
+        "https://en.wikipedia.org/wiki/Credit_agreement",
+        "https://en.wikipedia.org/wiki/Litigation",
+        "https://en.wikipedia.org/wiki/Contract_clause"
+      ],
+      "lookupExplanation": [
+        "Revlon is an American multinational cosmetics, skin care, fragrance, and personal care company.",
+        "A credit agreement is a legal document between a lender and borrower that outlines the terms of a loan.",
+        "Litigation is the process of taking legal action or resolving disputes in a court of law.",
+        "Erroneous payment deal terms refer to contractual provisions that address the consequences of payments made in error in financial transactions."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:09:33.914Z"
+    },
+    "error": {
+      "ID": 48,
+      "speaker": 7,
+      "errorMatch": [
+        "In full prepayment of a loan for Revlon, and they did so accidentally.",
+        "The governing documentation associated with this loan didn't say what happens in that scenario.",
+        "Nautica's data last clocked that deal term as of last quarter at 90% of deals."
+      ],
+      "errorExplanation": [
+        "The full prepayment of the Revlon loan was not accidental; it was an intentional voluntary prepayment by certain lenders.",
+        "The Revlon credit agreement governing documentation did include provisions addressing prepayment scenarios, even if they were subject to interpretation.",
+        "Publicly available information does not confirm that 'Nautica's data' indicates erroneous payment deal terms appeared in 90% of deals as of last quarter; this specific statistic lacks verification."
+      ],
+      "errorConfidence": [
+        0.9,
+        0.8,
+        0.7
+      ],
+      "errorMatchTimestamp": "2026-01-10T04:09:34.157Z"
+    }
+  },
+  {
+    "ID": 53,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 53,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "speaker": 5,
+      "lookupTermTimestamp": "2026-01-10T04:09:34.353Z"
+    },
+    "error": {
+      "ID": 53,
+      "speaker": 5,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-10T04:09:34.276Z"
+    }
+  },
+  {
+    "ID": 55,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 55,
+      "speaker": 6,
+      "lookupTerm": [
+        "balance sheet"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Balancesheet"
+      ],
+      "lookupExplanation": [
+        "A balance sheet is a financial statement that summarizes a company's assets, liabilities, and shareholders' equity at a specific point in time."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:09:36.072Z"
+    },
+    "error": {
+      "ID": 55,
+      "speaker": 6,
+      "errorMatch": [
+        "Flatter their balance sheet, basically."
+      ],
+      "errorExplanation": [
+        "The phrase 'Flatter their balance sheet' appears to be a misstatement or a typographical error. The correct phrase is likely 'flatter their balance sheet,' meaning to make the financial statement appear better, but 'Flatter' as a verb here may be a mishearing or misspelling of 'flatter' or 'flout' or something else. However, 'flatter their balance sheet' can be a legitimate phrase used metaphorically to mean improving the appearance of a balance sheet, and without additional context, it is not factually incorrect."
+      ],
+      "errorConfidence": [
+        0
+      ],
+      "errorMatchTimestamp": "2026-01-10T04:09:38.214Z"
+    }
+  },
+  {
+    "ID": 52,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 52,
+      "speaker": 7,
+      "lookupTerm": [
+        "anti PetSmart terms",
+        "J. Crew blockers"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/PetSmart",
+        "https://en.wikipedia.org/wiki/J.Crew"
+      ],
+      "lookupExplanation": [
+        "Anti PetSmart terms are contractual provisions designed to prevent the release of guarantees when subsidiaries become non-wholly owned, thus protecting the lender's interests in a loan.",
+        "J. Crew blockers refer to certain protections in financial agreements similar to the ones used by J. Crew while navigating financial restructuring, ensuring that certain asset values are maintained."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:09:36.471Z"
+    },
+    "error": {
+      "ID": 52,
+      "speaker": 7,
+      "errorMatch": [
+        "Many people talk about them as things like anti PetSmart terms",
+        "anti PetSmart terms, these are protections that prevent guarantor releases when subsidiaries of the credit group become non wholly owned",
+        "If you were getting a mortgage ... if it said something like, well, if you sell any part of your home, front door, a window, a shingle, the bank loses the ability to foreclose on the house fully"
+      ],
+      "errorExplanation": [
+        "The term is commonly referred to as 'anti-Petsmart' provisions, not 'anti PetSmart terms' as a general descriptor of structural protections; moreover, this phrasing oversimplifies and generalizes a specific contractual clause into a broad category, which can be misleading.",
+        "Anti-Petsmart provisions generally prevent releases of guarantors when ownership changes occur with subsidiaries in the credit group, but the explanation merges separate concepts (guarantor releases and non wholly-owned changes) inaccurately and lacks precision regarding the mechanics of these protections.",
+        "In a traditional mortgage, selling parts of a home like a window or a shingle does not affect the bank's ability to foreclose on the house. The example exaggerates the effects and is factually incorrect as minor property alterations or partial sales do not typically void foreclosure rights."
+      ],
+      "errorConfidence": [
+        0.8,
+        0.9,
+        1
+      ],
+      "errorMatchTimestamp": "2026-01-10T04:09:39.810Z"
+    }
+  },
+  {
+    "ID": 57,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 57,
+      "speaker": 0,
+      "lookupTerm": [
+        "Barclays Investment Bank",
+        "podcast"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Barclays",
+        "https://en.wikipedia.org/wiki/Podcast"
+      ],
+      "lookupExplanation": [
+        "Barclays Investment Bank is a division of Barclays, a British multinational investment bank and financial services company.",
+        "A podcast is a digital audio file made available on the internet for downloading to a computer or mobile device, typically available as a series."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:09:40.765Z"
+    },
+    "error": {
+      "ID": 57,
+      "speaker": 0,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-10T04:09:40.370Z"
+    }
+  },
+  {
+    "ID": 56,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 56,
+      "speaker": 7,
+      "lookupTerm": [
+        "cost savings add back",
+        "EBITDA",
+        "Windstream case",
+        "net short lender terms"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Cash_flow",
+        "https://en.wikipedia.org/wiki/Earnings_before_interest,_taxes,_depreciation,_and_amortization",
+        "https://en.wikipedia.org/wiki/Windstream_Holding",
+        "https://en.wikipedia.org/wiki/Short_(finance)"
+      ],
+      "lookupExplanation": [
+        "A cost savings add back is an adjustment made in financial statements to reflect projected future savings that can enhance current cash flow assessments.",
+        "EBITDA stands for Earnings Before Interest, Taxes, Depreciation, and Amortization, and is a measure of a company's overall financial performance.",
+        "The Windstream case refers to a legal situation involving Windstream Holdings, where certain hedge funds were shorting the company's debt during its bankruptcy proceedings.",
+        "Net short lender terms refer to agreements that allow borrowers to exclude lenders who have taken short positions in their debt from participating in voting rights."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:09:40.868Z"
+    },
+    "error": {
+      "ID": 56,
+      "speaker": 7,
+      "errorMatch": [
+        "64% of deals now have cost savings add backs in them. That's the highest we've ever recorded.",
+        "For deals with those add backs being above 20% of EBITDA, that came in at 51%, which is also the highest we've ever tracked, on the platform.",
+        "That is now in 13% of deals, which is the highest we've ever tracked."
+      ],
+      "errorExplanation": [
+        "There is no publicly available data to verify these exact percentages and claims about record levels of cost savings add backs in deals, making the assertion unverified.",
+        "Similarly, the 51% figure for deals with add backs above 20% of EBITDA lacks independent verification and should be considered unverified.",
+        "The claim that 13% of deals contain net short lender terms as the highest ever tracked lacks publicly available evidence and is unverifiable."
+      ],
+      "errorConfidence": [
+        0.7,
+        0.7,
+        0.7
+      ],
+      "errorMatchTimestamp": "2026-01-10T04:09:40.822Z"
+    }
+  },
+  {
+    "ID": 60,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 60,
+      "speaker": 6,
+      "lookupTerm": [
+        "Acquired podcast"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Acquired"
+      ],
+      "lookupExplanation": [
+        "Acquired is a podcast that focuses on stories of companies and their trajectories, hosted by Ben Gilbert and David Rosenthal."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:09:42.691Z"
+    },
+    "error": {
+      "ID": 60,
+      "speaker": 6,
+      "errorMatch": [
+        null
+      ],
+      "errorExplanation": [
+        null
+      ],
+      "errorConfidence": [
+        null
+      ],
+      "errorMatchTimestamp": "2026-01-10T04:09:42.134Z"
+    }
+  },
+  {
+    "ID": 58,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 58,
+      "speaker": 6,
+      "lookupTerm": [
+        "2026"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/2026"
+      ],
+      "lookupExplanation": [
+        "2026 is a year in the 21st century, following 2025 and preceding 2027."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:09:42.941Z"
+    },
+    "error": {
+      "ID": 58,
+      "speaker": 6,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-10T04:09:41.196Z"
+    }
+  },
+  {
+    "ID": 54,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 54,
+      "speaker": 7,
+      "lookupTerm": [
+        "anti PetSmart terms",
+        "J Crew Blockers",
+        "anti SIRTA protections",
+        "EBITDA",
+        "add backs to EBITDA"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/PetSmart",
+        "https://en.wikipedia.org/wiki/J._Crew",
+        "https://en.wikipedia.org/wiki/Subordination",
+        "https://en.wikipedia.org/wiki/Earnings_before_interest,_taxes,_depreciation,_and_amortization",
+        "https://en.wikipedia.org/wiki/EBITDA"
+      ],
+      "lookupExplanation": [
+        "Anti PetSmart terms are contract clauses intended to prevent credit groups from losing collateral by restricting the assets that can be sold outside the credit group.",
+        "J Crew Blockers are legal terms in finance that restrict issuers from transferring significant intellectual property out of the borrower’s group to protect the interests of lenders.",
+        "Anti SIRTA protections refer to provisions that provide lenders with a higher priority in claims against collateral, especially in the event of borrower distress.",
+        "EBITDA stands for Earnings Before Interest, Taxes, Depreciation, and Amortization; it is a financial metric used to evaluate a company's operating performance.",
+        "Add backs to EBITDA refer to certain non-cash expenses or one-time costs that are added back to EBITDA to reflect a more accurate picture of cash flow."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:09:39.446Z"
+    },
+    "error": {
+      "ID": 54,
+      "speaker": 7,
+      "errorMatch": [
+        "You would stop paying your mortgage, and you get to keep your house, and you get the benefit of that.",
+        "anti PetSmart terms actually prevent. They prevent the ability for credit groups to actually sell a single equity and actually lose the credit support from that particular equity.",
+        "We clocked that at 28% of deals in q three. That was at 4% in 2023, and q two is at 25%. This is the highest we've ever recorded that term.",
+        "J Crew Blockers, which prevent issuers from moving material IP outside of the credit group, that's at 45% of deals now. The baseline from 2023, 15%, and last quarter, it was 38%.",
+        "Anti SIRTA protections, which are lien subordination protections, they actually help secure your place in line if and when some sort of distress activity happens. That's at eighty four percent of deals."
+      ],
+      "errorExplanation": [
+        "Stopping mortgage payments typically leads to foreclosure and loss of the house; borrowers usually cannot keep their house after ceasing payments without legal action or refinancing.",
+        "The term is likely 'anti-pass-through' or 'anti-Pet Smart' (a term related to credit documents), but the explanation is inaccurate or unclear. Generally, anti-pass-through provisions limit asset transfers within credit groups, not selling equity. This description is factually incorrect regarding credit terms.",
+        "The percentages cited for anti-pass-through (anti PetSmart) terms (28% in Q3, 4% in 2023, 25% in Q2) conflict or are inconsistent and the claim of 'highest ever recorded' cannot be verified as accurate without context or source confirmation.",
+        "'J Crew Blockers' is a colloquial term for restrictions on moving IP. The claimed percentages and changes (45%, 15%, 38%) may not reflect actual market data and lack verification. Also, the baseline and current percentages seem inconsistent or incorrect.",
+        "The term 'Anti SIRTA protections' seems misused or incorrect. Lien subordination protections exist but 'Anti SIRTA' is not a widely recognized term. The 84% figure and its increase from 61% without source is dubious and possibly inaccurate."
+      ],
+      "errorConfidence": [
+        0.9,
+        0.8,
+        0.7,
+        0.7,
+        0.8
+      ],
+      "errorMatchTimestamp": "2026-01-10T04:09:44.017Z"
+    }
+  },
+  {
+    "ID": 59,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 59,
+      "speaker": 5,
+      "lookupTerm": [
+        "operational reality",
+        "companies",
+        "success",
+        "failure"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Operations_management",
+        "https://en.wikipedia.org/wiki/Company",
+        "https://en.wikipedia.org/wiki/Success",
+        "https://en.wikipedia.org/wiki/Failure"
+      ],
+      "lookupExplanation": [
+        "Operational reality refers to the actual and practical workings of a business or organization as opposed to theoretical considerations.",
+        "A company is a legal entity formed to conduct business. Companies may take various forms, including corporations, partnerships, and sole proprietorships.",
+        "Success is the achievement of desired visions and planned goals, often measured by various metrics in a business context.",
+        "Failure refers to the lack of success in achieving intended outcomes, often leading to adverse consequences in a business or personal context."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:09:44.994Z"
+    },
+    "error": {
+      "ID": 59,
+      "speaker": 5,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-10T04:09:41.867Z"
+    }
+  },
+  {
+    "ID": 61,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 61,
+      "speaker": 5,
+      "lookupTerm": [
+        "TSMC",
+        "NVIDIA",
+        "Hermes"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Taiwan_Semiconductor_Manufacturing_Company",
+        "https://en.wikipedia.org/wiki/Nvidia",
+        "https://en.wikipedia.org/wiki/Herm%C3%A8s"
+      ],
+      "lookupExplanation": [
+        "Taiwan Semiconductor Manufacturing Company (TSMC) is a Taiwanese multinational semiconductor contract manufacturing and design company.",
+        "NVIDIA is an American multinational technology company known for designing graphics processing units (GPUs) for gaming and professional markets.",
+        "Hermès is a French luxury goods manufacturer known for its high-quality leather goods, lifestyle accessories, and ready-to-wear clothing."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:09:45.410Z"
+    },
+    "error": {
+      "ID": 61,
+      "speaker": 5,
+      "errorMatch": [
+        null
+      ],
+      "errorExplanation": [
+        null
+      ],
+      "errorConfidence": [
+        null
+      ],
+      "errorMatchTimestamp": "2026-01-10T04:09:43.173Z"
+    }
+  },
+  {
+    "ID": 62,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 62,
+      "speaker": 6,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-10T04:09:43.664Z"
+    },
+    "error": {
+      "ID": 62,
+      "speaker": 6,
+      "errorMatch": [
+        "their show actually turned 10 old in 2025 just like us"
+      ],
+      "errorExplanation": [
+        "The statement claims that 'their show' turned 10 years old in 2025, implying the show started in 2015. Without knowing which show is being referenced and its actual start date, this claim cannot be verified as true. If the show did not start in 2015, the claim is factually wrong."
+      ],
+      "errorConfidence": [
+        0.7
+      ],
+      "errorMatchTimestamp": "2026-01-10T04:09:45.783Z"
+    }
+  },
+  {
+    "ID": 63,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 63,
+      "speaker": 5,
+      "lookupTerm": [
+        "market dynamics",
+        "economy"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Market_dynamics",
+        "https://en.wikipedia.org/wiki/Economy"
+      ],
+      "lookupExplanation": [
+        "Market dynamics refers to the forces that impact the supply, demand, and price of goods and services in a market environment.",
+        "An economy is the large set of interrelated production and consumption activities that aid in determining how scarce resources are allocated."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:09:47.093Z"
+    }
+  },
+  {
+    "ID": 64,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 65,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 66,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "error": {
+      "ID": 66,
+      "speaker": 2,
+      "errorMatch": [
+        null
+      ],
+      "errorExplanation": [
+        null
+      ],
+      "errorConfidence": [
+        null
+      ],
+      "errorMatchTimestamp": "2026-01-10T04:09:56.918Z"
+    }
+  },
+  {
+    "ID": 68,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 68,
+      "speaker": 7,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-10T04:09:56.982Z"
+    },
+    "error": {
+      "ID": 68,
+      "speaker": 7,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-10T04:09:57.309Z"
+    }
+  },
+  {
+    "ID": 69,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 69,
+      "speaker": 5,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-10T04:09:57.211Z"
+    },
+    "error": {
+      "ID": 69,
+      "speaker": 5,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-10T04:09:57.807Z"
+    }
+  },
+  {
+    "ID": 67,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 67,
+      "speaker": 6,
+      "lookupTerm": [
+        "corporate lawyer"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Corporate_law"
+      ],
+      "lookupExplanation": [
+        "A corporate lawyer is a legal professional who specializes in corporate law, advising businesses on legal transactions, compliance, and governance."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:09:57.955Z"
+    },
+    "error": {
+      "ID": 67,
+      "speaker": 6,
+      "errorMatch": [
+        null
+      ],
+      "errorExplanation": [
+        null
+      ],
+      "errorConfidence": [
+        null
+      ],
+      "errorMatchTimestamp": "2026-01-10T04:09:57.097Z"
+    }
+  },
+  {
+    "ID": 71,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 71,
+      "speaker": 7,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-10T04:09:58.044Z"
+    },
+    "error": {
+      "ID": 71,
+      "speaker": 7,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-10T04:09:58.122Z"
+    }
+  },
+  {
+    "ID": 70,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 70,
+      "speaker": 6,
+      "lookupTerm": [
+        "financial crisis",
+        "dislocation in financial markets"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Financial_crisis_of_2007%E2%80%9308",
+        "https://en.wikipedia.org/wiki/Market_dislocation"
+      ],
+      "lookupExplanation": [
+        "The financial crisis of 2007–2008 was a severe worldwide economic crisis that occurred, leading to a collapse of financial institutions and significant economic downturn.",
+        "Market dislocation refers to a situation in which the market's normal functioning is disrupted, leading to unbalanced supply and demand, often resulting in volatile prices."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:09:59.989Z"
+    },
+    "error": {
+      "ID": 70,
+      "speaker": 6,
+      "errorMatch": [
+        "he came up with some language in a deal shortly after the two thousand eight financial crisis"
+      ],
+      "errorExplanation": [
+        "The statement claims the language was created shortly after the 2008 financial crisis, but no specific evidence or widely recognized deal is cited to confirm the timing or authorship; without more precise verification, the timing and credit for the language are uncertain."
+      ],
+      "errorConfidence": [
+        0.6
+      ],
+      "errorMatchTimestamp": "2026-01-10T04:09:59.111Z"
+    }
+  },
+  {
+    "ID": 72,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 72,
+      "speaker": 6,
+      "lookupTerm": [
+        "risk factors",
+        "UK deals"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Risk_factors",
+        "https://en.wikipedia.org/wiki/United_Kingdom"
+      ],
+      "lookupExplanation": [
+        "Risk factors are variables that increase the likelihood of adverse events or outcomes.",
+        "UK deals refer to business transactions or agreements made within the United Kingdom."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:09:59.786Z"
+    },
+    "error": {
+      "ID": 72,
+      "speaker": 6,
+      "errorMatch": [
+        "That was him, and that became, like, standard language in risk factors Oh, wow. At least in a bunch of UK deals."
+      ],
+      "errorExplanation": [
+        "The claim that the phrase or contribution mentioned by the speaker became standard language in risk factors specifically in a bunch of UK deals is unverifiable or unsubstantiated without additional context or evidence. The statement is vague and lacks specific details to confirm its factual accuracy."
+      ],
+      "errorConfidence": [
+        0.7
+      ],
+      "errorMatchTimestamp": "2026-01-10T04:10:00.193Z"
+    }
+  },
+  {
+    "ID": 74,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 74,
+      "speaker": 6,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-10T04:10:00.113Z"
+    },
+    "error": {
+      "ID": 74,
+      "speaker": 6,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-10T04:10:00.428Z"
+    }
+  },
+  {
+    "ID": 73,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 73,
+      "speaker": 5,
+      "lookupTerm": [
+        "deal term"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Deal_(law)"
+      ],
+      "lookupExplanation": [
+        "A deal term refers to the specific conditions and stipulations agreed upon by parties in a business agreement."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:09:59.647Z"
+    },
+    "error": {
+      "ID": 73,
+      "speaker": 5,
+      "errorMatch": [
+        "I'm the inventor of this deal",
+        "some new deal term that gets propagated across"
+      ],
+      "errorExplanation": [
+        "It is unverified and highly unlikely that a single person can be credited as the sole inventor of a 'deal' as deals are typically agreements between parties and not inventions by a single individual.",
+        "The claim that a 'new deal term' invented by this person has been propagated across is unsubstantiated and likely false without supporting evidence."
+      ],
+      "errorConfidence": [
+        0.9,
+        0.8
+      ],
+      "errorMatchTimestamp": "2026-01-10T04:10:00.858Z"
+    }
+  },
+  {
+    "ID": 75,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 75,
+      "speaker": 5,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-10T04:10:00.545Z"
+    },
+    "error": {
+      "ID": 75,
+      "speaker": 5,
+      "errorMatch": [
+        null
+      ],
+      "errorExplanation": [
+        null
+      ],
+      "errorConfidence": [
+        null
+      ],
+      "errorMatchTimestamp": "2026-01-10T04:10:00.917Z"
+    }
+  },
+  {
+    "ID": 78,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 78,
+      "speaker": 6,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-10T04:10:01.804Z"
+    },
+    "error": {
+      "ID": 78,
+      "speaker": 6,
+      "errorMatch": [
+        null
+      ],
+      "errorExplanation": [
+        null
+      ],
+      "errorConfidence": [
+        null
+      ],
+      "errorMatchTimestamp": "2026-01-10T04:10:02.084Z"
+    }
+  },
+  {
+    "ID": 79,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 79,
+      "speaker": 5,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-10T04:10:02.341Z"
+    },
+    "error": {
+      "ID": 79,
+      "speaker": 5,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-10T04:10:02.612Z"
+    }
+  },
+  {
+    "ID": 76,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 76,
+      "speaker": 6,
+      "lookupTerm": [
+        "fortification",
+        "covelight deals",
+        "credit spreads"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Fortification_(finance)",
+        "https://en.wikipedia.org/wiki/Covenant#Covenant_light",
+        "https://en.wikipedia.org/wiki/Credit_spread"
+      ],
+      "lookupExplanation": [
+        "In finance, fortification refers to the inclusion of additional protections or favorable terms in investment agreements to safeguard the interests of investors.",
+        "Covelight deals are loans or bonds that have fewer protective covenants, allowing borrowers more flexibility but potentially putting investors at increased risk.",
+        "Credit spreads are the difference in yield between securities of similar maturity but different credit quality, often used as a measure of risk in the credit market."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:10:03.595Z"
+    },
+    "error": {
+      "ID": 76,
+      "speaker": 6,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-10T04:10:01.240Z"
+    }
+  },
+  {
+    "ID": 81,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 81,
+      "speaker": 5,
+      "lookupTerm": [
+        "Google's engram"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Engram"
+      ],
+      "lookupExplanation": [
+        "An engram is a theoretical construct that refers to a physical trace of memory in the brain. In the context of Google's engram, it refers to their system of tracking terms based on their frequency of use."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:10:05.430Z"
+    },
+    "error": {
+      "ID": 81,
+      "speaker": 5,
+      "errorMatch": [
+        "Google's engram has existed for a long time."
+      ],
+      "errorExplanation": [
+        "There is no known product or project called 'Google's engram'; the term 'engram' is generally used in neuroscience and not as a Google product name."
+      ],
+      "errorConfidence": [
+        0.9
+      ],
+      "errorMatchTimestamp": "2026-01-10T04:10:05.079Z"
+    }
+  },
+  {
+    "ID": 82,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 82,
+      "speaker": 6,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-10T04:10:04.427Z"
+    },
+    "error": {
+      "ID": 82,
+      "speaker": 6,
+      "errorMatch": [
+        "Control f exists."
+      ],
+      "errorExplanation": [
+        "The correct term for the keyboard shortcut to find text is 'Ctrl+F' or 'Control+F', but 'Control f' as a phrase is incomplete and ambiguous."
+      ],
+      "errorConfidence": [
+        0.6
+      ],
+      "errorMatchTimestamp": "2026-01-10T04:10:06.267Z"
+    }
+  },
+  {
+    "ID": 77,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 77,
+      "speaker": 7,
+      "lookupTerm": [
+        "macro environment",
+        "headline risks",
+        "private credit market",
+        "structural protections",
+        "credit markets",
+        "maturity walls"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Macroeconomics",
+        "https://en.wikipedia.org/wiki/Headline_risk",
+        "https://en.wikipedia.org/wiki/Private_credit",
+        "https://en.wikipedia.org/wiki/Financial_protection",
+        "https://en.wikipedia.org/wiki/Fixed_income",
+        "https://en.wikipedia.org/wiki/Maturity_hedge"
+      ],
+      "lookupExplanation": [
+        "The macro environment refers to the broader economic factors that affect an economy as a whole, such as inflation, unemployment rates, and national productivity.",
+        "Headline risks are potential risks that can cause a sudden price decline in an investment due to negative news headlines.",
+        "The private credit market involves lending from non-bank entities to companies, which can include direct lending or private debt funds.",
+        "Structural protections are mechanisms or instruments designed to safeguard investors against certain risks or losses.",
+        "Credit markets refer to the financial markets where debt instruments are issued and traded, allowing borrowers to raise capital.",
+        "Maturity walls refer to a period when a significant amount of debt owed by borrowers comes due and must be repaid or refinanced."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:10:06.505Z"
+    },
+    "error": {
+      "ID": 77,
+      "speaker": 7,
+      "errorMatch": [
+        "a ton of debt taken out in 2020, 2021, 2020, 2022",
+        "maturity walls upcoming, especially in 2027, 2020"
+      ],
+      "errorExplanation": [
+        "The years mentioned include a repetition of 2020 twice and 2022 once. The correct consecutive sequence should be 2020, 2021, 2022 without repetition.",
+        "Mentioning 'maturity walls upcoming, especially in 2027, 2020' is factually incorrect because 2020 is in the past relative to the statement about upcoming maturity walls; this likely is an error in the years referenced."
+      ],
+      "errorConfidence": [
+        0.9,
+        0.9
+      ],
+      "errorMatchTimestamp": "2026-01-10T04:10:03.523Z"
+    }
+  },
+  {
+    "ID": 83,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 83,
+      "speaker": 5,
+      "lookupTerm": [
+        "document search"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Document_retrieval"
+      ],
+      "lookupExplanation": [
+        "Document search refers to the process of finding documents that satisfy specific information needs from a collection of documents."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:10:06.755Z"
+    },
+    "error": {
+      "ID": 83,
+      "speaker": 5,
+      "errorMatch": [
+        null
+      ],
+      "errorExplanation": [
+        null
+      ],
+      "errorConfidence": [
+        null
+      ],
+      "errorMatchTimestamp": "2026-01-10T04:10:06.455Z"
+    }
+  },
+  {
+    "ID": 85,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 85,
+      "speaker": 6,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-10T04:10:07.686Z"
+    },
+    "error": {
+      "ID": 85,
+      "speaker": 6,
+      "errorMatch": [
+        null
+      ],
+      "errorExplanation": [
+        null
+      ],
+      "errorConfidence": [
+        null
+      ],
+      "errorMatchTimestamp": "2026-01-10T04:10:07.774Z"
+    }
+  },
+  {
+    "ID": 84,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 84,
+      "speaker": 7,
+      "lookupTerm": [],
+      "lookupLink": [],
+      "lookupExplanation": [],
+      "lookupTermTimestamp": "2026-01-10T04:10:07.539Z"
+    },
+    "error": {
+      "ID": 84,
+      "speaker": 7,
+      "errorMatch": [
+        "your husband's a former corporate lawyer"
+      ],
+      "errorExplanation": [
+        "There is no verifiable evidence provided in the transcript to confirm that Tracy's husband is a former corporate lawyer."
+      ],
+      "errorConfidence": [
+        0.7
+      ],
+      "errorMatchTimestamp": "2026-01-10T04:10:08.106Z"
+    }
+  },
+  {
+    "ID": 86,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 86,
+      "speaker": 7,
+      "lookupTerm": [
+        "long range dependencies"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Dependency"
+      ],
+      "lookupExplanation": [
+        "Long range dependencies refer to connections in data where a change or relationship between elements occurs over a significant distance in time or space, rather than being localized. This term is often used in various fields including software development and economics."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:10:09.036Z"
+    },
+    "error": {
+      "ID": 86,
+      "speaker": 7,
+      "errorMatch": [
+        null
+      ],
+      "errorExplanation": [
+        null
+      ],
+      "errorConfidence": [
+        null
+      ],
+      "errorMatchTimestamp": "2026-01-10T04:10:08.607Z"
+    }
+  },
+  {
+    "ID": 80,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 80,
+      "speaker": 7,
+      "lookupTerm": [
+        "maturity wall",
+        "underwrite",
+        "tenure",
+        "m and a",
+        "regulatory uncertainty",
+        "tariffs",
+        "liability management",
+        "tax uncertainty",
+        "outside date structure",
+        "tariff event of default"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Maturity_wall",
+        "https://en.wikipedia.org/wiki/Underwriting",
+        "https://en.wikipedia.org/wiki/Tenure",
+        "https://en.wikipedia.org/wiki/Mergers_and_acquisitions",
+        "https://en.wikipedia.org/wiki/Regulatory_capture",
+        "https://en.wikipedia.org/wiki/Tariff",
+        "https://en.wikipedia.org/wiki/Liability_management",
+        "https://en.wikipedia.org/wiki/Tax_uncertainty",
+        "https://en.wikipedia.org/wiki/Outside_date_in_contracts",
+        "https://en.wikipedia.org/wiki/Default"
+      ],
+      "lookupExplanation": [
+        "A maturity wall refers to a situation in which a large number of loans or securities are set to mature simultaneously.",
+        "To underwrite means to assess the risk of loss and decide whether to issue a loan or insurance policy.",
+        "Tenure typically refers to the length of time a loan is in effect or the duration of ownership or lease of an asset.",
+        "M and A stands for mergers and acquisitions, which represent the consolidation of companies or assets.",
+        "Regulatory uncertainty involves the potential changes in laws and regulations that affect business operations.",
+        "Tariffs are taxes imposed by a government on imported or exported goods.",
+        "Liability management involves strategies and practices to handle a company's financial obligations effectively.",
+        "Tax uncertainty refers to the unpredictability related to tax laws and their implications for businesses.",
+        "An outside date structure is a contractual term that establishes a deadline for completing a deal.",
+        "A tariff event of default occurs when a borrower fails to meet their obligations due to the imposition of tariffs."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:10:09.818Z"
+    },
+    "error": {
+      "ID": 80,
+      "speaker": 7,
+      "errorMatch": [
+        "We picked up the first tariff event of default in a credit deal ever.",
+        "That's down 5% of M and A deals for tariff based m and a carve outs and true liability of respect clauses."
+      ],
+      "errorExplanation": [
+        "It is highly unlikely that the Superior Industries deal is the first ever tariff event of default in a credit deal, as tariffs and related defaults have been issues in credit markets prior to this instance.",
+        "The claim 'That's down 5% of M and A deals for tariff based m and a carve outs and true liability of respect clauses' is unclear and appears factually incorrect or at least unsupported, as there is no widely recognized statistic that 5% of M&A deals involve tariff-based carve-outs or liability clauses to this degree."
+      ],
+      "errorConfidence": [
+        0.8,
+        0.7
+      ],
+      "errorMatchTimestamp": "2026-01-10T04:10:06.295Z"
+    }
+  },
+  {
+    "ID": 87,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 87,
+      "speaker": 6,
+      "lookupTerm": [
+        "jujitsu"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Jujutsu"
+      ],
+      "lookupExplanation": [
+        "Jujitsu is a Japanese martial art and a method of close combat that focuses on using an opponent's energy against them."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:10:09.492Z"
+    },
+    "error": {
+      "ID": 87,
+      "speaker": 6,
+      "errorMatch": [
+        "It's also jujitsu between the borrowers and the lenders."
+      ],
+      "errorExplanation": [
+        "The term 'jujitsu' literally refers to a Japanese martial art, not typically used to describe financial negotiations between borrowers and lenders. Using 'jujitsu' metaphorically for negotiation is more stylistic than factual and may cause confusion."
+      ],
+      "errorConfidence": [
+        0.8
+      ],
+      "errorMatchTimestamp": "2026-01-10T04:10:10.009Z"
+    }
+  },
+  {
+    "ID": 88,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 88,
+      "speaker": 7,
+      "lookupTerm": [
+        "AI",
+        "language models",
+        "semantic meaning",
+        "Oetica",
+        "information extraction"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://en.wikipedia.org/wiki/Language_model",
+        "https://en.wikipedia.org/wiki/Semantic",
+        "https://en.wikipedia.org/wiki/Oetica",
+        "https://en.wikipedia.org/wiki/Information_extraction"
+      ],
+      "lookupExplanation": [
+        "Artificial intelligence (AI) refers to the simulation of human intelligence in machines programmed to think and learn.",
+        "Language models are algorithms that assign probabilities to sequences of words and can generate or interpret human language.",
+        "Semantic meaning involves the interpretation of words, phrases, or texts and their implications or connotations.",
+        "Oetica appears to be a concept or entity referenced in a specific domain, but relevant details may vary by context.",
+        "Information extraction is a process of automatically extracting structured information from unstructured data sources."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:10:12.140Z"
+    },
+    "error": {
+      "ID": 88,
+      "speaker": 7,
+      "errorMatch": [
+        "AI, for the first time, can attribute, in particular, new language models can attribute more semantic meaning to phrases and language that was impossible with things like engrams."
+      ],
+      "errorExplanation": [
+        "The statement inaccurately refers to 'engrams' as a previous technology for semantic understanding, which is incorrect. 'Engrams' are a theoretical concept in neuroscience related to memory traces, not a technology used for language processing or AI semantic analysis."
+      ],
+      "errorConfidence": [
+        0.95
+      ],
+      "errorMatchTimestamp": "2026-01-10T04:10:11.249Z"
+    }
+  },
+  {
+    "ID": 89,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 89,
+      "speaker": 6,
+      "lookupTerm": [
+        "precedent",
+        "AI",
+        "deal documents"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Precedent",
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://en.wikipedia.org/wiki/Contract"
+      ],
+      "lookupExplanation": [
+        "A precedent is a legal case that establishes a principle or rule that is followed by courts when deciding later cases of a similar nature.",
+        "Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions.",
+        "Deal documents are legal documents that outline the terms and conditions of a business transaction or agreement."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:10:12.373Z"
+    },
+    "error": {
+      "ID": 89,
+      "speaker": 6,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-10T04:10:10.412Z"
+    }
+  },
+  {
+    "ID": 91,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 91,
+      "speaker": 5,
+      "lookupTerm": [
+        "ChatGPT",
+        "large language models"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/ChatGPT",
+        "https://en.wikipedia.org/wiki/Large_language_models"
+      ],
+      "lookupExplanation": [
+        "ChatGPT is a conversational AI model developed by OpenAI, based on the GPT architecture.",
+        "Large language models are AI systems trained on large datasets to understand and generate human-like text."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:10:13.097Z"
+    },
+    "error": {
+      "ID": 91,
+      "speaker": 5,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-10T04:10:12.252Z"
+    }
+  },
+  {
+    "ID": 93,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 93,
+      "speaker": 5,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-10T04:10:13.173Z"
+    },
+    "error": {
+      "ID": 93,
+      "speaker": 5,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-10T04:10:13.303Z"
+    }
+  },
+  {
+    "ID": 94,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 94,
+      "speaker": 6,
+      "lookupTerm": [],
+      "lookupLink": [],
+      "lookupExplanation": [],
+      "lookupTermTimestamp": "2026-01-10T04:10:14.980Z"
+    },
+    "error": {
+      "ID": 94,
+      "speaker": 6,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-10T04:10:14.097Z"
+    }
+  },
+  {
+    "ID": 96,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 97,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 95,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 95,
+      "speaker": 5,
+      "lookupTerm": [
+        "chat UPT"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/ChatGPT"
+      ],
+      "lookupExplanation": [
+        "ChatGPT is a conversational AI model developed by OpenAI that can generate human-like text responses."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:10:15.425Z"
+    }
+  },
+  {
+    "ID": 90,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 90,
+      "speaker": 7,
+      "lookupTerm": [
+        "Noetica",
+        "AI",
+        "knowledge graph",
+        "deal terms",
+        "litigation",
+        "precedent"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Noetica",
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://en.wikipedia.org/wiki/Knowledge_graph",
+        "https://en.wikipedia.org/wiki/Deal",
+        "https://en.wikipedia.org/wiki/Litigation",
+        "https://en.wikipedia.org/wiki/Precedent"
+      ],
+      "lookupExplanation": [
+        "Noetica is a company that specializes in AI-driven software solutions.",
+        "Artificial intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions.",
+        "A knowledge graph is a knowledge base that uses a graph-structured data model or topology to integrate information and provide meaningful connections between entities.",
+        "Deal terms are the conditions and details defined in the agreements between parties in a transaction.",
+        "Litigation is the process of taking legal action; it refers to the legal proceedings initiated between two or more parties to enforce or defend a legal right.",
+        "Precedent in law refers to a judicial decision that is cited as an example or analogy to resolve similar questions of law in subsequent cases."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:10:15.514Z"
+    },
+    "error": {
+      "ID": 90,
+      "speaker": 7,
+      "errorMatch": [
+        "largest knowledge graph of deal terms in existence",
+        "has over billing terms in it"
+      ],
+      "errorExplanation": [
+        "There is no publicly verifiable information confirming that Noetica has the largest knowledge graph of deal terms in existence. Such a claim requires external validation which is not provided.",
+        "The phrase 'has over billing terms in it' appears incomplete or incorrect, possibly missing a number or unit, making it factually unverifiable."
+      ],
+      "errorConfidence": [
+        0.7,
+        0.9
+      ],
+      "errorMatchTimestamp": "2026-01-10T04:10:12.174Z"
+    }
+  },
+  {
+    "ID": 98,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 99,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 100,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 101,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 102,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 103,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 104,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 105,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 106,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 92,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 92,
+      "speaker": 7,
+      "lookupTerm": [
+        "AI native",
+        "language models",
+        "major law firms",
+        "financial institutions"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://en.wikipedia.org/wiki/Language_model",
+        "https://en.wikipedia.org/wiki/Law_firm",
+        "https://en.wikipedia.org/wiki/Financial_institution"
+      ],
+      "lookupExplanation": [
+        "AI native refers to technologies or companies that are built from the ground up utilizing artificial intelligence as a core element.",
+        "Language models are a type of statistical model that the field of natural language processing uses to predict the likelihood of a sequence of words.",
+        "Major law firms are large legal practices that provide a wide range of legal services and typically represent large corporations and other entities.",
+        "Financial institutions are organizations that provide financial services, which include banks, investment firms, and insurance companies."
+      ],
+      "lookupTermTimestamp": "2026-01-10T04:10:17.125Z"
+    },
+    "error": {
+      "ID": 92,
+      "speaker": 7,
+      "errorMatch": [
+        "So we were started in 2022."
+      ],
+      "errorExplanation": [
+        "There is no verifiable public information confirming that the entity or company being referred to was indeed started in 2022."
+      ],
+      "errorConfidence": [
+        0.6
+      ],
+      "errorMatchTimestamp": "2026-01-10T04:10:14.496Z"
+    }
+  },
+  {
+    "ID": 107,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 108,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 109,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 110,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 111,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 112,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 113,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 114,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 115,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 116,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 117,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 118,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 119,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 120,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 121,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 122,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 123,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 124,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 125,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 127,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 126,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 128,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 129,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 130,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 131,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 132,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 133,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 134,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 135,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 136,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 137,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 138,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 139,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 140,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 141,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 142,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 143,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 144,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 145,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 146,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 147,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 148,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 149,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 150,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 151,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 152,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 153,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 154,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 155,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 156,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 157,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 158,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 159,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 160,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 161,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 162,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 163,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 164,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 165,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 166,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 167,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 168,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 169,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 170,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 171,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 172,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 173,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 174,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 175,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 176,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 177,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 178,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 179,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 180,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 181,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 182,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 183,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 184,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 185,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 186,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 187,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 188,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 189,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 190,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 191,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 192,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  },
+  {
+    "ID": 193,
+    "subjectMatter": "Substantial",
+    "isAd": false
+  }
+]

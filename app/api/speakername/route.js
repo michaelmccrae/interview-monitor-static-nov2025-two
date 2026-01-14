@@ -9,11 +9,13 @@ export async function POST(req) {
   console.log("🚀 speakername POST starting...");
 
   try {
-    let turnData = await req.json();
+    const turnData = await req.json();
 
     console.log("🔥 RAW BODY RECEIVED:", JSON.stringify(turnData, null, 2));
 
-    // Must be an array
+    // -----------------------------
+    // VALIDATION
+    // -----------------------------
     if (!Array.isArray(turnData)) {
       return NextResponse.json(
         { error: "Payload must be an array of turn objects" },
@@ -21,7 +23,6 @@ export async function POST(req) {
       );
     }
 
-    // Validate each turn
     for (const t of turnData) {
       if (!t || typeof t !== "object") {
         return NextResponse.json(
@@ -29,7 +30,7 @@ export async function POST(req) {
           { status: 400 }
         );
       }
-      if (!t.text || typeof t.text !== "string") {
+      if (typeof t.text !== "string") {
         return NextResponse.json(
           { error: "Each turn must include a text field" },
           { status: 400 }
@@ -37,45 +38,73 @@ export async function POST(req) {
       }
     }
 
-    // Last ID
-    const lastTurn = turnData[turnData.length - 1];
-    const turnID = lastTurn.ID;
+    // -----------------------------
+    // DERIVE SPEAKER RANGE
+    // -----------------------------
+    const maxSpeakerIndex = Math.max(
+      ...turnData.map(t =>
+        typeof t.speaker === "number" ? t.speaker : -1
+      )
+    );
 
-    // PROMPT (unchanged)
+    if (maxSpeakerIndex < 0) {
+      return NextResponse.json(
+        { error: "No valid speaker indices found" },
+        { status: 400 }
+      );
+    }
+
+    // -----------------------------
+    // PROMPT
+    // -----------------------------
     const prompt = `
-You analyze a full transcript and infer who is speaking.
+You are given a transcript with speaker diarization IDs.
+
+CRITICAL INVARIANTS:
+- Each speaker index represents ONE UNIQUE HUMAN.
+- A speaker index MUST map to ONLY ONE NAME for the entire transcript.
+- DO NOT reuse the same name for different speaker indices.
+- If a speaker introduces themselves at any point, use that name for the entire transcript.
+- Do NOT null a speaker name once confidently identified.
+- Only use null if the speaker never self-identifies or is clearly an advertisement or studio ident.
+
+
+Your task:
+Return speaker metadata indexed strictly by speaker ID.
 
 STRICT RULES:
-1. Output MUST be a valid JSON object.
+1. Output MUST be valid JSON.
 2. Allowed keys ONLY:
    - "speakerName"
    - "speakerNameConfidence"
    - "speakerNameTimestamp"
-3. Do NOT include ID, id, speaker, text, or metadata.
-4. "speakerName" MUST be an array of strings.
-5. "speakerNameConfidence" MUST be an array of numbers.
-6. "speakerNameTimestamp" MUST be an ISO timestamp.
-7. No explanation. No comments. JSON only.
+3. "speakerName" MUST be an array indexed by speaker ID.
+4. "speakerNameConfidence" MUST be an array indexed by speaker ID.
+5. Arrays MUST be same length.
+6. Array length = (max speaker index) + 1.
+7. Use null where identity is unknown.
+8. Do NOT include explanations or comments.
 
-<OBJECT>
+KNOWN PATTERNS:
+- Podcast hosts often introduce themselves explicitly (e.g. "I'm Joe Wiesenthal")
+- Short interjections ("Yeah", "Right") belong to the same speaker as surrounding turns
+- Ads and studio idents should return null
+
+
+<TRANSCRIPT>
 ${JSON.stringify(turnData, null, 2)}
-</OBJECT>
+</TRANSCRIPT>
 `;
 
     console.log("🧠 Sending prompt to OpenAI...");
 
-    // ------------------------------------------
-    // OPENAI CHAT COMPLETION CALL
-    // ------------------------------------------
+    // -----------------------------
+    // OPENAI CALL
+    // -----------------------------
     const completion = await client.chat.completions.create({
-      model: "gpt-4.1-mini",
+      model: "gpt-4o-mini",
       response_format: { type: "json_object" },
-      messages: [
-        {
-          role: "user",
-          content: prompt,
-        },
-      ],
+      messages: [{ role: "user", content: prompt }],
     });
 
     const raw = completion.choices[0].message.content;
@@ -92,7 +121,50 @@ ${JSON.stringify(turnData, null, 2)}
       );
     }
 
-    // Filter only allowed keys
+    // -----------------------------
+    // NORMALIZE ARRAY SHAPES
+    // -----------------------------
+    function normalizeArray(arr, length) {
+      const out = Array.isArray(arr) ? [...arr] : [];
+      while (out.length < length) out.push(null);
+      return out.slice(0, length);
+    }
+
+    parsed.speakerName = normalizeArray(
+      parsed.speakerName,
+      maxSpeakerIndex + 1
+    );
+
+    parsed.speakerNameConfidence = normalizeArray(
+      parsed.speakerNameConfidence,
+      maxSpeakerIndex + 1
+    );
+
+    // -----------------------------
+    // 🧠 ENFORCE 1:1 SPEAKER ↔ NAME
+    // -----------------------------
+    // const seenNames = new Set();
+
+    // parsed.speakerName = parsed.speakerName.map((name, idx) => {
+    //   if (!name || typeof name !== "string") return null;
+
+    //   const normalized = name.trim().toLowerCase();
+
+    //   if (seenNames.has(normalized)) {
+    //     console.warn(
+    //       `⚠️ Duplicate speaker name "${name}" detected for speaker ${idx}. Nulling.`
+    //     );
+    //     parsed.speakerNameConfidence[idx] = null;
+    //     return null;
+    //   }
+
+    //   seenNames.add(normalized);
+    //   return name.trim();
+    // });
+
+    // -----------------------------
+    // FILTER ALLOWED KEYS
+    // -----------------------------
     const allowed = new Set([
       "speakerName",
       "speakerNameConfidence",
@@ -103,18 +175,15 @@ ${JSON.stringify(turnData, null, 2)}
       if (!allowed.has(key)) delete parsed[key];
     }
 
-    // Server timestamp override
+    // Server-side timestamp wins
     parsed.speakerNameTimestamp = new Date().toISOString();
 
-    const finalResponse = {
-      // ID: turnID,
-      // "metadata": "speaker name",
-      ...parsed,
-    };
+    const finalResponse = { ...parsed };
 
     console.log("📤 Sending final:", finalResponse);
 
     return NextResponse.json(finalResponse, { status: 200 });
+
   } catch (err) {
     console.error("🚨 Handler Error:", err);
     return NextResponse.json(

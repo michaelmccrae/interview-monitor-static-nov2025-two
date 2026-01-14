@@ -84,23 +84,8 @@ function getDurationSeconds(turn) {
 }
 
 function hasAnnotations(turn) {
-  const hasValidError =
-    turn.error?.errorMatch?.some(
-      (e) => typeof e === "string" && e.trim().length > 0
-    ) ?? false;
-
-  // Always show items if they have explicitly categorized content (Ads/Smalltalk)
-  // This allows the main filter to control visibility.
-  const isCategorized =
-    (turn.subjectMatter && turn.subjectMatter !== "Substantial") || turn.isAd;
-
-  return (
-    (turn.lookup?.lookupTerm?.length ?? 0) > 0 ||
-    hasValidError ||
-    (turn.followup?.followupQuestion?.length ?? 0) > 0 ||
-    !!turn.response ||
-    isCategorized
-  );
+  // --- TEMPORARY OVERRIDE: SHOW EVERYTHING ---
+  return true;
 }
 
 function clampPct(value) {
@@ -234,7 +219,7 @@ export default function TranscriptMerger({ beforellm, afterllm, metapod }) {
   const [isReversed, setIsReversed] = useState(true);
   const [viewMode, setViewMode] = useState("detailed");
 
-  // CHANGE: Multi-filter state
+  /* // --- FILTER STATE COMMENTED OUT ---
   const [filters, setFilters] = useState({
     Substantial: true,
     Smalltalk: false,
@@ -244,6 +229,7 @@ export default function TranscriptMerger({ beforellm, afterllm, metapod }) {
   const toggleFilter = (key) => {
     setFilters((prev) => ({ ...prev, [key]: !prev[key] }));
   };
+  */
 
   // ─── MERGE ─────────────────────────────────────────────
   const merged = useMemo(() => {
@@ -270,22 +256,25 @@ export default function TranscriptMerger({ beforellm, afterllm, metapod }) {
       }
     });
 
+    const finalTurns = beforeArr.map((turn, index) => ({
+      ...turn,
+      turnNumber: index + 1,
+      ...(map.get(turn.ID) || {}),
+    }));
+
     return {
       metadata,
-      turns: beforeArr.map((turn, index) => ({
-        ...turn,
-        turnNumber: index + 1,
-        ...(map.get(turn.ID) || {}),
-      })),
+      turns: finalTurns,
     };
   }, [beforellm, afterllm]);
 
+  // ─── MAIN ITEMS (ALL) ──────────────────────────────────
   const items = useMemo(() => {
     const base = merged.turns
       .filter((t) => typeof t.ID === "number")
-      // CHANGE: Apply category filters
+      // --- FILTER LOGIC COMMENTED OUT ---
+      /*
       .filter((t) => {
-        // 1. Determine Category
         let category = "Substantial";
         if (t.subjectMatter) {
           category = t.subjectMatter;
@@ -293,16 +282,27 @@ export default function TranscriptMerger({ beforellm, afterllm, metapod }) {
           category = "Advertising";
         }
 
-        // 2. Check if allowed
-        // Note: We use strictly explicit checks
         if (category === "Advertising") return filters.Advertising;
         if (category === "Smalltalk") return filters.Smalltalk;
-        return filters.Substantial;
+        if (category === "Substantial") return filters.Substantial;
+        return filters.Substantial; // Fallback
       })
+      */
       .filter(hasAnnotations);
 
     return [...base].sort((a, b) => (isReversed ? b.ID - a.ID : a.ID - b.ID));
-  }, [merged.turns, isReversed, filters]);
+  }, [merged.turns, isReversed /*, filters*/]);
+
+  // ─── CONDENSED ITEMS FILTER ────────────────────────────
+  const condensedItems = useMemo(() => {
+    return items.filter((item) => {
+      const hasLookup = item.lookup?.lookupTerm?.length > 0;
+      const hasErrors = item.error?.errorMatch?.some(
+        (e) => typeof e === "string" && e.trim().length > 0
+      );
+      return hasLookup || hasErrors;
+    });
+  }, [items]);
 
   useEffect(() => {
     if (merged.turns.length) {
@@ -319,6 +319,16 @@ export default function TranscriptMerger({ beforellm, afterllm, metapod }) {
       }
       return { turnID, index };
     });
+  };
+
+  const handleJumpToDetailed = (id) => {
+    setViewMode("detailed");
+    setTimeout(() => {
+      const element = document.getElementById(`turn-${id}`);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    }, 50);
   };
 
   if (!beforellm || !afterllm) {
@@ -338,81 +348,80 @@ export default function TranscriptMerger({ beforellm, afterllm, metapod }) {
         <div className="pb-2.5">{metapod.moreinfo}</div>
 
         <div className="pb-2.5 flex flex-wrap items-center justify-between gap-4">
-          <div className="flex items-center gap-6">
-            {/* VIEW MODE SELECTION */}
-            <RadioGroup
-              value={viewMode}
-              onValueChange={setViewMode}
-              className="flex items-center gap-6"
-            >
-              <div className="flex items-center space-x-2">
-                <RadioGroupItem
-                  value="detailed"
-                  id="view-detailed"
-                  className="border-zinc-500 data-[state=checked]:border-blue-500 data-[state=checked]:bg-blue-500"
-                />
-                <Label
-                  htmlFor="view-detailed"
-                  className="text-zinc-300 cursor-pointer"
-                >
-                  Detailed
-                </Label>
-              </div>
+          
+          {/* LEFT: VIEW MODE SELECTION */}
+          <RadioGroup
+            value={viewMode}
+            onValueChange={setViewMode}
+            className="flex items-center gap-6"
+          >
+            <div className="flex items-center space-x-2">
+              <RadioGroupItem
+                value="detailed"
+                id="view-detailed"
+                className="border-zinc-500 data-[state=checked]:border-blue-500 data-[state=checked]:bg-blue-500"
+              />
+              <Label
+                htmlFor="view-detailed"
+                className="text-zinc-300 cursor-pointer"
+              >
+                Detailed
+              </Label>
+            </div>
 
-              <div className="flex items-center space-x-2">
-                <RadioGroupItem
-                  value="condensed"
-                  id="view-condensed"
-                  className="border-zinc-500 data-[state=checked]:border-blue-500 data-[state=checked]:bg-blue-500"
-                />
-                <Label
-                  htmlFor="view-condensed"
-                  className="text-zinc-300 cursor-pointer"
-                >
-                  Condensed
-                </Label>
-              </div>
-            </RadioGroup>
+            <div className="flex items-center space-x-2">
+              <RadioGroupItem
+                value="condensed"
+                id="view-condensed"
+                className="border-zinc-500 data-[state=checked]:border-blue-500 data-[state=checked]:bg-blue-500"
+              />
+              <Label
+                htmlFor="view-condensed"
+                className="text-zinc-300 cursor-pointer"
+              >
+                Condensed
+              </Label>
+            </div>
+          </RadioGroup>
 
-            {/* SORT ORDER SELECTION */}
-            <RadioGroup
-              value={isReversed ? "newest" : "oldest"}
-              onValueChange={(val) => setIsReversed(val === "newest")}
-              className="flex items-center gap-6"
-            >
-              <div className="flex items-center space-x-2">
-                <RadioGroupItem
-                  value="newest"
-                  id="sort-newest"
-                  className="border-zinc-500 data-[state=checked]:border-blue-500 data-[state=checked]:bg-blue-500"
-                />
-                <Label
-                  htmlFor="sort-newest"
-                  className="text-zinc-300 cursor-pointer"
-                >
-                  Newest
-                </Label>
-              </div>
+          {/* RIGHT: SORT ORDER SELECTION */}
+          <RadioGroup
+            value={isReversed ? "newest" : "oldest"}
+            onValueChange={(val) => setIsReversed(val === "newest")}
+            className="flex items-center gap-6"
+          >
+            <div className="flex items-center space-x-2">
+              <RadioGroupItem
+                value="newest"
+                id="sort-newest"
+                className="border-zinc-500 data-[state=checked]:border-blue-500 data-[state=checked]:bg-blue-500"
+              />
+              <Label
+                htmlFor="sort-newest"
+                className="text-zinc-300 cursor-pointer"
+              >
+                Newest
+              </Label>
+            </div>
 
-              <div className="flex items-center space-x-2">
-                <RadioGroupItem
-                  value="oldest"
-                  id="sort-oldest"
-                  className="border-zinc-500 data-[state=checked]:border-blue-500 data-[state=checked]:bg-blue-500"
-                />
-                <Label
-                  htmlFor="sort-oldest"
-                  className="text-zinc-300 cursor-pointer"
-                >
-                  Oldest
-                </Label>
-              </div>
-            </RadioGroup>
-          </div>
+            <div className="flex items-center space-x-2">
+              <RadioGroupItem
+                value="oldest"
+                id="sort-oldest"
+                className="border-zinc-500 data-[state=checked]:border-blue-500 data-[state=checked]:bg-blue-500"
+              />
+              <Label
+                htmlFor="sort-oldest"
+                className="text-zinc-300 cursor-pointer"
+              >
+                Oldest
+              </Label>
+            </div>
+          </RadioGroup>
 
-          {/* CHANGE: Filter Buttons Group */}
+          {/* --- FILTER BUTTONS COMMENTED OUT --- */}
+          {/*
           <div className="flex items-center gap-2">
-            {/* Substantial Filter */}
             <button
               onClick={() => toggleFilter("Substantial")}
               className={`px-3 py-1.5 rounded-md text-sm font-medium border transition-colors ${
@@ -424,7 +433,6 @@ export default function TranscriptMerger({ beforellm, afterllm, metapod }) {
               Substantial
             </button>
 
-            {/* Smalltalk Filter */}
             <button
               onClick={() => toggleFilter("Smalltalk")}
               className={`px-3 py-1.5 rounded-md text-sm font-medium border transition-colors ${
@@ -436,7 +444,6 @@ export default function TranscriptMerger({ beforellm, afterllm, metapod }) {
               Smalltalk
             </button>
 
-            {/* Ads Filter */}
             <button
               onClick={() => toggleFilter("Advertising")}
               className={`px-3 py-1.5 rounded-md text-sm font-medium border transition-colors ${
@@ -448,6 +455,7 @@ export default function TranscriptMerger({ beforellm, afterllm, metapod }) {
               Ads
             </button>
           </div>
+          */}
         </div>
 
         <hr className="border-zinc-700 pt-2" />
@@ -459,14 +467,17 @@ export default function TranscriptMerger({ beforellm, afterllm, metapod }) {
           {items.map((item) => {
             const { name, role } = getSpeakerLabelParts(merged, item.speaker);
             const duration = getDurationSeconds(item);
-            const isGuest = role?.toLowerCase() === "guest";
+
+            // OLD LOGIC: const isGuest = role?.toLowerCase() === "guest";
+            // NEW LOGIC: Even speaker # on LEFT, Odd speaker # on RIGHT
+            const isEvenSpeaker = typeof item.speaker === "number" && item.speaker % 2 === 0;
+            const isRightAligned = !isEvenSpeaker;
 
             const validErrors =
               item.error?.errorMatch?.filter(
                 (e) => typeof e === "string" && e.trim().length > 0
               ) || [];
 
-            // Determine Subject Badge
             let subjectBadge = null;
             if (item.subjectMatter === "Advertising" || item.isAd) {
               subjectBadge = (
@@ -483,11 +494,11 @@ export default function TranscriptMerger({ beforellm, afterllm, metapod }) {
             }
 
             return (
-              <div key={item.ID} className="space-y-2">
+              <div key={item.ID} id={`turn-${item.ID}`} className="space-y-2">
                 {/* Bubble */}
                 <div
                   className={`flex ${
-                    isGuest ? "justify-end" : "justify-start"
+                    isRightAligned ? "justify-end" : "justify-start"
                   }`}
                 >
                   <div
@@ -496,7 +507,9 @@ export default function TranscriptMerger({ beforellm, afterllm, metapod }) {
                     )}`}
                   >
                     <div className="uppercase tracking-wide text-zinc-300 flex items-center gap-2 flex-wrap">
-                      <span className="text-zinc-200">{item.turnNumber}.</span>
+                      <a href={`#turn-${item.ID}`} className="text-zinc-200 hover:underline">
+                        {item.turnNumber}.
+                      </a>
                       <span>{name}</span> -
                       {shouldDisplayRole(name, role) && (
                         <span className="text-zinc-400">{role}</span>
@@ -517,7 +530,7 @@ export default function TranscriptMerger({ beforellm, afterllm, metapod }) {
                         item.error?.errorMatch,
                         handleLookupClick,
                         selectedLookup,
-                        true // useWhiteButtons = TRUE
+                        true
                       )}
                     </div>
                   </div>
@@ -527,7 +540,7 @@ export default function TranscriptMerger({ beforellm, afterllm, metapod }) {
                 {selectedLookup?.turnID === item.ID && (
                   <div
                     className={`max-w-[75%] rounded-lg border border-zinc-200 bg-white p-4 text-zinc-900 shadow-sm ${
-                      isGuest ? "ml-auto mr-2" : "ml-2"
+                      isRightAligned ? "ml-auto mr-2" : "ml-2"
                     }`}
                   >
                     <div className="font-medium text-zinc-900 mb-1">
@@ -546,7 +559,7 @@ export default function TranscriptMerger({ beforellm, afterllm, metapod }) {
                   {validErrors.length > 0 && (
                     <div
                       className={`max-w-[75%] space-y-1 ${
-                        isGuest ? "ml-auto mr-2" : "ml-2"
+                        isRightAligned ? "ml-auto mr-2" : "ml-2"
                       }`}
                     >
                       <h3 className="font-semibold uppercase tracking-wide text-zinc-500">
@@ -564,11 +577,11 @@ export default function TranscriptMerger({ beforellm, afterllm, metapod }) {
                     </div>
                   )}
 
-                  {/* ─── RESPONSE ASSESSMENT ─── */}
+                  {/* Response Assessment */}
                   {item.response && (
                     <div
                       className={`max-w-[75%] space-y-1 ${
-                        isGuest ? "ml-auto mr-2" : "ml-2"
+                        isRightAligned ? "ml-auto mr-2" : "ml-2"
                       }`}
                     >
                       <h3 className="font-semibold uppercase tracking-wide text-zinc-500">
@@ -599,7 +612,7 @@ export default function TranscriptMerger({ beforellm, afterllm, metapod }) {
                     item.followup?.followupQuestion?.length > 0 && (
                       <div
                         className={`max-w-[75%] space-y-1 ${
-                          isGuest ? "ml-auto mr-2" : "ml-2"
+                          isRightAligned ? "ml-auto mr-2" : "ml-2"
                         }`}
                       >
                         <h3 className="font-semibold uppercase tracking-wide text-zinc-500">
@@ -621,7 +634,7 @@ export default function TranscriptMerger({ beforellm, afterllm, metapod }) {
       ) : (
         // ─── CONDENSED VIEW ─────────────────────────────
         <div className="max-w-3xl mx-auto">
-          {items.map((item, index) => {
+          {condensedItems.map((item, index) => { // Use filtered condensedItems
             const { name, role } = getSpeakerLabelParts(merged, item.speaker);
             const duration = getDurationSeconds(item);
             const fillPct = clampPct((duration / maxDuration) * 100);
@@ -631,7 +644,6 @@ export default function TranscriptMerger({ beforellm, afterllm, metapod }) {
                 (e) => typeof e === "string" && e.trim().length > 0
               ) || [];
 
-            // Determine Subject Badge (Condensed)
             let subjectBadge = null;
             if (item.subjectMatter === "Advertising" || item.isAd) {
               subjectBadge = (
@@ -650,9 +662,9 @@ export default function TranscriptMerger({ beforellm, afterllm, metapod }) {
             return (
               <section
                 key={item.ID}
+                id={`turn-${item.ID}`} 
                 className="border-b border-zinc-800 py-3 first:pt-0 last:border-0 space-y-3"
               >
-                {/* Header & Duration Bar */}
                 <div className="space-y-2">
                   <header className="flex items-center gap-1.5 text-zinc-300">
                     <span className="text-zinc-500">{item.turnNumber}.</span>
@@ -660,10 +672,17 @@ export default function TranscriptMerger({ beforellm, afterllm, metapod }) {
                     {shouldDisplayRole(name, role) && (
                       <span className="text-zinc-500">· {role}</span>
                     )}
+                    {/* LINK ICON: Jumps to Detailed View */}
+                    <button
+                      onClick={() => handleJumpToDetailed(item.ID)}
+                      title="View in Detailed Mode"
+                      className="ml-1 text-zinc-500 hover:text-blue-400 transition-colors"
+                    >
+                      🔗
+                    </button>
                     {subjectBadge}
                   </header>
 
-                  {/* Duration Bar: w-1/3 and h-2 */}
                   <div className="w-1/3 h-2 rounded bg-zinc-800 overflow-hidden">
                     <div
                       className="h-full bg-blue-400"
@@ -672,7 +691,6 @@ export default function TranscriptMerger({ beforellm, afterllm, metapod }) {
                   </div>
                 </div>
 
-                {/* Content Grid */}
                 <div className="grid grid-cols-1 gap-4">
                   {/* Lookup */}
                   {item.lookup?.lookupTerm?.length > 0 && (
@@ -735,57 +753,11 @@ export default function TranscriptMerger({ beforellm, afterllm, metapod }) {
                         ))}
                       </>
                     ) : (
-                      // Only show "No errors" if NO other annotations exist
-                      !item.response &&
-                      !item.lookup?.lookupTerm?.length &&
-                      !item.followup?.followupQuestion?.length &&
-                      !item.isAd &&
-                      !item.subjectMatter && (
-                        <p className="italic text-zinc-600">
-                          No errors detected.
-                        </p>
-                      )
+                      null
                     )}
                   </div>
-
-                  {/* ─── RESPONSE ASSESSMENT ─── */}
-                  {item.response && (
-                    <div className="space-y-1 pt-1">
-                      <h3 className="font-semibold uppercase tracking-wide text-zinc-500 mb-1">
-                        Answer Assessment
-                      </h3>
-                      <div className="text-zinc-400 text-sm">
-                        <span
-                          className={`font-bold ${
-                            (item.response.responseScore || 0) >= 0.8
-                              ? "text-emerald-400"
-                              : "text-amber-400"
-                          }`}
-                        >
-                          {(
-                            (item.response.responseScore || 0) * 100
-                          ).toFixed(0)}
-                          %
-                        </span>{" "}
-                        - {item.response.responseSummation}
-                      </div>
-                    </div>
-                  )}
-
-                  {/* Follow-ups */}
-                  {role === "GUEST" &&
-                    item.followup?.followupQuestion?.length > 0 && (
-                      <div className="space-y-1 pt-1">
-                        <h3 className="font-semibold uppercase tracking-wide text-zinc-500 mb-1">
-                          Suggested Follow-ups
-                        </h3>
-                        <ul className="list-disc list-inside text-zinc-400 space-y-0.5">
-                          {item.followup.followupQuestion.map((q, i) => (
-                            <li key={i}>{q}</li>
-                          ))}
-                        </ul>
-                      </div>
-                    )}
+                  
+                  {/* Answer Assessment and Follow-ups removed from Condensed View */}
                 </div>
               </section>
             );

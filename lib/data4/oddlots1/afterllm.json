@@ -1,0 +1,4571 @@
+[
+  {
+    "metadata": "speaker name and speaker role",
+    "speakerName": [
+      null,
+      null,
+      null,
+      "Susan Collins",
+      "Tracy Alloway",
+      "Jill Weisenthal",
+      null,
+      "Karen"
+    ],
+    "speakerNameConfidence": [
+      null,
+      1,
+      null,
+      null,
+      1,
+      1,
+      null
+    ],
+    "speakerNameTimestamp": "2026-01-11T00:11:27.349Z",
+    "speakerRole": [
+      "Undefined",
+      "Undefined",
+      "Announcer",
+      "Guest",
+      "Guest",
+      "Interviewer",
+      "Interviewer",
+      "Undefined"
+    ],
+    "speakerRoleConfidence": [
+      0.9,
+      1,
+      0.8,
+      1,
+      1,
+      0.9,
+      0.5
+    ],
+    "speakerRoleTimestamp": "2026-01-11T00:11:11.173Z"
+  },
+  {
+    "ID": 2,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 2,
+      "speaker": 2,
+      "lookupTerm": [
+        "Bloomberg"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Bloomberg_L.P."
+      ],
+      "lookupExplanation": [
+        "Bloomberg L.P. is a private financial, software, and media company headquartered in New York City."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:11:08.501Z"
+    },
+    "error": {
+      "ID": 2,
+      "speaker": 2,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:11:07.681Z"
+    },
+    "response": {
+      "ID": 2,
+      "responseSummation": "N/A - Ad",
+      "responseScore": 0
+    }
+  },
+  {
+    "ID": 3,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 3,
+      "speaker": 3,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-11T00:11:09.815Z"
+    },
+    "error": {
+      "ID": 3,
+      "speaker": 3,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:11:09.729Z"
+    },
+    "response": {
+      "ID": 3,
+      "responseSummation": "N/A - Ad",
+      "responseScore": 0
+    }
+  },
+  {
+    "ID": 0,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 0,
+      "speaker": 0,
+      "lookupTerm": [
+        "Barclays Investment Bank",
+        "Barclays Brief"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Barclays",
+        "https://en.wikipedia.org/wiki/Barclays"
+      ],
+      "lookupExplanation": [
+        "Barclays Investment Bank is a global financial services provider and part of Barclays PLC, offering advisory, financing, and risk management services.",
+        "Barclays Brief is a podcast produced by Barclays that aims to provide insights and analysis on market themes."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:11:09.959Z"
+    },
+    "error": {
+      "ID": 0,
+      "speaker": 0,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:11:08.065Z"
+    }
+  },
+  {
+    "ID": 4,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 4,
+      "speaker": 4,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-11T00:11:10.848Z"
+    },
+    "error": {
+      "ID": 4,
+      "speaker": 4,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:11:10.786Z"
+    },
+    "response": {
+      "ID": 4,
+      "responseSummation": "N/A - Ad",
+      "responseScore": 0
+    }
+  },
+  {
+    "ID": 1,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 1,
+      "speaker": 1,
+      "lookupTerm": [
+        "Bloomberg",
+        "economics",
+        "finance",
+        "investment",
+        "international relations",
+        "crypto"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Bloomberg_L.P.",
+        "https://en.wikipedia.org/wiki/Economics",
+        "https://en.wikipedia.org/wiki/Finance",
+        "https://en.wikipedia.org/wiki/Investment",
+        "https://en.wikipedia.org/wiki/International_relations",
+        "https://en.wikipedia.org/wiki/Cryptocurrency"
+      ],
+      "lookupExplanation": [
+        "Bloomberg L.P. is a financial, software, data, and media company best known for its Bloomberg Professional service, which provides financial software tools and market data.",
+        "Economics is the social science that studies the production, distribution, and consumption of goods and services.",
+        "Finance is the study and discipline of managing monetary resources over time, considering the risks involved.",
+        "Investment is the act of allocating resources, usually money, in order to generate income or profit.",
+        "International relations is the study of the interactions between states, international organizations, and other actors in the international system.",
+        "Cryptocurrency is a digital or virtual currency that uses cryptography for security and operates independently of a central authority."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:11:12.288Z"
+    },
+    "error": {
+      "ID": 1,
+      "speaker": 1,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:11:07.702Z"
+    },
+    "followup": {
+      "ID": 1,
+      "speaker": 1,
+      "followupQuestion": [
+        "What specific topics or trends do you find most valuable from the podcast discussions?",
+        "Can you share a memorable guest or episode that had a significant impact on your understanding of the market?",
+        "How do you incorporate insights from the Bloomberg Surveillance Podcast into your daily business or investment strategies?"
+      ],
+      "followupConfidence": [
+        0.9
+      ],
+      "followupQuestionTimestamp": "2026-01-11T00:12:37.945Z"
+    },
+    "response": {
+      "ID": 1,
+      "responseSummation": "N/A - Ad",
+      "responseScore": 0
+    }
+  },
+  {
+    "ID": 6,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 6,
+      "speaker": 4,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-11T00:11:12.358Z"
+    },
+    "error": {
+      "ID": 6,
+      "speaker": 4,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:11:11.984Z"
+    },
+    "response": {
+      "ID": 6,
+      "responseSummation": "N/A - Pleasantry",
+      "responseScore": 0
+    }
+  },
+  {
+    "ID": 5,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 5,
+      "speaker": 5,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-11T00:11:10.954Z"
+    },
+    "error": {
+      "ID": 5,
+      "speaker": 5,
+      "errorMatch": [
+        "And I'm Joe Weisenthal."
+      ],
+      "errorExplanation": [
+        "Without additional context, this statement cannot be verified as true or false since it is a self-identification and requires external validation."
+      ],
+      "errorConfidence": [
+        0.5
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:11:12.654Z"
+    },
+    "response": {
+      "ID": 5,
+      "responseSummation": "N/A - Ad",
+      "responseScore": 0
+    }
+  },
+  {
+    "ID": 7,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 7,
+      "speaker": 5,
+      "lookupTerm": [
+        "Odd Lots"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Odd_lot"
+      ],
+      "lookupExplanation": [
+        "An odd lot refers to a quantity of stocks or bonds that is smaller than the standard unit of trading, typically less than 100 shares."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:11:13.431Z"
+    },
+    "error": {
+      "ID": 7,
+      "speaker": 5,
+      "errorMatch": [
+        "We've never done an Odd Lots thing in Boston of any sort"
+      ],
+      "errorExplanation": [
+        "Odd Lots podcast has covered or recorded episodes in Boston before, so the statement that they have never done an Odd Lots thing in Boston is factually incorrect."
+      ],
+      "errorConfidence": [
+        0.8
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:11:13.568Z"
+    },
+    "response": {
+      "ID": 7,
+      "responseSummation": "Acknowledges the novelty of Boston for Odd Lots content.",
+      "responseScore": 0.8
+    }
+  },
+  {
+    "ID": 9,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 9,
+      "speaker": 5,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-11T00:11:13.661Z"
+    },
+    "error": {
+      "ID": 9,
+      "speaker": 5,
+      "errorMatch": [
+        null
+      ],
+      "errorExplanation": [
+        null
+      ],
+      "errorConfidence": [
+        null
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:11:14.393Z"
+    },
+    "followup": {
+      "ID": 9,
+      "speaker": 5,
+      "followupQuestion": [
+        "What specific aspects of Boston are you most excited to explore during your visit?",
+        "How do you think your experiences in Vermont have influenced your perception of Boston?",
+        "Are there any particular places or activities in Boston that you're looking forward to?"
+      ],
+      "followupConfidence": [
+        0.9
+      ],
+      "followupQuestionTimestamp": "2026-01-11T00:12:40.144Z"
+    },
+    "response": {
+      "ID": 9,
+      "responseSummation": "Speaker expresses excitement about Boston and shares personal connections.",
+      "responseScore": 0.7
+    }
+  },
+  {
+    "ID": 11,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 11,
+      "speaker": 5,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-11T00:11:15.399Z"
+    },
+    "error": {
+      "ID": 11,
+      "speaker": 5,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:11:15.361Z"
+    },
+    "response": {
+      "ID": 11,
+      "responseSummation": "The speaker agrees, adding another city-related fact.",
+      "responseScore": 0.5
+    }
+  },
+  {
+    "ID": 8,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 8,
+      "speaker": 4,
+      "lookupTerm": [
+        "Boston"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Boston"
+      ],
+      "lookupExplanation": [
+        "Boston is the capital and largest city of the Commonwealth of Massachusetts, and it is one of the oldest cities in the United States."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:11:14.385Z"
+    },
+    "error": {
+      "ID": 8,
+      "speaker": 4,
+      "errorMatch": [
+        "I've never actually stayed in the city.",
+        "everything I know about Boston comes from the Boston, New York rivalry as depicted in 30 Rock"
+      ],
+      "errorExplanation": [
+        "Without independent verification of the speaker's travel history, the claim about never having stayed in Boston cannot be confirmed as factual or false, so it cannot be classified strictly as an error.",
+        "The Boston-New York rivalry is a well-known historical and cultural fact that extends beyond the depiction in the TV show 30 Rock; stating that all knowledge about Boston comes solely from that show is an exaggeration or opinion, but not a strictly factual error."
+      ],
+      "errorConfidence": [
+        0,
+        0
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:11:15.872Z"
+    },
+    "followup": {
+      "ID": 8,
+      "speaker": 4,
+      "followupQuestion": [
+        "What are you most looking forward to experiencing in Boston during your stay?",
+        "Do you have any specific places or activities in mind that you'd like to explore while you're here?",
+        "How do you feel about the rivalry between Boston and New York, given your limited knowledge about Boston?"
+      ],
+      "followupConfidence": [
+        0.9
+      ],
+      "followupQuestionTimestamp": "2026-01-11T00:12:40.189Z"
+    },
+    "response": {
+      "ID": 8,
+      "responseSummation": "The speaker humorously acknowledges inexperience with Boston.",
+      "responseScore": 0.8
+    }
+  },
+  {
+    "ID": 10,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 10,
+      "speaker": 4,
+      "lookupTerm": [
+        "Worcester",
+        "Connecticut",
+        "Massachusetts"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Worcester,_Massachusetts",
+        "https://en.wikipedia.org/wiki/Connecticut",
+        "https://en.wikipedia.org/wiki/Massachusetts"
+      ],
+      "lookupExplanation": [
+        "Worcester is a city in central Massachusetts, known for its cultural institutions and historical significance.",
+        "Connecticut is a state in the New England region of the northeastern United States, bordered by New York, Massachusetts, and Rhode Island.",
+        "Massachusetts is a U.S. state in the New England region, known for its significant colonial history and as the site of the first American public school."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:11:16.613Z"
+    },
+    "error": {
+      "ID": 10,
+      "speaker": 4,
+      "errorMatch": [
+        "the big city closest to my house in Connecticut is Worcester, Massachusetts"
+      ],
+      "errorExplanation": [
+        "Worcester, Massachusetts is not the closest big city to any location in Connecticut. Typically, cities like Hartford, New Haven, or Bridgeport within Connecticut, or Springfield, Massachusetts, are closer to many areas in Connecticut. Worcester is further north and generally not considered the closest big city to Connecticut."
+      ],
+      "errorConfidence": [
+        0.9
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:11:16.449Z"
+    },
+    "followup": {
+      "ID": 10,
+      "speaker": 4,
+      "followupQuestion": [
+        "What do you think about Boston compared to Worcester?",
+        "Have you ever visited any other cities in Massachusetts?",
+        "What do you expect to experience in Boston that differs from Worcester?"
+      ],
+      "followupConfidence": [
+        0.8
+      ],
+      "followupQuestionTimestamp": "2026-01-11T00:12:40.161Z"
+    },
+    "response": {
+      "ID": 10,
+      "responseSummation": "The response does not directly address the previous question.",
+      "responseScore": 0.2
+    }
+  },
+  {
+    "ID": 13,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 13,
+      "speaker": 5,
+      "lookupTerm": [
+        "monetary policy"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Monetary_policy"
+      ],
+      "lookupExplanation": [
+        "Monetary policy is the process by which a central bank (or monetary authority) manages the supply of money, often targeting an inflation rate or interest rate to ensure price stability and general trust in the currency."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:11:18.227Z"
+    },
+    "error": {
+      "ID": 13,
+      "speaker": 5,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:11:17.431Z"
+    },
+    "followup": {
+      "ID": 13,
+      "speaker": 5,
+      "followupQuestion": [
+        "What specific global factors do you think are contributing to the ambiguity in US monetary policy?",
+        "How do you see the current economic changes affecting everyday consumers and businesses in the US?",
+        "Can you elaborate on the near-term direction of monetary policy that you mentioned?"
+      ],
+      "followupConfidence": [
+        0.9,
+        0.85,
+        0.8
+      ],
+      "followupQuestionTimestamp": "2026-01-11T00:12:42.704Z"
+    },
+    "response": {
+      "ID": 13,
+      "responseSummation": "Discussed global changes in context of the conference theme.",
+      "responseScore": 0.8
+    }
+  },
+  {
+    "ID": 12,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 12,
+      "speaker": 4,
+      "lookupTerm": [
+        "Boston Fed",
+        "economic conference",
+        "US economy"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Federal_Reserve_Bank_of_Boston",
+        "https://en.wikipedia.org/wiki/Economic_conference",
+        "https://en.wikipedia.org/wiki/Economy_of_the_United_States"
+      ],
+      "lookupExplanation": [
+        "The Boston Fed is the regional bank of the Federal Reserve System responsible for the First District, which covers New England.",
+        "An economic conference is a gathering of experts and stakeholders to discuss economic issues, trends, and policies.",
+        "The US economy refers to the economic performance and health of the United States, encompassing various sectors and industries."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:11:18.745Z"
+    },
+    "error": {
+      "ID": 12,
+      "speaker": 4,
+      "errorMatch": [
+        "sixty ninth economic conference"
+      ],
+      "errorExplanation": [
+        "The Boston Fed's annual economic conference has not reached its sixty ninth iteration; the exact number of the conference does not correspond to 'sixty ninth'."
+      ],
+      "errorConfidence": [
+        0.9
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:11:16.928Z"
+    },
+    "followup": {
+      "ID": 12,
+      "speaker": 4,
+      "followupQuestion": [
+        "What specific topics do you expect to be discussed at the conference regarding the US economy?",
+        "How do you think the 'changing global landscape' will impact the US economy in the near future?",
+        "Are there any particular speakers or sessions at the conference that you are looking forward to?"
+      ],
+      "followupConfidence": [
+        0.9
+      ],
+      "followupQuestionTimestamp": "2026-01-11T00:12:41.718Z"
+    },
+    "response": {
+      "ID": 12,
+      "responseSummation": "No direct question was posed; topic transitioned smoothly.",
+      "responseScore": 0
+    }
+  },
+  {
+    "ID": 15,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 15,
+      "speaker": 5,
+      "lookupTerm": [
+        "Fed fund futures"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Federal_funds_rate#Federal_funds_futures"
+      ],
+      "lookupExplanation": [
+        "Federal funds futures are financial contracts that represent the market's expectations for future movements in the federal funds rate."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:11:19.432Z"
+    },
+    "error": {
+      "ID": 15,
+      "speaker": 5,
+      "errorMatch": [
+        "As of right now, recording this 11/19/2025, the work function looking at Fed fund futures gives about a 45% chance of a rate cut in December."
+      ],
+      "errorExplanation": [
+        "The date 11/19/2025 is in the future relative to the current known date, making it impossible to have accurate data or forecast based on Fed fund futures at that time."
+      ],
+      "errorConfidence": [
+        1
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:11:20.157Z"
+    },
+    "followup": {
+      "ID": 15,
+      "speaker": 5,
+      "followupQuestion": [
+        "What factors do you think are contributing to the current ambiguity in monetary policy?",
+        "How do you foresee the Fed's decisions impacting the broader economy in the near future?",
+        "Can you elaborate on how the changing global landscape might influence the Fed's actions?"
+      ],
+      "followupConfidence": [
+        0.85,
+        0.8,
+        0.75
+      ],
+      "followupQuestionTimestamp": "2026-01-11T00:12:43.114Z"
+    },
+    "response": {
+      "ID": 15,
+      "responseSummation": "Discusses uncertainty in monetary policy effectively.",
+      "responseScore": 0.8
+    }
+  },
+  {
+    "ID": 14,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 14,
+      "speaker": 4,
+      "lookupTerm": [
+        "Fed",
+        "doves",
+        "hawks",
+        "inflation"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Federal_Reserve",
+        "https://en.wikipedia.org/wiki/Dove_%28Monetary_policy%29",
+        "https://en.wikipedia.org/wiki/Hawk_%28monetary_policy%29",
+        "https://en.wikipedia.org/wiki/Inflation"
+      ],
+      "lookupExplanation": [
+        "The Fed, or Federal Reserve, is the central banking system of the United States responsible for monetary policy.",
+        "In economic terms, doves are advocates of lower interest rates to stimulate economic growth, especially during slowdowns.",
+        "Hawks are those who favor higher interest rates to curb inflation and prevent an overheated economy.",
+        "Inflation is the rate at which the general level of prices for goods and services rises, eroding purchasing power."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:11:20.468Z"
+    },
+    "error": {
+      "ID": 14,
+      "speaker": 4,
+      "errorMatch": [
+        "after five years of inflation, we have still not returned to the 2% target",
+        "It's been half a decade"
+      ],
+      "errorExplanation": [
+        "The statement that inflation has persisted for five years and that the 2% inflation target has not been met in that time is factually inaccurate. Inflation trends and deviations from targets vary by period and country, and there has not been a continuous five-year period of inflation above target in many major economies including the US.",
+        "Claiming 'It's been half a decade' of inflation above target is an overgeneralization and not supported by recent data on inflation rates and central bank targets."
+      ],
+      "errorConfidence": [
+        0.9,
+        0.9
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:11:19.894Z"
+    },
+    "followup": {
+      "ID": 14,
+      "speaker": 4,
+      "followupQuestion": [
+        "What specific indicators are you seeing that suggest a deterioration in the labor market?",
+        "How do you think the Federal Reserve will balance these differing views on inflation and economic growth?",
+        "What impact do you think the current inflation rate has on consumer behavior and spending?"
+      ],
+      "followupConfidence": [
+        0.9
+      ],
+      "followupQuestionTimestamp": "2026-01-11T00:12:42.930Z"
+    },
+    "response": {
+      "ID": 14,
+      "responseSummation": "Discusses current economic conditions and Fed stance on policy ambiguities.",
+      "responseScore": 0.8
+    }
+  },
+  {
+    "ID": 17,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 17,
+      "speaker": 5,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-11T00:11:20.888Z"
+    },
+    "error": {
+      "ID": 17,
+      "speaker": 5,
+      "errorMatch": [
+        null
+      ],
+      "errorExplanation": [
+        null
+      ],
+      "errorConfidence": [
+        null
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:11:21.101Z"
+    },
+    "response": {
+      "ID": 17,
+      "responseSummation": "The term captures overall uncertainty but lacks substantive analysis.",
+      "responseScore": 0.3
+    }
+  },
+  {
+    "ID": 19,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 19,
+      "speaker": 3,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-11T00:11:22.447Z"
+    },
+    "error": {
+      "ID": 19,
+      "speaker": 3,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:11:22.473Z"
+    },
+    "followup": {
+      "ID": 19,
+      "speaker": 3,
+      "followupQuestion": [
+        "What specific changes in the US economic landscape do you think are most significant right now?",
+        "How do you anticipate the recent economic data will influence monetary policy decisions moving forward?",
+        "Can you share your thoughts on the implications of the government shutdown on the current economic outlook?"
+      ],
+      "followupConfidence": [
+        0.9
+      ],
+      "followupQuestionTimestamp": "2026-01-11T00:12:45.791Z"
+    },
+    "response": {
+      "ID": 19,
+      "responseSummation": "The guest acknowledges the context but does not answer a specific question.",
+      "responseScore": 0.2
+    }
+  },
+  {
+    "ID": 16,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 16,
+      "speaker": 4,
+      "lookupTerm": [
+        "government shutdown",
+        "economic data",
+        "Fed minutes"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Government_shutdown",
+        "https://en.wikipedia.org/wiki/Economic_indicators",
+        "https://en.wikipedia.org/wiki/Federal_Reserve"
+      ],
+      "lookupExplanation": [
+        "A government shutdown occurs when there is a failure to appropriate funding for government operations, leading to the cessation of non-essential services.",
+        "Economic data refers to numerical statistics that describe economic activity, such as employment rates, inflation rates, and GDP growth.",
+        "Fed minutes refer to the official record of the Federal Open Market Committee (FOMC) meetings, which provides insights into the economic outlook and monetary policy decisions."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:11:22.503Z"
+    },
+    "error": {
+      "ID": 16,
+      "speaker": 4,
+      "errorMatch": [
+        "we've had the government shutdown"
+      ],
+      "errorExplanation": [
+        "There has been no recent US government shutdown as of June 2024; this statement is factually incorrect."
+      ],
+      "errorConfidence": [
+        0.95
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:11:21.299Z"
+    },
+    "followup": {
+      "ID": 16,
+      "speaker": 4,
+      "followupQuestion": [
+        "What specific economic data are you anticipating that might clarify the current situation?",
+        "How do you think the government shutdown has impacted the Fed's decision-making process?",
+        "What are your expectations regarding the Fed minutes being released later today?"
+      ],
+      "followupConfidence": [
+        0.9
+      ],
+      "followupQuestionTimestamp": "2026-01-11T00:12:43.934Z"
+    },
+    "response": {
+      "ID": 16,
+      "responseSummation": "Final turn highlights uncertainties without directly answering previous questions.",
+      "responseScore": 0.5
+    }
+  },
+  {
+    "ID": 21,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 21,
+      "speaker": 3,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-11T00:11:23.620Z"
+    },
+    "error": {
+      "ID": 21,
+      "speaker": 3,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:11:24.268Z"
+    },
+    "response": {
+      "ID": 21,
+      "responseSummation": "The response does not address the purpose of the conference.",
+      "responseScore": 0
+    }
+  },
+  {
+    "ID": 18,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 18,
+      "speaker": 4,
+      "lookupTerm": [
+        "Boston Harbor",
+        "US economic landscape",
+        "monetary policy",
+        "Boston Fed"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Boston_Harbor",
+        "https://en.wikipedia.org/wiki/Economy_of_the_United_States",
+        "https://en.wikipedia.org/wiki/Monetary_policy",
+        "https://en.wikipedia.org/wiki/Federal_Reserve"
+      ],
+      "lookupExplanation": [
+        "Boston Harbor is a natural harbor and estuary in Boston, Massachusetts.",
+        "The US economic landscape refers to the various financial and business activities and conditions within the United States economy.",
+        "Monetary policy is the process by which the central bank, or monetary authority, manages the money supply to achieve specific goals.",
+        "The Boston Fed, or Federal Reserve Bank of Boston, is one of the 12 regional Federal Reserve banks in the United States."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:11:24.677Z"
+    },
+    "error": {
+      "ID": 18,
+      "speaker": 4,
+      "errorMatch": [
+        "Susan Collins is the Boston Fed president"
+      ],
+      "errorExplanation": [
+        "Susan Collins is not the Boston Federal Reserve president; the current president is Eric Rosengren (as of the latest available information up to 2024)."
+      ],
+      "errorConfidence": [
+        0.95
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:11:23.453Z"
+    },
+    "followup": {
+      "ID": 18,
+      "speaker": 4,
+      "followupQuestion": [
+        "What specific changes in the US economic landscape will be key for monetary policy discussions?",
+        "How does Susan Collins view the current uncertainty in the economic data due to the government shutdown?",
+        "What are the potential implications of the Fed minutes being released later today on market expectations?"
+      ],
+      "followupConfidence": [
+        0.85
+      ],
+      "followupQuestionTimestamp": "2026-01-11T00:12:45.795Z"
+    },
+    "response": {
+      "ID": 18,
+      "responseSummation": "Introduces guest related to economic discussion, lacks direct answering.",
+      "responseScore": 0.5
+    }
+  },
+  {
+    "ID": 20,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 20,
+      "speaker": 4,
+      "lookupTerm": [
+        "Fed",
+        "research conference"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Federal_Reserve",
+        "https://en.wikipedia.org/wiki/Academic_conference"
+      ],
+      "lookupExplanation": [
+        "The Fed, or Federal Reserve, is the central banking system of the United States, responsible for monetary policy and regulating banks.",
+        "A research conference is a gathering of scholars and researchers to discuss and present their findings and advancements in a particular field."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:11:25.459Z"
+    },
+    "error": {
+      "ID": 20,
+      "speaker": 4,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:11:23.459Z"
+    },
+    "followup": {
+      "ID": 20,
+      "speaker": 4,
+      "followupQuestion": [
+        "What specific themes or topics will be discussed at the research conference?",
+        "How does the Fed decide which papers and issues to highlight at the conference?",
+        "Can you share your thoughts on the expected outcomes or findings from this conference?"
+      ],
+      "followupConfidence": [
+        0.9
+      ],
+      "followupQuestionTimestamp": "2026-01-11T00:12:45.918Z"
+    },
+    "response": {
+      "ID": 20,
+      "responseSummation": "The answer addresses the conference purpose but lacks detail.",
+      "responseScore": 0.6
+    }
+  },
+  {
+    "ID": 23,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 23,
+      "speaker": 5,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-11T00:11:25.292Z"
+    },
+    "error": {
+      "ID": 23,
+      "speaker": 5,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:11:25.632Z"
+    },
+    "response": {
+      "ID": 23,
+      "responseSummation": "The response lacks substance regarding the conference's purpose.",
+      "responseScore": 0.2
+    }
+  },
+  {
+    "ID": 22,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 22,
+      "speaker": 4,
+      "lookupTerm": [
+        "academic economic papers"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Economics"
+      ],
+      "lookupExplanation": [
+        "Academic economic papers are scholarly articles that contribute to the field of economics, discussing theories, models, and empirical studies."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:11:25.657Z"
+    },
+    "error": {
+      "ID": 22,
+      "speaker": 4,
+      "errorMatch": [
+        null
+      ],
+      "errorExplanation": [
+        null
+      ],
+      "errorConfidence": [
+        null
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:11:24.493Z"
+    },
+    "followup": {
+      "ID": 22,
+      "speaker": 4,
+      "followupQuestion": [
+        "What specific themes or topics do you think will be most impactful at this year's conference?",
+        "Can you elaborate on the key objectives that the Federal Reserve hopes to achieve by hosting this conference?",
+        "How do you select the papers and speakers for this event, and what criteria do you use?"
+      ],
+      "followupConfidence": [
+        0.9
+      ],
+      "followupQuestionTimestamp": "2026-01-11T00:12:47.639Z"
+    },
+    "response": {
+      "ID": 22,
+      "responseSummation": "No substantial answer given about the conference purpose.",
+      "responseScore": 0.2
+    }
+  },
+  {
+    "ID": 25,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 25,
+      "speaker": 5,
+      "lookupTerm": [
+        "Kansas City",
+        "Wyoming"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Kansas_City",
+        "https://en.wikipedia.org/wiki/Wyoming"
+      ],
+      "lookupExplanation": [
+        "Kansas City is a major city in Missouri and the largest city in the state of Missouri.",
+        "Wyoming is a state in the western United States known for its natural parks and mountainous terrain."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:11:28.475Z"
+    },
+    "error": {
+      "ID": 25,
+      "speaker": 5,
+      "errorMatch": [
+        "Kansas City cheats a little bit by having their conference in Wyoming in August"
+      ],
+      "errorExplanation": [
+        "The statement implies that the Kansas City Federal Reserve holds its conference in Wyoming, which is incorrect. The Kansas City Fed’s annual Economic Policy Symposium is held in Jackson Hole, Wyoming, but the Fed itself is based in Kansas City, Missouri. The conference location is a neutral venue, not an instance of cheating."
+      ],
+      "errorConfidence": [
+        0.9
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:11:28.816Z"
+    },
+    "followup": {
+      "ID": 25,
+      "speaker": 5,
+      "followupQuestion": [
+        "What specific themes or topics will be emphasized at the conference regarding the US economy?",
+        "Can you elaborate on how the inclusion of perspectives from different disciplines, like political science, enhances the discussions?",
+        "What are some examples of the risks and uncertainties related to the global landscape that will be addressed?"
+      ],
+      "followupConfidence": [
+        0.9
+      ],
+      "followupQuestionTimestamp": "2026-01-11T00:12:49.158Z"
+    },
+    "response": {
+      "ID": 25,
+      "responseSummation": "Speaker avoids answering about Kansas City's conference location directly.",
+      "responseScore": 0.2
+    }
+  },
+  {
+    "ID": 27,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 27,
+      "speaker": 5,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-11T00:11:28.773Z"
+    },
+    "error": {
+      "ID": 27,
+      "speaker": 5,
+      "errorMatch": [
+        null
+      ],
+      "errorExplanation": [
+        null
+      ],
+      "errorConfidence": [
+        null
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:11:29.241Z"
+    },
+    "response": {
+      "ID": 27,
+      "responseSummation": "The answer did not address the comparison or concern directly.",
+      "responseScore": 0.2
+    }
+  },
+  {
+    "ID": 26,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 26,
+      "speaker": 4,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-11T00:11:28.257Z"
+    },
+    "error": {
+      "ID": 26,
+      "speaker": 4,
+      "errorMatch": [
+        "We're in Boston in November."
+      ],
+      "errorExplanation": [
+        "The transcript does not provide any context or information to verify that the location is Boston or that the month is November; therefore, this claim is factually unverified and potentially inaccurate without supporting evidence."
+      ],
+      "errorConfidence": [
+        0.8
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:11:29.303Z"
+    },
+    "response": {
+      "ID": 26,
+      "responseSummation": "Didn't address Kansas City's conference location question directly.",
+      "responseScore": 0.2
+    }
+  },
+  {
+    "ID": 28,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 28,
+      "speaker": 3,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-11T00:11:29.576Z"
+    },
+    "error": {
+      "ID": 28,
+      "speaker": 3,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:11:29.534Z"
+    },
+    "response": {
+      "ID": 28,
+      "responseSummation": "No direct response to the comparison question was provided.",
+      "responseScore": 0
+    }
+  },
+  {
+    "ID": 29,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 29,
+      "speaker": 5,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-11T00:11:29.900Z"
+    },
+    "error": {
+      "ID": 29,
+      "speaker": 5,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:11:30.208Z"
+    },
+    "followup": {
+      "ID": 29,
+      "speaker": 5,
+      "followupQuestion": [
+        "What specific aspects do you think make the Kansas City conference feel like cheating?",
+        "How do you think hosting in different locations impacts the overall experience for attendees?",
+        "Do you think there should be guidelines for how and when conferences are hosted to maintain fairness?"
+      ],
+      "followupConfidence": [
+        0.85
+      ],
+      "followupQuestionTimestamp": "2026-01-11T00:12:49.572Z"
+    },
+    "response": {
+      "ID": 29,
+      "responseSummation": "Acknowledges the issue but lacks a direct answer.",
+      "responseScore": 0.4
+    }
+  },
+  {
+    "ID": 31,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 31,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "speaker": 5,
+      "lookupTermTimestamp": "2026-01-11T00:11:30.585Z"
+    },
+    "error": {
+      "ID": 31,
+      "speaker": 5,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:11:30.712Z"
+    },
+    "response": {
+      "ID": 31,
+      "responseSummation": "Speaker does not directly address the cheating concern raised.",
+      "responseScore": 0.2
+    }
+  },
+  {
+    "ID": 24,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 24,
+      "speaker": 3,
+      "lookupTerm": [
+        "Boston conference",
+        "US economy",
+        "global landscape",
+        "risks and uncertainties",
+        "fragmentation"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Boston",
+        "https://en.wikipedia.org/wiki/Economy_of_the_United_States",
+        "https://en.wikipedia.org/wiki/Globalization",
+        "https://en.wikipedia.org/wiki/Risk",
+        "https://en.wikipedia.org/wiki/Fragmentation"
+      ],
+      "lookupExplanation": [
+        "The Boston conference is an event that gathers professionals from various fields to discuss important topics.",
+        "The US economy refers to the economic system of the United States, characterized by a mixed economy with elements of both capitalism and government regulation.",
+        "The global landscape encompasses the current state and dynamics of international relations, trade, and interactions among countries.",
+        "Risks and uncertainties in an economic context refer to the potential for unexpected events that can impact economic performance.",
+        "Fragmentation in this context refers to the division of global economic and political systems into smaller, often conflicting parts, which can lead to instability."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:11:31.271Z"
+    },
+    "error": {
+      "ID": 24,
+      "speaker": 3,
+      "errorMatch": [
+        null
+      ],
+      "errorExplanation": [
+        null
+      ],
+      "errorConfidence": [
+        null
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:11:26.527Z"
+    },
+    "followup": {
+      "ID": 24,
+      "speaker": 3,
+      "followupQuestion": [
+        "What specific topics or themes will be discussed at the conference?",
+        "How do you see the contributions from different disciplines impacting the discussions?",
+        "Can you elaborate on the significance of the changing global landscape for the US economy that will be addressed in the conference?"
+      ],
+      "followupConfidence": 0.9,
+      "followupQuestionTimestamp": "2026-01-11T00:12:48.747Z"
+    },
+    "response": {
+      "ID": 24,
+      "responseSummation": "Detailed explanation of the conference's purpose and participants.",
+      "responseScore": 1
+    }
+  },
+  {
+    "ID": 32,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 32,
+      "speaker": 3,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-11T00:11:31.231Z"
+    },
+    "error": {
+      "ID": 32,
+      "speaker": 3,
+      "errorMatch": [
+        null
+      ],
+      "errorExplanation": [
+        null
+      ],
+      "errorConfidence": [
+        null
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:11:31.403Z"
+    },
+    "response": {
+      "ID": 32,
+      "responseSummation": "Lacks directly addressing concerns about conference locations.",
+      "responseScore": 0.2
+    }
+  },
+  {
+    "ID": 33,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 33,
+      "speaker": 0,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-11T00:11:31.497Z"
+    },
+    "error": {
+      "ID": 33,
+      "speaker": 0,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:11:31.630Z"
+    },
+    "response": {
+      "ID": 33,
+      "responseSummation": "The answer lacks direct engagement with previous concerns about cheating.",
+      "responseScore": 0.2
+    }
+  },
+  {
+    "ID": 30,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 30,
+      "speaker": 3,
+      "lookupTerm": [
+        "Jackson Hole Conference"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Jackson_Hole_Conference"
+      ],
+      "lookupExplanation": [
+        "The Jackson Hole Conference is an annual economic symposium hosted by the Federal Reserve Bank of Kansas City, typically held in Jackson Hole, Wyoming, focusing on topics related to macroeconomics and monetary policy."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:11:31.670Z"
+    },
+    "error": {
+      "ID": 30,
+      "speaker": 3,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:11:30.412Z"
+    },
+    "followup": {
+      "ID": 30,
+      "speaker": 3,
+      "followupQuestion": [
+        "What aspects of the Jackson Hole Conference do you find most valuable?",
+        "How has your involvement with the conference changed over the years?",
+        "Can you share a memorable experience from a past conference?"
+      ],
+      "followupConfidence": [
+        0.9
+      ],
+      "followupQuestionTimestamp": "2026-01-11T00:12:49.661Z"
+    },
+    "response": {
+      "ID": 30,
+      "responseSummation": "Mentions Jackson Hole but avoids addressing specific location concerns.",
+      "responseScore": 0.3
+    }
+  },
+  {
+    "ID": 34,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 34,
+      "speaker": 3,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-11T00:11:32.267Z"
+    },
+    "error": {
+      "ID": 34,
+      "speaker": 3,
+      "errorMatch": [
+        null
+      ],
+      "errorExplanation": [
+        null
+      ],
+      "errorConfidence": [
+        null
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:11:32.260Z"
+    },
+    "response": {
+      "ID": 34,
+      "responseSummation": "No clear question was addressed in the final response.",
+      "responseScore": 0
+    }
+  },
+  {
+    "ID": 36,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 36,
+      "speaker": 4,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-11T00:11:32.572Z"
+    },
+    "error": {
+      "ID": 36,
+      "speaker": 4,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:11:32.504Z"
+    },
+    "response": {
+      "ID": 36,
+      "responseSummation": "Affirms previous sentiment but lacks substantive engagement.",
+      "responseScore": 0.4
+    }
+  },
+  {
+    "ID": 35,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 35,
+      "speaker": 5,
+      "lookupTerm": [],
+      "lookupLink": [],
+      "lookupExplanation": [],
+      "lookupTermTimestamp": "2026-01-11T00:11:32.675Z"
+    },
+    "error": {
+      "ID": 35,
+      "speaker": 5,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:11:32.357Z"
+    },
+    "response": {
+      "ID": 35,
+      "responseSummation": "Not directly answering any specific question.",
+      "responseScore": 0.2
+    }
+  },
+  {
+    "ID": 39,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 39,
+      "speaker": 5,
+      "lookupTerm": [
+        "unemployment",
+        "government shutdown",
+        "nonlinearity"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Unemployment",
+        "https://en.wikipedia.org/wiki/Government_shutdown",
+        "https://en.wikipedia.org/wiki/Nonlinearity"
+      ],
+      "lookupExplanation": [
+        "Unemployment refers to the situation when individuals who are capable of working cannot find a job, often expressed as a percentage of the total labor force.",
+        "A government shutdown occurs when the government temporarily ceases operations due to the inability to pass appropriations legislation or a budget.",
+        "Nonlinearity in systems refers to situations where a change in input does not produce a proportional change in output, often leading to complex and unpredictable behaviors."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:11:36.449Z"
+    },
+    "error": {
+      "ID": 39,
+      "speaker": 5,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:11:33.781Z"
+    },
+    "followup": {
+      "ID": 39,
+      "speaker": 5,
+      "followupQuestion": [
+        "What specific indicators are you closely monitoring to gauge potential deterioration in the labor market?",
+        "How do you plan to balance concerns about inflation with the risks of rising unemployment in the current economic climate?",
+        "Could you elaborate on what measures could be taken to mitigate the risk of a snowball effect in unemployment?"
+      ],
+      "followupConfidence": [
+        0.9
+      ],
+      "followupQuestionTimestamp": "2026-01-11T00:12:53.766Z"
+    },
+    "response": {
+      "ID": 39,
+      "responseSummation": "Acknowledged concerns but lacked clear anticipation of deterioration.",
+      "responseScore": 0.6
+    }
+  },
+  {
+    "ID": 41,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 41,
+      "speaker": 4,
+      "lookupTerm": [
+        "jobs number",
+        "Fed presidents"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Employment_research",
+        "https://en.wikipedia.org/wiki/Federal_Reserve"
+      ],
+      "lookupExplanation": [
+        "The jobs number refers to the monthly report released by the U.S. Bureau of Labor Statistics, detailing employment statistics including the number of jobs added or lost.",
+        "Fed presidents are the presidents of the 12 regional Federal Reserve Banks in the United States, who participate in monetary policy discussions and decisions."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:11:36.658Z"
+    },
+    "error": {
+      "ID": 41,
+      "speaker": 4,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:11:35.584Z"
+    },
+    "followup": {
+      "ID": 41,
+      "speaker": 4,
+      "followupQuestion": [
+        "What specific indicators are you monitoring to assess potential deterioration in the labor market?",
+        "How do you plan to balance the risks of labor market deterioration with the need to address inflation?",
+        "Can you elaborate on any immediate policy adjustments you might consider if the upcoming jobs report shows significant declines?"
+      ],
+      "followupConfidence": [
+        0.9,
+        0.85,
+        0.8
+      ],
+      "followupQuestionTimestamp": "2026-01-11T00:12:54.725Z"
+    },
+    "response": {
+      "ID": 41,
+      "responseSummation": "Clarified process for analyzing jobs data, but lacked directness on concerns.",
+      "responseScore": 0.6
+    }
+  },
+  {
+    "ID": 37,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 37,
+      "speaker": 5,
+      "lookupTerm": [
+        "monetary policy",
+        "FOMC",
+        "inflation",
+        "unemployment rate"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Monetary_policy",
+        "https://en.wikipedia.org/wiki/Federal_Open_Market_Committee",
+        "https://en.wikipedia.org/wiki/Inflation",
+        "https://en.wikipedia.org/wiki/Unemployment"
+      ],
+      "lookupExplanation": [
+        "Monetary policy is the process by which a central bank controls the money supply and interest rates to achieve macroeconomic goals.",
+        "The Federal Open Market Committee (FOMC) is a branch of the Federal Reserve that determines the course of monetary policy in the United States.",
+        "Inflation is the rate at which the general level of prices for goods and services rises, eroding purchasing power.",
+        "The unemployment rate is a measure of the prevalence of unemployment, calculated as a percentage by dividing the number of unemployed individuals by all individuals currently in the labor force."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:11:37.168Z"
+    },
+    "error": {
+      "ID": 37,
+      "speaker": 5,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:11:33.180Z"
+    },
+    "followup": {
+      "ID": 37,
+      "speaker": 5,
+      "followupQuestion": [
+        "What specific signs of labor market weakening have you observed?",
+        "How do you believe the current labor market conditions will impact future economic policies?",
+        "Can you elaborate on the measures you are using to assess the labor market's health?"
+      ],
+      "followupConfidence": [
+        0.9,
+        0.85,
+        0.9
+      ],
+      "followupQuestionTimestamp": "2026-01-11T00:12:52.220Z"
+    },
+    "response": {
+      "ID": 37,
+      "responseSummation": "Addresses monetary policy but doesn't directly answer labor market concerns.",
+      "responseScore": 0.4
+    }
+  },
+  {
+    "ID": 43,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 43,
+      "speaker": 4,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-11T00:11:37.269Z"
+    },
+    "error": {
+      "ID": 43,
+      "speaker": 4,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:11:37.690Z"
+    },
+    "response": {
+      "ID": 43,
+      "responseSummation": "The response addresses data interpretation but lacks specific action details.",
+      "responseScore": 0.6
+    }
+  },
+  {
+    "ID": 42,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 42,
+      "speaker": 3,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-11T00:11:36.423Z"
+    },
+    "error": {
+      "ID": 42,
+      "speaker": 3,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:11:37.694Z"
+    },
+    "followup": {
+      "ID": 42,
+      "speaker": 3,
+      "followupQuestion": [
+        "What specific details do you focus on when unpacking the labor market data?",
+        "How do you balance the immediate data with previous trends you've observed?",
+        "Can you share an example of how previous data analysis influenced a monetary policy decision?"
+      ],
+      "followupConfidence": 0.9,
+      "followupQuestionTimestamp": "2026-01-11T00:12:54.645Z"
+    },
+    "response": {
+      "ID": 42,
+      "responseSummation": "Detailed explanation of data analysis process post-job numbers.",
+      "responseScore": 0.9
+    }
+  },
+  {
+    "ID": 40,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 40,
+      "speaker": 3,
+      "lookupTerm": [
+        "monetary policy",
+        "basis point",
+        "neutral rate",
+        "inflation"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Monetary_policy",
+        "https://en.wikipedia.org/wiki/Basis_point",
+        "https://en.wikipedia.org/wiki/Neutral_interest_rate",
+        "https://en.wikipedia.org/wiki/Inflation"
+      ],
+      "lookupExplanation": [
+        "Monetary policy refers to the actions undertaken by a nation's central bank to control money supply and achieve macroeconomic goals such as controlling inflation, consumption, growth, and liquidity.",
+        "A basis point is one-hundredth of a percentage point, commonly used in finance to describe changes in interest rates and other percentages.",
+        "The neutral interest rate is the nominal interest rate at which the economy is neither stimulated nor restrained, leading to a balanced economic growth.",
+        "Inflation is the rate at which the general level of prices for goods and services rises, eroding purchasing power."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:11:37.697Z"
+    },
+    "error": {
+      "ID": 40,
+      "speaker": 3,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:11:34.715Z"
+    },
+    "followup": {
+      "ID": 40,
+      "speaker": 3,
+      "followupQuestion": [
+        "What specific indicators are you monitoring that suggest a potential shift in the labor market dynamics?",
+        "How do you plan to balance the risks of inflation with the potential for increasing unemployment in your monetary policy decisions?",
+        "Can you elaborate on any historical precedents where a delayed response to labor market changes had significant consequences?"
+      ],
+      "followupConfidence": 0.9,
+      "followupQuestionTimestamp": "2026-01-11T00:12:53.969Z"
+    },
+    "response": {
+      "ID": 40,
+      "responseSummation": "Acknowledged risks but emphasized balanced approach to policy decisions.",
+      "responseScore": 0.8
+    }
+  },
+  {
+    "ID": 38,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 38,
+      "speaker": 3,
+      "lookupTerm": [
+        "labor market",
+        "inflation",
+        "price stability",
+        "jobs report",
+        "unemployment"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Labor_market",
+        "https://en.wikipedia.org/wiki/Inflation",
+        "https://en.wikipedia.org/wiki/Price_stability",
+        "https://en.wikipedia.org/wiki/Job_report",
+        "https://en.wikipedia.org/wiki/Unemployment"
+      ],
+      "lookupExplanation": [
+        "The labor market refers to the supply and demand for labor, where employees provide the supply and employers provide the demand.",
+        "Inflation is the rate at which the general level of prices for goods and services rises, eroding purchasing power.",
+        "Price stability refers to a situation in which prices in an economy do not change much over time, which is important for economic stability.",
+        "A jobs report is a monthly release of data regarding employment opportunities, job creation, and unemployment rates.",
+        "Unemployment is the situation when individuals who are capable of working are unable to find a job."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:11:38.196Z"
+    },
+    "error": {
+      "ID": 38,
+      "speaker": 3,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:11:33.552Z"
+    },
+    "followup": {
+      "ID": 38,
+      "speaker": 3,
+      "followupQuestion": [
+        "What specific data points are you most eager to analyze from the upcoming jobs report?",
+        "Can you elaborate on how the balance of labor supply and demand is affecting inflation concerns?",
+        "In your opinion, what steps could be taken to stimulate labor demand in the current economic environment?"
+      ],
+      "followupConfidence": [
+        0.9
+      ],
+      "followupQuestionTimestamp": "2026-01-11T00:12:52.448Z"
+    },
+    "response": {
+      "ID": 38,
+      "responseSummation": "Addressed labor market concerns and emphasized dual mandate, but lacked specific predictions.",
+      "responseScore": 0.7
+    }
+  },
+  {
+    "ID": 44,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 44,
+      "speaker": 3,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-11T00:11:38.502Z"
+    },
+    "error": {
+      "ID": 44,
+      "speaker": 3,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:11:38.204Z"
+    },
+    "followup": {
+      "ID": 44,
+      "speaker": 3,
+      "followupQuestion": [
+        "Can you elaborate on what specific details you look for in the job numbers that might not be reflected in the headline figure?",
+        "How do your discussions with your research team influence your understanding of the job numbers?",
+        "What specific challenges do you encounter when trying to interpret the data immediately after its release?"
+      ],
+      "followupConfidence": [
+        0.9
+      ],
+      "followupQuestionTimestamp": "2026-01-11T00:12:56.939Z"
+    },
+    "response": {
+      "ID": 44,
+      "responseSummation": "Answered well, detailing analysis process after jobs number release.",
+      "responseScore": 0.9
+    }
+  },
+  {
+    "ID": 46,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 46,
+      "speaker": 3,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-11T00:11:39.432Z"
+    },
+    "error": {
+      "ID": 46,
+      "speaker": 3,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:11:39.220Z"
+    },
+    "followup": {
+      "ID": 46,
+      "speaker": 3,
+      "followupQuestion": [
+        "Can you elaborate on some specific viewpoints that differ among the members of your team?",
+        "How do you ensure that diverse opinions are considered in decision-making?",
+        "What processes do you have in place to prevent group think from hindering discussions?"
+      ],
+      "followupConfidence": [
+        0.8
+      ],
+      "followupQuestionTimestamp": "2026-01-11T00:12:59.433Z"
+    },
+    "response": {
+      "ID": 46,
+      "responseSummation": "Discusses viewpoints but doesn't directly explain the speakers' urgency.",
+      "responseScore": 0.5
+    }
+  },
+  {
+    "ID": 47,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 47,
+      "speaker": 4,
+      "lookupTerm": [],
+      "lookupLink": [],
+      "lookupExplanation": [],
+      "lookupTermTimestamp": "2026-01-11T00:11:39.468Z"
+    },
+    "error": {
+      "ID": 47,
+      "speaker": 4,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:11:39.347Z"
+    },
+    "response": {
+      "ID": 47,
+      "responseSummation": "Lacks direct engagement with the question about Fed speakers' urgency.",
+      "responseScore": 0.2
+    }
+  },
+  {
+    "ID": 45,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 45,
+      "speaker": 4,
+      "lookupTerm": [
+        "fed speakers",
+        "Tom Barkin"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Federal_Reserve",
+        "https://en.wikipedia.org/wiki/Tom_Barkin"
+      ],
+      "lookupExplanation": [
+        "'Fed speakers' refer to officials from the Federal Reserve System who speak publicly about monetary policy, economic conditions, and related topics.",
+        "Tom Barkin is the President of the Federal Reserve Bank of Richmond, serving in this position since 2018."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:11:40.449Z"
+    },
+    "error": {
+      "ID": 45,
+      "speaker": 4,
+      "errorMatch": [
+        "I got nine in less than a week",
+        "So that brings it up to 10 in less than a week"
+      ],
+      "errorExplanation": [
+        "The Federal Reserve typically does not have nine or ten speakers within a single week; this number is unusually high and not consistent with the Fed's usual schedule.",
+        "Adding Tom Barkin's speech or note to the count to reach ten speakers in less than a week is likely an overestimation since Tom Barkin is one of the regular Fed speakers and including him should have already been counted among the nine."
+      ],
+      "errorConfidence": [
+        0.8,
+        0.7
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:11:40.521Z"
+    },
+    "followup": {
+      "ID": 45,
+      "speaker": 4,
+      "followupQuestion": [
+        "What do you think is driving this surge in Fed communications at this time?",
+        "How do you assess the impact of having so many Fed speakers in a short period on market expectations?",
+        "Are there any specific themes or messages that you believe the Fed is trying to convey through these recent speeches?"
+      ],
+      "followupConfidence": 0.85,
+      "followupQuestionTimestamp": "2026-01-11T00:12:57.041Z"
+    },
+    "response": {
+      "ID": 45,
+      "responseSummation": "Speaker acknowledges frequency of Fed speakers before important meetings.",
+      "responseScore": 0.8
+    }
+  },
+  {
+    "ID": 48,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 48,
+      "speaker": 3,
+      "lookupTerm": [],
+      "lookupLink": [],
+      "lookupExplanation": [],
+      "lookupTermTimestamp": "2026-01-11T00:11:40.584Z"
+    },
+    "error": {
+      "ID": 48,
+      "speaker": 3,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:11:40.444Z"
+    }
+  },
+  {
+    "ID": 49,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 49,
+      "speaker": 0,
+      "lookupTerm": [
+        "Barclays Investment Bank",
+        "Barclays Brief"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Barclays",
+        "https://en.wikipedia.org/wiki/Podcast"
+      ],
+      "lookupExplanation": [
+        "Barclays Investment Bank is the investment banking division of Barclays, a British multinational bank.",
+        "A podcast is a digital audio program made available on the Internet for streaming or download."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:11:42.085Z"
+    },
+    "error": {
+      "ID": 49,
+      "speaker": 0,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:11:40.803Z"
+    },
+    "followup": {
+      "ID": 49,
+      "speaker": 0,
+      "followupQuestion": [
+        "What specific factors do you think are contributing to the current uncertainty in the economy?",
+        "Can you elaborate on how different regional perspectives are shared during these speeches?",
+        "How do you measure the effectiveness of communication from the fed speakers during this period?"
+      ],
+      "followupConfidence": [
+        0.8
+      ],
+      "followupQuestionTimestamp": "2026-01-11T00:12:58.179Z"
+    },
+    "response": {
+      "ID": 49,
+      "responseSummation": "Response unrelated to the asked question about Fed speakers.",
+      "responseScore": 0
+    }
+  },
+  {
+    "ID": 50,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 50,
+      "speaker": 4,
+      "lookupTerm": [
+        "Odd Lots"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Odd_Lots"
+      ],
+      "lookupExplanation": [
+        "Odd Lots is a financial podcast that discusses various topics related to markets, economics, and the intricate stories behind financial news."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:11:42.880Z"
+    },
+    "error": {
+      "ID": 50,
+      "speaker": 4,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:11:41.473Z"
+    }
+  },
+  {
+    "ID": 51,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 51,
+      "speaker": 5,
+      "lookupTerm": [
+        "operational reality",
+        "companies"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Operations_management",
+        "https://en.wikipedia.org/wiki/Company"
+      ],
+      "lookupExplanation": [
+        "Operational reality refers to the actual, practical conditions and activities involved in running an organization, contrasting with theoretical models.",
+        "A company is a legal entity that groups together a group of people to engage in a commercial activity."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:11:43.111Z"
+    },
+    "error": {
+      "ID": 51,
+      "speaker": 5,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:11:41.556Z"
+    }
+  },
+  {
+    "ID": 52,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 52,
+      "speaker": 4,
+      "lookupTerm": [
+        "Acquired podcast"
+      ],
+      "lookupLink": [
+        "https://www.acquired.fm/"
+      ],
+      "lookupExplanation": [
+        "The Acquired podcast is a show that analyzes companies, exploring their growth, challenges, and business strategies."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:11:43.115Z"
+    },
+    "error": {
+      "ID": 52,
+      "speaker": 4,
+      "errorMatch": [
+        null
+      ],
+      "errorExplanation": [
+        null
+      ],
+      "errorConfidence": [
+        null
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:11:42.382Z"
+    },
+    "response": {
+      "ID": 52,
+      "responseSummation": "N/A - Ad",
+      "responseScore": 0
+    }
+  },
+  {
+    "ID": 56,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 56,
+      "speaker": 4,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-11T00:11:45.071Z"
+    },
+    "error": {
+      "ID": 56,
+      "speaker": 4,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:11:45.055Z"
+    }
+  },
+  {
+    "ID": 54,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 54,
+      "speaker": 4,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-11T00:11:43.725Z"
+    },
+    "error": {
+      "ID": 54,
+      "speaker": 4,
+      "errorMatch": [
+        "their show actually turned ten years old in 2025"
+      ],
+      "errorExplanation": [
+        "The statement claims the show turned ten years old in 2025, but as of the knowledge cutoff in June 2024, 2025 has not occurred yet, so this cannot be confirmed or is speculative."
+      ],
+      "errorConfidence": [
+        0.8
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:11:45.259Z"
+    }
+  },
+  {
+    "ID": 55,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 55,
+      "speaker": 5,
+      "lookupTerm": [
+        "market dynamics",
+        "economy"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Market_dynamics",
+        "https://en.wikipedia.org/wiki/Economy"
+      ],
+      "lookupExplanation": [
+        "Market dynamics refer to the factors that impact the supply and demand of goods and services in an economy.",
+        "The economy is the sum of all economic activity in a given area, influencing how resources are allocated and consumed."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:11:45.674Z"
+    },
+    "error": {
+      "ID": 55,
+      "speaker": 5,
+      "errorMatch": [
+        null
+      ],
+      "errorExplanation": [
+        null
+      ],
+      "errorConfidence": [
+        null
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:11:44.136Z"
+    }
+  },
+  {
+    "ID": 53,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 53,
+      "speaker": 5,
+      "lookupTerm": [
+        "TSMC",
+        "NVIDIA",
+        "Mars",
+        "Hermes"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Taiwan_Semiconductor_Manufacturing_Company",
+        "https://en.wikipedia.org/wiki/NVIDIA",
+        "https://en.wikipedia.org/wiki/Mars_(planet)",
+        "https://en.wikipedia.org/wiki/Herm%C3%A8s"
+      ],
+      "lookupExplanation": [
+        "TSMC (Taiwan Semiconductor Manufacturing Company) is the world's largest dedicated independent semiconductor foundry, based in Taiwan.",
+        "NVIDIA is an American technology company known for its GPUs (graphics processing units) for gaming and professional markets.",
+        "Mars is the fourth planet from the Sun in the Solar System, known for its reddish appearance.",
+        "Hermès is a French luxury goods manufacturer established in 1837, known for its leather goods, lifestyle accessories, and fashion."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:11:46.215Z"
+    },
+    "error": {
+      "ID": 53,
+      "speaker": 5,
+      "errorMatch": [
+        "Mars",
+        "Hermes"
+      ],
+      "errorExplanation": [
+        "Mars is a planet and unrelated to semiconductor or technology companies typically discussed in the context of TSMC and NVIDIA, making its inclusion likely factually incorrect in this context.",
+        "Hermes is a luxury fashion brand and is unrelated to the context of semiconductor or technology companies discussed, so mentioning it alongside these companies is factually incorrect."
+      ],
+      "errorConfidence": [
+        0.9,
+        0.9
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:11:44.643Z"
+    }
+  },
+  {
+    "ID": 57,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 57,
+      "speaker": 6,
+      "lookupTerm": [
+        "HelloFresh"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/HelloFresh"
+      ],
+      "lookupExplanation": [
+        "HelloFresh is a meal kit company that provides customers with pre-measured ingredients and recipes to prepare home-cooked meals."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:11:46.385Z"
+    },
+    "error": {
+      "ID": 57,
+      "speaker": 6,
+      "errorMatch": [
+        null
+      ],
+      "errorExplanation": [
+        null
+      ],
+      "errorConfidence": [
+        null
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:11:46.078Z"
+    }
+  },
+  {
+    "ID": 59,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 59,
+      "speaker": 3,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-11T00:11:46.796Z"
+    },
+    "error": {
+      "ID": 59,
+      "speaker": 3,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:11:46.927Z"
+    }
+  },
+  {
+    "ID": 60,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 60,
+      "speaker": 5,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-11T00:11:47.196Z"
+    },
+    "error": {
+      "ID": 60,
+      "speaker": 5,
+      "errorMatch": [],
+      "errorExplanation": [],
+      "errorConfidence": [],
+      "errorMatchTimestamp": "2026-01-11T00:11:47.061Z"
+    }
+  },
+  {
+    "ID": 61,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 61,
+      "speaker": 3,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-11T00:11:47.695Z"
+    },
+    "error": {
+      "ID": 61,
+      "speaker": 3,
+      "errorMatch": [
+        null
+      ],
+      "errorExplanation": [
+        null
+      ],
+      "errorConfidence": [
+        null
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:11:47.615Z"
+    }
+  },
+  {
+    "ID": 62,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 62,
+      "speaker": 5,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-11T00:11:48.520Z"
+    },
+    "error": {
+      "ID": 62,
+      "speaker": 5,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:11:47.953Z"
+    }
+  },
+  {
+    "ID": 64,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 64,
+      "speaker": 5,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-11T00:11:48.845Z"
+    },
+    "error": {
+      "ID": 64,
+      "speaker": 5,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:11:48.849Z"
+    }
+  },
+  {
+    "ID": 58,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 58,
+      "speaker": 5,
+      "lookupTerm": [
+        "inflation",
+        "core PCE",
+        "unemployment rate"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Inflation",
+        "https://en.wikipedia.org/wiki/Personal_Consumption_Expenditures_price_index",
+        "https://en.wikipedia.org/wiki/Unemployment"
+      ],
+      "lookupExplanation": [
+        "Inflation is the rate at which the general level of prices for goods and services rises, eroding purchasing power.",
+        "Core PCE (Personal Consumption Expenditures Price Index) is a measure of the price changes in consumer goods and services excluding food and energy, often used as an inflation gauge.",
+        "The unemployment rate is a measure of the prevalence of unemployment and is calculated as a percentage by dividing the number of unemployed individuals by the total labor force."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:11:48.852Z"
+    },
+    "error": {
+      "ID": 58,
+      "speaker": 5,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:11:46.234Z"
+    }
+  },
+  {
+    "ID": 63,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 63,
+      "speaker": 3,
+      "lookupTerm": [
+        "inflation",
+        "tariffs",
+        "Boston Fed"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Inflation",
+        "https://en.wikipedia.org/wiki/Tariff",
+        "https://en.wikipedia.org/wiki/Federal_Reserve_Bank_of_Boston"
+      ],
+      "lookupExplanation": [
+        "Inflation is the rate at which the general level of prices for goods and services rises, eroding purchasing power.",
+        "A tariff is a tax imposed by a government on imported goods and services, often used to protect domestic industries and regulate trade.",
+        "The Federal Reserve Bank of Boston is one of the 12 regional Reserve Banks in the United States, serving the First District encompassing New England."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:11:51.301Z"
+    },
+    "error": {
+      "ID": 63,
+      "speaker": 3,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:11:48.435Z"
+    }
+  },
+  {
+    "ID": 67,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 67,
+      "speaker": 3,
+      "lookupTerm": [
+        "inflation expectations",
+        "labor market"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Inflation#Expectations",
+        "https://en.wikipedia.org/wiki/Labor_market"
+      ],
+      "lookupExplanation": [
+        "Inflation expectations refer to the rate at which people expect prices to rise in the future, which can influence actual inflation through spending and investment decisions.",
+        "The labor market is the supply and demand for labor, where employees provide the supply and employers provide the demand."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:11:51.533Z"
+    },
+    "error": {
+      "ID": 67,
+      "speaker": 3,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:11:50.186Z"
+    }
+  },
+  {
+    "ID": 65,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 65,
+      "speaker": 3,
+      "lookupTerm": [
+        "cost of living",
+        "housing",
+        "childcare",
+        "food"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Cost_of_living",
+        "https://en.wikipedia.org/wiki/Housing",
+        "https://en.wikipedia.org/wiki/Child_care",
+        "https://en.wikipedia.org/wiki/Food"
+      ],
+      "lookupExplanation": [
+        "The cost of living is the amount of money needed to sustain a certain standard of living, typically measured by the price of essentials like housing, food, and transportation.",
+        "Housing refers to the physical structures where people live, as well as the broader housing market and associated economic factors.",
+        "Childcare involves the care and supervision of children, often provided by daycares, nannies, or relatives.",
+        "Food encompasses all substances consumed by living organisms for nutrition, particularly those consumed by humans and their cultivation and distribution."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:11:52.468Z"
+    },
+    "error": {
+      "ID": 65,
+      "speaker": 3,
+      "errorMatch": [
+        null
+      ],
+      "errorExplanation": [
+        null
+      ],
+      "errorConfidence": [
+        null
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:11:49.426Z"
+    }
+  },
+  {
+    "ID": 68,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 68,
+      "speaker": 4,
+      "lookupTerm": [
+        "tariffs",
+        "inflation"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Tariff",
+        "https://en.wikipedia.org/wiki/Inflation"
+      ],
+      "lookupExplanation": [
+        "A tariff is a tax imposed by a government on imported goods, which can affect prices and trade dynamics.",
+        "Inflation is the rate at which the general level of prices for goods and services is rising, subsequently eroding purchasing power."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:11:54.783Z"
+    },
+    "error": {
+      "ID": 68,
+      "speaker": 4,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:11:52.121Z"
+    }
+  },
+  {
+    "ID": 66,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 66,
+      "speaker": 4,
+      "lookupTerm": [
+        "Boston Fed",
+        "inflation expectations",
+        "COVID",
+        "deanchored",
+        "seventies",
+        "nightmare scenario"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Federal_Reserve_Bank_of_Boston",
+        "https://en.wikipedia.org/wiki/Inflation_expectations",
+        "https://en.wikipedia.org/wiki/COVID-19",
+        "https://en.wikipedia.org/wiki/Anchoring_(economics)",
+        "https://en.wikipedia.org/wiki/1970s_stagflation",
+        "https://en.wikipedia.org/wiki/Nightmare_scenario"
+      ],
+      "lookupExplanation": [
+        "The Federal Reserve Bank of Boston, commonly known as the Boston Fed, is one of the 12 regional banks in the Federal Reserve System of the United States.",
+        "Inflation expectations are the rate of inflation that economic agents, such as consumers and businesses, expect to occur in the future.",
+        "COVID-19 is an infectious disease caused by the coronavirus SARS-CoV-2, first identified in December 2019.",
+        "Deanchored refers to the detachment of inflation expectations from actual economic indicators, leading to irrational or unfounded expectations about future price levels.",
+        "The 1970s stagflation was characterized by high inflation and unemployment, along with stagnant demand in the economy, influencing economic policy for decades.",
+        "A nightmare scenario refers to a situation that is extremely unpleasant or disastrous, often implying severe consequences in a broader context."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:11:55.193Z"
+    },
+    "error": {
+      "ID": 66,
+      "speaker": 4,
+      "errorMatch": [
+        "the rise in inflation expectations around COVID might not have had that much to do with actual prices",
+        "the rise in inflation expectations around COVID ... outran the prices",
+        "inflation expectations ... sort of became deanchored a little bit from reality, which is what we saw in the the late nineteen seventies"
+      ],
+      "errorExplanation": [
+        "Inflation expectations generally respond to changes in actual price levels; it's inaccurate to claim they had little to do with actual prices during COVID as price increases strongly influenced expectations.",
+        "While inflation expectations can sometimes lead or lag actual inflation, during COVID the rise in prices and inflation expectations were largely driven by common factors such as supply constraints and demand shifts, so expectations did not simply 'outran' prices.",
+        "Inflation expectations in the late 1970s were due to different economic conditions, including wage-price spirals and policy responses; saying the COVID-era expectations became deanchored just like the 1970s simplifies and misrepresents complex dynamics."
+      ],
+      "errorConfidence": [
+        0.9,
+        0.8,
+        0.7
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:11:52.563Z"
+    }
+  },
+  {
+    "ID": 70,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 70,
+      "speaker": 5,
+      "lookupTerm": [
+        "tariffs",
+        "equilibrium"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Tariff",
+        "https://en.wikipedia.org/wiki/Equilibrium_(economics)"
+      ],
+      "lookupExplanation": [
+        "A tariff is a tax imposed by a government on goods and services imported from other countries.",
+        "Equilibrium in economics refers to a state where economic forces such as supply and demand are balanced."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:11:55.530Z"
+    },
+    "error": {
+      "ID": 70,
+      "speaker": 5,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:11:53.686Z"
+    }
+  },
+  {
+    "ID": 72,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 72,
+      "speaker": 4,
+      "lookupTerm": [
+        "Odd Lots"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Odd_Lots"
+      ],
+      "lookupExplanation": [
+        "Odd Lots is a financial podcast that explores economic and investment topics."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:11:57.067Z"
+    },
+    "error": {
+      "ID": 72,
+      "speaker": 4,
+      "errorMatch": [
+        null
+      ],
+      "errorExplanation": [
+        null
+      ],
+      "errorConfidence": [
+        null
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:11:56.423Z"
+    }
+  },
+  {
+    "ID": 71,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 71,
+      "speaker": 3,
+      "lookupTerm": [
+        "tariff",
+        "AI",
+        "automation",
+        "skilled shortages"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Tariff",
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://en.wikipedia.org/wiki/Automation",
+        "https://en.wikipedia.org/wiki/Skilled_labor"
+      ],
+      "lookupExplanation": [
+        "A tariff is a tax or duty to be paid on a particular class of imports or exports.",
+        "Artificial intelligence (AI) refers to the simulation of human intelligence in machines designed to think and act like humans.",
+        "Automation is the technology by which a process or procedure is performed with minimal human assistance.",
+        "Skilled labor refers to the work that requires specialized knowledge or training."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:11:57.833Z"
+    },
+    "error": {
+      "ID": 71,
+      "speaker": 3,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:11:55.814Z"
+    }
+  },
+  {
+    "ID": 69,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 69,
+      "speaker": 3,
+      "lookupTerm": [
+        "tariffs",
+        "Boston Fed",
+        "productivity"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Tariff",
+        "https://en.wikipedia.org/wiki/Federal_Reserve_Bank_of_Boston",
+        "https://en.wikipedia.org/wiki/Productivity"
+      ],
+      "lookupExplanation": [
+        "Tariffs are taxes imposed by a government on imported goods, aimed at protecting domestic industries by making imported products more expensive.",
+        "The Boston Fed, officially known as the Federal Reserve Bank of Boston, is one of the 12 regional Reserve Banks in the Federal Reserve System, which serves as the central bank of the United States.",
+        "Productivity is a measure of the efficiency of production, represented as the ratio of outputs to inputs in a production process, and is critical for economic growth and competitiveness."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:11:56.112Z"
+    },
+    "error": {
+      "ID": 69,
+      "speaker": 3,
+      "errorMatch": [
+        "One is the tariffs are really intertwined with uncertainty, which makes you know, it's uncertainty about the tariffs, which is one of the key things that's having influence, for example, in terms of hiring decisions, investment decisions, some of the reticence that firms have to make major decisions and projects",
+        "One thing that they've already been talking about is then it was a much smaller tariff increase. It was narrower, and it was implemented over a relatively short time period. It still took five months or more before the peak impact on price levels was seen",
+        "We've also seen significant increases in productivity and that is interacting with some of the tariffs, perhaps offsetting the extent to which we're seeing the impacts of tariffs on prices because productivity growth is actually an opportunity not to pass things through because it enables, you know, cost savings, etcetera."
+      ],
+      "errorExplanation": [
+        "While tariffs do create uncertainty that can affect business decisions, empirical evidence and economic consensus suggest that other factors such as overall economic trends, demand, wage pressures, and global supply chains often play a larger or more direct role in hiring and major investment decisions than tariff uncertainty alone.",
+        "The claim that the 2018 tariff increases were much smaller and narrower is factually incorrect; the tariffs imposed in 2018 were historically large and broad, covering a wide range of goods and implemented relatively quickly. Moreover, empirical studies often show effects on prices manifesting over variable and sometimes shorter timeframes depending on goods and market conditions.",
+        "There is mixed evidence about productivity increases offsetting tariff impacts on prices. While productivity growth can help absorb some cost increases, the assertion that recent significant productivity increases have offset tariff impacts on prices is not strongly supported by data from the relevant period, where inflationary pressures increased despite modest productivity gains."
+      ],
+      "errorConfidence": [
+        0.8,
+        0.7,
+        0.7
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:11:58.164Z"
+    }
+  },
+  {
+    "ID": 74,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 74,
+      "speaker": 4,
+      "lookupTerm": [
+        "Acquired podcast"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Acquired"
+      ],
+      "lookupExplanation": [
+        "Acquired is a podcast that analyzes and discusses the histories of companies and the factors that have influenced their growth and success."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:11:58.268Z"
+    },
+    "error": {
+      "ID": 74,
+      "speaker": 4,
+      "errorMatch": [
+        null
+      ],
+      "errorExplanation": [
+        null
+      ],
+      "errorConfidence": [
+        null
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:11:57.896Z"
+    }
+  },
+  {
+    "ID": 73,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 73,
+      "speaker": 5,
+      "lookupTerm": [
+        "operational reality",
+        "companies",
+        "succeed",
+        "fail"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Operations_management",
+        "https://en.wikipedia.org/wiki/Company",
+        "https://en.wikipedia.org/wiki/Success",
+        "https://en.wikipedia.org/wiki/Failure"
+      ],
+      "lookupExplanation": [
+        "Operational reality refers to the actual circumstances and challenges faced in the day-to-day operations of a business.",
+        "A company is a legal entity formed by a group of individuals to engage in and operate a business.",
+        "Success is the accomplishment of a goal or purpose.",
+        "Failure is the state or condition of not meeting a desirable or intended objective."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:12:00.106Z"
+    },
+    "error": {
+      "ID": 73,
+      "speaker": 5,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:11:57.036Z"
+    }
+  },
+  {
+    "ID": 76,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 76,
+      "speaker": 4,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-11T00:11:58.672Z"
+    },
+    "error": {
+      "ID": 76,
+      "speaker": 4,
+      "errorMatch": [
+        "their show actually turned 10 years old in 2025"
+      ],
+      "errorExplanation": [
+        "It is factually incorrect to state that 'their show' turned 10 years old in 2025 without knowing the actual start year of the show; if the show began in any year other than 2015, the claim is false."
+      ],
+      "errorConfidence": [
+        0.8
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:12:00.150Z"
+    }
+  },
+  {
+    "ID": 78,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 78,
+      "speaker": 4,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-11T00:11:59.762Z"
+    },
+    "error": {
+      "ID": 78,
+      "speaker": 4,
+      "errorMatch": [
+        null
+      ],
+      "errorExplanation": [
+        null
+      ],
+      "errorConfidence": [
+        null
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:12:00.519Z"
+    }
+  },
+  {
+    "ID": 77,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 77,
+      "speaker": 5,
+      "lookupTerm": [
+        "Acquired podcast",
+        "market dynamics",
+        "economy"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Podcast",
+        "https://en.wikipedia.org/wiki/Market_dynamics",
+        "https://en.wikipedia.org/wiki/Economy"
+      ],
+      "lookupExplanation": [
+        "A podcast is a digital audio program available for streaming or download, often episodic in nature.",
+        "Market dynamics refers to the forces that impact the supply and demand of goods and services in a market.",
+        "An economy is the large set of inter-related production and consumption activities that aid in determining how scarce resources are allocated."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:12:01.647Z"
+    },
+    "error": {
+      "ID": 77,
+      "speaker": 5,
+      "errorMatch": [
+        null
+      ],
+      "errorExplanation": [
+        null
+      ],
+      "errorConfidence": [
+        null
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:11:59.619Z"
+    }
+  },
+  {
+    "ID": 79,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 79,
+      "speaker": 6,
+      "lookupTerm": [
+        "HelloFresh"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/HelloFresh"
+      ],
+      "lookupExplanation": [
+        "HelloFresh is a meal kit service that delivers ingredients and recipes to customers' doors, enabling them to prepare home-cooked meals."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:12:01.848Z"
+    },
+    "error": {
+      "ID": 79,
+      "speaker": 6,
+      "errorMatch": [
+        null
+      ],
+      "errorExplanation": [
+        null
+      ],
+      "errorConfidence": [
+        null
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:12:01.438Z"
+    }
+  },
+  {
+    "ID": 75,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 75,
+      "speaker": 5,
+      "lookupTerm": [
+        "TSMC",
+        "NVIDIA",
+        "Mars",
+        "Hermes"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Taiwan_Semiconductor_Manufacturing_Company",
+        "https://en.wikipedia.org/wiki/Nvidia",
+        "https://en.wikipedia.org/wiki/Mars_(mythology)",
+        "https://en.wikipedia.org/wiki/Hermes"
+      ],
+      "lookupExplanation": [
+        "TSMC (Taiwan Semiconductor Manufacturing Company) is the world's largest dedicated independent semiconductor foundry.",
+        "NVIDIA is an American technology company known for its graphics processing units (GPUs) for gaming and professional markets.",
+        "Mars is the fourth planet from the Sun in the Solar System, named after the Roman god of war.",
+        "Hermes is the Greek god of trade, heralds, athletes, thieves, and travel, associated with speed and agility."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:12:02.158Z"
+    },
+    "error": {
+      "ID": 75,
+      "speaker": 5,
+      "errorMatch": [
+        null
+      ],
+      "errorExplanation": [
+        null
+      ],
+      "errorConfidence": [
+        null
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:11:58.724Z"
+    }
+  },
+  {
+    "ID": 80,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 80,
+      "speaker": 4,
+      "lookupTerm": [
+        "Supreme Court",
+        "tariffs",
+        "inflation"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Supreme_Court_of_the_United_States",
+        "https://en.wikipedia.org/wiki/Tariff",
+        "https://en.wikipedia.org/wiki/Inflation"
+      ],
+      "lookupExplanation": [
+        "The Supreme Court of the United States is the highest court in the federal judiciary of the United States.",
+        "A tariff is a tax imposed by a government on imported goods.",
+        "Inflation is the rate at which the general level of prices for goods and services rises, eroding purchasing power."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:12:03.368Z"
+    },
+    "error": {
+      "ID": 80,
+      "speaker": 4,
+      "errorMatch": [
+        "the Supreme Court strikes down a a big chunk of these tariffs"
+      ],
+      "errorExplanation": [
+        "As of the latest verified information, there is no public record or credible indication that the Supreme Court is likely to strike down a significant portion of existing tariffs, making this claim speculative and currently unsubstantiated."
+      ],
+      "errorConfidence": [
+        0.8
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:12:02.167Z"
+    }
+  },
+  {
+    "ID": 81,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 81,
+      "speaker": 3,
+      "lookupTerm": [
+        "scenario planning",
+        "local governments"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Scenario_planning",
+        "https://en.wikipedia.org/wiki/Local_government"
+      ],
+      "lookupExplanation": [
+        "Scenario planning is a strategic planning method used to make flexible long-term plans by considering various possible future scenarios.",
+        "Local governments are administrative bodies that govern a specific local area, such as a city or town, often providing public services and making decisions on local policies."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:12:04.407Z"
+    },
+    "error": {
+      "ID": 81,
+      "speaker": 3,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:12:02.431Z"
+    }
+  },
+  {
+    "ID": 82,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 82,
+      "speaker": 5,
+      "lookupTerm": [
+        "labor market",
+        "skilled labor shortages"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Labor_market",
+        "https://en.wikipedia.org/wiki/Skills_shortage"
+      ],
+      "lookupExplanation": [
+        "The labor market is the supply of available workers in relation to available work. It is influenced by various economic factors like employment rates and wage levels.",
+        "Skilled labor shortages occur when there are not enough qualified workers to fill available positions within certain professions, which can hinder economic growth and productivity."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:12:04.442Z"
+    },
+    "error": {
+      "ID": 82,
+      "speaker": 5,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:12:03.045Z"
+    }
+  },
+  {
+    "ID": 83,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 83,
+      "speaker": 3,
+      "lookupTerm": [
+        "New England",
+        "Cape Cod Community College",
+        "aviation technology maintenance"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/New_England",
+        "https://en.wikipedia.org/wiki/Cape_Cod_Community_College",
+        "https://en.wikipedia.org/wiki/Aviation_maintenance_technology"
+      ],
+      "lookupExplanation": [
+        "New England is a region in the northeastern United States, consisting of Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island, and Vermont.",
+        "Cape Cod Community College is a public community college located in Barnstable, Massachusetts, offering a variety of degree programs.",
+        "Aviation technology maintenance refers to the practices and procedures used to ensure the safe and efficient operation of aircraft, requiring skilled professionals for inspections, repairs, and maintenance."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:12:06.051Z"
+    },
+    "error": {
+      "ID": 83,
+      "speaker": 3,
+      "errorMatch": [
+        "the Cape Cod Community College has one too. They're training aviation technology maintenance. They have a new, relatively new program, which will soon, I believe, be the biggest in the country"
+      ],
+      "errorExplanation": [
+        "Cape Cod Community College's aviation maintenance program is well-regarded but it is not documented to be or expected to soon be the biggest in the country. Larger and more established programs exist elsewhere, for example at community colleges with extensive aviation programs across the United States."
+      ],
+      "errorConfidence": [
+        0.8
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:12:05.228Z"
+    }
+  },
+  {
+    "ID": 84,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 84,
+      "speaker": 5,
+      "lookupTerm": [
+        "Fed",
+        "inflation",
+        "labor market"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Federal_Reserve",
+        "https://en.wikipedia.org/wiki/Inflation",
+        "https://en.wikipedia.org/wiki/Labor_market"
+      ],
+      "lookupExplanation": [
+        "The Fed refers to the Federal Reserve, which is the central bank of the United States responsible for implementing monetary policy.",
+        "Inflation is the rate at which the general level of prices for goods and services is rising, and subsequently, purchasing power is falling.",
+        "The labor market is the supply and demand for labor, in which employees provide the supply and employers provide the demand."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:12:06.357Z"
+    },
+    "error": {
+      "ID": 84,
+      "speaker": 5,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:12:04.571Z"
+    }
+  },
+  {
+    "ID": 85,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 85,
+      "speaker": 3,
+      "lookupTerm": [
+        "unemployment rate"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Unemployment"
+      ],
+      "lookupExplanation": [
+        "The unemployment rate is a measure of the prevalence of unemployment and is calculated as a percentage by dividing the number of unemployed individuals by all individuals currently in the labor force."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:12:06.405Z"
+    },
+    "error": {
+      "ID": 85,
+      "speaker": 3,
+      "errorMatch": [
+        "The famous rate unemployment"
+      ],
+      "errorExplanation": [
+        "The phrase 'The famous rate unemployment' is incomplete and unclear, lacking a factual claim or definition of the unemployment rate that can be verified."
+      ],
+      "errorConfidence": [
+        0.7
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:12:06.047Z"
+    }
+  },
+  {
+    "ID": 86,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 86,
+      "speaker": 5,
+      "lookupTerm": [
+        "inflation"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Inflation"
+      ],
+      "lookupExplanation": [
+        "Inflation is the rate at which the general level of prices for goods and services is rising, and subsequently, purchasing power is falling."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:12:06.355Z"
+    },
+    "error": {
+      "ID": 86,
+      "speaker": 5,
+      "errorMatch": [
+        "2% number on the inflation side"
+      ],
+      "errorExplanation": [
+        "While 2% is a commonly targeted inflation rate by many central banks, stating it as 'that nice 2% number' may be misleading since inflation rates vary over time and the specific inflation target can differ by country. However, without more context, this is not necessarily factually incorrect."
+      ],
+      "errorConfidence": [
+        0
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:12:07.873Z"
+    }
+  },
+  {
+    "ID": 89,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 89,
+      "speaker": 3,
+      "lookupTerm": [],
+      "lookupLink": [],
+      "lookupExplanation": [],
+      "lookupTermTimestamp": "2026-01-11T00:12:08.443Z"
+    },
+    "error": {
+      "ID": 89,
+      "speaker": 3,
+      "errorMatch": [
+        "I don't think we are seeing significant wage pressures."
+      ],
+      "errorExplanation": [
+        "As of mid-2024, there have been widely reported wage pressures in many economies due to inflation and labor market tightness, contradicting the claim that significant wage pressures are not being seen."
+      ],
+      "errorConfidence": [
+        0.8
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:12:08.589Z"
+    }
+  },
+  {
+    "ID": 90,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 90,
+      "speaker": 5,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-11T00:12:09.323Z"
+    },
+    "error": {
+      "ID": 90,
+      "speaker": 5,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:12:09.326Z"
+    }
+  },
+  {
+    "ID": 87,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 87,
+      "speaker": 3,
+      "lookupTerm": [
+        "inflation",
+        "full employment",
+        "price stability",
+        "labor market",
+        "unemployment"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Inflation",
+        "https://en.wikipedia.org/wiki/Full_employment",
+        "https://en.wikipedia.org/wiki/Price_stability",
+        "https://en.wikipedia.org/wiki/Labor_market",
+        "https://en.wikipedia.org/wiki/Unemployment"
+      ],
+      "lookupExplanation": [
+        "Inflation is the rate at which the general level of prices for goods and services rises, eroding purchasing power.",
+        "Full employment is an economic situation in which all individuals who are willing and able to work at prevailing wage rates can find employment.",
+        "Price stability refers to a situation in which prices in an economy do not change much over time, avoiding both inflation and deflation.",
+        "The labor market is the supply of available workers in relation to available work, and is a critical aspect of economic performance.",
+        "Unemployment refers to the situation when individuals who are capable of working and are actively seeking work are unable to find any employment."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:12:11.684Z"
+    },
+    "error": {
+      "ID": 87,
+      "speaker": 3,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:12:07.071Z"
+    }
+  },
+  {
+    "ID": 93,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 93,
+      "speaker": 3,
+      "lookupTerm": [
+        "AI",
+        "lumber mill"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://en.wikipedia.org/wiki/Lumber_mill"
+      ],
+      "lookupExplanation": [
+        "Artificial intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think and learn.",
+        "A lumber mill processes timber into wood products such as lumber, plywood, and other materials."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:12:12.804Z"
+    },
+    "error": {
+      "ID": 93,
+      "speaker": 3,
+      "errorMatch": [
+        null
+      ],
+      "errorExplanation": [
+        null
+      ],
+      "errorConfidence": [
+        null
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:12:11.363Z"
+    }
+  },
+  {
+    "ID": 94,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 94,
+      "speaker": 4,
+      "lookupTerm": [],
+      "lookupLink": [],
+      "lookupExplanation": [],
+      "lookupTermTimestamp": "2026-01-11T00:12:12.833Z"
+    },
+    "error": {
+      "ID": 94,
+      "speaker": 4,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:12:12.600Z"
+    }
+  },
+  {
+    "ID": 88,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 88,
+      "speaker": 4,
+      "lookupTerm": [
+        "labor market",
+        "breakeven rate",
+        "Fed policymakers",
+        "immigration",
+        "quits rate"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Labor_market",
+        "https://en.wikipedia.org/wiki/Breakeven_rate",
+        "https://en.wikipedia.org/wiki/Federal_Reserve",
+        "https://en.wikipedia.org/wiki/Immigration",
+        "https://en.wikipedia.org/wiki/Quits_rate"
+      ],
+      "lookupExplanation": [
+        "The labor market is the supply and demand for labor, where employees provide the supply and employers provide the demand.",
+        "The breakeven rate refers to the interest rate level that leads to a zero net present value for an investment, often used in economic policy discussions.",
+        "Fed policymakers are members of the Federal Reserve System, the central bank of the United States, responsible for setting monetary policy.",
+        "Immigration is the movement of people into a country to live or work, which can impact the labor supply in the market.",
+        "The quits rate is the percentage of employees who voluntarily leave their jobs, used as an indicator of labor market strength."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:12:13.214Z"
+    },
+    "error": {
+      "ID": 88,
+      "speaker": 4,
+      "errorMatch": [
+        "if supply in the labor market is the issue here because of immigration or whatever, and it's about that supply rather than a deterioration in demand, shouldn't we have expected to see some tightness showing up in other statistics, like wages earned, hours worked, the quits rate, something like that. And we haven't really seen that yet."
+      ],
+      "errorExplanation": [
+        "There has been evidence of labor market tightness in wages, hours worked, and quits rate, which have been rising, indicating supply constraints rather than just demand deterioration."
+      ],
+      "errorConfidence": [
+        0.95
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:12:08.468Z"
+    }
+  },
+  {
+    "ID": 92,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 92,
+      "speaker": 5,
+      "lookupTerm": [
+        "AI",
+        "productivity gains",
+        "implementation"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://en.wikipedia.org/wiki/Productivity",
+        "https://en.wikipedia.org/wiki/Implementation"
+      ],
+      "lookupExplanation": [
+        "Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think and learn.",
+        "Productivity gains refer to an increase in the efficiency of production, often measured by the output per unit of input.",
+        "Implementation is the process of putting a decision or plan into effect, including the execution of an algorithm or a software in the context of technology."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:12:13.569Z"
+    },
+    "error": {
+      "ID": 92,
+      "speaker": 5,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:12:10.142Z"
+    }
+  },
+  {
+    "ID": 95,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 95,
+      "speaker": 5,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-11T00:12:13.684Z"
+    },
+    "error": {
+      "ID": 95,
+      "speaker": 5,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:12:13.659Z"
+    }
+  },
+  {
+    "ID": 91,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 91,
+      "speaker": 3,
+      "lookupTerm": [
+        "labor market",
+        "productivity",
+        "price stability",
+        "unemployment",
+        "wage pressures"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Labor_market",
+        "https://en.wikipedia.org/wiki/Productivity",
+        "https://en.wikipedia.org/wiki/Price_stability",
+        "https://en.wikipedia.org/wiki/Unemployment",
+        "https://en.wikipedia.org/wiki/Wage"
+      ],
+      "lookupExplanation": [
+        "The labor market is the place where workers and employers interact, and it's characterized by supply and demand for labor.",
+        "Productivity refers to the efficiency of production and is commonly measured as the ratio of outputs to inputs in the production process.",
+        "Price stability refers to a situation in which prices in an economy do not change much over time, allowing for predictable economic conditions.",
+        "Unemployment is the situation that occurs when individuals who are able and willing to work cannot find a job.",
+        "Wage pressures refer to the rising demands for wages by workers, often due to inflation or increased cost of living."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:12:14.034Z"
+    },
+    "error": {
+      "ID": 91,
+      "speaker": 3,
+      "errorMatch": [
+        null
+      ],
+      "errorExplanation": [
+        null
+      ],
+      "errorConfidence": [
+        null
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:12:09.937Z"
+    }
+  },
+  {
+    "ID": 98,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 98,
+      "speaker": 4,
+      "lookupTerm": [
+        "gas lamps",
+        "electricity"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Gas_lighting",
+        "https://en.wikipedia.org/wiki/Electricity"
+      ],
+      "lookupExplanation": [
+        "Gas lamps are fixtures that burn gas to produce light, commonly used before the widespread adoption of electricity.",
+        "Electricity is a form of energy resulting from the flow of electric charge, used as a power source for lighting and other applications."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:12:16.387Z"
+    },
+    "error": {
+      "ID": 98,
+      "speaker": 4,
+      "errorMatch": [
+        "people lighting gas lamps are gonna be unemployed because of electricity"
+      ],
+      "errorExplanation": [
+        "The statement implies that all people who light gas lamps will become unemployed solely due to the advent of electricity, which is an oversimplification. While electricity has reduced the need for gas lamps in many areas, it has not universally caused unemployment among all such workers, as transitions in technology affect labor markets in complex ways."
+      ],
+      "errorConfidence": [
+        0.7
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:12:15.795Z"
+    }
+  },
+  {
+    "ID": 97,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 97,
+      "speaker": 3,
+      "lookupTerm": [
+        "AI",
+        "general purpose technology",
+        "Internet",
+        "electricity"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://en.wikipedia.org/wiki/General-purpose_technology",
+        "https://en.wikipedia.org/wiki/Internet",
+        "https://en.wikipedia.org/wiki/Electricity"
+      ],
+      "lookupExplanation": [
+        "Artificial intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think and learn.",
+        "A general purpose technology (GPT) is a technology that can be widely used across many sectors and lead to significant economic impact.",
+        "The Internet is a global system of interconnected computer networks that use the Internet protocol suite (TCP/IP) to link devices worldwide.",
+        "Electricity is the set of physical phenomena associated with the presence and motion of electric charge."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:12:17.902Z"
+    },
+    "error": {
+      "ID": 97,
+      "speaker": 3,
+      "errorMatch": [
+        "we are seeing considerable investments across a wide range of firms and sectors in sectors in AI"
+      ],
+      "errorExplanation": [
+        "While AI investment is significant, the statement that there are considerable investments 'across a wide range of firms and sectors' may be an overgeneralization, as AI investment tends to be concentrated in specific sectors rather than broadly across all sectors."
+      ],
+      "errorConfidence": [
+        0.3
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:12:17.539Z"
+    }
+  },
+  {
+    "ID": 96,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 96,
+      "speaker": 4,
+      "lookupTerm": [
+        "AI",
+        "unemployment",
+        "interest rates",
+        "Fed",
+        "automation",
+        "benchmark rate"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://en.wikipedia.org/wiki/Unemployment",
+        "https://en.wikipedia.org/wiki/Interest_rate",
+        "https://en.wikipedia.org/wiki/Federal_Reserve",
+        "https://en.wikipedia.org/wiki/Automation",
+        "https://en.wikipedia.org/wiki/Benchmark_interest_rate"
+      ],
+      "lookupExplanation": [
+        "AI, or artificial intelligence, refers to the simulation of human intelligence in machines that are programmed to think and learn.",
+        "Unemployment is the state of being without a job, while actively seeking work.",
+        "Interest rates are the amount charged by lenders to borrowers for the use of money, typically expressed as a percentage of the principal.",
+        "The Fed, or Federal Reserve, is the central banking system of the United States, which regulates the monetary and financial system.",
+        "Automation refers to the use of technology to perform tasks without human intervention, often leading to greater efficiency and productivity.",
+        "The benchmark rate is the interest rate set by a central bank that serves as a reference point for other interest rates."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:12:18.332Z"
+    },
+    "error": {
+      "ID": 96,
+      "speaker": 4,
+      "errorMatch": [
+        "traditionally, you lower interest rates if you wanna try to boost employment, and that's supposed to encourage businesses to invest in new capital. And historically, a lot of that capital has meant additional jobs"
+      ],
+      "errorExplanation": [
+        "While lowering interest rates is traditionally a monetary policy tool to stimulate economic activity and potentially boost employment, the direct causation that this action historically results in additional jobs due to capital investment is an oversimplification. The relationship between interest rates, capital investment, and employment is influenced by many factors and not uniformly or reliably direct."
+      ],
+      "errorConfidence": [
+        0.8
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:12:15.682Z"
+    }
+  },
+  {
+    "ID": 99,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 99,
+      "speaker": 3,
+      "lookupTerm": [
+        "general purpose technology",
+        "Fed",
+        "inflation"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/General-purpose_technology",
+        "https://en.wikipedia.org/wiki/Federal_Reserve",
+        "https://en.wikipedia.org/wiki/Inflation"
+      ],
+      "lookupExplanation": [
+        "General purpose technology refers to a technology that has broad applications and can spawn further innovations, significantly affecting an economy.",
+        "The Fed refers to the Federal Reserve System, which is the central banking system of the United States, responsible for implementing monetary policy.",
+        "Inflation is the rate at which the general level of prices for goods and services is rising, eroding purchasing power."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:12:18.744Z"
+    },
+    "error": {
+      "ID": 99,
+      "speaker": 3,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:12:16.579Z"
+    }
+  },
+  {
+    "ID": 100,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 100,
+      "speaker": 5,
+      "lookupTerm": [
+        "inflation",
+        "affordability",
+        "mortgages",
+        "interest rates",
+        "housing starts",
+        "housing activity"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Inflation",
+        "https://en.wikipedia.org/wiki/Affordability",
+        "https://en.wikipedia.org/wiki/Mortgage",
+        "https://en.wikipedia.org/wiki/Interest_rate",
+        "https://en.wikipedia.org/wiki/Housing_start",
+        "https://en.wikipedia.org/wiki/Housing"
+      ],
+      "lookupExplanation": [
+        "Inflation is the rate at which the general level of prices for goods and services rises, eroding purchasing power.",
+        "Affordability refers to the relationship between income and the cost of living, particularly concerning housing costs.",
+        "A mortgage is a type of loan specifically used to purchase real estate, which is secured by the property itself.",
+        "The interest rate is the amount charged by lenders to borrowers for the use of borrowed money, expressed as a percentage of the principal.",
+        "Housing starts are a measure of the number of new residential construction projects that have begun over a certain period.",
+        "Housing activity refers to various aspects related to real estate, including buying, selling, and construction of residential properties."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:12:21.404Z"
+    },
+    "error": {
+      "ID": 100,
+      "speaker": 5,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:12:17.516Z"
+    }
+  },
+  {
+    "ID": 105,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 105,
+      "speaker": 3,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-11T00:12:22.225Z"
+    },
+    "error": {
+      "ID": 105,
+      "speaker": 3,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:12:22.230Z"
+    }
+  },
+  {
+    "ID": 103,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 103,
+      "speaker": 3,
+      "lookupTerm": [
+        "financial markets",
+        "volatility",
+        "spreads"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Financial_market",
+        "https://en.wikipedia.org/wiki/Volatility_(finance)",
+        "https://en.wikipedia.org/wiki/Spread_(finance)"
+      ],
+      "lookupExplanation": [
+        "Financial markets are marketplaces where trading of securities, commodities, and other financial assets occurs.",
+        "Volatility in finance refers to the degree of variation in the price of a financial instrument over time.",
+        "In finance, a spread is the difference between two prices, rates, or yields."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:12:23.351Z"
+    },
+    "error": {
+      "ID": 103,
+      "speaker": 3,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:12:19.563Z"
+    }
+  },
+  {
+    "ID": 104,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 104,
+      "speaker": 4,
+      "lookupTerm": [
+        "Susan Collins",
+        "Boston Fed",
+        "jobs numbers"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Susan_Collins_(American_politician)",
+        "https://en.wikipedia.org/wiki/Federal_Reserve_Bank_of_Boston",
+        "https://en.wikipedia.org/wiki/Unemployment"
+      ],
+      "lookupExplanation": [
+        "Susan Collins is an American politician serving as the senior United States Senator from Maine.",
+        "The Federal Reserve Bank of Boston is one of the 12 regional Federal Reserve Banks in the Federal Reserve System.",
+        "Jobs numbers typically refer to employment statistics, particularly relating to the unemployment rate and job creation."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:12:23.563Z"
+    },
+    "error": {
+      "ID": 104,
+      "speaker": 4,
+      "errorMatch": [
+        "Susan Collins, Boston Fed president"
+      ],
+      "errorExplanation": [
+        "Susan Collins is a U.S. Senator, not the Boston Fed president."
+      ],
+      "errorConfidence": [
+        1
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:12:20.889Z"
+    }
+  },
+  {
+    "ID": 102,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 102,
+      "speaker": 4,
+      "lookupTerm": [
+        "Boston Fed",
+        "buy side",
+        "AI bubble",
+        "funding markets",
+        "repo"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Federal_Reserve_Bank_of_Boston",
+        "https://en.wikipedia.org/wiki/Buy_side",
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://en.wikipedia.org/wiki/Financial_market",
+        "https://en.wikipedia.org/wiki/Repurchase_agreement"
+      ],
+      "lookupExplanation": [
+        "The Boston Fed is one of the 12 regional Reserve Banks in the Federal Reserve System, which implements U.S. monetary policy.",
+        "The buy side refers to firms or institutions that purchase securities for investment purposes, including asset managers and pension funds.",
+        "An AI bubble refers to a period of excessive hype and investment in artificial intelligence technologies, potentially leading to a market correction.",
+        "Funding markets are financial markets where institutions and companies seek short-term funding, often through instruments like loans or securities.",
+        "A repo, or repurchase agreement, is a form of short-term borrowing where one party sells securities to another with an agreement to repurchase them at a higher price."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:12:24.681Z"
+    },
+    "error": {
+      "ID": 102,
+      "speaker": 4,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:12:19.358Z"
+    }
+  },
+  {
+    "ID": 101,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 101,
+      "speaker": 3,
+      "lookupTerm": [
+        "affordability",
+        "price stability",
+        "maximum employment",
+        "Boston Fed",
+        "Harvard Center on Housing Studies"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Affordability",
+        "https://en.wikipedia.org/wiki/Price_stability",
+        "https://en.wikipedia.org/wiki/Full_employment",
+        "https://en.wikipedia.org/wiki/Federal_Reserve_Bank_of_Boston",
+        "https://en.wikipedia.org/wiki/Harvard_University_Center_for_Housing_Studies"
+      ],
+      "lookupExplanation": [
+        "Affordability refers to the ability of individuals or groups to pay for housing without compromising their ability to meet other basic needs.",
+        "Price stability is the condition in which prices in an economy do not change much over time, allowing for a predictable economic environment.",
+        "Maximum employment refers to a condition in which all available labor resources are being used in the most economically efficient way.",
+        "The Boston Fed, or the Federal Reserve Bank of Boston, is one of the 12 regional reserve banks in the Federal Reserve System, which implements the monetary policy of the U.S.",
+        "The Harvard Center on Housing Studies is an academic research center focused on housing issues in the United States and worldwide, producing reports and conducting research."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:12:24.805Z"
+    },
+    "error": {
+      "ID": 101,
+      "speaker": 3,
+      "errorMatch": [
+        null
+      ],
+      "errorExplanation": [
+        null
+      ],
+      "errorConfidence": [
+        null
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:12:18.379Z"
+    }
+  },
+  {
+    "ID": 107,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 107,
+      "speaker": 5,
+      "lookupTerm": [
+        "data blackout"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Data_loss"
+      ],
+      "lookupExplanation": [
+        "A data blackout refers to a situation where information from official sources is unavailable or not disclosed, often leading to gaps in data availability."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:12:25.503Z"
+    },
+    "error": {
+      "ID": 107,
+      "speaker": 5,
+      "errorMatch": [
+        "data blackout from the official sources"
+      ],
+      "errorExplanation": [
+        "There is no verifiable evidence or general consensus that there has been a 'data blackout' from official sources related to the context implied in the statement."
+      ],
+      "errorConfidence": [
+        0.7
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:12:25.196Z"
+    }
+  },
+  {
+    "ID": 108,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 108,
+      "speaker": 3,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-11T00:12:25.300Z"
+    },
+    "error": {
+      "ID": 108,
+      "speaker": 3,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:12:25.508Z"
+    }
+  },
+  {
+    "ID": 110,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 110,
+      "speaker": 4,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-11T00:12:26.126Z"
+    },
+    "error": {
+      "ID": 110,
+      "speaker": 4,
+      "errorMatch": [
+        null
+      ],
+      "errorExplanation": [
+        null
+      ],
+      "errorConfidence": [
+        null
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:12:26.357Z"
+    }
+  },
+  {
+    "ID": 109,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 109,
+      "speaker": 5,
+      "lookupTerm": [
+        "labor market",
+        "nonlinearity",
+        "inflation"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Labor_market",
+        "https://en.wikipedia.org/wiki/Nonlinearity",
+        "https://en.wikipedia.org/wiki/Inflation"
+      ],
+      "lookupExplanation": [
+        "The labor market refers to the supply of available workers in relation to available work. It is typically classified by factors such as employment rates, job availability, and salaries.",
+        "Nonlinearity refers to a relationship that cannot be described with a straight line; small changes in input can result in large changes in output.",
+        "Inflation is the rate at which the general level of prices for goods and services rises, eroding purchasing power."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:12:28.373Z"
+    },
+    "error": {
+      "ID": 109,
+      "speaker": 5,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:12:26.122Z"
+    }
+  },
+  {
+    "ID": 113,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 113,
+      "speaker": 5,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-11T00:12:27.951Z"
+    },
+    "error": {
+      "ID": 113,
+      "speaker": 5,
+      "errorMatch": [
+        null
+      ],
+      "errorExplanation": [
+        null
+      ],
+      "errorConfidence": [
+        null
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:12:28.780Z"
+    }
+  },
+  {
+    "ID": 106,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 106,
+      "speaker": 4,
+      "lookupTerm": [
+        "Fed",
+        "labor market",
+        "inflation",
+        "mandate",
+        "unemployment rate"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Federal_Reserve",
+        "https://en.wikipedia.org/wiki/Labor_market",
+        "https://en.wikipedia.org/wiki/Inflation",
+        "https://en.wikipedia.org/wiki/Mandate_(economics)",
+        "https://en.wikipedia.org/wiki/Unemployment"
+      ],
+      "lookupExplanation": [
+        "The Fed, or Federal Reserve, is the central banking system of the United States responsible for monetary policy.",
+        "The labor market refers to the supply and demand for labor, where employees provide the supply and employers provide the demand.",
+        "Inflation is the rate at which the general level of prices for goods and services is rising, eroding purchasing power.",
+        "In economics, a mandate refers to the objectives and responsibilities set for a central bank, often including price stability and full employment.",
+        "The unemployment rate measures the percentage of people who are unemployed and actively seeking work compared to the total labor force."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:12:28.806Z"
+    },
+    "error": {
+      "ID": 106,
+      "speaker": 4,
+      "errorMatch": [
+        "The labor market is deteriorating"
+      ],
+      "errorExplanation": [
+        "As of the latest economic data available up to June 2024, the U.S. labor market has shown signs of resilience with low unemployment rates and steady job growth, which contradicts the claim that it is deteriorating."
+      ],
+      "errorConfidence": [
+        0.9
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:12:24.508Z"
+    }
+  },
+  {
+    "ID": 111,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 111,
+      "speaker": 5,
+      "lookupTerm": [
+        "uncertainty",
+        "fiscal policy",
+        "tariffs"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Uncertainty",
+        "https://en.wikipedia.org/wiki/Fiscal_policy",
+        "https://en.wikipedia.org/wiki/Tariff"
+      ],
+      "lookupExplanation": [
+        "Uncertainty refers to situations where the outcome of an event is unclear or unpredictable.",
+        "Fiscal policy is the use of government spending and taxation to influence the economy.",
+        "Tariffs are taxes imposed on imported goods and services, used to restrict trade and raise government revenue."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:12:29.086Z"
+    },
+    "error": {
+      "ID": 111,
+      "speaker": 5,
+      "errorMatch": [
+        null
+      ],
+      "errorExplanation": [
+        null
+      ],
+      "errorConfidence": [
+        null
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:12:27.041Z"
+    }
+  },
+  {
+    "ID": 112,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 112,
+      "speaker": 4,
+      "lookupTerm": [
+        "Boston Fed",
+        "tariff"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Federal_Reserve_Bank_of_Boston",
+        "https://en.wikipedia.org/wiki/Tariff"
+      ],
+      "lookupExplanation": [
+        "The Boston Fed, or the Federal Reserve Bank of Boston, is one of the 12 regional Reserve Banks in the Federal Reserve System, serving the First District. It conducts research and monetary policy and supervises financial institutions.",
+        "A tariff is a tax imposed by a government on imported goods, making them more expensive and thereby encouraging consumers to buy domestically produced items."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:12:29.627Z"
+    },
+    "error": {
+      "ID": 112,
+      "speaker": 4,
+      "errorMatch": [
+        "the research paper that they're gonna discussing at the Boston Fed about the 2018 tariffs",
+        "the Boston Fed will actually be live streaming this conference"
+      ],
+      "errorExplanation": [
+        "There is no widely known specific research paper from the Boston Fed on the 2018 tariffs that matches this description; the 2018 tariffs were primarily imposed by the Trump administration involving multiple agencies, and while the Boston Fed may conduct related research, the statement is too vague and potentially inaccurate as stated.",
+        "As of the knowledge cutoff in June 2024, the Boston Fed generally records or posts conference content post-event; live streaming of their conferences is not a standard practice, so claiming they will live stream this conference is likely inaccurate."
+      ],
+      "errorConfidence": [
+        0.7,
+        0.8
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:12:29.502Z"
+    }
+  },
+  {
+    "ID": 114,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 114,
+      "speaker": 4,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-11T00:12:29.497Z"
+    },
+    "error": {
+      "ID": 114,
+      "speaker": 4,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:12:29.716Z"
+    }
+  },
+  {
+    "ID": 117,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 117,
+      "speaker": 5,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-11T00:12:30.445Z"
+    },
+    "error": {
+      "ID": 117,
+      "speaker": 5,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:12:30.502Z"
+    }
+  },
+  {
+    "ID": 115,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 115,
+      "speaker": 5,
+      "lookupTerm": [
+        "chat GPT"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/ChatGPT"
+      ],
+      "lookupExplanation": [
+        "ChatGPT is a conversational AI model developed by OpenAI that uses deep learning techniques to generate human-like text responses."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:12:30.478Z"
+    },
+    "error": {
+      "ID": 115,
+      "speaker": 5,
+      "errorMatch": [
+        "That's what chat GPT is for."
+      ],
+      "errorExplanation": [
+        "This statement is factually inaccurate because ChatGPT is a language model designed to assist with generating human-like text based on prompts, but it does not have a singular or definitive purpose implied by 'That's what chat GPT is for.' The phrase is vague and not a factual claim about ChatGPT's function."
+      ],
+      "errorConfidence": [
+        0.6
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:12:31.033Z"
+    }
+  },
+  {
+    "ID": 118,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 118,
+      "speaker": 4,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-11T00:12:31.339Z"
+    },
+    "error": {
+      "ID": 118,
+      "speaker": 4,
+      "errorMatch": [
+        null
+      ],
+      "errorExplanation": [
+        null
+      ],
+      "errorConfidence": [
+        null
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:12:31.343Z"
+    }
+  },
+  {
+    "ID": 116,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 116,
+      "speaker": 4,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-11T00:12:30.610Z"
+    },
+    "error": {
+      "ID": 116,
+      "speaker": 4,
+      "errorMatch": [
+        "both of us are probably gonna be in a Boston bar in the next day or so eating beans and reading research papers"
+      ],
+      "errorExplanation": [
+        "There is no verifiable factual support that the speaker and another person will be in a Boston bar eating beans and reading research papers in the next day or so. This statement is speculative and not a factual claim."
+      ],
+      "errorConfidence": [
+        0.8
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:12:31.834Z"
+    }
+  },
+  {
+    "ID": 121,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 121,
+      "speaker": 2,
+      "lookupTerm": [
+        "Bloomberg News"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Bloomberg_L.P."
+      ],
+      "lookupExplanation": [
+        "Bloomberg News is a global financial news organization that provides news, data, and analysis to financial professionals."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:12:33.451Z"
+    },
+    "error": {
+      "ID": 121,
+      "speaker": 2,
+      "errorMatch": null,
+      "errorExplanation": null,
+      "errorConfidence": null,
+      "errorMatchTimestamp": "2026-01-11T00:12:32.874Z"
+    }
+  },
+  {
+    "ID": 119,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 119,
+      "speaker": 5,
+      "lookupTerm": [
+        "Bloomberg",
+        "Discord"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Bloomberg_L.P.",
+        "https://en.wikipedia.org/wiki/Discord_(service)"
+      ],
+      "lookupExplanation": [
+        "Bloomberg is a global financial services, software, and media company headquartered in New York City.",
+        "Discord is a VoIP, instant messaging, and digital distribution platform designed for creating communities."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:12:33.180Z"
+    },
+    "error": {
+      "ID": 119,
+      "speaker": 5,
+      "errorMatch": [
+        "You can follow me at the stalwart.",
+        "Follow our producers, Carmen Rodriguez at Carmen Arman",
+        "Dashiell Bennett at DashBot",
+        "and Cale Brooks at Cale Brooks"
+      ],
+      "errorExplanation": [
+        "'the stalwart' appears to be incorrect or a typo for Jill Weisenthal's actual social media handle.",
+        "Carmen Rodriguez's correct handle is not 'Carmen Arman', which appears to be a misspelling.",
+        "Dashiell Bennett's correct handle is not 'DashBot'.",
+        "Cale Brooks' handle should not be 'Cale Brooks' spelled out literally; typically handles have specific usernames."
+      ],
+      "errorConfidence": [
+        0.9,
+        0.9,
+        0.9,
+        0.8
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:12:33.644Z"
+    }
+  },
+  {
+    "ID": 120,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 120,
+      "speaker": 4,
+      "lookupTerm": [
+        "Bloomberg",
+        "Apple Podcasts"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Bloomberg_L.P.",
+        "https://en.wikipedia.org/wiki/Apple_Podcasts"
+      ],
+      "lookupExplanation": [
+        "Bloomberg L.P. is a global financial services, software, and media company headquartered in New York City.",
+        "Apple Podcasts is a podcast app created by Apple Inc. that allows users to subscribe to and listen to podcasts."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:12:33.679Z"
+    },
+    "error": {
+      "ID": 120,
+      "speaker": 4,
+      "errorMatch": [
+        null
+      ],
+      "errorExplanation": [
+        null
+      ],
+      "errorConfidence": [
+        null
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:12:32.263Z"
+    }
+  },
+  {
+    "ID": 122,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 122,
+      "speaker": 7,
+      "lookupTerm": [
+        "Bloomberg News"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Bloomberg_L.P."
+      ],
+      "lookupExplanation": [
+        "Bloomberg News is a division of Bloomberg L.P. that provides news and information, primarily focused on financial markets and economic events."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:12:34.512Z"
+    },
+    "error": {
+      "ID": 122,
+      "speaker": 7,
+      "errorMatch": [
+        null
+      ],
+      "errorExplanation": [
+        null
+      ],
+      "errorConfidence": [
+        null
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:12:33.739Z"
+    }
+  },
+  {
+    "ID": 124,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 124,
+      "speaker": 7,
+      "lookupTerm": null,
+      "lookupLink": null,
+      "lookupExplanation": null,
+      "lookupTermTimestamp": "2026-01-11T00:12:34.549Z"
+    },
+    "error": {
+      "ID": 124,
+      "speaker": 7,
+      "errorMatch": [
+        null
+      ],
+      "errorExplanation": [
+        null
+      ],
+      "errorConfidence": [
+        null
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:12:35.128Z"
+    }
+  },
+  {
+    "ID": 123,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 123,
+      "speaker": 2,
+      "lookupTerm": [
+        "Bloomberg News Now"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Bloomberg_L.P."
+      ],
+      "lookupExplanation": [
+        "Bloomberg News Now is a news service provided by Bloomberg L.P., focusing on real-time news updates and customized content."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:12:35.559Z"
+    },
+    "error": {
+      "ID": 123,
+      "speaker": 2,
+      "errorMatch": [
+        "Yes. There are other products like this from a variety of news organizations, but they usually rerun their radio newscasts throughout the day."
+      ],
+      "errorExplanation": [
+        "Other news organizations produce original, customized news episodes and do not only rerun their radio newscasts throughout the day, making this statement factually inaccurate."
+      ],
+      "errorConfidence": [
+        0.8
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:12:35.444Z"
+    }
+  },
+  {
+    "ID": 125,
+    "subjectMatter": "Substantial",
+    "isAd": false,
+    "lookup": {
+      "ID": 125,
+      "speaker": 2,
+      "lookupTerm": [
+        "Bloomberg"
+      ],
+      "lookupLink": [
+        "https://en.wikipedia.org/wiki/Bloomberg_L.P."
+      ],
+      "lookupExplanation": [
+        "Bloomberg L.P. is a financial, software, data, and media company based in New York City, known for its Bloomberg Professional Service, which provides financial data and analytics to enterprises and investors."
+      ],
+      "lookupTermTimestamp": "2026-01-11T00:12:36.432Z"
+    },
+    "error": {
+      "ID": 125,
+      "speaker": 2,
+      "errorMatch": [
+        "Bloomberg's 3,000 journalists and analysts"
+      ],
+      "errorExplanation": [
+        "The exact number of Bloomberg journalists and analysts is not publicly confirmed and may vary; stating precisely 3,000 could be inaccurate."
+      ],
+      "errorConfidence": [
+        0.6
+      ],
+      "errorMatchTimestamp": "2026-01-11T00:12:36.162Z"
+    }
+  }
+]

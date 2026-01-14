@@ -1,0 +1,1010 @@
+[
+  {
+    "speaker": 0,
+    "text": "Markets move fast. Get the insights you need in ten minutes with Barclays Brief, a podcast from Barclays Investment Bank. Each week, our experts analyze market themes, helping you anticipate what's next. Listen to Barclays Brief wherever you get your podcasts.",
+    "startBeginning": 0.24,
+    "startEnd": 13.759999,
+    "ID": 0,
+    "numberOfWords": 41
+  },
+  {
+    "speaker": 1,
+    "text": "This is Tom Keene inviting you to join me for the Bloomberg Surveillance Podcast. It's about making you smarter each and every business day. We bring you a recap of what happened overnight in Europe and Asia, the day's economic data and complete coverage of The US market open. We cover stocks, bonds, commodities, currencies, even crypto, all the information you need to excel. Bloomberg Surveillance also brings you the analysis behind the headlines. We do that with lengthy conversations with our expert guests, the smartest names in economics, finance investment, and international relations. We do all this live each and every weekday that bring you the best analysis in our daily podcast. Search for Bloomberg Surveillance on YouTube, Apple, Spotify, or anywhere else you listen. On the East Coast, listen at lunch, and on the West Coast when you wake up. That's the Bloomberg Surveillance Podcast with me, Tom Keene, along with Paul Sweeney and Lisa Mateo. Subscribe today wherever you get your podcast.",
+    "startBeginning": 16.035,
+    "startEnd": 79.755,
+    "ID": 1,
+    "numberOfWords": 165
+  },
+  {
+    "speaker": 2,
+    "text": "Bloomberg Audio Studios. Podcasts, radio,",
+    "startBeginning": 84.82,
+    "startEnd": 88.1,
+    "ID": 2,
+    "numberOfWords": 5
+  },
+  {
+    "speaker": 3,
+    "text": "news.",
+    "startBeginning": 88.98,
+    "startEnd": 88.98,
+    "ID": 3,
+    "numberOfWords": 1
+  },
+  {
+    "speaker": 4,
+    "text": "Hello, and welcome to another episode of the Odd Lots podcast. I'm Tracy Alloway.",
+    "startBeginning": 100.165,
+    "startEnd": 103.685005,
+    "ID": 4,
+    "numberOfWords": 14
+  },
+  {
+    "speaker": 5,
+    "text": "And I'm Joe Weisenthal.",
+    "startBeginning": 104.08501,
+    "startEnd": 104.805,
+    "ID": 5,
+    "numberOfWords": 4
+  },
+  {
+    "speaker": 4,
+    "text": "Joe, we're in Boston.",
+    "startBeginning": 105.605,
+    "startEnd": 106.245,
+    "ID": 6,
+    "numberOfWords": 4
+  },
+  {
+    "speaker": 5,
+    "text": "I know. We've never done an Odd Lots thing in Boston of any sort, have we?",
+    "startBeginning": 106.965004,
+    "startEnd": 110.965004,
+    "ID": 7,
+    "numberOfWords": 16
+  },
+  {
+    "speaker": 4,
+    "text": "No. This is actually my first time in Boston. I've been to the airport a few times, but I've never actually stayed in the city. And everything I know about Boston comes from the Boston, New York rivalry as depicted in 30 Rock. So I know nothing, basically.",
+    "startBeginning": 111.45,
+    "startEnd": 124.409996,
+    "ID": 8,
+    "numberOfWords": 48
+  },
+  {
+    "speaker": 5,
+    "text": "You know, and, and I lived in Vermont for several years in high school. Boston, that was the big city. Like, people and, like, people aspire to go to Boston. I knew when to peep I knew a lot of people went to college here and stuff like that. I love it here. I'm excited to be here.",
+    "startBeginning": 125.495,
+    "startEnd": 137.655,
+    "ID": 9,
+    "numberOfWords": 58
+  },
+  {
+    "speaker": 4,
+    "text": "Do you know the big city closest to my house in Connecticut is Worcester, Massachusetts. That's the big one.",
+    "startBeginning": 137.815,
+    "startEnd": 142.70999,
+    "ID": 10,
+    "numberOfWords": 19
+  },
+  {
+    "speaker": 5,
+    "text": "That's a nice city too.",
+    "startBeginning": 142.87,
+    "startEnd": 143.43,
+    "ID": 11,
+    "numberOfWords": 5
+  },
+  {
+    "speaker": 4,
+    "text": "It's about forty minutes away. So alright. Well, the reason we are here is for the Boston Fed, which is holding their sixty ninth economic conference. And the theme of this year's is The US economy in a changing global landscape, which is putting it mildly, I think.",
+    "startBeginning": 143.67,
+    "startEnd": 158.995,
+    "ID": 12,
+    "numberOfWords": 48
+  },
+  {
+    "speaker": 5,
+    "text": "It is, putting it mildly. There's a there's a lot going on globally, all kinds of things. You could just run down the list. We We don't even have to summarize it, but it is a a time of change, both macro, big picture globally, but also just for the near term direction of monetary policy right now in The United States, probably as ambiguous as it's been in a while.",
+    "startBeginning": 159.555,
+    "startEnd": 179.185,
+    "ID": 13,
+    "numberOfWords": 71
+  },
+  {
+    "speaker": 4,
+    "text": "Yeah. I think so. And we're seeing that reflected in a lot of the Fed speak that's been coming out at the moment. We have doves on the one side who are talking about a deteriorating labor market, and then we have hawks on the other side who are still very concerned that basically after five years of inflation, we have still not returned to the 2% target. It's been half a decade.",
+    "startBeginning": 179.345,
+    "startEnd": 197.68,
+    "ID": 14,
+    "numberOfWords": 73
+  },
+  {
+    "speaker": 5,
+    "text": "Right. And as of right now, recording this 11/19/2025, the work function, looking at Fed fund futures gives about a 45% chance of a rate cut in December. That was in the high sixties just a couple of weeks ago. So a lot of things, a lot of uncertainty, more or less a coin flip right now. We don't know what's going on in the medium term or the long term.",
+    "startBeginning": 198.4,
+    "startEnd": 220.54001,
+    "ID": 15,
+    "numberOfWords": 71
+  },
+  {
+    "speaker": 4,
+    "text": "I'm gonna say one more thing before we get to our very esteemed guest, but there is another complication, which is we've had the government shutdown. Right? So we haven't had a lot of the economic data. By the time this episode comes out, there might have been some of the economic data, but we also have Fed minutes that are due out later today. But to emphasize, as of this morning, everything is very, very uncertain.",
+    "startBeginning": 221.02,
+    "startEnd": 244.125,
+    "ID": 16,
+    "numberOfWords": 77
+  },
+  {
+    "speaker": 5,
+    "text": "The fog. That's like the term everyone's using.",
+    "startBeginning": 245.7,
+    "startEnd": 247.7,
+    "ID": 17,
+    "numberOfWords": 8
+  },
+  {
+    "speaker": 4,
+    "text": "Yeah. There's a little bit of fog out in the Boston Harbor right now as well. So, fog fog everywhere. Okay. So without further ado, we have the perfect guest to talk about the changing US economic landscape and what it means for monetary policy. We're gonna be speaking with Boston Fed president Susan Collins. So, Susan, thank you so much for coming on All Thoughts.",
+    "startBeginning": 248.1,
+    "startEnd": 268.065,
+    "ID": 18,
+    "numberOfWords": 66
+  },
+  {
+    "speaker": 3,
+    "text": "I am delighted to be here, and welcome to Boston.",
+    "startBeginning": 268.625,
+    "startEnd": 271.265,
+    "ID": 19,
+    "numberOfWords": 10
+  },
+  {
+    "speaker": 4,
+    "text": "Thank you so much. I heard I'm supposed to eat beans and lobster. Is that right? Alright. I'll do that later. Okay. Perfect. So tell us firstly about this research conference. What's the purpose of the Fed gathering people together to talk about you know, you have a series of papers here all with different themes and topics. Why do this? Sure. Happy to talk about our conference. And I have to say, I and our entire team are delighted that you are both going to be",
+    "startBeginning": 271.745,
+    "startEnd": 297.925,
+    "ID": 20,
+    "numberOfWords": 87
+  },
+  {
+    "speaker": 3,
+    "text": "joining us for our day and a half conference.",
+    "startBeginning": 298.085,
+    "startEnd": 299.925,
+    "ID": 21,
+    "numberOfWords": 9
+  },
+  {
+    "speaker": 4,
+    "text": "We can't we can't say no to a conference full of academic economic papers.",
+    "startBeginning": 300.485,
+    "startEnd": 304.3,
+    "ID": 22,
+    "numberOfWords": 14
+  },
+  {
+    "speaker": 5,
+    "text": "We'll have some PDFs to read.",
+    "startBeginning": 304.7,
+    "startEnd": 305.98,
+    "ID": 23,
+    "numberOfWords": 6
+  },
+  {
+    "speaker": 3,
+    "text": "Well, it will be quite, meaty and informative. You know, it's not just academics, and that's one of the things that I think is really important to us and and one of the things that makes it particularly valuable. So we bring together and this is the sixty ninth Boston conference. It's our flagship. You know, we do other meetings and conferences and other things, but this one is our flagship. And we bring together academics, certainly. We bring together policymakers from different institutions. We bring together business leaders. We have a wide range of people. We actually have people from different disciplines. So one of the papers is from a political scientist as well. So so that is is kind of a hallmark of the conference is to really do a deep dive to understand dimensions of a topic. And we picked a pretty big one this time, so I'm not gonna suggest we're gonna cover the entire thing. But understanding The US economy in what is a changing global landscape related to risks and uncertainties, to fragmentation. It's a lot to talk about, and I'm really looking forward to being part of it, to learning, and to hearing the presentations.",
+    "startBeginning": 307.58002,
+    "startEnd": 372.53,
+    "ID": 24,
+    "numberOfWords": 202
+  },
+  {
+    "speaker": 5,
+    "text": "I don't wanna, like, create any tension between you and the fellow regional fed presidents, but doesn't it feel like Kansas City cheats a little bit by having their conference in Wyoming in August, etcetera? Like, I",
+    "startBeginning": 373.57,
+    "startEnd": 386.86502,
+    "ID": 25,
+    "numberOfWords": 37
+  },
+  {
+    "speaker": 4,
+    "text": "We're in Boston in November. Yeah.",
+    "startBeginning": 387.30502,
+    "startEnd": 388.505,
+    "ID": 26,
+    "numberOfWords": 6
+  },
+  {
+    "speaker": 5,
+    "text": "Which is great, and it's lovely here.",
+    "startBeginning": 388.665,
+    "startEnd": 389.88,
+    "ID": 27,
+    "numberOfWords": 7
+  },
+  {
+    "speaker": 3,
+    "text": "And it's lovely with Boston in November. I just",
+    "startBeginning": 390.28,
+    "startEnd": 392.68,
+    "ID": 28,
+    "numberOfWords": 9
+  },
+  {
+    "speaker": 5,
+    "text": "I always feel like it's it's kinda cheating that it's like, oh, we're not even gonna have it in our in the exact location, and we're gonna have it some in the middle of summer in this beautiful location. It is kinda cheating level.",
+    "startBeginning": 393.16,
+    "startEnd": 402.885,
+    "ID": 29,
+    "numberOfWords": 44
+  },
+  {
+    "speaker": 3,
+    "text": "Well, you know, the Jackson Hole Conference is a very special one. I have been participating in that for a long time, and I'm a huge proponent.",
+    "startBeginning": 403.125,
+    "startEnd": 410.005,
+    "ID": 30,
+    "numberOfWords": 27
+  },
+  {
+    "speaker": 5,
+    "text": "Okay.",
+    "startBeginning": 410.565,
+    "startEnd": 410.565,
+    "ID": 31,
+    "numberOfWords": 1
+  },
+  {
+    "speaker": 3,
+    "text": "And I just say the more the merrier.",
+    "startBeginning": 410.885,
+    "startEnd": 412.165,
+    "ID": 32,
+    "numberOfWords": 8
+  },
+  {
+    "speaker": 0,
+    "text": "Alright. You know?",
+    "startBeginning": 412.565,
+    "startEnd": 412.965,
+    "ID": 33,
+    "numberOfWords": 3
+  },
+  {
+    "speaker": 3,
+    "text": "It's a lot to talk about.",
+    "startBeginning": 413.20502,
+    "startEnd": 413.845,
+    "ID": 34,
+    "numberOfWords": 6
+  },
+  {
+    "speaker": 5,
+    "text": "A positive abundance mindset for confidence.",
+    "startBeginning": 414.165,
+    "startEnd": 416.325,
+    "ID": 35,
+    "numberOfWords": 6
+  },
+  {
+    "speaker": 4,
+    "text": "That's right. That's right.",
+    "startBeginning": 416.725,
+    "startEnd": 417.445,
+    "ID": 36,
+    "numberOfWords": 4
+  },
+  {
+    "speaker": 5,
+    "text": "So let's talk actually, you know, we'll get into we wanna talk about some of the big themes we wanna talk let's talk a little bit of near term monetary policy, etcetera. Odds of a December cut have come in dramatically because you and some of the other members of the FOMC have been talking about this concern that inflation remains stubbornly over target. That being said, there does seem to be a lot of evidence of labor market weakening. Right? And we haven't got the unemployment rate for a while, but, basically, every measure seems to show a significant, I don't know, stall, etcetera. Talk to us about your read on the labor market right now. Are you concerned that some of the weakness that we've seen could snowball into seriously deteriorating environment and a sharp increase in the unemployment rate?",
+    "startBeginning": 418.25,
+    "startEnd": 467.785,
+    "ID": 37,
+    "numberOfWords": 142
+  },
+  {
+    "speaker": 3,
+    "text": "Yeah. So I appreciate your framing of that. I I, you know, I have to start by saying I'm really focused on both parts of our mandate. And that does mean the labor market. Say more about that in just a hot second. But also concerns about the elevated inflation and what I hear about that and our commitment to price stability. So, you know, they both really matter, and I'm looking at both of them. That that's really what I've been emphasizing. As far as the labor market, you know, it it's kind of an unusual situation in some ways. Right? I mean, what I think is pretty clear is that we have seen softening in the labor market. We are pulling together all the data that we can find. But as you pointed out earlier, we don't have the official data yet. We'll get a jobs report from September tomorrow morning and really eager to see that. And so it's hard to tell how much that softening has been, but I do think it's clear it reflects both labor supply growth having slowed pretty notably, but also labor demand growth. And so so far, it seems, and again, we'll learn more, that there's a kind of rough unusual balance there. And so we haven't seen a significant unemployment change, but that's something I'm watching really carefully and I'm really attuned to.",
+    "startBeginning": 468.26498,
+    "startEnd": 542.85004,
+    "ID": 38,
+    "numberOfWords": 233
+  },
+  {
+    "speaker": 5,
+    "text": "Just to follow-up, though, on we have not seen a significant unemployment change setting aside the data, which is gonna be noisy for all kinds of reasons because that's September, which is ages ago, and then the date after that will be, you know, affected by the government shutdown itself, which is why we're getting data. So who knows how long it'll be until we have clean data. But that being said, do you have any way to, like, anticipate actual deterioration? Because the concern is that once the unemployment, the layoffs really start to snowball, then they start to feed on each other and they build they accelerate and people talk about nonlinearity potential. Do you are you concerned that by waiting or too much for the data to reveal, oh, the weaknesses here, that you won't have been able to get around get in front of a deterioration.",
+    "startBeginning": 543.52496,
+    "startEnd": 587.84,
+    "ID": 39,
+    "numberOfWords": 150
+  },
+  {
+    "speaker": 3,
+    "text": "It's really important to be forward looking. And as you say, I also have seen past episodes where there's been a dynamic which can move quickly, and so it's important to recognize that. So are there risks on the labor market side? Absolutely. And that's something that I'm attuned to, but that's not the only consideration in terms of making monetary policy decisions. It's really about balancing those risks and looking at, to the best of one's ability, you know, how do you assess which of our goals from Congress is further away? And I think that the reasons that you're talking about some of that shift in risks, increase in risks in the labor market was a good reason for the easing, the 50% basis point cuts that we have already done this fall. And I think that that has actually positioned us, given what I know now, and obviously still watching lots of caveats. Lots of caveats. And so I think that the shift in that balance of risks that I started being quite focused on over the summer was really a rationale for those cuts that we've already seen. At the same time, we have now moved much closer to a neutral rate, and we're balancing those risks on the labor market side with continued risks related to inflation and elevation. And policy is really only mildly restrictive in my view. And so I, given what I'm seeing so far, continue to see that as appropriate for now.",
+    "startBeginning": 588.96,
+    "startEnd": 684.06,
+    "ID": 40,
+    "numberOfWords": 251
+  },
+  {
+    "speaker": 4,
+    "text": "We're gonna get into each one of those points. I have a very quick process question, and I realize we're in unusual circumstances at the moment. But when the jobs number hits, presumably tomorrow on Thursday, again, we're, you know, we're recording this on Wednesday, November 19. But when it comes out, what actually happens? What do you do when when you see that number? Do you, you know, immediately go into analysis mode? Do you start calling fellow Fed presidents and talking about what it means? What do",
+    "startBeginning": 684.62,
+    "startEnd": 712.9,
+    "ID": 41,
+    "numberOfWords": 89
+  },
+  {
+    "speaker": 3,
+    "text": "you what That's a great question. So, you know, of course, we have busy schedules and all kinds of other things going on. And sometimes when the data hits, I'm in other meetings or with other groups. I am well aware of when it is due, And we do have a process. I have a very strong Boston research team of experts. And so, you know, as soon as the numbers come out, I do try to take a quick look at them. And then we are sometimes, virtually and, you know, get together relatively quickly to assess what we're seeing in those numbers. So I have helped to try to unpack them. Often, the real information is in the details. It's not necessarily just the headline number. In fact, that can mask a lot of what's really interesting about the information. We then take some time to unpack it, and we wanna contrast those data with what we had already seen. Right? Because you're adding new information. It's not going on to a kind of totally clean pallet. Right?",
+    "startBeginning": 712.98,
+    "startEnd": 771.105,
+    "ID": 42,
+    "numberOfWords": 180
+  },
+  {
+    "speaker": 4,
+    "text": "Mhmm.",
+    "startBeginning": 771.505,
+    "startEnd": 771.505,
+    "ID": 43,
+    "numberOfWords": 1
+  },
+  {
+    "speaker": 3,
+    "text": "It's additional information. So we're doing all of that, and I'm working with my team. And then I do, of course, talk to my colleagues as well. But the immediate analysis is more within our teams and each of our reserve banks.",
+    "startBeginning": 771.745,
+    "startEnd": 784.09,
+    "ID": 44,
+    "numberOfWords": 42
+  },
+  {
+    "speaker": 4,
+    "text": "And one more process question, but it strikes me that one of the unusual features of our very unusual environment at the moment is just the sheer amount of fed speakers that we've had in recent days. I started counting them up yesterday, and I got nine in less than a week. And I think then our friend, Tom Barkin, friend of the pod, put out a speech or a research note as well. So that brings it up to 10 in less than a week. What's going on? Why does everyone have the urge to sort of stake their ground ahead of a meeting that, you know, the market currently implies could be a coin flip? Well, all the more reason to hear a range",
+    "startBeginning": 785.21,
+    "startEnd": 821.64,
+    "ID": 45,
+    "numberOfWords": 126
+  },
+  {
+    "speaker": 3,
+    "text": "of views. I mean, I think one of the strengths of the structure of our federated system is it really does bring different viewpoints. And, you know, it's interesting because sometimes there's a claim that there's too much group think. I don't see group think. I see",
+    "startBeginning": 821.88,
+    "startEnd": 837.22504,
+    "ID": 46,
+    "numberOfWords": 47
+  },
+  {
+    "speaker": 4,
+    "text": "Not this week. No.",
+    "startBeginning": 837.30505,
+    "startEnd": 837.945,
+    "ID": 47,
+    "numberOfWords": 4
+  },
+  {
+    "speaker": 3,
+    "text": "No. I really don't. And so I think we have also a responsibility to explain what we're seeing, how we're thinking about things. And that's part of that communication that we do. And and so I I actually think that's important. And I think recognizing that the breadth of views is partly us coming together, is sharing information. And as part of that process so there there are different windows when I think you hear lots of speeches. This is certainly not an isolated time, but it's when there's, you know, kind of less clarity, perhaps when they're turning points in the economy, when you're more likely to see many of us out there talking about what we're seeing. Also talking about how our regional information contributes to that in different ways. And we're often talking while we're out in our regions connecting with different people. And so there's kind of multiple dimensions about why we're out and about and what we're doing.",
+    "startBeginning": 838.265,
+    "startEnd": 895.90497,
+    "ID": 48,
+    "numberOfWords": 163
+  },
+  {
+    "speaker": 0,
+    "text": "Today's markets move fast. Get the insights you need in ten minutes with the Barclays Brief, a new podcast from Barclays Investment Bank. Through sharp dialogue and scenario based analysis, our leading experts analyze key market themes each week. So whether you're managing a portfolio or leading a business, the Barclays Brief podcast can help you make smarter decisions today. Stay sharp. Stay briefed. Find Barclays Brief wherever you get your podcasts.",
+    "startBeginning": 912.345,
+    "startEnd": 939.85504,
+    "ID": 49,
+    "numberOfWords": 72
+  },
+  {
+    "speaker": 4,
+    "text": "Hey there, Odd Lots listeners. As we come into 2026, we are realizing that one thing we're constantly thinking about on the show is how companies actually get built. Not just, like, the headline version of that story, but the messy operational reality of it.",
+    "startBeginning": 942.735,
+    "startEnd": 960.52,
+    "ID": 50,
+    "numberOfWords": 45
+  },
+  {
+    "speaker": 5,
+    "text": "Right. We love messy operational reality of things. The never ending quest to dive deeper, how companies make it big, what causes one company to succeed, why others fail.",
+    "startBeginning": 961,
+    "startEnd": 970.935,
+    "ID": 51,
+    "numberOfWords": 29
+  },
+  {
+    "speaker": 4,
+    "text": "Well, I have good news. That is exactly what the Acquired podcast does. Ben Gilbert and David Rosenthal pick a company and then explore all the ins and outs of its trajectory. Lots of detail there, how it scaled, the ups and downs, and so much more.",
+    "startBeginning": 971.815,
+    "startEnd": 987.855,
+    "ID": 52,
+    "numberOfWords": 47
+  },
+  {
+    "speaker": 5,
+    "text": "Yeah. And we actually we had them on Odd Lots back in February. We talked to them about everything from TSMC, NVIDIA, Mars, Hermes, scale, capital structure, the importance of incentives, all of the different, I guess, ingredients that go into some of the success of these names that we talk about every day.",
+    "startBeginning": 988.335,
+    "startEnd": 1005.8,
+    "ID": 53,
+    "numberOfWords": 54
+  },
+  {
+    "speaker": 4,
+    "text": "Also, their show actually turned ten years old in 2025 just like us. So we're, I guess, the same age in podcast years.",
+    "startBeginning": 1006.36,
+    "startEnd": 1013.24,
+    "ID": 54,
+    "numberOfWords": 23
+  },
+  {
+    "speaker": 5,
+    "text": "Big year. Anyway, if you like Odd Laws, the way we get into various market dynamics, how the economy actually works under the hood, you'll obviously appreciate and enjoy the acquired podcast. They do similar work, similar ideas, all focused on the context of individual company.",
+    "startBeginning": 1013.88,
+    "startEnd": 1029.07,
+    "ID": 55,
+    "numberOfWords": 46
+  },
+  {
+    "speaker": 4,
+    "text": "So go check out the acquired podcast. You can find them wherever you get your podcasts.",
+    "startBeginning": 1029.71,
+    "startEnd": 1034.03,
+    "ID": 56,
+    "numberOfWords": 16
+  },
+  {
+    "speaker": 6,
+    "text": "Okay. New year, fresh start. And honestly, I'm starting with dinner. This year, I'm being smarter about where my energy goes, and dinner was taking way too much of it. I just signed up for HelloFresh, and they take fresh start to a whole new level. Fresh, high quality ingredients delivered right to my door, locally sourced when ever possible. Everything pre portioned, nothing wasted. Now I'm not dragging myself through weekend grocery runs or panic staring at the fridge at 05:30 trying to make something out of random leftovers. And I'm definitely not tossing out food I never used or falling back on expensive takeout apps because I ran out of ideas. Yeah. That happened a lot. Just simple stress free recipes and meals that help me save more, waste less. And for the first time in a long time, I actually look forward to dinner. Get your fresh start right now and get 50% off your first box plus free sides for life with HelloFresh. That's right. Free sides for life. Go to hellofresh.ca and use code yum 50. That's hellofresh.ca, code yum 50.",
+    "startBeginning": 1038.11,
+    "startEnd": 1098.65,
+    "ID": 57,
+    "numberOfWords": 186
+  },
+  {
+    "speaker": 5,
+    "text": "Let's talk about inflation. So core PCE, as of the August reading, which again feels like ages ago now, but it's the data that we have. So that came in at 2.9%. So that's clearly elevated solidly above target. You know, if you just had like a snapshot, you're looking at the unemployment rate, you're looking at the inflation reading, that 2.9%, how much does the significance of that change because it comes after years of missing the inflation target to the upside versus if we just had the snapshot? Like, how much of your thinking is sort of informed by the fact that not only has it been high, but it's been high for a really long time?",
+    "startBeginning": 1099.645,
+    "startEnd": 1139.9851,
+    "ID": 58,
+    "numberOfWords": 119
+  },
+  {
+    "speaker": 3,
+    "text": "I do think that the longevity of that elevation is a key factor to to figure. It's hard to, you know, to put a particular weight on that.",
+    "startBeginning": 1140.545,
+    "startEnd": 1149.13,
+    "ID": 59,
+    "numberOfWords": 28
+  },
+  {
+    "speaker": 5,
+    "text": "But I You think about the balance of risks",
+    "startBeginning": 1149.4501,
+    "startEnd": 1150.89,
+    "ID": 60,
+    "numberOfWords": 9
+  },
+  {
+    "speaker": 3,
+    "text": "going forward.",
+    "startBeginning": 1151.53,
+    "startEnd": 1151.93,
+    "ID": 61,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 5,
+    "text": "Yeah.",
+    "startBeginning": 1152.3301,
+    "startEnd": 1152.3301,
+    "ID": 62,
+    "numberOfWords": 1
+  },
+  {
+    "speaker": 3,
+    "text": "But so let me say a few things on the inflation side. But first, related to that specific question, you know, I do think that it is a bit of a reminder that it's economic behavior that is not, you know, a 100% predictable. And many of our analyses that are based on periods when people were really used to very low inflation, maybe a bit noisier signals of what kind of responses and changes we're going to see. And so I do think that complementing those analyses, you know, of course, those are extremely valuable, and we continue to look at we're total we're all data geeks here. You know, that's kinda that's kinda what we do with the conversations we have, understanding how businesses are thinking about things. And so I hear that businesses are mindful that they have raised prices significantly over recent years. They're concerned about what consumer responses will be. I've recently been hearing a number of firms, at least in the New England district, the Boston Fed's district, which is most of New England, saying that that they have been passing price increases, and they have been perhaps surprised in some cases that consumers are not pushing back. And that's leading them to expect that they might continue to do that. You know, so I think that gathering a range of information to complement how our understanding of behavior is important. And that does factor into some of the scenarios I think are plausible. They're not necessarily my baseline. My baseline scenario on the inflation side is that inflation's likely, I think, to stay elevated through the rest of this year into early next. And then as tariffs work their way through the system, which I think is gonna take some time, and I'm happy to talk more about tariffs. Suspect we may wanna come back to that. Absolutely. You know, I think that the disinflation process, perhaps slow and uneven, that we had seen earlier is likely to kick in. So so so my baseline is a relatively benign one, both on the inflation side and on the real side of the economy. But I don't rule out scenarios where there's a larger increase in inflation or there's more persistence. And some of that has to do with behavioral responses that might reflect having been in an elevated environment for a long time and concerns about profit margins, concerns about you know, catching up to some of the past changes and how people think about price levels, which is something that many of our models are not as focused on.",
+    "startBeginning": 1152.5701,
+    "startEnd": 1307.375,
+    "ID": 63,
+    "numberOfWords": 437
+  },
+  {
+    "speaker": 5,
+    "text": "Right.",
+    "startBeginning": 1307.695,
+    "startEnd": 1307.695,
+    "ID": 64,
+    "numberOfWords": 1
+  },
+  {
+    "speaker": 3,
+    "text": "I hear a lot about price levels when I'm out and about. But high cost of living Yeah. Housing in particular, but not only childcare, food. That that is the number one challenge that I hear about when I'm talking to people, particularly low and moderate income communities, but not only.",
+    "startBeginning": 1308.175,
+    "startEnd": 1324.39,
+    "ID": 65,
+    "numberOfWords": 51
+  },
+  {
+    "speaker": 4,
+    "text": "So since we're at a research conference at the Boston Fed, I need to bring up a really good research paper that came out of the Boston Fed back in October, I think. And it was looking at inflation expectations now and comparing them to what happened in the early and late nineteen seventies. And the finding was that the rise in inflation expectations around COVID might not have had that much to do with actual prices, but actually outran the prices and sort of became deanchored a little bit from reality, which is what we saw in the the late nineteen seventies. Is the concern that people, you know, after five years of above target inflation, after price levels going up, as you just put it, that our expectations for inflation start to become unmoored from reality. Is that the nightmare scenario for you at the moment?",
+    "startBeginning": 1325.255,
+    "startEnd": 1373.4099,
+    "ID": 66,
+    "numberOfWords": 148
+  },
+  {
+    "speaker": 3,
+    "text": "It certainly would be a concern if I were to see evidence that, especially medium to longer term inflation expectations were becoming an unmoored. I'm not seeing that right now, but it is something I watch carefully. And I do think that at least certainly so far in my baseline, as I said, is on the more benign side. You know, it's not expecting that that would happen. In particular, we're not seeing those labor market pressures with the softer labor market. But is it a concern? Is it something to watch carefully? It is. And, you know, it's something that I know some are more concerned about than others.",
+    "startBeginning": 1373.97,
+    "startEnd": 1410.405,
+    "ID": 67,
+    "numberOfWords": 110
+  },
+  {
+    "speaker": 4,
+    "text": "Well, talk to us about how tariffs play into inflation expectations because this seems to be a difficult one to call. You have the initial rise in prices, and then no one is quite sure what happens after that. The consensus seems to be that it's this one off shift, and then, you know, inflation should start to cool. But on the other hand, we're hearing a lot from consumers as you say about price levels themselves. So quite a bit to say about tariffs. So, you",
+    "startBeginning": 1410.885,
+    "startEnd": 1436.945,
+    "ID": 68,
+    "numberOfWords": 87
+  },
+  {
+    "speaker": 3,
+    "text": "know, let me unpack a few of the things that are really top of mind for me. One is when certainly, when I say that, you know, my baseline expectation would be that tariffs have a onetime impact on prices. One time doesn't mean it just happens in a week and it's done. That one time can get implemented over months, a year, something like that. It just says that it's not expected to be a continual increase. Once the level has adjusted, you don't get additional impacts. But that can happen over time. So that's one point. And I do think that in a period of high uncertainty and the tariffs are really intertwined with uncertainty, something to come back to, And the long elevation of higher prices that we were just talking about, you might actually expect the time for businesses to pass things through to be elongated. Right? And and so then you start worrying more that people get used to these continual price increases, and you kinda get stuck. Right? So that's a scenario, again, not my baseline, but is one that I think one could think about. So a few things about tariffs. One is the tariffs are really intertwined with uncertainty, which makes you know, it's uncertainty about the tariffs, which is one of the key things that's having influence, for example, in terms of hiring decisions, investment decisions, some of the reticence that firms have to make major decisions and projects, and also in terms of teasing out empirically. Right? It's gonna take some time. Our staff at the Boston Fed is doing quite a bit of work on a variety of dimensions, and that includes analysis that takes into account that, you know, many of the tariffs are impacting imported intermediates. And so there are multiple dimensions and levels, and you gotta take all of that into account. And we're also doing a lot of analysis on what happened in 2018. What can we learn from that? Because we've had enough time that's elapsed. And actually, one of the papers at our conference will be drawing some of the lessons from a kind of more comprehensive analysis of that experience. Just one thing that they've already been talking about is then it was a much smaller tariff increase. It was narrower, and it was implemented over a relatively short time period. It still took five months or more before the peak impact on price levels was seen. And the reasons to think it might take even longer this time. And then the survey data, when we're doing survey data at the Boston Fed, particularly focused on small businesses, which isn't a group we don't have as much line of sight into, and the conversations that I've talked about that helps to inform things. And then just one final thing, because I think it's both intellectually interesting, you know, if I put my academic hat on, but also really important. We've also seen significant increases in productivity and that is interacting with some of the tariffs, perhaps offsetting the extent to which we're seeing the impacts of tariffs on prices because productivity growth is actually an opportunity not to pass things through because it enables, you know, cost savings, etcetera. So there's a lot of things going on with tariffs, which make them hard. I think this is going to be a area we will be able to, we will continue studying and learning about for some time to come.",
+    "startBeginning": 1437.025,
+    "startEnd": 1652.78,
+    "ID": 69,
+    "numberOfWords": 587
+  },
+  {
+    "speaker": 5,
+    "text": "I like your characterization of, I guess, maybe you'd call it the long one off. Right? There can be a one off, but it doesn't just mean the price level resets from today to tomorrow. It could just be the sort of long process where some new equilibrium is formed, maybe months, maybe years, etcetera. I'm really interested, though, in those conversations that you have with New England businesses about tariffs. You mentioned perhaps some of their surprise that they were able to pass on price increases to the degree that they have. What else are companies saying about sort of the operational effects, the day to day effects of how they're managing their business in light of tariffs? What substance of things do you hear about?",
+    "startBeginning": 1653.58,
+    "startEnd": 1693.3351,
+    "ID": 70,
+    "numberOfWords": 127
+  },
+  {
+    "speaker": 3,
+    "text": "So a number of different number of different things. A lot of the tariff conversations that I've had really are intertwined with navigating uncertainty. So one of the things that, you know, I've heard is it's challenging to navigate and make adjustments based on a very different tariff level. But if we knew exactly what it was and it was gonna stay there, that would be much easier to adjust to than back and forth and uncertainty, and that creates some hesitancy. It also creates or adds to, because I think this was already there, what I'm calling almost an efficiency mindset where firms are reticent to hire because they're not sure how things are evolving, and tariffs are, you know, a cost increase. To the extent that you can offset that through efficiencies, that is one way forward that is almost kinda like a no regrets type of investment because whatever happens with the tariffs, if you found efficiency improvements, that will have been a helpful kind of context. So that links up with AI, but it's certainly not only AI. It's production processes. It's automation. It's addressing some longer standing areas where it was difficult to hire because of skilled shortages. So a number of things that I have been hearing since I started in the role in 2022 continue, and then there's this additional set of things that are added on. So for many businesses, especially the larger ones, I actually hear some kind of cautious optimism as they look out ahead. It depends somewhat on the sector or somewhat some differences, and it depends what some of the global linkages are and some of those other competitive effects. But I've heard quite a bit of that and a bit more stress and concern among some of the, smaller firms in some places. And so that's part of why we're trying to add to the information there through a quarterly small business survey that we started doing recently.",
+    "startBeginning": 1694.055,
+    "startEnd": 1817.25,
+    "ID": 71,
+    "numberOfWords": 331
+  },
+  {
+    "speaker": 4,
+    "text": "Hey there, Odd Lots listeners. As we come into 2026, we are realizing that one thing we're constantly thinking about on the show is how companies actually get built. Not just, like, the headline version of that story, but the messy operational reality of it.",
+    "startBeginning": 1834.135,
+    "startEnd": 1851.895,
+    "ID": 72,
+    "numberOfWords": 45
+  },
+  {
+    "speaker": 5,
+    "text": "Right. We love messy operational reality of things. The never ending quest to dive deeper, how companies make it big, what causes one company to succeed, why others fail.",
+    "startBeginning": 1852.375,
+    "startEnd": 1862.2151,
+    "ID": 73,
+    "numberOfWords": 29
+  },
+  {
+    "speaker": 4,
+    "text": "Well, I have good news. That is exactly what the Acquired podcast does. Ben Gilbert and David Rosenthal pick a company and then explore all the ins and outs of its trajectory. Lots of detail there, how it scaled, the ups and downs, and so much more.",
+    "startBeginning": 1863.23,
+    "startEnd": 1879.295,
+    "ID": 74,
+    "numberOfWords": 47
+  },
+  {
+    "speaker": 5,
+    "text": "Yeah. And we actually we had them on Odd Lots back in February. We talked to them about everything from TSMC, NVIDIA, Mars, Hermes, scale, capital structure, the importance of incentives, all of the different, I guess, ingredients that go into some of the success of these names that we talk about every day.",
+    "startBeginning": 1879.6951,
+    "startEnd": 1897.23,
+    "ID": 75,
+    "numberOfWords": 54
+  },
+  {
+    "speaker": 4,
+    "text": "Also, their show actually turned 10 years old in 2025 just like us. So we're, I guess, the same age in podcast years.",
+    "startBeginning": 1897.79,
+    "startEnd": 1904.67,
+    "ID": 76,
+    "numberOfWords": 23
+  },
+  {
+    "speaker": 5,
+    "text": "Big year. Anyway, if you like Odd Laws, the way we get into various market dynamics, how the economy actually works under the hood, you'll obviously appreciate and enjoy the Acquired podcast. They do similar work, similar ideas, all focused on the context of individual company.",
+    "startBeginning": 1905.15,
+    "startEnd": 1920.55,
+    "ID": 77,
+    "numberOfWords": 46
+  },
+  {
+    "speaker": 4,
+    "text": "So go check out the acquired podcast. You can find them wherever you get your podcasts.",
+    "startBeginning": 1921.11,
+    "startEnd": 1925.3501,
+    "ID": 78,
+    "numberOfWords": 16
+  },
+  {
+    "speaker": 6,
+    "text": "Okay. New year, fresh start. And honestly, I'm starting with dinner. This year, I'm being smarter about where my energy goes, and dinner was taking way too much of it. I just signed up for HelloFresh, and they take fresh start to a whole new level. Fresh, high quality ingredients delivered right to my door, locally sourced when whenever possible. Everything pre portioned, nothing wasted. Now I'm not dragging myself through weekend grocery runs or panic staring at the fridge at 05:30 trying to make something out of random leftovers. And I'm definitely not tossing out food I never used or falling back on expensive takeout apps because I ran out of ideas. Yeah. That happened a lot. Just simple stress free recipes and meals that help me save more, waste less. And for the first time in a long time, I actually look forward to dinner. Get your fresh start right now and get 50% off your first box plus free sides for life with HelloFresh. That's right. Free sides for life. Go to hellofresh.ca and use code yum 50. That's hellofresh.ca, code yum 50.",
+    "startBeginning": 1929.3501,
+    "startEnd": 1989.99,
+    "ID": 79,
+    "numberOfWords": 186
+  },
+  {
+    "speaker": 4,
+    "text": "I hesitate to ask too many theoreticals here, but I think this has actually become less of a theoretical recently. But the there is a good chance that the Supreme Court strikes down a a big chunk of these tariffs. How would you as a policymaker actually deal with, you know, the proximate cause of this one time shift of inflation suddenly being put in doubt? And then on top of that, you also have more uncertainties on the margin about whether or not people might get tariff bonuses and then whether or not businesses would receive refund checks if the tariffs were, you know, struck down by the Supreme Court. That seems like a very complicated scenario to be thinking about and much less planning for.",
+    "startBeginning": 1991.19,
+    "startEnd": 2032.615,
+    "ID": 80,
+    "numberOfWords": 127
+  },
+  {
+    "speaker": 3,
+    "text": "There is considerable uncertainty in this space as you just pointed out. And, you know, I don't know how things will unfold. And for some of those things, I think recognizing the uncertainty and making assessments based on the things that we know, to some extent, looking at scenario planning, but some of the really hard to figure it out how things would unfold, I mean, it may not be helpful to get too far ahead of that. So, you know, again, to your point, the uncertainty remains elevated. Maybe the nature of the uncertainty has shifted in some ways, and it's something that I think firms, households, local governments are are navigating.",
+    "startBeginning": 2033.655,
+    "startEnd": 2075.625,
+    "ID": 81,
+    "numberOfWords": 113
+  },
+  {
+    "speaker": 5,
+    "text": "Quick question. Even with this the slowdown in hiring, etcetera, and the sort of big changes to the labor market in the last few years, do you still regularly hear about skilled labor shortages?",
+    "startBeginning": 2076.665,
+    "startEnd": 2086.825,
+    "ID": 82,
+    "numberOfWords": 34
+  },
+  {
+    "speaker": 3,
+    "text": "I do in some sectors and some areas. And let me give you a couple of examples. So for, you know, parts of New England, New England is actually aging faster than the rest of the country. That's one of our distinguishing features. We're, you know, quite seasoned, and we have many wonderful advantages. And so there are places where there is more of almost a labor shortage. There's some skilled areas where firms continue to tell me, maybe it's gotten a bit easier, but it's still challenging to hire for certain kinds of of trades. And so one of the things that I've been really inspired to see are innovative collaborations. So, for example, in Eastern Connecticut related to skilled manufacturing, pulling private sector together with, you know, higher education and support across local public sector, bringing people together to solve those problems and to identify pipelines. And, you know, the Cape Cod Community College has one too. They're training aviation technology maintenance. They have a new, relatively new program, which will soon, I believe, be the biggest in the country, and that is an area where there is a skilled shortage nationally. So there are shortages in some areas, and there are also initiatives to try to address them, which I find inspiring.",
+    "startBeginning": 2087.99,
+    "startEnd": 2164.655,
+    "ID": 83,
+    "numberOfWords": 215
+  },
+  {
+    "speaker": 5,
+    "text": "So I certainly take your point, obviously, that you have to the Fed has to be or ought to be very mindful of the fact that inflation is still above target and that there are scenarios, even if they're not your base case, are gonna become a real problem. That being said, you know, at what point is it worth cutting even if inflation is above target? Where is the labor market weakness have to get to? Say, you know what? We're not back to 2%, but we have a real problem on the labor market side that that becomes the priority.",
+    "startBeginning": 2165.95,
+    "startEnd": 2194.5752,
+    "ID": 84,
+    "numberOfWords": 102
+  },
+  {
+    "speaker": 3,
+    "text": "So there clearly, as I mentioned before, there clearly does need to be a balance of those risks. And so I do think about how far each of our dual mandated goals is from the target. Mhmm. And so if the The famous rate unemployment",
+    "startBeginning": 2195.25,
+    "startEnd": 2211.525,
+    "ID": 85,
+    "numberOfWords": 45
+  },
+  {
+    "speaker": 5,
+    "text": "doesn't have one like, we have within we have that nice 2% number on the inflation side.",
+    "startBeginning": 2212.2449,
+    "startEnd": 2216.805,
+    "ID": 86,
+    "numberOfWords": 17
+  },
+  {
+    "speaker": 3,
+    "text": "Yeah. So that's that is, you know, a little bit less specifically concrete than inflation. Absolutely. But I do think that we have a sense of what full employment looks like. And, you know, this is something we talked about as part of the framework review that was completed recently that, you know, describes that as the maximum employment that you can sustain over time that's consistent with price stability. And I think that's a helpful way of thinking about it because it also evolves over time. It's not just one number, and I think it's appropriate to think about it that way. So if we were seeing evidence, if I were seeing evidence that the labor market were notably deteriorating, I would take that very seriously. And that certainly could justify, you know, near term additional easing. And so I you know, I'm careful to kind of qualify my statements based on what I'm seeing at the moment, that it is based on balancing risks. But I think it's important not to forget about the real concerns related to the inflation side, as well as staying very attentive to what's happening on the labor market side. And, you know, with much slower labor demand, much lower hiring, even though the labor supply growth is clearly much lower as well, there is a risk that the demand would fall well below the supply growth, and we would start to see more notable unemployment increases. So something to watch very carefully. And the data from September that we'll get tomorrow is helpful. You know, the initial claims unemployment, the other information that many of us are gathering and looking at is helpful as well. But, you know, that's still from September. And so there's more information to come.",
+    "startBeginning": 2217.365,
+    "startEnd": 2318.4402,
+    "ID": 87,
+    "numberOfWords": 297
+  },
+  {
+    "speaker": 4,
+    "text": "So one thing I'm wondering about the labor market and, you know, we've heard the supply argument, you know, the breakeven rate argument from a number of Fed policymakers at this point. But if supply in the labor market is the issue here because of immigration or whatever, and it's about that supply rather than a deterioration in demand, shouldn't we have expected to see some tightness showing up in other statistics, like wages earned, hours worked, the quits rate, something like that. And we haven't really seen that yet.",
+    "startBeginning": 2319.32,
+    "startEnd": 2353.42,
+    "ID": 88,
+    "numberOfWords": 90
+  },
+  {
+    "speaker": 3,
+    "text": "So I think it's both. Okay. Right? I mean, the fact I don't think we are seeing significant wage pressures. Mhmm.",
+    "startBeginning": 2353.98,
+    "startEnd": 2360.4849,
+    "ID": 89,
+    "numberOfWords": 21
+  },
+  {
+    "speaker": 5,
+    "text": "I",
+    "startBeginning": 2361.125,
+    "startEnd": 2361.125,
+    "ID": 90,
+    "numberOfWords": 1
+  },
+  {
+    "speaker": 3,
+    "text": "think that's been true for a while. I think if anything, the more recent data I've seen, but again, you know, don't have the most recent information, you know, has come down a bit. It's been higher than it was pre pandemic. At the same time, given the productivity that we'd seen, that is consistent in my view with, you know, with with price stability. So I have not been as concerned about the labor market. And that speaks to both demand and supply having come down, which is this kind of unusual balance that I was talking about before. I see. But looking out ahead, it's hard to really project what those trajectories will be. Will the labor demand fall more quickly than the supply has fallen? Then you'd start to see the unemployment go up. But, of course, it was the other way around. You tend to see more wage pressures.",
+    "startBeginning": 2361.285,
+    "startEnd": 2408.89,
+    "ID": 91,
+    "numberOfWords": 153
+  },
+  {
+    "speaker": 5,
+    "text": "Let's talk about AI for a second. What is what are the businesses that you're talking to say about their, I don't know, adoption, implementation, investment in AI? I'm all you know, clearly, it feels like everyone is experimenting with everything. It's very hard to detect whether there are obvious productivity gains being seen, perhaps outside of coding and engineering. What are they telling you about their sort of their budgets and their plans for adoption of this technology?",
+    "startBeginning": 2409.69,
+    "startEnd": 2438.7,
+    "ID": 92,
+    "numberOfWords": 79
+  },
+  {
+    "speaker": 3,
+    "text": "Yeah. You know, so if I think back even six months, it was a a kind of interesting piece of the conversation that I would have when I'm meeting with a group of different business leaders from different sectors. It's now a significant share of the conversation. And, typically, there's not one of the people around the table who isn't telling me how they're thinking about it, what they're doing, what they're finding. It's out there. It's everywhere. And that's true. You know, so I was not too long ago visiting a lumber mill in Northern Vermont and learned about how they have been using AI in order to sort planks, in part because they were having trouble hiring that skilled labor in that part of the country. But then they told me about all of the other benefits they were finding in ways that they were teaching it to do additional things. I hadn't expected going to a lumber mill that we were gonna spend quite a bit of time talking about AI. So it's much broader. I am hearing that there are some ways that the AI is really supporting workers and enabling them to do more and be more focused, saving time in terms of reporting and a variety of different back office kinds of things. I have some people telling me that they actually expected it'll enable them to grow because of some of the savings in ways that they're excited about. And then others that are telling me that it may be enabling them to downsize. I think it's still early days, and there are many, many different dimensions. And there's still a lot of experimentation to your point. So I'm hearing all of it. It's really interesting, and I think it's much too early to tell how it's all gonna play out.",
+    "startBeginning": 2439.42,
+    "startEnd": 2546.185,
+    "ID": 93,
+    "numberOfWords": 308
+  },
+  {
+    "speaker": 4,
+    "text": "I hate to ask another theoretical question, but I apologize in advance because I'm sorry.",
+    "startBeginning": 2547.705,
+    "startEnd": 2551.3599,
+    "ID": 94,
+    "numberOfWords": 15
+  },
+  {
+    "speaker": 5,
+    "text": "We're here for a research conference.",
+    "startBeginning": 2552.16,
+    "startEnd": 2553.1199,
+    "ID": 95,
+    "numberOfWords": 6
+  },
+  {
+    "speaker": 4,
+    "text": "Why not? But when you think about AI, does it make you think about the unemployment side of the mandate and, you know, the policy making capacity at the Fed. And what I mean by that is, you know, traditionally, you lower interest rates if you wanna try to boost employment, and that's supposed to encourage businesses to invest in new capital. And historically, a lot of that capital has meant additional jobs, although we can debate automation and all of that. But when it comes to AI, you lower interest rates, people invest in AI, and I think the concern is that means fewer jobs now. How do you think about that as someone at the Fed whose primary tool is the the benchmark rate?",
+    "startBeginning": 2553.68,
+    "startEnd": 2594.325,
+    "ID": 96,
+    "numberOfWords": 126
+  },
+  {
+    "speaker": 3,
+    "text": "Lots of pieces to that and a lot of thinking going on. Right? So let me just let me say a couple of things. So I do think that even though, you know, we're mildly restrictive, we are seeing considerable investments across a wide range of firms and sectors in sectors in AI. That is one of the things that firms are clearly leaning into. And, you know, I do think of AI as a general purpose technology, which is like the Internet or like electricity. And if you go back in history in those when those were being adopted, there was also discussion that introduction of those new technologies was going to, you know, just really eliminate a huge number of jobs. And what we",
+    "startBeginning": 2595.685,
+    "startEnd": 2634.955,
+    "ID": 97,
+    "numberOfWords": 126
+  },
+  {
+    "speaker": 4,
+    "text": "know people lighting gas lamps are gonna be unemployed because of electricity.",
+    "startBeginning": 2635.195,
+    "startEnd": 2638.17,
+    "ID": 98,
+    "numberOfWords": 12
+  },
+  {
+    "speaker": 3,
+    "text": "And gas you know, and other things were developed. And some of them, we don't we're not imagining yet. So I do think that that history is important. At the same time, it does seem potentially like this general purpose technology might unfold more quickly, and that could create more transition challenges. Again, it's really early days in terms of thinking about how that may play out. But I am expecting there'll be new opportunities and new you know, I mean, when women join the labor market, the view was that will mean there were no jobs for men and therefore and obviously, what we've seen is a significant increase in job opportunities, vibrancy. And The US economy is a vibrant dynamic economy in a number of different ways, but early days, important to play out. The other thing I will say is there are a lot of things the Fed focuses on and cares deeply about because they impact economic conditions. They impact employment. They impact inflation. We need to understand them. We need to follow them, but they aren't the direct thing that our policy tools are able to influence. And so I think we need to kind of recognize and separate those things. You know, one reason to have, you know, eased a bit is it could facilitate an environment where it's easier for labor to make transitions to to different kind of areas and places. So I think there are lots of considerations there. But, again, this one's gonna unfold over some period of time.",
+    "startBeginning": 2638.97,
+    "startEnd": 2729.02,
+    "ID": 99,
+    "numberOfWords": 259
+  },
+  {
+    "speaker": 5,
+    "text": "You know, one of the things you mentioned is people don't just care about the rate of inflation. They care about affordability overall. So Absolutely. The price level, which has gone up very significantly in one segment of people's consumption basket that's gone up a lot in several years is the cost of housing and so forth. And this is something that comes up from time to time, which is that rate policy, when it comes to housing, can sort of cut in multiple directions because higher interest rates might, you know, make mortgages more costly and you get depression a little bit in demand, and maybe that helps balance prices. On the other hand, that could also curtail development, and developers are very attuned to the interest rates. We have seen a lot a lot of measures of housing starts come down, housing activity, etcetera. How do you think about getting that balance right? And this particularly given the salience of resonance when it comes to the price level, etcetera, how do you think about optimal policy for housing",
+    "startBeginning": 2729.66,
+    "startEnd": 2788.4348,
+    "ID": 100,
+    "numberOfWords": 180
+  },
+  {
+    "speaker": 3,
+    "text": "supply? Yeah. Housing is really important for a variety of reasons. It is one of the most frequent concerns that I hear, not just for lower moderate income. Right? I mean, the Yeah. Accessibility, availability is much broader than that. Yeah. So, you know, it matters in terms of economic vibrancy, individuals households. It matters in terms of some it can be a barrier to participating in the economy. Yeah. So I worry about that from a vast standpoint. We got in the context that we're in now with real challenges with affordability. And there are lots of statistics that demonstrate the lack of housing and affordability challenges over a long period of time. And it's gonna take a number of different groups working together to be able to really address them. So, you know, it is true that in the short run, higher interest rates do have an impact. At the same time, of course, the shorter the longer term rates that are often relevant there are influenced by a number of different factors. I would say, importantly, I guess, two just quick things. One is that restoring and maintaining price stability and maximum employment creates an environment that's really conducive to addressing our housing challenges and sustaining that environment, that infrastructure over time. And so it's, you know, it's maintaining that broader environment that I think is what congress has charged us to do, and that will create that environment. The other thing is that, you know, as a nonpartisan trusted data geekish resource, the Fed can help to bring different groups together to share information, to help be a convener. The Boston Fed hosted a conference this summer with the Harvard, Center on Housing Studies that put out their annual report. And we had our colleagues from eight different reserve banks. All of us are engaged and interested in working in our communities to support addressing the housing challenges. So it's top of mind. And there are things that we can influence, and then there's some things that, of course, we cannot.",
+    "startBeginning": 2789.4749,
+    "startEnd": 2918.19,
+    "ID": 101,
+    "numberOfWords": 345
+  },
+  {
+    "speaker": 4,
+    "text": "We've been talking a lot about the economy for obvious reasons, but I am aware that we are in Boston and you are the Boston Fed president. And if there's one thing I do know about the city is that it is a financial center. There are a lot of financial firms, especially on the buy side over here. Can I ask very quickly, how much have you been watching the markets and reflecting on what's been going on there? Because, of course, we've had lots of talk about an AI bubble, although maybe some of the air has been kicked out of that bubble's tires in recent days and weeks. But we also have some strains in the funding markets. You know, we've seen some kerfuffles, to put it mildly, in repo and things like that. Are you watching those as well as what's happening with the broader economy?",
+    "startBeginning": 2919.23,
+    "startEnd": 2959.455,
+    "ID": 102,
+    "numberOfWords": 150
+  },
+  {
+    "speaker": 3,
+    "text": "Absolutely. So, you know, our teams are also very carefully watching developments in financial markets. And, you know, we are seeing some more volatility, certainly. You know, compared to the beginning of the year, markets are still up, but spreads are still relatively low. And so there are a number of things to be focused on and to be aware of as we think about our broader responsibilities and charge.",
+    "startBeginning": 2960.335,
+    "startEnd": 2983.65,
+    "ID": 103,
+    "numberOfWords": 70
+  },
+  {
+    "speaker": 4,
+    "text": "Alright. Susan Collins, Boston Fed president. We're gonna try to grab you later at the conference after the jobs numbers come out and see if anything's changed. But thank you so much for coming on All Thoughts. Really appreciate it.",
+    "startBeginning": 2984.815,
+    "startEnd": 2995.615,
+    "ID": 104,
+    "numberOfWords": 40
+  },
+  {
+    "speaker": 3,
+    "text": "A pleasure. We're delighted you're here.",
+    "startBeginning": 2995.855,
+    "startEnd": 2997.215,
+    "ID": 105,
+    "numberOfWords": 6
+  },
+  {
+    "speaker": 4,
+    "text": "Jo, I really enjoyed that conversation. I think it is such an interesting time to be talking with anyone on the Fed. I guess I'm still trying to wrap my head around whether the division among policymakers currently, whether it's about how they see the state of the economy right now. Because, actually, there does seem to be a lot of consensus. Yeah. The labor market is deteriorating and inflation, you know, you can't deny that it is above target or whether it's about which side of the mandate they wanna emphasize or whether it's about which side of the mandate has the potential to get out of hand, basically, and, you know, either rise or decrease exponentially, the inflation rate or the unemployment rate.",
+    "startBeginning": 3010.185,
+    "startEnd": 3054.1301,
+    "ID": 106,
+    "numberOfWords": 125
+  },
+  {
+    "speaker": 5,
+    "text": "Yeah. I think that's a that's a very good way of summarizing why there is so much debate and disagreement. Because, a, look, again, even setting aside the data blackout from the official sources",
+    "startBeginning": 3054.61,
+    "startEnd": 3067.175,
+    "ID": 107,
+    "numberOfWords": 34
+  },
+  {
+    "speaker": 3,
+    "text": "Mhmm.",
+    "startBeginning": 3067.7349,
+    "startEnd": 3067.7349,
+    "ID": 108,
+    "numberOfWords": 1
+  },
+  {
+    "speaker": 5,
+    "text": "There's confusion, but then you add in the data blackout. And then the questions about look. I mean, the labor market the risk to the labor market is that sort of nonlinearity. Right? That you get an increase and an increase and an increase and then suddenly you have very severe unemployment. You're very far away from your mandate. The risk to the inflation is that, yeah, as as Susan and others have noted, they've been missing for a long time. They're still not back to their target. Even in Susan's base case, they don't get back to their target for a while, and there are concerns about something more deeper becoming embedded. I thought it was very interesting that she said that the context that she talked to have been surprised by the degree to which they can pass price in this environment.",
+    "startBeginning": 3067.975,
+    "startEnd": 3112.03,
+    "ID": 109,
+    "numberOfWords": 144
+  },
+  {
+    "speaker": 4,
+    "text": "Mhmm.",
+    "startBeginning": 3112.67,
+    "startEnd": 3112.67,
+    "ID": 110,
+    "numberOfWords": 1
+  },
+  {
+    "speaker": 5,
+    "text": "And so, yeah, very easy to see all the different ways that you could derive uncertainty, not to mention the fact that policy itself, the fiscal policy through tariffs and so forth, remains uncertain there.",
+    "startBeginning": 3112.99,
+    "startEnd": 3124.43,
+    "ID": 111,
+    "numberOfWords": 35
+  },
+  {
+    "speaker": 4,
+    "text": "Absolutely. I thought it was also really interesting. She was talking about the idea that the one off tariff price increase can take some time to materialize, and she called back to, the research paper that they're gonna discussing at the Boston Fed about the 2018 tariffs and this idea that even those, which were, you know, looking back fairly straightforward, took months to actually work their way through the economy. Now we're in a place where the tariffs, you know, they've been on and then they're off, and there's some discussion about what's gonna happen now. It seems likely that you could see that those would take even longer to work their way through. I should just say, we are going to be releasing a special episode of the podcast where we talk to a lot of the researchers who are presenting at this Boston Fed conference. So look out for that. And, also, if you're interested, the Boston Fed will actually be live streaming this conference, so you can follow along in real time on Friday and Saturday and listen to all the papers actually get discussed.",
+    "startBeginning": 3125.1848,
+    "startEnd": 3186.935,
+    "ID": 112,
+    "numberOfWords": 189
+  },
+  {
+    "speaker": 5,
+    "text": "Yeah. All the PDFs are there. And so that's what Tracy and I are gonna be doing on Friday and Saturday. We're gonna be listening to speakers. We're gonna be reading their PDFs. She can virtually join with us, read all the PDFs yourself and talk about them in the Discord with us.",
+    "startBeginning": 3187.495,
+    "startEnd": 3201.58,
+    "ID": 113,
+    "numberOfWords": 53
+  },
+  {
+    "speaker": 4,
+    "text": "We should actually outsource some of our work and just ask people. Read this paper and then tell us what questions we should ask about it. No. No. No.",
+    "startBeginning": 3201.82,
+    "startEnd": 3207.995,
+    "ID": 114,
+    "numberOfWords": 29
+  },
+  {
+    "speaker": 5,
+    "text": "That's what chat GPT is for.",
+    "startBeginning": 3208.235,
+    "startEnd": 3209.435,
+    "ID": 115,
+    "numberOfWords": 6
+  },
+  {
+    "speaker": 4,
+    "text": "Yeah. Alright. Well, we'll be in a both of us are probably gonna be in a Boston bar in in the next day or so eating beans and reading research papers. So that's what we'll be doing. Shall we leave it there for now?",
+    "startBeginning": 3209.675,
+    "startEnd": 3220.395,
+    "ID": 116,
+    "numberOfWords": 44
+  },
+  {
+    "speaker": 5,
+    "text": "Let's leave it there.",
+    "startBeginning": 3220.715,
+    "startEnd": 3221.195,
+    "ID": 117,
+    "numberOfWords": 4
+  },
+  {
+    "speaker": 4,
+    "text": "This has been another episode of the Odd Lots podcast. I'm Tracy Alloway. You can follow me at Tracy Alloway.",
+    "startBeginning": 3221.77,
+    "startEnd": 3226.57,
+    "ID": 118,
+    "numberOfWords": 20
+  },
+  {
+    "speaker": 5,
+    "text": "And I'm Jill Weisenthal. You can follow me at the stalwart. Follow our producers, Carmen Rodriguez at Carmen Arman, Dashiell Bennett at DashBot, and Cale Brooks at Cale Brooks. For more Odd Lots content, go to bloomberg.com/oddlots. We have the daily newsletter and all of our episodes, and you can chat about all these topics twenty four seven in our Discord, discord.gg/oddlots.",
+    "startBeginning": 3227.1301,
+    "startEnd": 3246.5251,
+    "ID": 119,
+    "numberOfWords": 62
+  },
+  {
+    "speaker": 4,
+    "text": "And if you enjoy Odd Lots, if you like it when we go to regional Fed conferences, then please leave us a positive review on your favorite podcast platform. And remember, if you are a Bloomberg subscriber, you can listen to all of our episodes absolutely ad free. All you need to do is find the Bloomberg channel on Apple Podcasts and follow the instructions there. Thanks for listening.",
+    "startBeginning": 3248.85,
+    "startEnd": 3267.7651,
+    "ID": 120,
+    "numberOfWords": 69
+  },
+  {
+    "speaker": 2,
+    "text": "You can get the news whenever you want it with Bloomberg News Now. I'm Amy Morris.",
+    "startBeginning": 3300.255,
+    "startEnd": 3304.575,
+    "ID": 121,
+    "numberOfWords": 16
+  },
+  {
+    "speaker": 7,
+    "text": "And I'm Karen here to tell you about our new on demand news report delivered right to your podcast feed. Bloomberg News Now is a short five minute audio report on the day's top stories. Episodes are published throughout the day with the latest information and data to keep you informed.",
+    "startBeginning": 3305.055,
+    "startEnd": 3320.8901,
+    "ID": 122,
+    "numberOfWords": 51
+  },
+  {
+    "speaker": 2,
+    "text": "Yes. There are other products like this from a variety of news organizations, but they usually rerun their radio newscasts throughout the day. That's not what we do. We create customized episodes that can only be heard on Bloomberg News Now.",
+    "startBeginning": 3321.77,
+    "startEnd": 3336.4648,
+    "ID": 123,
+    "numberOfWords": 41
+  },
+  {
+    "speaker": 7,
+    "text": "And we don't wait an hour to publish breaking news. When news breaks, we'll have an episode up in your podcast feed within minutes so you're always getting the latest stories and developments.",
+    "startBeginning": 3336.86,
+    "startEnd": 3345.5,
+    "ID": 124,
+    "numberOfWords": 33
+  },
+  {
+    "speaker": 2,
+    "text": "Get the reporting and the context from Bloomberg's 3,000 journalists and analysts. We're all over the world. Listen to the latest from Bloomberg News Now on Apple, Spotify, or anywhere you listen.",
+    "startBeginning": 3346.22,
+    "startEnd": 3357.3132,
+    "ID": 125,
+    "numberOfWords": 32
+  }
+]

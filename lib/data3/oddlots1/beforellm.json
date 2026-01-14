@@ -1,0 +1,1890 @@
+[
+  {
+    "speaker": 0,
+    "text": "Markets move fast. Get the insights you need in ten minutes with Barclays Brief, a podcast from Barclays Investment Bank. Each week, our experts analyze market themes, helping you anticipate what's next. Listen to Barclays Brief wherever you get your podcasts.",
+    "startBeginning": 0.24,
+    "startEnd": 13.759999,
+    "ID": 0,
+    "numberOfWords": 41
+  },
+  {
+    "speaker": 1,
+    "text": "I'm Carol Masser.",
+    "startBeginning": 15.865,
+    "startEnd": 16.425,
+    "ID": 1,
+    "numberOfWords": 3
+  },
+  {
+    "speaker": 2,
+    "text": "And I'm Tim Stenevek inviting you to join us for the Bloomberg Businessweek daily podcast.",
+    "startBeginning": 16.824999,
+    "startEnd": 20.904999,
+    "ID": 2,
+    "numberOfWords": 15
+  },
+  {
+    "speaker": 1,
+    "text": "Now every day, we are bringing you reporting from the magazine that helps global leaders stay ahead.",
+    "startBeginning": 21.465,
+    "startEnd": 25.785,
+    "ID": 3,
+    "numberOfWords": 17
+  },
+  {
+    "speaker": 2,
+    "text": "We've got insight on the people, the companies, and trends that are shaping today's complex economy.",
+    "startBeginning": 26.185,
+    "startEnd": 30.07,
+    "ID": 4,
+    "numberOfWords": 16
+  },
+  {
+    "speaker": 1,
+    "text": "That's right, Tim. We're all over global business, finance, tech news, all as it is happening in real time, and we've got complete coverage of The US market close. Gotta say, basically, if it impacts financial markets, if it impacts companies, if it's impacting trends and narratives that are out there, we are on it.",
+    "startBeginning": 30.55,
+    "startEnd": 44.945,
+    "ID": 5,
+    "numberOfWords": 55
+  },
+  {
+    "speaker": 2,
+    "text": "We also have a lot of fun doing it. Bloomberg Businessweek also brings you the analysis behind the headlines through conversations with our expert guests.",
+    "startBeginning": 45.265,
+    "startEnd": 52.385,
+    "ID": 6,
+    "numberOfWords": 25
+  },
+  {
+    "speaker": 1,
+    "text": "And we are doing this all live each weekday, and then we bring you the best analysis in our daily podcast.",
+    "startBeginning": 52.705,
+    "startEnd": 57.825,
+    "ID": 7,
+    "numberOfWords": 21
+  },
+  {
+    "speaker": 2,
+    "text": "Search for Bloomberg Businessweek on YouTube, Apple, Spotify, or anywhere else you listen.",
+    "startBeginning": 58.61,
+    "startEnd": 62.21,
+    "ID": 8,
+    "numberOfWords": 13
+  },
+  {
+    "speaker": 1,
+    "text": "Check it out on your way home from work to catch up on the conversations that you missed during the business day.",
+    "startBeginning": 62.69,
+    "startEnd": 66.77,
+    "ID": 9,
+    "numberOfWords": 22
+  },
+  {
+    "speaker": 2,
+    "text": "And on the weekend, check it out for a complete wrap up of your business week.",
+    "startBeginning": 67.09,
+    "startEnd": 70.545,
+    "ID": 10,
+    "numberOfWords": 16
+  },
+  {
+    "speaker": 1,
+    "text": "That's the Bloomberg Businessweek daily podcast. I'm Carol Masser.",
+    "startBeginning": 70.945,
+    "startEnd": 73.505,
+    "ID": 11,
+    "numberOfWords": 9
+  },
+  {
+    "speaker": 2,
+    "text": "And I'm Tim Stanovec. Subscribe today wherever you get your podcasts.",
+    "startBeginning": 73.905,
+    "startEnd": 76.865,
+    "ID": 12,
+    "numberOfWords": 11
+  },
+  {
+    "speaker": 1,
+    "text": "Bloomberg Audio Studios.",
+    "startBeginning": 82.865,
+    "startEnd": 83.985,
+    "ID": 13,
+    "numberOfWords": 3
+  },
+  {
+    "speaker": 3,
+    "text": "Podcasts,",
+    "startBeginning": 85.2,
+    "startEnd": 85.2,
+    "ID": 14,
+    "numberOfWords": 1
+  },
+  {
+    "speaker": 4,
+    "text": "radio, news. Hello, and welcome to another episode of the Odd Lots podcast. I'm Joe Wiesenthal.",
+    "startBeginning": 88.799995,
+    "startEnd": 102.415,
+    "ID": 15,
+    "numberOfWords": 16
+  },
+  {
+    "speaker": 5,
+    "text": "And I'm Tracy Alloway.",
+    "startBeginning": 103.134995,
+    "startEnd": 103.854996,
+    "ID": 16,
+    "numberOfWords": 4
+  },
+  {
+    "speaker": 4,
+    "text": "Tracy, we were down in DC several weeks ago. We were at that, IIF conference.",
+    "startBeginning": 104.335,
+    "startEnd": 108.255,
+    "ID": 17,
+    "numberOfWords": 15
+  },
+  {
+    "speaker": 5,
+    "text": "Mhmm. And,",
+    "startBeginning": 108.814995,
+    "startEnd": 109.134995,
+    "ID": 18,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 4,
+    "text": "we had a great meal when we were in town.",
+    "startBeginning": 109.375,
+    "startEnd": 110.735,
+    "ID": 19,
+    "numberOfWords": 10
+  },
+  {
+    "speaker": 5,
+    "text": "We did indeed.",
+    "startBeginning": 111.055,
+    "startEnd": 111.375,
+    "ID": 20,
+    "numberOfWords": 3
+  },
+  {
+    "speaker": 3,
+    "text": "You know",
+    "startBeginning": 111.695,
+    "startEnd": 111.854996,
+    "ID": 21,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 5,
+    "text": "what, really good meal? Yeah. We went to a place called Butterworth",
+    "startBeginning": 112.015,
+    "startEnd": 114.62,
+    "ID": 22,
+    "numberOfWords": 12
+  },
+  {
+    "speaker": 4,
+    "text": "Yeah.",
+    "startBeginning": 115.26,
+    "startEnd": 115.26,
+    "ID": 23,
+    "numberOfWords": 1
+  },
+  {
+    "speaker": 5,
+    "text": "Which is getting a lot of buzz, has been getting a lot of buzz for a while, and sort of serves I don't wanna say farm to table because that's not really it, but, like, an emphasis on organic, maybe, like, rarer cuts",
+    "startBeginning": 115.58,
+    "startEnd": 129.515,
+    "ID": 24,
+    "numberOfWords": 43
+  },
+  {
+    "speaker": 4,
+    "text": "Yeah.",
+    "startBeginning": 129.91501,
+    "startEnd": 129.91501,
+    "ID": 25,
+    "numberOfWords": 1
+  },
+  {
+    "speaker": 5,
+    "text": "Of meat. I remember we had bone marrow.",
+    "startBeginning": 130.155,
+    "startEnd": 132.235,
+    "ID": 26,
+    "numberOfWords": 8
+  },
+  {
+    "speaker": 4,
+    "text": "Which you love.",
+    "startBeginning": 132.715,
+    "startEnd": 133.115,
+    "ID": 27,
+    "numberOfWords": 3
+  },
+  {
+    "speaker": 5,
+    "text": "I love bone marrow. The first time I ever ate bone marrow was at an all you can eat buffet in Las Vegas. And it was so it wasn't even the best bone marrow, but, like, I ended up with a mountain of empty bones on my plate.",
+    "startBeginning": 133.595,
+    "startEnd": 145.59,
+    "ID": 28,
+    "numberOfWords": 48
+  },
+  {
+    "speaker": 4,
+    "text": "I think both of us like, like, sort of rich,",
+    "startBeginning": 145.90999,
+    "startEnd": 147.26999,
+    "ID": 29,
+    "numberOfWords": 10
+  },
+  {
+    "speaker": 5,
+    "text": "fatty food. Well, it's I would say it's, like, sucking the life force out of an animal. I love it. It's animal essence.",
+    "startBeginning": 147.82999,
+    "startEnd": 152.87,
+    "ID": 30,
+    "numberOfWords": 23
+  },
+  {
+    "speaker": 4,
+    "text": "We had really good fries, which famously and we'll probably get get beef tallow, no seed oils, very hip these days. I'm pretty sure we had, something with foie gras, which I love. I seem to recall there was some left on the plate, and I was like, does anyone want this? Does it can I take this bite? Can I take this bite? I cannot resist foie gras. Anyway, it was a really good meal. I love doing restaurant episodes because or talk about the food industry because if you wanna understand the economy, both in the sort of short term, like where we are on the cycle with food costs and labor costs and how free spending people are. They're a great snapshot in any given time. They're just this perfect combination of labor costs, inputs, and rent, which is, like, the whole economy there.",
+    "startBeginning": 153.59,
+    "startEnd": 195.25499,
+    "ID": 31,
+    "numberOfWords": 147
+  },
+  {
+    "speaker": 5,
+    "text": "There's also the supply chain issue. Right? And we did that whole episode on Cisco, the dominant food supplier to restaurants in America. I doubt Butterworth uses Cisco for obvious reasons, but, like, where they actually source their ingredients is a really interesting topic.",
+    "startBeginning": 195.655,
+    "startEnd": 212.38,
+    "ID": 32,
+    "numberOfWords": 44
+  },
+  {
+    "speaker": 4,
+    "text": "Right. This is what I gotta say, which is that, like, they're this perfect combination of the snapshot at the moment and then the big structural things of how the economy works across the cycle. So I really like restaurant episodes.",
+    "startBeginning": 212.935,
+    "startEnd": 223.495,
+    "ID": 33,
+    "numberOfWords": 41
+  },
+  {
+    "speaker": 5,
+    "text": "There's also an interesting cultural element in this. And, like, everything is cultural and political nowadays, including the restaurant business. Because Butterworth's has been described as a sort of right wing",
+    "startBeginning": 224.135,
+    "startEnd": 234.93001,
+    "ID": 34,
+    "numberOfWords": 31
+  },
+  {
+    "speaker": 4,
+    "text": "Yeah.",
+    "startBeginning": 235.25,
+    "startEnd": 235.25,
+    "ID": 35,
+    "numberOfWords": 1
+  },
+  {
+    "speaker": 5,
+    "text": "MAGA hangout. So we should talk about that too.",
+    "startBeginning": 235.65001,
+    "startEnd": 237.41,
+    "ID": 36,
+    "numberOfWords": 9
+  },
+  {
+    "speaker": 4,
+    "text": "Yeah. I'm fascinated by the DC scene because it has, like, oh, they're, like, Democrat bars, Republican bars. I don't do they mix?",
+    "startBeginning": 237.65001,
+    "startEnd": 243.955,
+    "ID": 37,
+    "numberOfWords": 23
+  },
+  {
+    "speaker": 5,
+    "text": "Can You gotta declare your political allegiance before you walk in.",
+    "startBeginning": 244.275,
+    "startEnd": 247.315,
+    "ID": 38,
+    "numberOfWords": 11
+  },
+  {
+    "speaker": 4,
+    "text": "It's so and, actually, there's something really profound here because I feel like this is happening to brands of all types. Right? Yeah. Is this the right coated brand or the left coated brand, etcetera. But in DC",
+    "startBeginning": 247.715,
+    "startEnd": 256.97,
+    "ID": 39,
+    "numberOfWords": 38
+  },
+  {
+    "speaker": 5,
+    "text": "People have to choose sides.",
+    "startBeginning": 257.37003,
+    "startEnd": 258.25,
+    "ID": 40,
+    "numberOfWords": 5
+  },
+  {
+    "speaker": 4,
+    "text": "You have to choose sides. But, anyway, it's funny, you know, because we were there, and our producer, Kel, is like, we should go to Butterworth. So I was like, oh, there's the MAGA restaurant. Great. I wanna check it out. But when you go in, you know, it's not like there's, you know, you wouldn't know it. Let's say somebody",
+    "startBeginning": 258.57,
+    "startEnd": 270.465,
+    "ID": 41,
+    "numberOfWords": 61
+  },
+  {
+    "speaker": 5,
+    "text": "wearing red hats and stuff.",
+    "startBeginning": 271.185,
+    "startEnd": 272.465,
+    "ID": 42,
+    "numberOfWords": 5
+  },
+  {
+    "speaker": 4,
+    "text": "But you would never know it at all. You you would never, like at least the night we were there, I didn't see any, like, White House notables that I recognized. Although, apparently, they do hang out there from time to time. But it's not, like, designed. It looks just like a very nice normal restaurant, a real a good a great dining room. So There",
+    "startBeginning": 272.865,
+    "startEnd": 289.99,
+    "ID": 43,
+    "numberOfWords": 66
+  },
+  {
+    "speaker": 5,
+    "text": "is a bit of a clubhouse element to it. We should talk about the overall design because it is pretty unique as well.",
+    "startBeginning": 290.22998,
+    "startEnd": 295.34998,
+    "ID": 44,
+    "numberOfWords": 23
+  },
+  {
+    "speaker": 4,
+    "text": "Well, when I tweeted, I was like, oh, we had a great meal at Butterworths on Twitter. All these people respond because, you know, apparently whatever. Anyway, we made the connection with the, chef and owner of the restaurant, Bart Hutchins. We really do have the perfect guest there for it to talk about butter worths. We're gonna be speaking with Bart Hutchins. Bart, thank you so much for, coming on the Outlots podcast.",
+    "startBeginning": 295.795,
+    "startEnd": 315.76,
+    "ID": 45,
+    "numberOfWords": 74
+  },
+  {
+    "speaker": 6,
+    "text": "Yeah. Thanks for having me, guys.",
+    "startBeginning": 316.56,
+    "startEnd": 317.52002,
+    "ID": 46,
+    "numberOfWords": 6
+  },
+  {
+    "speaker": 4,
+    "text": "What's a MAGA restaurant?",
+    "startBeginning": 317.84,
+    "startEnd": 318.64,
+    "ID": 47,
+    "numberOfWords": 4
+  },
+  {
+    "speaker": 6,
+    "text": "Oh, god. Where do we start?",
+    "startBeginning": 320.56,
+    "startEnd": 321.6,
+    "ID": 48,
+    "numberOfWords": 6
+  },
+  {
+    "speaker": 4,
+    "text": "Do you think of it if when when you see in the media, there's like, oh, this is like, do you conceive of it the same way that it's written about? What does that mean in your head?",
+    "startBeginning": 323.515,
+    "startEnd": 330.875,
+    "ID": 49,
+    "numberOfWords": 38
+  },
+  {
+    "speaker": 6,
+    "text": "So the history of restaurants more or less doesn't include DC. Like, when we think of the great American restaurants, they happen sort of in LA or they happen in New York. And so you think about, like, Spago in the eighties, I guess. And what people talk about when they talk about Spago is, like, this actor was there, that actor was there, whatever. And then when you talk about the great restaurants of New York, you talk about this model ate there, this actor ate there, this bank person ate there, this, like, important person ate there. And so in DC, the version of that, now that sort of politics or pop culture is like, what politicians are eating at these restaurants? And that sort of becomes what you're known for. And so early on, we were on the hill, and so we developed a following among the new administration that came in, like, two months after we opened. And so now it is a MAGA restaurant because that's, like, an interesting way to talk about the restaurant because they're there. And so it's just like your notability is, like who's in the dining room. And so early on, we had a lot of customers from the administration from, like, Scott Besson to Mark Rubio, Steve Bannon, whatever it may be. And so as that sort of developed, it became the MAGA restaurant. But, like, if we did what we did at Butterworth well in New York, it would be, like, the I don't know. If if we did it somewhere near Wall Street, it'd be like, the Wall Street restaurant. So I'm not entirely like, it'd be like, you know",
+    "startBeginning": 331.515,
+    "startEnd": 404.53,
+    "ID": 50,
+    "numberOfWords": 283
+  },
+  {
+    "speaker": 4,
+    "text": "Yeah. But just one quick thing, follow-up. When anyone launches an establishment in DC, do they have to sort of think about this question of sort of which side will be aligned with this restaurant in terms of, like, the market opportunity?",
+    "startBeginning": 404.93,
+    "startEnd": 419.73502,
+    "ID": 51,
+    "numberOfWords": 42
+  },
+  {
+    "speaker": 6,
+    "text": "No. It's relatively new. It was it was a binary sort of in the seventies, eighties, nineties of, like, you had political customers or you didn't. Oh. Right? So there was a very famous restaurant in Downtown DC in the seventies called Sans Souci. It was, like, this French restaurant, and all the administrations were there, all these things. And Mick Jagger showed up one day, and he wasn't wearing a proper sports coat, so they kicked him out. But it was a political place. Like, you had to look like you sort of belonged there. And so there was political restaurants or nonpolitical restaurants, and it was it was a lot about proximity and how close you were to these various buildings. But this, like, declaring everything sort of right or left is very new and odd. Okay.",
+    "startBeginning": 420.615,
+    "startEnd": 459.78,
+    "ID": 52,
+    "numberOfWords": 139
+  },
+  {
+    "speaker": 5,
+    "text": "I wanna go back to something you said. I'm kind of surprised that Washington DC didn't develop more of a food scene given that, you know, I think about it as a political city for obvious reasons. A lot of politics is about, you know, being seen with the right people and appearing important. And so it's kinda surprising to me that it didn't develop more of these, like, seen and be seen restaurants.",
+    "startBeginning": 460.02002,
+    "startEnd": 482.405,
+    "ID": 53,
+    "numberOfWords": 74
+  },
+  {
+    "speaker": 6,
+    "text": "Yeah. It's strange. When we when we started the place, this was sort of explicitly an aim. Like, the the dining room is designed to not hide anyone. Right? Like, you will be seen and and be seen. Like, there's no there's no hiding place. That was a big part of the business model because I was looking at Spago and and a couple other places in New York from the eighties and thinking through that process. I think maybe the answer to DC is like it was more of a house party thing and there's always been sort of like the gentleman's clubs and the private clubs and like the Georgetown scene was a you bring in a chef and do a party at your house. Like, there was it was always, like, behind closed doors. It's a very, like the smoke filled room thing exists for a reason. Right? Like, DC is a town that likes to hide itself.",
+    "startBeginning": 483.38,
+    "startEnd": 520.62,
+    "ID": 54,
+    "numberOfWords": 161
+  },
+  {
+    "speaker": 4,
+    "text": "Yeah. It is interesting to think, like, you read stories about DC and all the legendary things that'd be, like, some editor at the Washington Post or something like that were famous for their cocktail parties, and everyone was there. So it is true. It does feel like the places where people congregated did tend to be these more, like, private entities. Just one more question, though. It is not quite true that it's like, oh, you opened the restaurant before the new administration and they started out. I mean, you're one of your co owners, I think, was, like, affiliated with Breitbart UK. I mean, there are Mister Butterworth. Yeah.",
+    "startBeginning": 522.14,
+    "startEnd": 555.115,
+    "ID": 55,
+    "numberOfWords": 111
+  },
+  {
+    "speaker": 5,
+    "text": "It's named after him.",
+    "startBeginning": 555.235,
+    "startEnd": 555.91504,
+    "ID": 56,
+    "numberOfWords": 4
+  },
+  {
+    "speaker": 4,
+    "text": "There are there are political roots to the restaurant. Right?",
+    "startBeginning": 556.155,
+    "startEnd": 558.315,
+    "ID": 57,
+    "numberOfWords": 10
+  },
+  {
+    "speaker": 6,
+    "text": "Totally. I mean, this this is part of being in DC. We have six investors. I think two the third one I would have to ask because he's like a tech bro. So you you never know where they align. But two of them are pretty solidly, like, classic libs. Okay.",
+    "startBeginning": 558.79504,
+    "startEnd": 570.79504,
+    "ID": 58,
+    "numberOfWords": 51
+  },
+  {
+    "speaker": 4,
+    "text": "Okay. And",
+    "startBeginning": 570.84,
+    "startEnd": 571,
+    "ID": 59,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 6,
+    "text": "a few of them are pretty, like, MAGA adjacent conservatives. I will say the the one you're talking about, Raheem Kassam Yeah. He used to work with Steve Bannon, was the Breitbart editor in London, has done a lot of work with the administration, one of our investors. When we started when we opened the place, you sort of invite all your friends and family, and that's how you sort of get the business going. And it turns out he was just way better at it than the rest of us. Right? So, like, the first night we were open, there's, like, 60 reservations, and I'm pretty sure, like, 45 of them were from Raheem. And so the MAGA thing did sort of generate in that way.",
+    "startBeginning": 571.12,
+    "startEnd": 600.05005,
+    "ID": 60,
+    "numberOfWords": 127
+  },
+  {
+    "speaker": 5,
+    "text": "How difficult is it to get investors for a restaurant business in general, but also specifically in DC?",
+    "startBeginning": 600.77,
+    "startEnd": 606.69,
+    "ID": 61,
+    "numberOfWords": 18
+  },
+  {
+    "speaker": 6,
+    "text": "Yeah. It's, like, it's a terrible investment. Right? Like, if you're if you're listening to this financial advice, don't do it.",
+    "startBeginning": 607.73004,
+    "startEnd": 614.185,
+    "ID": 62,
+    "numberOfWords": 21
+  },
+  {
+    "speaker": 5,
+    "text": "Yeah. They say never open a restaurant, and I imagine they also say never invest in a restaurant.",
+    "startBeginning": 614.585,
+    "startEnd": 618.585,
+    "ID": 63,
+    "numberOfWords": 18
+  },
+  {
+    "speaker": 6,
+    "text": "Right. So if you're looking to make money off an investment, never invest in a restaurant. If you're looking to sort of build for yourself a place to be, to always have the good table, to invite your friends, to have something to talk about at dinner parties, it's one of the best investments. Right? Like, there's nothing more interesting than sort of like what's going on and and there's nothing more convenient than, like, not having to host at your own house and and to be able to say, oh, like, come to my restaurant, sit at my table. That part of it's great. But as a business investment, it's, like, the worst, especially post COVID. Like, the margins are are are joke.",
+    "startBeginning": 619.305,
+    "startEnd": 647.135,
+    "ID": 64,
+    "numberOfWords": 124
+  },
+  {
+    "speaker": 4,
+    "text": "Let's talk about the menu. I mean, the whole team came. Everyone loved the meal. Like, how do you go about the process of sort of conceptualizing the overall menu, a goal for the menu?",
+    "startBeginning": 647.855,
+    "startEnd": 659.11005,
+    "ID": 65,
+    "numberOfWords": 35
+  },
+  {
+    "speaker": 6,
+    "text": "Yeah. So ours specifically is working with farmers. So I have a a host of farmers that I've been working with as a chef for, I guess, a decade now. Most of them are the the sort of Pennsylvania Amish and Mennonites. These sort of not technologically plugged in folks. And so I get a call from them on Mondays. They go, this is sort of what's coming out of the ground this week. These are which animals are being slaughtered. Which ones do you want? And then those products come in and the menu is based off of that, which sort of doesn't really allow you to have the same dish on the menu every single day, which is a classic sort of trope of the restaurant industry. When if you're, like, in culinary school or whatever, they'll sort of say, like, consistency is super important. You should have the same dish prepared the same way every time because if it becomes somebody favorite and they can't come get it next week, they'll be super mad and they'll stop being your customer. But what that does is sort of create a sort of leans into a global supply chain where you like, you have to have bananas every single day if you have a bananas foster. But, like, bananas are not growing year round unless you're willing to sort of go across the globe. And then you're dealing with shipping and the product's not as fresh and and all of these sort of problems. So what we do is we work with these farmers, and whatever's coming out of the ground at that time is what we're doing. And so in the summer when there's a ton of tomatoes, we're getting all the tomatoes in that we can. And what we're not selling and using, we're canning to make tomato sauce in the winter when there's no tomatoes. Like, that's a really sort of good way to work around not having produce in the winter. But other than that, we're sort of obligated to and constrained by what's actually coming out of the ground at that",
+    "startBeginning": 660.07,
+    "startEnd": 746.68274,
+    "ID": 66,
+    "numberOfWords": 357
+  },
+  {
+    "speaker": 5,
+    "text": "time. Is it true that you don't serve burgers because you don't want everyone to just go into the restaurant and order a burger all the time?",
+    "startBeginning": 746.9164,
+    "startEnd": 752.91003,
+    "ID": 67,
+    "numberOfWords": 27
+  },
+  {
+    "speaker": 6,
+    "text": "The burger conundrum is",
+    "startBeginning": 753.47003,
+    "startEnd": 754.59,
+    "ID": 68,
+    "numberOfWords": 4
+  },
+  {
+    "speaker": 5,
+    "text": "The burger conundrum.",
+    "startBeginning": 754.91003,
+    "startEnd": 755.39,
+    "ID": 69,
+    "numberOfWords": 3
+  },
+  {
+    "speaker": 6,
+    "text": "The burger conundrum is the is the bane of my existence. So I had a restaurant three blocks from Butterworth years ago called Bewkerts. It was a lot like Butterworth, but smaller. And we did a burger because that was it's good money at the time. And it quickly became, like, one of those, like, oh, this is best burger in DC. Really popular burger. And so then you you do this, like, really interesting dish with pheasant or, you know, whatever, and you work really hard on it. You're so excited, and you can't wait people to try it. And then you sell 30 burgers in a night, and then you're done. And so the the problem with the burger is not it's it's bad economics or that it's a bad dish. I I love burgers as much as anyone. The problem is if you do it well, it's the only thing you become capable of selling because it's so self explanatory and it's it's so desirable. And so if you want to sort of work with all these products, if you wanna be able to, like, sort of sell bone marrow, or you wanna be able to sell these game birds, or you wanna be able to sell this weird vegetable, you can't have a burger because it just dominates the entire menu.",
+    "startBeginning": 755.67004,
+    "startEnd": 811.38,
+    "ID": 70,
+    "numberOfWords": 225
+  },
+  {
+    "speaker": 5,
+    "text": "This actually reminds me of the podcast industry. Right? Because often, like, some of our best episodes, I would argue, some of our episodes that get the best feedback come in lower in terms of downloads than some that I I am not such a fan of.",
+    "startBeginning": 812.195,
+    "startEnd": 827.49,
+    "ID": 71,
+    "numberOfWords": 47
+  },
+  {
+    "speaker": 4,
+    "text": "No. This is really interesting. I had never thought about this. If you have any, I guess, signature item, it has this crowding out effect. The moment you have a great burger and it gets on the bus, I was like, oh, we all show up. Oh, gotta order the best burger in DC because we're here. Then what is the point of invest I had never thought about this phenomenon. The",
+    "startBeginning": 828.13,
+    "startEnd": 845.64496,
+    "ID": 72,
+    "numberOfWords": 72
+  },
+  {
+    "speaker": 5,
+    "text": "curse of",
+    "startBeginning": 845.805,
+    "startEnd": 846.125,
+    "ID": 73,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 4,
+    "text": "the The curse of the burger. But how it's like, okay. What hey. What about all this other great stuff that we have?",
+    "startBeginning": 846.285,
+    "startEnd": 851.005,
+    "ID": 74,
+    "numberOfWords": 23
+  },
+  {
+    "speaker": 6,
+    "text": "Audience capture for ground beef.",
+    "startBeginning": 851.245,
+    "startEnd": 852.52496,
+    "ID": 75,
+    "numberOfWords": 5
+  },
+  {
+    "speaker": 0,
+    "text": "Today's markets move fast. Get the insights you need in ten minutes with the Barclays Brief, a new podcast from Barclays Investment Bank. Through sharp dialogue and scenario based analysis, our leading experts analyze key market themes each week. So whether you're managing a portfolio or leading a business, the Barclays Brief podcast can help you make smarter decisions today. Stay sharp. Stay briefed. Find Barclays brief wherever you get your podcasts.",
+    "startBeginning": 869.335,
+    "startEnd": 896.80505,
+    "ID": 76,
+    "numberOfWords": 72
+  },
+  {
+    "speaker": 7,
+    "text": "Bloomberg Daybreak is your best way to get informed first thing in the morning right in your podcast feed. Hi. I'm Karen Moskow. Moscow.",
+    "startBeginning": 899.36505,
+    "startEnd": 906.68,
+    "ID": 77,
+    "numberOfWords": 24
+  },
+  {
+    "speaker": 8,
+    "text": "And I'm Nathan Hager. Each morning, we're up early putting together the latest episode of Bloomberg Daybreak US edition. It's your daily fifteen minute podcast on the latest in global news, politics, and international relations.",
+    "startBeginning": 907,
+    "startEnd": 919.63995,
+    "ID": 78,
+    "numberOfWords": 35
+  },
+  {
+    "speaker": 7,
+    "text": "Listen to the Bloomberg Daybreak US edition podcast each morning for the stories that matter with the context you need.",
+    "startBeginning": 920.36,
+    "startEnd": 926.565,
+    "ID": 79,
+    "numberOfWords": 20
+  },
+  {
+    "speaker": 8,
+    "text": "Find us on Apple, Spotify, or anywhere you listen.",
+    "startBeginning": 927.04504,
+    "startEnd": 930.005,
+    "ID": 80,
+    "numberOfWords": 9
+  },
+  {
+    "speaker": 4,
+    "text": "Okay. So you talked to the farmers in Pennsylvania, etcetera. How does it get there? Who are the entities that actually deliver the food, and how built out is that? Who are these companies and so forth that actually make this distribution happen?",
+    "startBeginning": 931.765,
+    "startEnd": 942.77997,
+    "ID": 81,
+    "numberOfWords": 43
+  },
+  {
+    "speaker": 6,
+    "text": "So I'm I'm a psycho, and I try to avoid the, like, quote, unquote, larger supply chain at all costs. So the actual way that the produce and and most of the meat gets to the restaurant is a literal Amish guy with, like, a hat and the beard and everything shows up at seven eight. He's, like, one of the few people that has the key box code to the restaurant because he refuses to be in DC during the day because there's too much traffic and it's too loud, he says.",
+    "startBeginning": 943.26,
+    "startEnd": 964.91003,
+    "ID": 82,
+    "numberOfWords": 93
+  },
+  {
+    "speaker": 5,
+    "text": "Fair enough.",
+    "startBeginning": 965.15,
+    "startEnd": 965.39,
+    "ID": 83,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 6,
+    "text": "So he comes in early, comes to the restaurant, drops it all off, we show up, it's there. For a lot of restaurants, it is sort of Cisco and a couple other really large companies that are that are doing this procurement, and then a huge tractor trailer shows up. And these are sort of commoditized and, like, they're pretty standard across the industry.",
+    "startBeginning": 965.79004,
+    "startEnd": 981.485,
+    "ID": 84,
+    "numberOfWords": 64
+  },
+  {
+    "speaker": 4,
+    "text": "But",
+    "startBeginning": 981.805,
+    "startEnd": 981.805,
+    "ID": 85,
+    "numberOfWords": 1
+  },
+  {
+    "speaker": 6,
+    "text": "if you wanna break out of that, you're dealing with, like, a guy with a Ford f one fifty and a, trailer.",
+    "startBeginning": 982.045,
+    "startEnd": 986.285,
+    "ID": 86,
+    "numberOfWords": 22
+  },
+  {
+    "speaker": 5,
+    "text": "I know you said you had these farmer relationships from your previous experience as a restaurant owner, but how do you actually go about finding and identifying potential suppliers, especially in the Amish and Mennonite community? Because, you know, I imagine they're not necessarily posting ads online or something like that.",
+    "startBeginning": 987.53,
+    "startEnd": 1005.245,
+    "ID": 87,
+    "numberOfWords": 51
+  },
+  {
+    "speaker": 6,
+    "text": "No. They have a landline that they're only allowed to use in the barn for one of them. The so in the earlier days, now now that that there's sort of an economy for this because the the farm to table thing happened. But in the early days before that was sort of a industry of it in and of itself, the trick was you would go to farmers markets, like, actually the same one that you would go to on a Saturday morning or whatever. And you would talk to the farmer and you would sort of say like, hey, these carrots are really good. I have a restaurant. I want to buy 80 pounds of them every week. Can I get your contact information or whatever it may be? And then for a lot of those, if you see your favorite farm stall at the market on Saturdays disappear, it's because enough of us are buying their stuff to where they don't have to deal with that anymore.",
+    "startBeginning": 1005.885,
+    "startEnd": 1046.01,
+    "ID": 88,
+    "numberOfWords": 170
+  },
+  {
+    "speaker": 5,
+    "text": "It's your fault.",
+    "startBeginning": 1046.65,
+    "startEnd": 1047.21,
+    "ID": 89,
+    "numberOfWords": 3
+  },
+  {
+    "speaker": 6,
+    "text": "It's my fault.",
+    "startBeginning": 1047.61,
+    "startEnd": 1048.01,
+    "ID": 90,
+    "numberOfWords": 3
+  },
+  {
+    "speaker": 4,
+    "text": "I didn't know that. Yeah. For so there's farmers markets in my neighborhood in the East Village. I love going to a farmers market. Actually, I never really thought about farmer's market economics before, but how much are farmer's markets in general about the revenue that they make there versus, like, building some of these connections such that they have more, you know, a place to be seen by potentially commercial clients?",
+    "startBeginning": 1048.41,
+    "startEnd": 1073.9299,
+    "ID": 91,
+    "numberOfWords": 72
+  },
+  {
+    "speaker": 6,
+    "text": "Yeah. You should definitely you know, next time you're there, ask. But my understanding is that if you're at the farmer's market, you're sort of at the beginning of your cycle as a new company, a new enterprise, or the end. And so, you know, there was a farmer that I bought from from a long time who did pigs up in Illinois, and now I'm working with a closer distributor in Virginia. But the last time I saw him, he was at the farmer's market, and he was like, yeah. Yeah. This is the only outlet I have to sell things anymore. Like, we're on the way out. We're, like, we're done. We're closing up shop. We're we're selling the farm. And so that's sort of the the cycle is either they're trying to build an audience so that they can do this wholesale process or they're sort of like this is their last leg because it's not a great economic model. Like, being at a farmer's market is it's like small potatoes for them.",
+    "startBeginning": 1074.65,
+    "startEnd": 1119.255,
+    "ID": 92,
+    "numberOfWords": 176
+  },
+  {
+    "speaker": 5,
+    "text": "I know you said that the ingredients and the menu construction was influenced by seasonality. So what's in season at any given time, but how much does price actually influence your decision? So, you know, if a farmer comes in and says I have I'm trying to think of an expensive thing. Foie gras. I have the best foie gras in the world or something like that, but it's really, really expensive. Would you still buy it? Do your customers care about price?",
+    "startBeginning": 1120.455,
+    "startEnd": 1144.685,
+    "ID": 93,
+    "numberOfWords": 83
+  },
+  {
+    "speaker": 6,
+    "text": "Oh, boy. They do.",
+    "startBeginning": 1146.2051,
+    "startEnd": 1148.685,
+    "ID": 94,
+    "numberOfWords": 4
+  },
+  {
+    "speaker": 5,
+    "text": "Sorry.",
+    "startBeginning": 1149.37,
+    "startEnd": 1149.37,
+    "ID": 95,
+    "numberOfWords": 1
+  },
+  {
+    "speaker": 6,
+    "text": "No. No. No. They do. I've I've been thinking about this a lot. So I I was you know, it's the end of the year, so I'm doing numbers and and all those things you have to do when you have investors. And I was looking at the price of French fries, specifically, and we've been noted for the French fries and and the beef tallow fries and the the best fries in DC and whatever. And I think they're on the menu right now for $12 an order. And I was looking at an old menu of mine from restaurant, you know, in 2019, and they were on the same fries. I've I've been making the same fries forever. They were on the menu for $9 an order.",
+    "startBeginning": 1149.77,
+    "startEnd": 1176.535,
+    "ID": 96,
+    "numberOfWords": 129
+  },
+  {
+    "speaker": 4,
+    "text": "And I",
+    "startBeginning": 1176.775,
+    "startEnd": 1176.855,
+    "ID": 97,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 6,
+    "text": "was like, wow. They've never really gone up. $12 kind of expensive for an order of fries. Like, is there any room for this? And I started sort of digging into the price of goods and and the labor involved and realized that, like, if I wanted the same sort of margins on that $9 order of fries that I have on my now $12 order of fries, they would actually be $25. Wow. So, like, we've just sort of, like the the cost of goods is, like, eviscerated, sort of the margins on that. And we found other ways to make it up in different areas of the menu or with private events or whatever, catering, whatever it may be. But chefs are not inclined to at least, like, the chefs that are in the kitchen every day are not inclined to think about the price of goods because they want the best product. Like, they'll sort of stretch their own margins to get the better product. If you're eating at a restaurant where, like, the chef is named on something Mhmm. You're getting the best product no matter what it costs because we're just psychotic and and obsessive in that way. Mhmm. Because we they tend to be more artists than, like, economists. Right? So they want the thing to taste as good as they can, specifically because other chefs are gonna come in and eat and be like, this is this is that doo doo foie gras from Sysco or whatever. And why why are you serving that? And it's really embarrassing for you.",
+    "startBeginning": 1176.9349,
+    "startEnd": 1239.49,
+    "ID": 98,
+    "numberOfWords": 267
+  },
+  {
+    "speaker": 4,
+    "text": "Wait. Do you have specials at the restaurant?",
+    "startBeginning": 1239.8099,
+    "startEnd": 1241.73,
+    "ID": 99,
+    "numberOfWords": 8
+  },
+  {
+    "speaker": 6,
+    "text": "No. Because we change the menu every day. So the special thing",
+    "startBeginning": 1242.37,
+    "startEnd": 1244.37,
+    "ID": 100,
+    "numberOfWords": 12
+  },
+  {
+    "speaker": 4,
+    "text": "is sort of, like,",
+    "startBeginning": 1244.69,
+    "startEnd": 1245.25,
+    "ID": 101,
+    "numberOfWords": 4
+  },
+  {
+    "speaker": 6,
+    "text": "designed to allow you to keep the same menu year round and then, like, do the seasonal thing on the weekends or whatever.",
+    "startBeginning": 1245.57,
+    "startEnd": 1250.61,
+    "ID": 102,
+    "numberOfWords": 23
+  },
+  {
+    "speaker": 4,
+    "text": "Oh, I see. Well, maybe you could just this this is just a general question. I think, like, everyone who read the Kitchen Confidential became really, like, cynical about specials. It's like, oh, this is just how the chef gets rid of the fish that's about to go bad or whatever. Can you clear up some misconceptions or like, how real is that? I don't know. That that book made me I read it in high school. You know, high schooler loves the book like that, but, like or maybe early college. But, like, it it makes you very cynical about a lot of decisions, and this comes out, and it's like, oh, this is this is just a plate of, like, tomatoes with vinegar, and they called it something fancy. Like, how real is that phenomenon?",
+    "startBeginning": 1251.09,
+    "startEnd": 1287.9049,
+    "ID": 103,
+    "numberOfWords": 137
+  },
+  {
+    "speaker": 6,
+    "text": "Yeah. So two things. Number one, in his second book, he totally Anthony, in his second book, Medium Raw, I think it was called, he totally regrets writing that essay. He's like, this has been detrimental to the restaurant industry. I was an idiot. I was really mad. I'm sorry I wrote that. It's not true. So the funny thing about Anthony Bourdain, and this is he wasn't like a good chef. He was, like, a very normal run of the mill chef. He was a great writer, a really good media personality, but, like, if he lived in Columbus, like, he would be the chef of an Applebee's. Like, it was a very, like,",
+    "startBeginning": 1289.0249,
+    "startEnd": 1320.195,
+    "ID": 104,
+    "numberOfWords": 115
+  },
+  {
+    "speaker": 4,
+    "text": "like, meat in",
+    "startBeginning": 1320.995,
+    "startEnd": 1321.395,
+    "ID": 105,
+    "numberOfWords": 3
+  },
+  {
+    "speaker": 6,
+    "text": "the world.",
+    "startBeginning": 1321.5549,
+    "startEnd": 1321.635,
+    "ID": 106,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 5,
+    "text": "Like That's so mean.",
+    "startBeginning": 1321.955,
+    "startEnd": 1322.595,
+    "ID": 107,
+    "numberOfWords": 4
+  },
+  {
+    "speaker": 6,
+    "text": "A workman. God, that's gonna get clipped. I'm gonna look like a jerk. But, like, he he, and he he would say that himself. Like, he wasn't, like, a grand sort of Yeah. Haute chef or whatever. He he was a workman. He was a he was a journeyman. And so that is true at that level. It's totally true.",
+    "startBeginning": 1323.075,
+    "startEnd": 1338.36,
+    "ID": 108,
+    "numberOfWords": 60
+  },
+  {
+    "speaker": 5,
+    "text": "Uh-huh.",
+    "startBeginning": 1338.84,
+    "startEnd": 1338.84,
+    "ID": 109,
+    "numberOfWords": 1
+  },
+  {
+    "speaker": 6,
+    "text": "And all of it's still true to this day. Like, if the fish is starting to go bad on Friday and you're at one of those restaurants, they are going to toss it in some vinaigrette and put it on a salad on the brunch menu. That's 100% gonna happen. But the bar since that essay was written in the nineties or I think it was the nineties, the bar for chefs and because the whole foodie revolution of the mid aughts, the lowest level of, like, chef is much higher than it was then. Like, there's not there's fewer and fewer journeymen, and there's more and more people who are into it because they're, like, obsessive about the products and sort of artistically minded in that regard. So if you're eating at a restaurant that's not a chain, I wouldn't worry too much about that stuff because they",
+    "startBeginning": 1339,
+    "startEnd": 1374.595,
+    "ID": 110,
+    "numberOfWords": 149
+  },
+  {
+    "speaker": 4,
+    "text": "Okay.",
+    "startBeginning": 1374.995,
+    "startEnd": 1374.995,
+    "ID": 111,
+    "numberOfWords": 1
+  },
+  {
+    "speaker": 6,
+    "text": "If anything, they're more inclined to throw it out before you would even notice because they're just sort of like they would be ashamed if they sold a piece of fish that smelled bad. Yeah.",
+    "startBeginning": 1375.395,
+    "startEnd": 1383.4199,
+    "ID": 112,
+    "numberOfWords": 35
+  },
+  {
+    "speaker": 5,
+    "text": "In defense of Anthony Bourdain's cooking ability, his cookbook is really good. And he has an awesome recipe for lasagna and then a whole, like, schedule for doing Thanksgiving dinner, and I follow those religiously. Although I will admit, they're, you know, they're basic recipes in some sense. They're not particularly creative, but they're great, and I rely on them. Anyway, you know, you mentioned the importance of chefs in a restaurant like this. How competitive are restaurants when it comes to getting the best chef?",
+    "startBeginning": 1384.0599,
+    "startEnd": 1414.9,
+    "ID": 113,
+    "numberOfWords": 86
+  },
+  {
+    "speaker": 6,
+    "text": "Extremely. It's like when we were opening Butterworths, I would go stand out back of restaurants that I liked where the the sort of dumpsters were, where people might take smoke breaks, in hopes that I could talk to the cooks and steal them. So we we trade talent and sort of fight over talent in an extremely competitive way. So much so that there's, like, serious feuds over it across cities like in New York, DC, and LA. There are chefs who hate each other because they steal each other's cooks. Particularly, if you have, like, a really good fast dishwasher, and I can have one dishwasher instead of two, I'm I'm gonna take your dishwasher. Wow.",
+    "startBeginning": 1415.94,
+    "startEnd": 1450.465,
+    "ID": 114,
+    "numberOfWords": 118
+  },
+  {
+    "speaker": 4,
+    "text": "Can I ask you so the night that we were there, I after I tweeted we were there, and I think maybe you sent maybe it was via DM, and you're like, oh, I'm glad you enjoyed the meal? I think we we had sort of an off night or something like that. What does that mean, like, an off night or from the perspective of the chef? Because the it certainly seemed like a very busy night, etcetera. Our food was excellent. In your mind, when you say, you know what? We kinda had an off night. What does that mean to you?",
+    "startBeginning": 1451.505,
+    "startEnd": 1475.5599,
+    "ID": 115,
+    "numberOfWords": 104
+  },
+  {
+    "speaker": 6,
+    "text": "It can mean a few things. That night specifically, it meant it was very busy that night, but the busyness was not spread out. It wasn't like, oh, there's a table at 06:15, then another table at 06:30, then another table. It was every single table came in at the exact same time. And so what happens then is all your production lines get screwed at the exact same time. So then there's a huge wave of cocktails and the bartender's rushing through all the cocktails because all the cocktail orders came in at the same time. And then it moves to the kitchen and the kitchen's rushing through all the orders because they all came in at the same time instead of sort of like being super purposeful and like, okay. I have ten minutes to do this one and then the next one's gonna come in and then the next one's gonna come in. It's they all come in at the same time, so you're rushing through it. And as a result, like, things get sloppy. And so that night specifically, I watched the rhythm of the restaurant and everyone came in at this exact same time and I could see the kitchen getting backed up and tickets were a little slower than I would like them to be. And some of the plates, like, I was like, oh, I wish we had plated that a little bit differently. I wish it was a little neater here. And so when that happens, reservation systems are mostly designed to do that. Some Some of them are designed to fit as many people in as they can and and and good for them. But most reservation systems are designed to slow down the number of people who are coming in so that the dishes and the drinks and whatever it may be are done well and done intentionally. And when there's, like, a huge swath of walk ins on any given night, that's when the sort of, like, the production capacities of a kitchen or a bar get sort of backlogged and they get sloppy.",
+    "startBeginning": 1475.96,
+    "startEnd": 1556.42,
+    "ID": 116,
+    "numberOfWords": 355
+  },
+  {
+    "speaker": 4,
+    "text": "Tracy, it sort of reminds me a little bit of, like, our conversations that we talk about electricity and grid, which is the difference between total throughput and peak throughput. Right? And so, you know, you want an even distribution, and the problems come on that one really hot day or whatever. And so spreading the demand out is also a very important consideration in sort of optimal grid design.",
+    "startBeginning": 1557.14,
+    "startEnd": 1582.78,
+    "ID": 117,
+    "numberOfWords": 70
+  },
+  {
+    "speaker": 5,
+    "text": "Only you would compare the restaurant business to electricity grids, but it makes sense. I agree. Since we're on the topic of reservations, one phenomenon of living in a foodie city is that you have restaurants where it's very difficult to get a reservation. And I'm thinking specifically of Carbon. I would love to take my husband to Carbon one day, but my impression of the process to get space there is that it's so difficult. It's basically not worth it. And in fact, in New York, you now have reservation, auctions, people selling Well platforms.",
+    "startBeginning": 1583.42,
+    "startEnd": 1615.34,
+    "ID": 118,
+    "numberOfWords": 96
+  },
+  {
+    "speaker": 4,
+    "text": "There are these one I forget which app it is, where you can get a reservation fairly easily if you pre commit to a minimum spend. So it's like you can pre commit to, like, a $300 spend or whatever.",
+    "startBeginning": 1616.38,
+    "startEnd": 1627.985,
+    "ID": 119,
+    "numberOfWords": 40
+  },
+  {
+    "speaker": 5,
+    "text": "$300 worth",
+    "startBeginning": 1628.305,
+    "startEnd": 1628.945,
+    "ID": 120,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 4,
+    "text": "of garlic bread. And then and then anyway.",
+    "startBeginning": 1629.185,
+    "startEnd": 1630.545,
+    "ID": 121,
+    "numberOfWords": 8
+  },
+  {
+    "speaker": 5,
+    "text": "So First of all, how do I get a reservation at Carbone? What are your tips? And then secondly, what do restaurants think of these, like, very intense competitions for seating in the restaurant?",
+    "startBeginning": 1631.265,
+    "startEnd": 1642.1699,
+    "ID": 122,
+    "numberOfWords": 34
+  },
+  {
+    "speaker": 6,
+    "text": "Yeah. Number one, this is mostly David Chang's fault, so I hope I hope he knows this is entirely his fault. Momofuku Co was this, his, like, sort of Michelin star restaurant. I think it's closed now. But it was the first one that I knew of at the time that did this, like, there's no way around the reservation system. Like, you have to log on exactly two weeks before and you have to sort of win the lottery. There's this famous story about how his parents couldn't get a reservation for the first year because he refused to sort of break out of the system. And so used to you would, like, know somebody and you would shake hands and you would sort of get a reservation and whatever. And this, like, super scarcity model sort of produced this, like, this this reservation thing to some extent. So how do you get a reservation? A lot of them are now designed to not have any workarounds. Right? So, like, knowing somebody's not gonna help you because if you interfere with that scarcity model, you you interfere with the entire system. And so your best luck is to sort of be online at the right time when they go live. Some reservations book a month out, some book a whole year out, some book one week out. So understanding exactly where you are in that process and when those dates unlock is is sort of where you wanna be. Most of these systems are sort of automatically ran by OpenTable or Resi. And so they're pretty standardized. A lot of them are midnight. I think Resi's midnight, and I think OpenTable's, like, 2AM. So understanding that might be helpful. Other than that, there's there's just, like, not a lot of ways around it anymore because of this this sort of scarcity model that we have to maintain. That being said, knowing the owner would help. So go meet the Tracy brothers. Have them on the podcast and then see if they can get your reservation. That might that might do it.",
+    "startBeginning": 1642.8099,
+    "startEnd": 1733.205,
+    "ID": 123,
+    "numberOfWords": 352
+  },
+  {
+    "speaker": 5,
+    "text": "There's an idea.",
+    "startBeginning": 1734.405,
+    "startEnd": 1734.805,
+    "ID": 124,
+    "numberOfWords": 3
+  },
+  {
+    "speaker": 4,
+    "text": "Very ethical.",
+    "startBeginning": 1735.125,
+    "startEnd": 1735.445,
+    "ID": 125,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 5,
+    "text": "Yeah. You mentioned David Chang. I just remembered some friends of mine back when David Chang had, his food magazine, Lucky Peach. Do you remember that? It closed down in, like, 2017. But they used to do dramatic readings of Lucky Peach. We'd sit there and, you know, someone would read it out loud in a really dramatic fashion, and it was hilarious. It was so much fun. I need to do that again.",
+    "startBeginning": 1736.005,
+    "startEnd": 1757.475,
+    "ID": 126,
+    "numberOfWords": 74
+  },
+  {
+    "speaker": 4,
+    "text": "I think that sounds very funny.",
+    "startBeginning": 1758.0349,
+    "startEnd": 1758.9149,
+    "ID": 127,
+    "numberOfWords": 6
+  },
+  {
+    "speaker": 6,
+    "text": "I love Lucky Peach. I still have, every issue. I still have it, like",
+    "startBeginning": 1759.235,
+    "startEnd": 1762.9149,
+    "ID": 128,
+    "numberOfWords": 14
+  },
+  {
+    "speaker": 4,
+    "text": "Oh, really?",
+    "startBeginning": 1763.155,
+    "startEnd": 1763.235,
+    "ID": 129,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 6,
+    "text": "Yeah. It's like a confused that",
+    "startBeginning": 1763.475,
+    "startEnd": 1764.515,
+    "ID": 130,
+    "numberOfWords": 6
+  },
+  {
+    "speaker": 5,
+    "text": "it's like valuable now.",
+    "startBeginning": 1764.6749,
+    "startEnd": 1765.715,
+    "ID": 131,
+    "numberOfWords": 4
+  },
+  {
+    "speaker": 6,
+    "text": "You know what? They might be, actually.",
+    "startBeginning": 1766.515,
+    "startEnd": 1767.475,
+    "ID": 132,
+    "numberOfWords": 7
+  },
+  {
+    "speaker": 4,
+    "text": "Those were the good old days. We need to do Lucky Peach. I wanna talk a little bit more about the labor market. So you talked about the intense competition for chefs, but, also, you know, there's the competition for a really high skilled dishwasher. I kind of like a two part question, which is, like, right now, we're recording this December 17, like, a, how does the competition for sort of this sort of more everyday restaurant labor, like, what does it look like? And I'm also curious, Restaurant kitchens, I suspect, are sort of disproportionately draw from the immigrant workforce, perhaps probably in many restaurants, a lot of undocumented immigrants. I'm curious if you see any effect from that. And just to the extent that there is a restaurant ideology or that, you know, and I associate, obviously, sort of the crackdown on immigration or the reversal of unrestrained immigration as part of the signature moves of the current political environment. Could you talk a little bit about how this all looks from the perspective of someone who has to staff a restaurant?",
+    "startBeginning": 1768.0349,
+    "startEnd": 1833.1799,
+    "ID": 133,
+    "numberOfWords": 185
+  },
+  {
+    "speaker": 6,
+    "text": "Yeah. I mean, there there's an arms race to some extent, right, which is, like, traditionally, the restaurant industry has drawn from this undocumented labor market, and there's obviously less and less of those each day right now for a multitude of political reasons. And so the good restaurant workers that are left are becoming incredibly scarce. And so you there's there's huge incentives. If somebody if your dishwasher comes and ask for a raise, you just give it to them. Because you finding another one, like training, you know, training a new person who's never done it before, whatever it may be, it's gonna take you months. And the cost will just work out to be exactly the same as giving the one you have a raise. And so the market on cooks is, you know, sort of when I started out, the cook and dishwasher sort of level of the staffing, not the management level, but below that, the average was, like, sort of 2 or $3 above the minimum wage. And now it's, like, at least it's close to double now. Right? Like, so the DC minimum wage is creeping up to 15, and I think our average cooks and dishwashers are, like, $26.27 an hour. And so that market is becoming harder and harder to staff because there was decades of sort of training this undocumented community on how to do these tasks. And now all of that sort of, like, human capacity, all of that training has been pushed out. And so for the ones who are documented, the ones who stayed or or whatever it may be, their prices and their value are skyrocketing because there's just less and less of them. And that that time that was spent training, whether it was at sort of at Applebee's or a restaurant like mine or or whatever it may be, those years and years of of training are becoming harder and harder to find. You can't just, like, replace that in six months. Like, you can't teach with with the dishwasher maybe. With with a cook, I can't take a guy who works at, you know, Dunkin' Donuts or whatever and train him to be, like, a French line cook in less than a year. It's gonna take a long time to get him sort of to where he can do things to order and be useful. And so there's a lot of just training that's gone. And it's been great for the wages of the people who are still here, but it is it is really competitive right now.",
+    "startBeginning": 1833.8999,
+    "startEnd": 1947.7999,
+    "ID": 134,
+    "numberOfWords": 435
+  },
+  {
+    "speaker": 3,
+    "text": "This is Caroline Hyde.",
+    "startBeginning": 1963.9401,
+    "startEnd": 1964.98,
+    "ID": 135,
+    "numberOfWords": 4
+  },
+  {
+    "speaker": 9,
+    "text": "And I'm Ed Ludlow inviting you to join us for Bloomberg Tech, a daily podcast focusing exclusively on technology, innovation, and the future of business.",
+    "startBeginning": 1965.3,
+    "startEnd": 1973.3,
+    "ID": 136,
+    "numberOfWords": 25
+  },
+  {
+    "speaker": 3,
+    "text": "Every weekday, we bring you the top headlines from the world's biggest tech tech companies.",
+    "startBeginning": 1973.9401,
+    "startEnd": 1977.645,
+    "ID": 137,
+    "numberOfWords": 15
+  },
+  {
+    "speaker": 9,
+    "text": "From finance to defense, AI to entertainment, and from start ups to the magnificent seven.",
+    "startBeginning": 1978.045,
+    "startEnd": 1983.0851,
+    "ID": 138,
+    "numberOfWords": 15
+  },
+  {
+    "speaker": 3,
+    "text": "We highlight the latest stories of the people and companies pushing the tech sector to new frontiers and the politics that shape global tech markets.",
+    "startBeginning": 1983.645,
+    "startEnd": 1991.27,
+    "ID": 139,
+    "numberOfWords": 25
+  },
+  {
+    "speaker": 9,
+    "text": "We do this all every weekday, then bring you the most important conversations and analysis in our podcast.",
+    "startBeginning": 1991.9099,
+    "startEnd": 1996.71,
+    "ID": 140,
+    "numberOfWords": 18
+  },
+  {
+    "speaker": 3,
+    "text": "Search for Bloomberg Tech on YouTube, Apple, Spotify, or anywhere else you listen.",
+    "startBeginning": 1997.51,
+    "startEnd": 2001.6699,
+    "ID": 141,
+    "numberOfWords": 13
+  },
+  {
+    "speaker": 9,
+    "text": "Join us every afternoon on your commute home, and stay ahead of the tech news cycle.",
+    "startBeginning": 2002.1499,
+    "startEnd": 2006.045,
+    "ID": 142,
+    "numberOfWords": 16
+  },
+  {
+    "speaker": 3,
+    "text": "That's the Bloomberg Tech Podcast. I'm Caroline Hyde in New York.",
+    "startBeginning": 2006.605,
+    "startEnd": 2009.725,
+    "ID": 143,
+    "numberOfWords": 11
+  },
+  {
+    "speaker": 9,
+    "text": "And I'm Ed Ludlow in San Francisco. Subscribe today wherever you get your podcasts.",
+    "startBeginning": 2010.2051,
+    "startEnd": 2014.125,
+    "ID": 144,
+    "numberOfWords": 14
+  },
+  {
+    "speaker": 5,
+    "text": "One notable thing about Butterworths is it's in a really cool building, like a historic building, and the decor is really nice. Joe knows that I'm into interior decorating. So, you know, you've got the antler chandeliers and the sort of plush seats and all of that. How important is the, I guess, the vibe of the restaurant to the restaurant to the overall business?",
+    "startBeginning": 2016.285,
+    "startEnd": 2037.1649,
+    "ID": 145,
+    "numberOfWords": 65
+  },
+  {
+    "speaker": 6,
+    "text": "Massively important. Right? Like, I think these days, I spend as much time thinking about lighting and volume level and, like, spacing out of seats and whether or not you can hear the person you're talking to and that stuff as I do about the food. Wow. Because there's a sort of arc that started in the foodie thing sort of started in 2008 with the housing crisis and the and the real estate bubble. And so all of a sudden, all of these young ambitious chefs could afford to go open a restaurant. And they hired cooks beneath them, and they trained those cooks. So we got a sort of a wealth of good cooks and good people that went on to be chefs. And so that foodie thing that we saw in the mid aughts produced a ton of really good food. Like, we we are better off because of it. Yeah. But now sort of real estate and those things are back to where they were in that way before that. And so now your competitive advantage isn't just that your food's good because good food is easier and easier to come by. Like, you can you can find a good chef in any neighborhood.",
+    "startBeginning": 2038.445,
+    "startEnd": 2092.855,
+    "ID": 146,
+    "numberOfWords": 208
+  },
+  {
+    "speaker": 4,
+    "text": "Everywhere now.",
+    "startBeginning": 2093.175,
+    "startEnd": 2093.4949,
+    "ID": 147,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 5,
+    "text": "But you",
+    "startBeginning": 2093.815,
+    "startEnd": 2093.9749,
+    "ID": 148,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 6,
+    "text": "need a competitive advantage because rents are sort of back to where they, you know, were or whatever. They're very incredibly expensive right now. And so you're oh, we have the best food in town. Like, doesn't work anymore. Right? So, like, you have to combine the best food with a comfortable place to hang out or with a specific social scene or with a whatever it may be.",
+    "startBeginning": 2094.055,
+    "startEnd": 2112.28,
+    "ID": 149,
+    "numberOfWords": 69
+  },
+  {
+    "speaker": 4,
+    "text": "You mentioned lighting. When you think about lighting, how much is it about the experience of the diners that night versus lighting for Instagramability or TikTok or whatever it is? And how do you think about the fact that part of eating is creating social content? And how does that factor into your strategy and thinking about the overall vibe?",
+    "startBeginning": 2113.08,
+    "startEnd": 2134.32,
+    "ID": 150,
+    "numberOfWords": 60
+  },
+  {
+    "speaker": 6,
+    "text": "So I I think a lot about it, and you saw this again with that sort of, like, the foodie thing. Restaurants were incredibly bright, and this Scandinavian minimalism thing was a trend at the time, but also lent itself to Instagram and, like, posting and taking pictures.",
+    "startBeginning": 2134.8,
+    "startEnd": 2148.5352,
+    "ID": 151,
+    "numberOfWords": 48
+  },
+  {
+    "speaker": 5,
+    "text": "Minimalism. I really I",
+    "startBeginning": 2149.0151,
+    "startEnd": 2150.135,
+    "ID": 152,
+    "numberOfWords": 4
+  },
+  {
+    "speaker": 6,
+    "text": "can't stand it. But it lent itself to sort of photography and that and those things incredibly well because you had these bright natural light restaurants and you could photograph something top down in a way and it would look really good on Instagram. And so to say I don't think about it or I don't want to be a part of that is not true because what I'm actually trying to do is the exact opposite, which is, like, our food photographs terribly. If you have photos on your phone from that night, they probably look awful. But it's a reaction to that thing, which is, like, I wanna feel like something sort of before that date or something sort of more classic or more timeless than that. The rule of thumb, I I worked for this really good restauranteur named Brendan who's down in Florida now. So if you're ever in Destin and you find a good restaurant, he probably owns it. But his rule of thumb was, if it's too bright to reasonably get away with giving a hand job, then it's too bright in the restaurant.",
+    "startBeginning": 2150.215,
+    "startEnd": 2198.955,
+    "ID": 153,
+    "numberOfWords": 190
+  },
+  {
+    "speaker": 5,
+    "text": "It's not what I thought you were gonna say, but",
+    "startBeginning": 2200.475,
+    "startEnd": 2201.995,
+    "ID": 154,
+    "numberOfWords": 10
+  },
+  {
+    "speaker": 4,
+    "text": "But there is a good rule of thumb. It's good to yeah. I'm gonna I'm gonna start picking up some of that.",
+    "startBeginning": 2202.315,
+    "startEnd": 2205.995,
+    "ID": 155,
+    "numberOfWords": 22
+  },
+  {
+    "speaker": 6,
+    "text": "If you tell that to your staff, they never forget. Like, you'll never come into Butterworth, so it'll be too bright because they won't forget that one.",
+    "startBeginning": 2206.315,
+    "startEnd": 2211.45,
+    "ID": 156,
+    "numberOfWords": 27
+  },
+  {
+    "speaker": 5,
+    "text": "Thank you for changing my restaurant experience forever. There's a really good breakfast place in Connecticut that I like to go to. The food's amazing. The service is excellent, but the decor is terrible. It's like gray vinyl flooring and just white walls. And every time I'm in there, I'm like, they should let me redecorate. I would do it for free just to enjoy it a bit more.",
+    "startBeginning": 2211.8499,
+    "startEnd": 2232.105,
+    "ID": 157,
+    "numberOfWords": 69
+  },
+  {
+    "speaker": 4,
+    "text": "And, Tracy, you know how much I loathe the degree to which the built environment has been designed for like, you've heard me, like, rant about millennial pink and all of these all of these design I like",
+    "startBeginning": 2232.345,
+    "startEnd": 2243.71,
+    "ID": 158,
+    "numberOfWords": 38
+  },
+  {
+    "speaker": 5,
+    "text": "the idea.",
+    "startBeginning": 2244.0298,
+    "startEnd": 2244.1099,
+    "ID": 159,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 4,
+    "text": "I know. But these design elements that are just so clearly designed to be a backdrop for someone's Instagram and the way our whole real life has been reoriented for social photography, it drives me crazy. And",
+    "startBeginning": 2244.51,
+    "startEnd": 2257.435,
+    "ID": 160,
+    "numberOfWords": 37
+  },
+  {
+    "speaker": 5,
+    "text": "I do appreciate",
+    "startBeginning": 2257.7551,
+    "startEnd": 2258.3152,
+    "ID": 161,
+    "numberOfWords": 3
+  },
+  {
+    "speaker": 4,
+    "text": "anything that just, like, this looks like the pre iPhone era. You know what I'm saying?",
+    "startBeginning": 2259.115,
+    "startEnd": 2262.7898,
+    "ID": 162,
+    "numberOfWords": 16
+  },
+  {
+    "speaker": 5,
+    "text": "Absolutely. One thing I wanted to ask is, you know, we talked about the clientele earlier and, you know, you get some well known people into the restaurant. Do you try to, like, directly publicize that or, like, monetize that? If Steve Bannon comes in for the first time, what do you do?",
+    "startBeginning": 2263.43,
+    "startEnd": 2283.605,
+    "ID": 163,
+    "numberOfWords": 53
+  },
+  {
+    "speaker": 6,
+    "text": "So it's actually the exact opposite. And on some level, I'm grateful that the media at large has done this for us because it's, as a restaurateur, it's, like, really embarrassing to do that. And so my big fear is if you have a major client, Nancy Pelosi was, like, a a regular at one of my older restaurants. The big fear is if the people find out they're there, they'll start coming to interrupt her in the middle of dinner, And then that person's gone. And I've watched it happen with restaurants over and over again. And that can range from, like, a famous person to, you know, if your if your bar gets known for having, like, pretty women at the bar. Like, all of a sudden, it's, like, 70% male and the pretty women are gone. Like, this is this is this is like a reality of this thing. Right? Which is like they're there because nobody's bothering them there and they get to be normal and and sort of human. And so in some ways, it's been incredible thing for us that this sort of media has picked up on this and and that they're they're happy to to sort of write about it because it does bring in new customers who are looking for that specific thing. But at the same time, you're you're always afraid of losing those customers. So for me specifically, I would never ever in a million years be like, hey, Politico. By the way, like, in the spotted, Marco Rubio having dinner with his family. Because then you'll just never see that customer again, and and it's that's a Yeah. That's a terrible thing to do to somebody.",
+    "startBeginning": 2284.325,
+    "startEnd": 2358.3,
+    "ID": 164,
+    "numberOfWords": 288
+  },
+  {
+    "speaker": 4,
+    "text": "Okay. But it's funny you said Marco. I was literally just gonna use Marco in my example of the question I was gonna ask. So you're there, the chef. Someone says, oh, by the way, Marco Rubio's in the dining room Yeah. Tonight. Do you wanna do anything different?",
+    "startBeginning": 2358.94,
+    "startEnd": 2369.865,
+    "ID": 165,
+    "numberOfWords": 49
+  },
+  {
+    "speaker": 6,
+    "text": "So at that point, it's the same thing with a food critic. At that point, it's too late to do anything different. So much of cooking and so much of preparing food for a restaurant happens before the first diner sits down. Right? Like, if you're braising something, you take the four hours it takes to braise that thing, and then the service starts. And you're you're basically just sort of heating up at that point. So there's not a lot you can do on the food level, but there is the sort of, like, minor details around the edges, which is like, okay. The plate's gonna be a little bit cleaner. You're gonna let the server know. One of the funniest ones is we had, the ambassador from The UK in early on, and I didn't know who he was. And so I said I was like, hey. What's up, man? All the all the British people were like, well, you're supposed to say sir whatever the title. I don't even remember at this point because I don't care. But, you know, I used the wrong greetings, and there's a whole proper greeting etiquette that I just didn't know. And so you you do sort of try to let the servers in the front of house know that sort of thing because it's just embarrassing for them if you don't.",
+    "startBeginning": 2370.745,
+    "startEnd": 2426.2148,
+    "ID": 166,
+    "numberOfWords": 231
+  },
+  {
+    "speaker": 5,
+    "text": "You mentioned pretty women at the bar. So now I have to ask, I imagine running a restaurant, you see some interesting things go down, and you probably hear a lot of interesting conversations. What's the most dramatic incident or intriguing conversation that you've seen?",
+    "startBeginning": 2427.415,
+    "startEnd": 2442.73,
+    "ID": 167,
+    "numberOfWords": 45
+  },
+  {
+    "speaker": 6,
+    "text": "This is so funny. So the sort of political era we're in now where it seems to be all anyone talks about is incredibly boring to me. So there's a lot of sort of, like, political arguments or deal making that happens at the restaurants in DC. Whereas, like, pre this era, I had a nightclub restaurant lounge thing in Adams Morgan where, like, semi regularly this one I'm specifically thinking about, this woman came in with her She was in a relationship, and she was having an affair. And so she came in with her affair partner and was seated next to a guy who was also having an affair, which was her partner. And so they were seated right next to",
+    "startBeginning": 2443.53,
+    "startEnd": 2483.895,
+    "ID": 168,
+    "numberOfWords": 123
+  },
+  {
+    "speaker": 5,
+    "text": "each other. Wow.",
+    "startBeginning": 2483.975,
+    "startEnd": 2484.455,
+    "ID": 169,
+    "numberOfWords": 3
+  },
+  {
+    "speaker": 6,
+    "text": "And had to like, we had to find the bouncers and sort of drag all of those people out because the the sort of arguments and the yelling at each other that started Yeah. Was just over the top and ridiculous.",
+    "startBeginning": 2485.95,
+    "startEnd": 2494.43,
+    "ID": 170,
+    "numberOfWords": 41
+  },
+  {
+    "speaker": 4,
+    "text": "I don't know. I feel like maybe that'd be a good way to discover that. It's like, okay. Let's just call it a wash here.",
+    "startBeginning": 2494.91,
+    "startEnd": 2499.775,
+    "ID": 171,
+    "numberOfWords": 25
+  },
+  {
+    "speaker": 5,
+    "text": "We're both",
+    "startBeginning": 2500.0151,
+    "startEnd": 2500.175,
+    "ID": 172,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 6,
+    "text": "I mean, we're both guilty.",
+    "startBeginning": 2500.655,
+    "startEnd": 2501.695,
+    "ID": 173,
+    "numberOfWords": 5
+  },
+  {
+    "speaker": 4,
+    "text": "Yeah. We're both guilty. Alright. I actually have, like, a million more questions. I'm mindful of the time. I have one last that's sort of, like, maybe an important macroeconomic question. So Butterworths hasn't been open that long, but you've been in the business for a long time. And one of the things that we talk about a lot is, you know, in the 2021, 2022 era, one of the phenomenons of that time was for the first time in maybe many people's lives, if they were a small business owner, it may have been the first time that you couldn't just put a sign in the window saying help wanted and expect a lot of people to show up. It was an era of labor scarcity, the likes of which we hadn't seen in decades, and maybe people never had to contemplate that possibility before. And the question we've been wrestling with and asking a lot of people is, like, what are the sort of scars from that period, the traumas of that period, and how do they carry over? Has your experience of that time of realizing that you could wake up and might literally not be able to perhaps staff a restaurant that day so that you can function, has it stayed with you to now in such a way that you think strategically different about things like optimal staffing levels or optimal inventory or anything like that? Did it change the way you do business in some sort of lasting way?",
+    "startBeginning": 2502.415,
+    "startEnd": 2577.67,
+    "ID": 174,
+    "numberOfWords": 255
+  },
+  {
+    "speaker": 6,
+    "text": "Yeah. In a ton of ways. I'm not even sure which one to start with. So number one, if you came to the restaurant tonight and you went into the kitchen, it's the exact same people that worked with me the day COVID started. Wow. And so I've kept them in various ways through multiple restaurants because I watched all my other friends sort of lose cooks and and dishwashers and and whatever during that time and not be able to get them back. And so a a chef designs a dish and and maybe even does a bunch of prep, but at the end of the day, you're still putting it at the hands of your staff to do it right when an order comes in. And I saw the wholesale quality of their food plummet because they all of a sudden, they were handing it to people they didn't train. And so, through a number of reasons, got really lucky, kept a lot of those people. And I will keep them as long as as I possibly can because to train a new generation after them myself would just I mean, I'm almost too late in my career to do it. And so that's that's a big thing. We did see a huge exit of, like, management level staff during that time. So if you're a really good front of house staffer, if you're a really good waiter, a really good manager, a really good bartender, turns out you're also a great salesman. So a lot of them went into real estate and and sales and and whatever it may be. And so there is if you if you're at restaurants now and you're like, why is service so bad? Number one, they're understaffed because labor has become so expensive that they're trying to get more tables out of one server. Number two, the people that they spent training to do those front of house jobs exited that entire economy during COVID because we were sort of front lines of this thing happening. We were expecting to be open every day, but without any staff or money to do it with. And so a lot of, like, the best sommeliers, the best front of house managers totally exited the market. So those are still hard to find, and we struggle with it all the time. I'm I've got a good front of house manager right now. I'm really lucky, but it took us he's our third one in one year because they're just really hard to find. The talent pool for that is really empty right now. And then the cost of goods has just never recovered. And so sort of like, you know, when it started, we were like, oh, you know, supply chains are bad right now because of shipping or whatever it may be, and they'll go back down on, you know, whatever it was, fryer oil. This is a big part of the beef tallow thing with the fries, is I buy the cows from this farmer, so I also get a good price on this tallow because I sort of buy the whole thing. But most fryers in any restaurant in the entire world are filled with canola oils that are that are sort of globally processed. Right? And so during COVID, you saw these things go up in price and and you were told they were gonna come down and, shipping containers, whatever it may be, they never came down. It cost an unbelievable it's like $200 a night to fill a fryer or something like that. And so that's when I sort of started the switch to beef towel and all that because I was like, okay, well, I know this guy. He's 30 miles away or whatever. I'm I'm gonna just buy all his entire product and and keep the supply chain, like, one to one. So there's there's just all kinds of of things that happened during COVID that we're still recovering from, but the big ones are the staffing and the cost of goods, obviously.",
+    "startBeginning": 2578.15,
+    "startEnd": 2745.3699,
+    "ID": 175,
+    "numberOfWords": 687
+  },
+  {
+    "speaker": 5,
+    "text": "Vertical integration. Yeah. There's one more macro one more macro question that we gotta ask. We talked about the supply side, but what are you seeing on the demand side in terms of customers coming in and ordering? And how connected would you say you are to the broader business cycle? Because I imagine, you know, if you're running a McDonald's franchise, you probably experience the business cycle in a very different way to someone who's running a boutique restaurant.",
+    "startBeginning": 2746.41,
+    "startEnd": 2773.26,
+    "ID": 176,
+    "numberOfWords": 80
+  },
+  {
+    "speaker": 6,
+    "text": "Yeah. So my understanding just from other restaurant tours and and the news and stuff is that it's it's down right now and that I think reservations are down, like, 15% from last year is what most people are reporting. We're in a very special circumstance. Obviously, we're new and we're a we're, at the end of the day, a luxury item. And so Hermes prices never dropped once, and Hermes demand never dropped once during COVID. Like, this is this is sort of, like, the side of the business that we're in, and we're lucky to be in, and I hope we can stay in it. So for us, it's a totally different ballgame. My understanding is that that reservations are way down, spending is way down across the board. Yeah.",
+    "startBeginning": 2773.98,
+    "startEnd": 2807.135,
+    "ID": 177,
+    "numberOfWords": 132
+  },
+  {
+    "speaker": 4,
+    "text": "I'll give you a chance to sort of, like, really let your right wing side come out. Health code violations and permitting and all that stuff, of course, those are some of the most uncomfortable scenes if you watch that show, The Bear. How real is it from your perspective? Do you wanna rant a lot about the sort of, do you wanna tell us anything about permitting and such in DC?",
+    "startBeginning": 2807.775,
+    "startEnd": 2828.76,
+    "ID": 178,
+    "numberOfWords": 72
+  },
+  {
+    "speaker": 6,
+    "text": "Yeah. I mean so number one, The Bear is fascinating. The first season, that Uber Eats episode, I still so all of us switched to Uber Eats and all of these things during COVID to figure out how to survive. And that ding that it makes when a new order comes in still sends me into, like, a blackout rage. I remember one time during COVID picking up the iPad that the Uber Eats order came in and just throwing it in the deep fryer and being like, screw it. I'm not doing this anymore. And so that episode, I watched it with my wife. We, at one point, I was like, I think we might have to turn this off. Like, I was getting, like, too too upset, too anxious because it was too accurate. It was totally spot",
+    "startBeginning": 2829.5598,
+    "startEnd": 2861.855,
+    "ID": 179,
+    "numberOfWords": 140
+  },
+  {
+    "speaker": 4,
+    "text": "on from",
+    "startBeginning": 2862.175,
+    "startEnd": 2862.495,
+    "ID": 180,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 6,
+    "text": "what that feels like. With the health code violations and and the and the permitting and all that stuff oh god.",
+    "startBeginning": 2862.655,
+    "startEnd": 2868.175,
+    "ID": 181,
+    "numberOfWords": 21
+  },
+  {
+    "speaker": 5,
+    "text": "Is this where we're gonna have to bleep the episode?",
+    "startBeginning": 2869.935,
+    "startEnd": 2871.615,
+    "ID": 182,
+    "numberOfWords": 10
+  },
+  {
+    "speaker": 6,
+    "text": "I've been I've been doing so good avoiding that. Yeah.",
+    "startBeginning": 2873.6301,
+    "startEnd": 2875.6301,
+    "ID": 183,
+    "numberOfWords": 10
+  },
+  {
+    "speaker": 4,
+    "text": "You have.",
+    "startBeginning": 2875.79,
+    "startEnd": 2875.9902,
+    "ID": 184,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 6,
+    "text": "I tried so hard. It's ridiculous. There was a, a restauranteur that I worked for, and the prep kitchen was in the basement, and it it wasn't ventilated. And I was like, how did you get a permit for this? And he was like, well, we put $10,000 in a briefcase and gave it to the guy. And that's how we have this. So if you go down to City Hall and you pull the records for the building, this basement doesn't even exist. And this was, like, less than twelve years ago. And so that obviously doesn't seem like an ideal system. But to do that same thing at the restaurant, we have now took us almost eight months to get the single permit for that. And so there's sometimes where you're like, was it better when we just put some cash in a briefcase? Like, I'm not entirely sure what we're doing here because you're paying rent rent that entire eight months. At that point, you know, $10,000 is a lot cheaper than whatever your rent is x eight months. And, yeah, it's a strange thing. I'm I'm not sure what sort of, like don't say that. What sort of make work job it is for the city to have these health inspectors that come by and say the same thing every single time, which is like, hey, by the way, like, they put a thermometer in all your food, which is hypothetically for food safety, but all the half decent restaurants are fine. So, like, what are you doing here? I saw you last month. They were the right temperature last month. Can you leave me alone? But it's really the permitting process because you're you're in this race against your landlord to open before you start paying them. And, getting 17 different permits to, like, have a a basement or have a closet or whatever it may be is is legitimately stopping new restaurants from opening. So it's pretty miserable. And then that's just that's not left or right wing. That's just, like, really, like, sort of, like, a techno crab would be better in this regard. Right? Like, it's, like, please let me get my permit a little bit faster. Or a mob system. Right? Like, my understanding is from my friends in Montreal is that it's still very much a mob system. And so they go, yeah. Well, we still put some cash in a briefcase and then boom, we're open in a month. So, you know, let's pick one of those, but this middle ground right now where, like, it's just, like, three guys in an office who are completely, god, they're gonna come, like, inspect me this week for saying this. It's like just like three guys in the office who are all idiots is just is is miserable.",
+    "startBeginning": 2876.1902,
+    "startEnd": 2994.18,
+    "ID": 185,
+    "numberOfWords": 477
+  },
+  {
+    "speaker": 5,
+    "text": "Yeah. You're definitely gonna get a visit,",
+    "startBeginning": 2995.2998,
+    "startEnd": 2996.5798,
+    "ID": 186,
+    "numberOfWords": 7
+  },
+  {
+    "speaker": 4,
+    "text": "I think.",
+    "startBeginning": 2996.9,
+    "startEnd": 2997.0598,
+    "ID": 187,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 6,
+    "text": "Yeah. Yeah. Whatever. Screw. Who cares?",
+    "startBeginning": 2997.54,
+    "startEnd": 2999.14,
+    "ID": 188,
+    "numberOfWords": 6
+  },
+  {
+    "speaker": 4,
+    "text": "Bart Hutchens, that was fantastic. Thank you so much for, coming on Odd Laws. It was a",
+    "startBeginning": 3000.705,
+    "startEnd": 3004.7852,
+    "ID": 189,
+    "numberOfWords": 17
+  },
+  {
+    "speaker": 6,
+    "text": "lot of fun. It was good to talk to you.",
+    "startBeginning": 3004.865,
+    "startEnd": 3005.985,
+    "ID": 190,
+    "numberOfWords": 10
+  },
+  {
+    "speaker": 5,
+    "text": "Really fun. Thank you so much.",
+    "startBeginning": 3006.225,
+    "startEnd": 3007.425,
+    "ID": 191,
+    "numberOfWords": 6
+  },
+  {
+    "speaker": 6,
+    "text": "Thanks, guys.",
+    "startBeginning": 3007.745,
+    "startEnd": 3007.985,
+    "ID": 192,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 4,
+    "text": "I love restaurant episodes. I know. I mean, I love restaurants, but I love restaurant. I've just always learned so much talking to",
+    "startBeginning": 3021.15,
+    "startEnd": 3026.43,
+    "ID": 193,
+    "numberOfWords": 23
+  },
+  {
+    "speaker": 6,
+    "text": "these guys.",
+    "startBeginning": 3026.5898,
+    "startEnd": 3026.75,
+    "ID": 194,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 5,
+    "text": "We could do, like, a spin off series We",
+    "startBeginning": 3026.8298,
+    "startEnd": 3028.3499,
+    "ID": 195,
+    "numberOfWords": 9
+  },
+  {
+    "speaker": 4,
+    "text": "totally get",
+    "startBeginning": 3028.43,
+    "startEnd": 3028.91,
+    "ID": 196,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 5,
+    "text": "restaurants or something. No. They're incredibly informative in terms of the macroeconomic environment, but also all these little themes that we talk about Yeah. On Odd Lots like the supply chain, like labor hoarding",
+    "startBeginning": 3029.2275,
+    "startEnd": 3041.385,
+    "ID": 197,
+    "numberOfWords": 34
+  },
+  {
+    "speaker": 4,
+    "text": "Yeah.",
+    "startBeginning": 3041.865,
+    "startEnd": 3041.865,
+    "ID": 198,
+    "numberOfWords": 1
+  },
+  {
+    "speaker": 5,
+    "text": "Like, to your point, distribution of resources such as energy.",
+    "startBeginning": 3042.3225,
+    "startEnd": 3045.98,
+    "ID": 199,
+    "numberOfWords": 10
+  },
+  {
+    "speaker": 4,
+    "text": "No. I never thought about that time because, obviously, I presume a restaurant wants all tables filled at any given time. Right? But I had never really thought about the thing. You have to have them staggered so that you do not have all the cocktail orders come out all the same. I had never thought about that and the sort of risk of, like, demand spikes. You have this system designed for some optimal throughput, but the idea of, like, you don't want it all at the same time, very intuitive, I suppose. I just it hadn't occurred to me before.",
+    "startBeginning": 3046.78,
+    "startEnd": 3076.1501,
+    "ID": 200,
+    "numberOfWords": 102
+  },
+  {
+    "speaker": 5,
+    "text": "Did you watch the bear? You must have.",
+    "startBeginning": 3076.6301,
+    "startEnd": 3077.83,
+    "ID": 201,
+    "numberOfWords": 8
+  },
+  {
+    "speaker": 4,
+    "text": "Oh, yeah. Yeah. Yeah.",
+    "startBeginning": 3078.1501,
+    "startEnd": 3078.4702,
+    "ID": 202,
+    "numberOfWords": 4
+  },
+  {
+    "speaker": 5,
+    "text": "I had to stop watching because it was so stressful.",
+    "startBeginning": 3078.7102,
+    "startEnd": 3081.27,
+    "ID": 203,
+    "numberOfWords": 10
+  },
+  {
+    "speaker": 6,
+    "text": "Yeah.",
+    "startBeginning": 3081.75,
+    "startEnd": 3081.75,
+    "ID": 204,
+    "numberOfWords": 1
+  },
+  {
+    "speaker": 5,
+    "text": "And it was so many people shouting at each other. I just I couldn't do it after the first season.",
+    "startBeginning": 3081.9102,
+    "startEnd": 3086.6301,
+    "ID": 205,
+    "numberOfWords": 20
+  },
+  {
+    "speaker": 4,
+    "text": "It's funny how, like, basically, everyone we talk to is like, yep. It's exactly how it is, and it's super difficult. That and, have you watched The Pit, by the way?",
+    "startBeginning": 3087.2751,
+    "startEnd": 3096.395,
+    "ID": 206,
+    "numberOfWords": 31
+  },
+  {
+    "speaker": 5,
+    "text": "No. But you keep recommending that.",
+    "startBeginning": 3097.115,
+    "startEnd": 3098.3152,
+    "ID": 207,
+    "numberOfWords": 6
+  },
+  {
+    "speaker": 4,
+    "text": "It's good. There's a new season starting soon, but, I, you know, I was talking to a friend of mine who works at one of the NYU medical facilities, but he had the same reaction. Like, you can't watch that. As a consumer of TV shows, to my mind, that's a very good sign. Yeah. When people say, no. I can't watch this. It's too real. It's like, okay. I'm not getting something, overly dramatic.",
+    "startBeginning": 3098.5552,
+    "startEnd": 3117.595,
+    "ID": 208,
+    "numberOfWords": 75
+  },
+  {
+    "speaker": 5,
+    "text": "Yeah. I'm gonna put the pit on my list.",
+    "startBeginning": 3118.2349,
+    "startEnd": 3119.595,
+    "ID": 209,
+    "numberOfWords": 9
+  },
+  {
+    "speaker": 4,
+    "text": "Yeah. You should.",
+    "startBeginning": 3119.835,
+    "startEnd": 3120.075,
+    "ID": 210,
+    "numberOfWords": 3
+  },
+  {
+    "speaker": 5,
+    "text": "This is something that stands out whenever we do a restaurant episode, which is there's an intensity about the job. And in many ways, it's a unique industry because the profit margins aren't that big. Right. You're probably doing it for something other than money. You're selecting your ingredients usually, often, because you want to make the best menu item possible, not necessarily, again, because it's gonna produce the most profit. And you basically dedicate your entire life Yeah. To this undertaking. Right?",
+    "startBeginning": 3120.4749,
+    "startEnd": 3148.2952,
+    "ID": 211,
+    "numberOfWords": 83
+  },
+  {
+    "speaker": 4,
+    "text": "Absolutely. It's interesting to think about what is a chef. You think it's like, oh, this is someone who makes good food. Right? But then the idea is, like, that the chef then has to think about lighting. That the all these other things that do not strictly fall under what we think of as the making of food. I don't there were so many interesting things. I mean, it's so interesting how many trends seem to date back to 2,008. And so part of the story there was like, okay. There's a lot of cheap rents. Restaurants can open up, but it's also the tree that media is was such at the time because of the invention of the iPhone and so forth that, like, foodie culture was, like, a thing in the media. Right? And all these all these different crosswinds that happen and at certain key points that made it difficult to disentangle history. I don't know. That was just a really fun episode. I felt like I learned quite a bit in that one. Oh, and, also, the, the burger the burger crowding. That was something I'd never known about.",
+    "startBeginning": 3148.7751,
+    "startEnd": 3203.7249,
+    "ID": 212,
+    "numberOfWords": 194
+  },
+  {
+    "speaker": 5,
+    "text": "Yeah. That makes sense, again, intuitively. I gotta say, though, it makes you wonder what comes next. So, like, we've perfected food.",
+    "startBeginning": 3204.125,
+    "startEnd": 3210.9248,
+    "ID": 213,
+    "numberOfWords": 22
+  },
+  {
+    "speaker": 4,
+    "text": "A",
+    "startBeginning": 3211.885,
+    "startEnd": 3211.885,
+    "ID": 214,
+    "numberOfWords": 1
+  },
+  {
+    "speaker": 5,
+    "text": "lot of restaurants have perfected the vibes or certainly pay attention to it more than they used to. What comes next, do you think?",
+    "startBeginning": 3212.045,
+    "startEnd": 3218.9001,
+    "ID": 215,
+    "numberOfWords": 24
+  },
+  {
+    "speaker": 4,
+    "text": "I don't know. What do you think? Do you do you have some thought do you have some",
+    "startBeginning": 3220.5,
+    "startEnd": 3223.78,
+    "ID": 216,
+    "numberOfWords": 18
+  },
+  {
+    "speaker": 5,
+    "text": "I I mean, I'd like it to be service. Yeah. I worry that it's gonna be, like, some customization thing, which I hate.",
+    "startBeginning": 3224.74,
+    "startEnd": 3231.695,
+    "ID": 217,
+    "numberOfWords": 23
+  },
+  {
+    "speaker": 4,
+    "text": "Oh, yeah.",
+    "startBeginning": 3232.015,
+    "startEnd": 3232.255,
+    "ID": 218,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 5,
+    "text": "We shouldn't give customers options. I hate that.",
+    "startBeginning": 3232.415,
+    "startEnd": 3234.575,
+    "ID": 219,
+    "numberOfWords": 8
+  },
+  {
+    "speaker": 4,
+    "text": "No. I don't like I I don't like I don't like choice.",
+    "startBeginning": 3235.055,
+    "startEnd": 3236.9749,
+    "ID": 220,
+    "numberOfWords": 12
+  },
+  {
+    "speaker": 5,
+    "text": "Yeah. That's right. That's right. Okay. Shall we leave it there? Let's",
+    "startBeginning": 3237.695,
+    "startEnd": 3240.095,
+    "ID": 221,
+    "numberOfWords": 12
+  },
+  {
+    "speaker": 4,
+    "text": "leave it there.",
+    "startBeginning": 3240.255,
+    "startEnd": 3240.4949,
+    "ID": 222,
+    "numberOfWords": 3
+  },
+  {
+    "speaker": 5,
+    "text": "This has been another episode of the Odd Thoughts podcast. I'm Tracy Alloway. You can follow me at Tracy Alloway.",
+    "startBeginning": 3240.99,
+    "startEnd": 3245.87,
+    "ID": 223,
+    "numberOfWords": 20
+  },
+  {
+    "speaker": 4,
+    "text": "And I'm Joe Weisenthal. You can follow me at the stalwart. Follow our guest, Bart Hutchins. He's at White Guy Fieri. Follow our producers, Carmen Rodriguez at Carmen Armin, Dashiell Bennett at Dashpod, and Cale Brooks at Cale Brooks. And for more Odd Lots content, go to bloomberg.com/oddlots for the daily newsletter and all of our episodes, and you can chat about all of these topics twenty four seven in our Discord, discord.gg/oddlots.",
+    "startBeginning": 3246.51,
+    "startEnd": 3267.725,
+    "ID": 224,
+    "numberOfWords": 73
+  },
+  {
+    "speaker": 5,
+    "text": "And if you enjoy Odd Lots, if you want us to do more restaurant episodes, then please leave us a positive review on your favorite podcast platform. And remember, if you are a Bloomberg subscriber, you can listen to all of our episodes absolutely ad free. All you need to do is find the Bloomberg channel on Apple Podcasts and follow the instructions there. Thanks for listening.",
+    "startBeginning": 3270.13,
+    "startEnd": 3289.5352,
+    "ID": 225,
+    "numberOfWords": 67
+  },
+  {
+    "speaker": 10,
+    "text": "This is Scarlet Fu.",
+    "startBeginning": 3321.905,
+    "startEnd": 3322.785,
+    "ID": 226,
+    "numberOfWords": 4
+  },
+  {
+    "speaker": 11,
+    "text": "And And I'm Paul Sweeney inviting you to join us for the Bloomberg Intelligence podcast.",
+    "startBeginning": 3323.025,
+    "startEnd": 3326.58,
+    "ID": 227,
+    "numberOfWords": 15
+  },
+  {
+    "speaker": 10,
+    "text": "Every day, we harness the power of Bloomberg Intelligence to bring you deep dives into the companies that are moving markets from publicly traded companies like Apple to those that are privately owned but known by everyone on Earth like OpenAI.",
+    "startBeginning": 3327.22,
+    "startEnd": 3337.94,
+    "ID": 228,
+    "numberOfWords": 41
+  },
+  {
+    "speaker": 11,
+    "text": "Now I help to build Bloomberg Intelligence to what it is today, Scarlet, and now our analysts are the best in the world covering more than 2,000 global companies.",
+    "startBeginning": 3338.74,
+    "startEnd": 3345.835,
+    "ID": 229,
+    "numberOfWords": 29
+  },
+  {
+    "speaker": 10,
+    "text": "That is your legacy, Paul, and we speak to those in house experts every day. They are Bloomberg's go to authorities on sectors, companies, and legal processes.",
+    "startBeginning": 3346.475,
+    "startEnd": 3353.68,
+    "ID": 230,
+    "numberOfWords": 27
+  },
+  {
+    "speaker": 11,
+    "text": "And we do it all live each weekday, then bring you the best conversations in our daily podcast.",
+    "startBeginning": 3354.4001,
+    "startEnd": 3358.96,
+    "ID": 231,
+    "numberOfWords": 18
+  },
+  {
+    "speaker": 10,
+    "text": "So be sure to search for Bloomberg Intelligence on YouTube, Apple, Spotify, or anywhere else you listen.",
+    "startBeginning": 3359.44,
+    "startEnd": 3364.1602,
+    "ID": 232,
+    "numberOfWords": 17
+  },
+  {
+    "speaker": 11,
+    "text": "Listen in the afternoons on your way home from work to catch up on the market news you missed during the business day.",
+    "startBeginning": 3364.6401,
+    "startEnd": 3368.915,
+    "ID": 233,
+    "numberOfWords": 23
+  },
+  {
+    "speaker": 10,
+    "text": "That is the Bloomberg Intelligence podcast. I'm Scarlet Fu.",
+    "startBeginning": 3369.315,
+    "startEnd": 3371.875,
+    "ID": 234,
+    "numberOfWords": 9
+  },
+  {
+    "speaker": 11,
+    "text": "And I'm Paul Sweeney. Subscribe today wherever you get your podcast.",
+    "startBeginning": 3372.275,
+    "startEnd": 3374.915,
+    "ID": 235,
+    "numberOfWords": 11
+  }
+]

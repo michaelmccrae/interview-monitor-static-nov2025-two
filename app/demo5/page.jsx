@@ -1,7 +1,7 @@
 'use client';
 
 import Link from "next/link";
-import registry from "@/lib/data4/index.json";
+import registry from "@/lib/data5/index.json";
 
 export default function Demo3Page() {
   return (
@@ -14,7 +14,7 @@ export default function Demo3Page() {
         {Object.entries(registry).map(([key, item]) => (
           <li key={key} className="text-left">
             <Link
-              href={`/demo4/${key}`}
+              href={`/demo5/${key}`}
               className="text-blue-400 hover:text-blue-300 underline"
             >
               {item.label || key}

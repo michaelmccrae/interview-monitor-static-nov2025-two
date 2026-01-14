@@ -1,0 +1,914 @@
+[
+  {
+    "speaker": 0,
+    "text": "Markets move fast. Get the insights you need in ten minutes with Barclays Brief, a podcast from Barclays Investment Bank. Each week, our experts analyze market themes, helping you anticipate what's next. Listen to Barclays Brief wherever you get your podcasts.",
+    "startBeginning": 0.24,
+    "startEnd": 13.759999,
+    "ID": 0,
+    "numberOfWords": 41
+  },
+  {
+    "speaker": 1,
+    "text": "Donald Trump is rewriting the Washington rule book and reshaping the global economy. If you're trying to connect the dots behind the headlines, Bloomberg's Trumponomics podcast is here to help. I'm Stephanie Flanders, head of government and economics at Bloomberg. Every week, I'll bring you a smart focused conversation with reporters and experts from Washington, Wall Street, and beyond. Listen to new episodes every Wednesday and follow Trumponomics wherever you",
+    "startBeginning": 16.185,
+    "startEnd": 43.635,
+    "ID": 1,
+    "numberOfWords": 70
+  },
+  {
+    "speaker": 2,
+    "text": "listen. There's no championship league for small business owners. But if there was, you'd be at the top of the standings. Because going pro with Lenovo Pro means you've got the winning formation. One on one advice, IT solutions, and customized hardware powered by Intel Core Ultra processors help you stay ahead of the competition. Business goes pro with Lenovo Pro. Sign up for free at",
+    "startBeginning": 44.515,
+    "startEnd": 68.755,
+    "ID": 2,
+    "numberOfWords": 66
+  },
+  {
+    "speaker": 3,
+    "text": "lenovo.com/pro. Bloomberg Audio Studios. Podcasts, radio, news.",
+    "startBeginning": 68.835,
+    "startEnd": 83.075,
+    "ID": 3,
+    "numberOfWords": 7
+  },
+  {
+    "speaker": 4,
+    "text": "Hello, and welcome to another episode of the Odd Lots podcast. I'm Joe Weisenthal.",
+    "startBeginning": 93.77,
+    "startEnd": 98.409996,
+    "ID": 4,
+    "numberOfWords": 14
+  },
+  {
+    "speaker": 5,
+    "text": "And I'm Tracy Alloway.",
+    "startBeginning": 99.275,
+    "startEnd": 99.835,
+    "ID": 5,
+    "numberOfWords": 4
+  },
+  {
+    "speaker": 4,
+    "text": "Tracy, it's been too long since we've done an electricity grid episode.",
+    "startBeginning": 100.795,
+    "startEnd": 103.515,
+    "ID": 6,
+    "numberOfWords": 12
+  },
+  {
+    "speaker": 5,
+    "text": "I've been avoiding it on purpose, Jo. I in all honesty, I I really find this particular market slash issue a difficult one to talk about because it's impossible to talk about it in broad terms.",
+    "startBeginning": 104.315,
+    "startEnd": 117.29,
+    "ID": 7,
+    "numberOfWords": 36
+  },
+  {
+    "speaker": 3,
+    "text": "And I",
+    "startBeginning": 117.61,
+    "startEnd": 117.77,
+    "ID": 8,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 5,
+    "text": "know on Odd Thoughts, we try to avoid doing that generally. But even in an hour long podcast, even with multiple episodes, we could do an episode for each electricity market in The United States and still only scratch the surface. Right? Like, you have to talk about regulated monopolies versus competitive markets, and then you have to talk about what's an independent system operator, and what's like, well, what's Texas? That's all I'm",
+    "startBeginning": 117.85,
+    "startEnd": 143.36,
+    "ID": 9,
+    "numberOfWords": 74
+  },
+  {
+    "speaker": 3,
+    "text": "worried about.",
+    "startBeginning": 143.51999,
+    "startEnd": 143.57332,
+    "ID": 10,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 4,
+    "text": "What is Texas?",
+    "startBeginning": 143.62666,
+    "startEnd": 144.56,
+    "ID": 11,
+    "numberOfWords": 3
+  },
+  {
+    "speaker": 5,
+    "text": "What is Texas?",
+    "startBeginning": 145.04,
+    "startEnd": 145.51999,
+    "ID": 12,
+    "numberOfWords": 3
+  },
+  {
+    "speaker": 4,
+    "text": "What is Texas? What is Texas would be its own episode. But, yeah, that's right. You ask a question to a grid expert, and their first thing and they're like, wait. Are you talking about a competitive market or a regulated market here? That always seems to be",
+    "startBeginning": 146.16,
+    "startEnd": 157.865,
+    "ID": 13,
+    "numberOfWords": 48
+  },
+  {
+    "speaker": 5,
+    "text": "basis or unmetered or I I don't know.",
+    "startBeginning": 158.225,
+    "startEnd": 159.785,
+    "ID": 14,
+    "numberOfWords": 8
+  },
+  {
+    "speaker": 4,
+    "text": "Yeah. Behind the meter, etcetera. Yeah. But, anyway, obviously, with the sort of Ian Dunning, who we recently had, Hudson River Trading, he was talking about how, you know, their main constraint is power. And that's just a small a very small, in the grand scheme of things, user of AI services. We were talking about using AI and high frequency trading. And he said even more than chips that the power constraints are their biggest constraints right now. And so I do think that one thing we have to think about is if especially how long can this AI boom go on is what's it gonna take to get all of this AI activity on the grid? Like, how constrained is it?",
+    "startBeginning": 160.345,
+    "startEnd": 200.06,
+    "ID": 15,
+    "numberOfWords": 123
+  },
+  {
+    "speaker": 5,
+    "text": "That's right. And we also recorded that episode with Sagar and Jetty, and we were talking about the political controversy surrounding AI, and, obviously, power consumption is a big one of those. At a time when electricity prices have all already been rising, is AI only gonna drive them up further? Although that said, you can't even say that electricity prices have been rising because in certain states, they've actually been going down on an inflation adjusted basis. So even that is a nuanced picture.",
+    "startBeginning": 200.42,
+    "startEnd": 227.56,
+    "ID": 16,
+    "numberOfWords": 85
+  },
+  {
+    "speaker": 4,
+    "text": "But by and large, especially since the pandemic, really, by and large, we have seen faster than normal increase in electricity price inflation, and we have the big AI question. So we really have to figure out, a, how is all of this new data center capacity gonna come out to the market? Who's gonna supply the generation? And then who is gonna bear that cost? Is it going to be the consumers who are already, generally speaking, across several markets, seen their bills go up?",
+    "startBeginning": 228.12,
+    "startEnd": 257.43,
+    "ID": 17,
+    "numberOfWords": 86
+  },
+  {
+    "speaker": 5,
+    "text": "If we have to talk about this rubber band ball market, then I'm glad we at least have the perfect guest to do it. We That's all I'm gonna say.",
+    "startBeginning": 258.15,
+    "startEnd": 266.54498,
+    "ID": 18,
+    "numberOfWords": 30
+  },
+  {
+    "speaker": 4,
+    "text": "We do, in fact, have the perfect guest. Very excited to say, we're gonna be speaking with someone who's been trying to get on the podcast for a little while, Travis Cavula. He is a VP of regulation at NRG Energy. He's also been on a public commission in Montana, so he knows that side of the business in terms of how prices are set in those regulated monopoly markets. He's also an academic. Travis, thank you so much for coming on Odd Life.",
+    "startBeginning": 266.785,
+    "startEnd": 291.36002,
+    "ID": 19,
+    "numberOfWords": 84
+  },
+  {
+    "speaker": 6,
+    "text": "It's great to be here. Thank you.",
+    "startBeginning": 291.895,
+    "startEnd": 293.01498,
+    "ID": 20,
+    "numberOfWords": 7
+  },
+  {
+    "speaker": 4,
+    "text": "We're really excited about this one because there are so many questions. Why are we talking to you? Why don't you give us the sort of brief intro of what you do and what your background is so that our audience has some idea of why you're the perfect guest.",
+    "startBeginning": 293.41498,
+    "startEnd": 305.97498,
+    "ID": 21,
+    "numberOfWords": 50
+  },
+  {
+    "speaker": 6,
+    "text": "Sure. So I spend my time on regulatory affairs at a company, NRG. We're a big producer of power. We sell power to end use customers where that's permitted by law, where competition exists in the power and gas markets. So we've got about 8,000,000 end use customers. And previously, I was the head of the Montana Public Service Commission, the rate setting body for regulated utilities in the state. I headed up an organization that represents state utility commissions at the national level called NAIRUC, And I teach a little bit on the side at University of Chicago's Harris School of Public Policy, a course on utility regulation and electricity markets. So I spend my time thinking a lot about what goes into customer bills, both the stuff that we can control, being a company that is a provider, and also stuff that are sort of upstream cost of goods sold that that appear on my company's bills, the sort of poles and wires charges that go in into people's bills. So bay basically, you know, there's two parts to people's bills, the commodity and the regulated grid charges that get the commodity to you, and both of those are subject to some form of regulation in this industry.",
+    "startBeginning": 306.78,
+    "startEnd": 371.46002,
+    "ID": 22,
+    "numberOfWords": 210
+  },
+  {
+    "speaker": 4,
+    "text": "Yeah. Tracy, when we were in Chicago recently for a live episode, I met one of Travis's students there, and he's like, you gotta talk to Travis. Travis is the man that will explain all these things. So glad we're finally making this happen.",
+    "startBeginning": 372.74002,
+    "startEnd": 386.38498,
+    "ID": 23,
+    "numberOfWords": 44
+  },
+  {
+    "speaker": 6,
+    "text": "I'm glad I have a high rating for for the students. That's important. From rate",
+    "startBeginning": 387.26498,
+    "startEnd": 390.95,
+    "ID": 24,
+    "numberOfWords": 15
+  },
+  {
+    "speaker": 4,
+    "text": "my professor. Market.",
+    "startBeginning": 391.19,
+    "startEnd": 391.99002,
+    "ID": 25,
+    "numberOfWords": 3
+  },
+  {
+    "speaker": 5,
+    "text": "That's right. Okay. So no pressure, Travis. Alright. So you were talking about the wholesale cost of the thing that goes across the wires and the poles and all of that. So that's electricity versus the actual transmission system. One thing that we hear whenever this topic comes up is it's not necessarily about the wholesale cost of electricity. It's the cost of actually maintaining and expanding the grid. How much truth is there to that? If you're gonna pinpoint the dominant factor behind higher electricity prices right now, is it the wholesale price or the actual cost of transmission?",
+    "startBeginning": 392.31,
+    "startEnd": 427.53,
+    "ID": 26,
+    "numberOfWords": 100
+  },
+  {
+    "speaker": 6,
+    "text": "Yeah. It's kind of the scope of time that you choose to evaluate. But, you know, just to give you kind of a benchmarking, you know, if you looked at, say, the New England power market over the last twenty years, which sort of is the beginning point of the in the restructuring of the industry and the introduction of competition in a place like New England. The actual commodity cost would have fallen by about 50% on an inflation adjusted basis, whereas on the same basis, transmission costs would have increased something like 900%. Now from a very low level to a much more substantial level, but then if you drew that comparison in another market, say the Mid Atlantic, over a shorter period of time, like year over year, you know, the grid cost would not have risen substantially in a year, but power prices would have. And that's really just because the commodity works on more fundamental kind of supply and demand balance. You know, scarcity will drive up prices relatively rapidly, and then an oversupply that occurs when the market is moving back toward equilibrium will drive prices down rapidly. Whereas those regulated set of costs that attach to the transmission and distribution systems, you know, those are still cost plus regulated industries, and they have a funny way of working monodirectionally up over the course of time. But these two things trade up trade off against one one another. You know, you need to invest in transmission in order to facilitate the efficient delivery of electricity. You need to invest in it in order to open up regions for low cost renewable energy production. So they do have an interactive effect, but they're regulated in a very different way. And both of those land on consumers' bills. I I think the easiest way to understand this is that, you know, consumers in a sense had maybe been, as a result of the regulated charges, the proverbial frog in gradually warming water. And then when you finally enter a commodity super cycle, people can have the sense that, oh, wow. Someone just ratcheted up the heat on this pot. But both of those are contributing factors, and they require sort of different structural approaches in order to reckon with them.",
+    "startBeginning": 428.49,
+    "startEnd": 550.805,
+    "ID": 27,
+    "numberOfWords": 384
+  },
+  {
+    "speaker": 5,
+    "text": "Joe, this is my perennial frustration talking about electricity prices and the electricity system in The US, which is you cannot talk in generalities. Right? There are different types of regulations for different entities. There are different regulations for each state, basically. There's, you know, the New England system, then there's the West Coast, and then there's Texas, which is its own special entity. You kinda have to talk about every single market in isolation, which is difficult even on hour long podcast. So that's gonna be the caveat throughout this conversation, I think.",
+    "startBeginning": 552.085,
+    "startEnd": 582.585,
+    "ID": 28,
+    "numberOfWords": 94
+  },
+  {
+    "speaker": 6,
+    "text": "It's idiosyncratic, and it's funny because at the same time, restructuring and competition was introduced into this industry. It was also occurring in things like telecom. Telecom, you know, was substantially deregulated and federalized at the same time. States, however, were left to make their own decisions about the power sector. And as a result, you really have a huge patchwork quilt of state and federal regulation and different industry models. It's true.",
+    "startBeginning": 582.985,
+    "startEnd": 608.395,
+    "ID": 29,
+    "numberOfWords": 73
+  },
+  {
+    "speaker": 4,
+    "text": "I have a really another really rudimentary question, I guess. What are we even talking about when we talk about competition in electricity? You know? I I don't get to choose which wire I get into. There's one utility I have the option from. Sometimes there are these people on the street, and they're like, oh, sign will you sign up for clean power or something like that? And they try to get me to do something, but I don't really understand how that works because I don't understand how electrons can be directed to anyone's home, so I'm always very skeptical of it. What are we talking about when people talk about a competitive market?",
+    "startBeginning": 609.275,
+    "startEnd": 640.825,
+    "ID": 30,
+    "numberOfWords": 116
+  },
+  {
+    "speaker": 6,
+    "text": "Yeah. So think of the electricity system as sort of a chain of links. Upstream, you've got the power generators, and then after that, you've got the high voltage transmission system. It patches into a substation that steps down the voltage to a lower level. That's what we would call the distribution system. And then there's a meter hanging on the side of your home, and beyond that meter, you are the consumer of electricity. The most upstream, the generation, and the most downstream retailing have been opened in some states to competition. And I think it's fairly intuitive what that means for generation. Power plants are owned by private investors who make investments in them. Those power plants compete against one another in auctions for electricity and to sell their power to wholesale offtakers. Some of those offtakers then are the retailers of electricity who sort of buy an upstream supply of goods and then use the regulated poles and wires and pay regulated rates to deliver that commodity to you at your home. So some of the value proposition of what you're experiencing as a potential retail customer in a competitive market is your product selection. I mean, to give an example, a retailer came to me and marketed me a five year fixed price for electricity last year. I bought it. I locked in a rate. I'm insulated from upstream, you know, changes in wholesale market volatility as a result. That's generally the value proposition of competitive retail, though in places like Texas, you're also seeing product differentiation that has a ring of telecommunications and data competition, sort of like more apps as part of your retail electric supply service, people selling you smart thermostats or residential batteries that can be packaged onto your retail electricity supply plan to sell back to the grid, help manage your costs upstream to stabilize pricing. But that's the paradigm of competition in the space. It's a regulated system in the middle with competition on the edges.",
+    "startBeginning": 641.68005,
+    "startEnd": 762.73,
+    "ID": 31,
+    "numberOfWords": 336
+  },
+  {
+    "speaker": 5,
+    "text": "Can we back up for a second and go back to that big restructuring of the market? Because I I have a feeling this will help us understand our current situation. But what was the problem that we were trying to solve back then? You know, people have short memories. A lot of people would say that our electricity system right now has its own special problems, and they would forget that there were previous problems that this system was meant to address.",
+    "startBeginning": 764.56995,
+    "startEnd": 787.83997,
+    "ID": 32,
+    "numberOfWords": 83
+  },
+  {
+    "speaker": 6,
+    "text": "Yeah. I mean, it's kind of haunting. It's funny you should ask that question because the problem it was meant to address is that regulated utilities, which used to own this whole chain of links on a consolidated vertically integrated basis, bet wrong very badly on the amount of demand growth in the sector. And they put themselves out there building power plants that were intended to be included in what's called their rate base on which they earn a return and are able to charge off those costs to a captive set of customers. When they bet wrong on the demand that would ultimately materialize on the system, they found themselves well over their skis in the amount of power generation that they either had built or were in the process of building. At the heart of regulated utility economics is this division problem where kind of a total system of fixed costs is the numerator divided by the denominator of throughput. So these regulated utilities were adding handsomely to the numerator. The denominator wasn't propping up that, and the result was that division problem spitting out a price that was escalating higher and higher. Some utilities at that point, their state regulators said, you've been imprudent. We're going to not allow you cost recovery because you've been imprudent. They went bankrupt. But that was the exception to the rule. Most of them allowed those costs to be recovered from a captive customer base, but some of those states also passed laws that said, let's never do this again. There's no reason why we shouldn't have power generation invested in to meet the levels of demand needed on the system be a function of investors' competitive bets in the market. And so in about, you know, call it a third of the states, but accounting for more than half of the power sold, that's now the business model where companies like mine are, you know, have to make guesses about what the demand is going to be and try to volunteer sign up customers to voluntarily contract with us to produce revenue for the power generation we might invest in. And for the rest of the country, it still works by, you know, people like me wearing my former hat, you know, as a as the chairman of a utility commission, like guessing what the future is going to be and charging off the cost of those guesses is to a monopolized customer base.",
+    "startBeginning": 788.72,
+    "startEnd": 923.51,
+    "ID": 33,
+    "numberOfWords": 415
+  },
+  {
+    "speaker": 0,
+    "text": "Today's markets move fast. Get the insights you need in ten minutes with the Barclays Brief, a new podcast from Barclays Investment Bank. Through sharp dialogue and scenario based analysis, our leading experts analyze key market themes each week. So whether you're managing a portfolio or leading a business, the Barclays Brief podcast can help you make smarter decisions today. Stay sharp. Stay briefed. Find Barclays Brief wherever you get your podcasts.",
+    "startBeginning": 939.765,
+    "startEnd": 967.245,
+    "ID": 34,
+    "numberOfWords": 72
+  },
+  {
+    "speaker": 5,
+    "text": "Hey there, Odd Lots listeners. As we come into 2026, we are realizing that one thing we're constantly thinking about on the show is how companies actually get built. Not just, like, the headline version of that story, but the messy operational reality of it.",
+    "startBeginning": 970.125,
+    "startEnd": 987.91,
+    "ID": 35,
+    "numberOfWords": 45
+  },
+  {
+    "speaker": 4,
+    "text": "Right. We love messy operational reality of things. The never ending quest to dive deeper, how companies make it big, what causes one company to succeed, why others fail.",
+    "startBeginning": 988.38995,
+    "startEnd": 998.305,
+    "ID": 36,
+    "numberOfWords": 29
+  },
+  {
+    "speaker": 5,
+    "text": "Well, I have good news. That is exactly what the Acquired podcast does. Ben Gilbert and David Rosenthal pick a company and then explore all the ins and outs of its trajectory. Lots of detail there, how it scaled, the ups and downs, and so much more.",
+    "startBeginning": 999.185,
+    "startEnd": 1015.34,
+    "ID": 37,
+    "numberOfWords": 47
+  },
+  {
+    "speaker": 4,
+    "text": "Yeah. And we actually we had them on Odd Lots back in February. We talked to them about everything from TSMC, NVIDIA, Mars, Hermes, scale, capital structure, the importance of incentives, all of the different, I guess, ingredients that go into some of the success of these names that we talk about every day.",
+    "startBeginning": 1015.66,
+    "startEnd": 1033.285,
+    "ID": 38,
+    "numberOfWords": 54
+  },
+  {
+    "speaker": 5,
+    "text": "Also, their show actually turned ten years old in 2025 just like us. So we're, I guess, the same age in podcast years.",
+    "startBeginning": 1033.765,
+    "startEnd": 1040.65,
+    "ID": 39,
+    "numberOfWords": 23
+  },
+  {
+    "speaker": 4,
+    "text": "Big year. Anyway, if you like Odd Laws, the way we get into various market dynamics, how the economy actually works under the hood, You'll obviously appreciate and enjoy the acquired podcast. They do similar work, similar ideas, all focused on the context of individual company.",
+    "startBeginning": 1041.21,
+    "startEnd": 1056.455,
+    "ID": 40,
+    "numberOfWords": 46
+  },
+  {
+    "speaker": 5,
+    "text": "So go check out the acquired podcast. You can find them wherever you get your podcasts.",
+    "startBeginning": 1057.095,
+    "startEnd": 1061.415,
+    "ID": 41,
+    "numberOfWords": 16
+  },
+  {
+    "speaker": 3,
+    "text": "Okay. New year, fresh start. And honestly, I'm starting with dinner. This year, I'm being smarter about where my energy goes, and dinner was taking way too much of it. I just signed up for HelloFresh, and they take fresh start to a whole new level. Fresh, high quality ingredients delivered right to my door, locally sourced whenever possible. Everything pre portioned, nothing wasted. Now I'm not dragging myself through weekend grocery runs or panic staring at the fridge at 05:30 trying to make something out of random leftovers. And I'm definitely not tossing up food I never used or falling back on expensive takeout apps because I ran out of ideas. Yeah. That happened a lot. Just simple stress free recipes and meals that help me save more, waste less, and for the first time in a long time, I actually look forward to dinner. Get your fresh start right now and get 50% off your first box plus free sides for life with HelloFresh. That's right. Free sides for life. Go to hellofresh.ca and use code yum 50. That's hellofresh.c a code yum 50.",
+    "startBeginning": 1065.44,
+    "startEnd": 1126.0499,
+    "ID": 42,
+    "numberOfWords": 186
+  },
+  {
+    "speaker": 2,
+    "text": "Pro drivers live for race day. But for small business owners, every day is race day. That's why going pro with Lenovo Pro matters. One on one advice, IT solutions, and customized hardware powered by Intel Core Ultra processors keep your business on the right track. Business goes pro with Lenovo Pro.",
+    "startBeginning": 1127.4099,
+    "startEnd": 1148.265,
+    "ID": 43,
+    "numberOfWords": 52
+  },
+  {
+    "speaker": 3,
+    "text": "Sign up for free at lenovo.com/pro.",
+    "startBeginning": 1148.985,
+    "startEnd": 1149.865,
+    "ID": 44,
+    "numberOfWords": 6
+  },
+  {
+    "speaker": 6,
+    "text": "Lenovo. Lenovo.",
+    "startBeginning": 1153.16,
+    "startEnd": 1153.4,
+    "ID": 45,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 4,
+    "text": "Let's talk about your former hat because one of the things you hear about is that the utilities have this incentive to overinvest because that might help determine what they're allowed to charge on a going forward basis. But why don't you sort of talk about your former hat and the basic role you played, how you thought about decision making, and how we are to understand what the world looks like from the standpoint of someone sitting on that regulatory commission.",
+    "startBeginning": 1157.56,
+    "startEnd": 1183.29,
+    "ID": 46,
+    "numberOfWords": 82
+  },
+  {
+    "speaker": 6,
+    "text": "Yeah. Well, you're number one, you're absolutely correct about the incentives at play. Under the style of economic regulation that is widely used, really without exception, in The United States to regulate the monopoly industries in the utility sector. The companies earn a return that is sort of announced in advance by their state or federal economic regulators based on the amount of capital they've invested in the system. So spend more, make more has some paradoxical effects where the most amount of profit a utility will ever make is in the first year that it owns a particular asset. And then when they own it free and clear, they actually earn zero profit. So sort of an inversion of the cash flow paradigm that you would expect out of competitive businesses. Regulators also establish the depreciation lifespan for rate making purposes of regulated assets, which has some interactive effects with that model. So that that's basically the grist in the mill of what state regulatory utility commissions do. They determine the amount that is, quote, unquote, used and useful in service to customers of the capital investments that utilities have made. They also establish an allowance for so called prudently incurred expenses, the o and m on the system, around which the utility earns no margin, just gets a recovery of those costs. And that that also has the knock on incentive of if I'm a utility and I look at a problem that I have to solve, I will always want to solve it with capital investment. I will never want to solve it with OPEX. You know? And because that one earns return, one does not. So ordinary trade offs that would occur in competitive businesses between CAPEX and OPEX tend not to occur in the regulated sector. Other countries have done this a different way and have tried to establish more of a performance based framework of regulation that rewards utilities with profits based on outcomes, but, you know, The United States has never got there for a whole variety of, frankly, dumb reasons. So that's the way the sector is regulated. It's it's weird to have a sector that is really regulated according to early twentieth cent century standards that's trying to serve a modern economy, to be fully candid with you.",
+    "startBeginning": 1184.01,
+    "startEnd": 1316.875,
+    "ID": 47,
+    "numberOfWords": 387
+  },
+  {
+    "speaker": 5,
+    "text": "Yeah. It does feel that way, doesn't it? So, again, I said in the intro, I do not know much about the electricity market. I feel like I'm constantly struggling to try to understand it. But one thing I do know is that a lot of the electricity companies seem to complain for years and years and years that loads in The US had actually been either declining or stagnant. Now we have the situation where everyone is talking about data centers coming on stream, and they use a lot of electricity, so loads are finally rising. Shouldn't this be a good thing for the electricity company? Shouldn't they be celebrating they have extra money, to spend on, if not OPEX, then CAPEX?",
+    "startBeginning": 1317.2749,
+    "startEnd": 1354.2001,
+    "ID": 48,
+    "numberOfWords": 123
+  },
+  {
+    "speaker": 6,
+    "text": "Generally, yes. And it's true that for most electricity markets in The United States, it's been fairly flat. In the PJM, the Pennsylvania and New Jersey, Maryland market that stretches from Washington DC to Chicago, they last recorded a record peak demand in 2006. They'll, in all likelihood, set a new demand next year, twenty years later in 2026. Some markets like Texas' ERCOT market have been growing, but it is definitely the exception to the rule. Most of these people last set a record demand, you know, before the period of offshoring and deindustrialization of industries that use a lot of electricity. And and that actually facilitated the kind of turnover of capital from coal to gas and to renewables a little bit as well in a lot of these places. But net of net, you know, that was kind of neutral or even a little bit negative in terms of the total installed generation capacity. It was kind of managing to even in terms of generation capacity additions. And then in terms of, like, shouldn't they be celebrating? Yes. Definitely. Everyone in the sector, my business, and the regulated utilities are excited about the prospect of growth. They're also nervous about whether or not this growth is real and to what magnitude. Part of what makes it a little worrying is that ordinarily, electricity demand growth would be a composite of growing demand from many different end use applications that would kind of diversify the risk of betting on growth. Here, it's like a one or a zero. You know? If you take out the data centers, the sector is actually, you know, pretty stable in terms of electricity demand. If you add the data centers, the sector is really poised to grow a heck of a lot. And when you look at the projections of the grid operators, I mean, just to put some numbers on this, the the market PJM in the Mid Atlantic that I was referring to, it's currently about a 160,000 megawatt market. It's projecting to add 40,000 megawatts by 2030. The ERCOT, Texas market, you know, about 85,000 megawatts right now. Its latest projection is up to nearly a 140,000 megawatts by 2030. Now that's like adding a California to Texas in terms of electricity demand in five years. And that's not going to happen because it can't. It just I mean, literally could not occur. But there therein lies the problem. It's like, what are we actually investing toward, and what are the regulatory policies that can essentially help call the question on the amount of offtake that will actually materialize from AI so that then capital investments can propagate throughout the supply chain to to end up serving them. That that's really the fundamental question that policymakers, utilities, and competitive providers like us are trying to deal with.",
+    "startBeginning": 1355.72,
+    "startEnd": 1526.98,
+    "ID": 49,
+    "numberOfWords": 478
+  },
+  {
+    "speaker": 4,
+    "text": "Those numbers are absolutely staggering the idea of adding California size demand to Texas in just a standpoint of a few years. When you say you don't think those numbers can happen, what is the constraint? Is it on the generation side in a market like Texas or if we're talking about what any other region? Or because I think they're it's pretty easy to set up, you know, solar farms or whatever. Texas seems pretty liberal with what kind how easy it is to plug into the grid. Or is it in a state like that? There isn't the transmission capacity even if you can stand up the production.",
+    "startBeginning": 1527.94,
+    "startEnd": 1562.56,
+    "ID": 50,
+    "numberOfWords": 110
+  },
+  {
+    "speaker": 6,
+    "text": "Yeah. It's, I mean, it's a little bit of everything. Everything from stuff that isn't, you know, on the power sector side of the fence line in terms of actually being able to construct data centers and, you know, their chips and the fiber optics that would back them up. And then on our side of the fence, you're right. Getting access to the grid through interconnection, getting all the equipment that you would need to tap into the grid. We're talking about, you know, kinda grid step up, generator step up transformers, and stuff like that. Joe, I know that's topic near and dear to you from listening to the pod over the years. And then it is the power equipment in terms of, like, gas turbine availability. You know, solar panels probably aren't going to do it for you given the demand for, you know, kind of consistent power production off of these data centers, but they are helpful. So it's just the magnitude there is a dilemma. And, you know, right now, if I were to place an order for something like, you know, a generator step up transformer, You know? Pre COVID, it would have been maybe, like, twelve to eighteen months. Now we're talking about three to four years for a bespoke piece of equipment whose specifications are only available to me after the local utility, the poles and wires company, tells me what my interconnection study looks like in terms of grid availability and our connection to the system. So that that's one. You know, NRG is lucky enough to have some gas turbines lined up for delivery, you know, later in this decade, so we would be able to facilitate some of this investment. But if you were going to get in line right now, that too would be a process that would take several years. Some of it's the availability of equipment, and some of it is a natural pacing of steps in the kind of quasi regulatory process to get projects online. It would be better. I think one of the interesting policy innovations that's out there is if you had kind of more of a market to make use of the scarce remaining headroom in our system from sort of a grid interconnection point of view without tripping into having to build a bunch of capital investments in poles and wires. But, you know, that's not the way the regulatory model is set up. You know, right now, we have a paradigm where a final power generator, I kinda knock on the door of the local utility and say, hey. You know, I wanna build a power project at this place. Can you can you study it for the sake of its interconnection to the grid? They come back with a study, and I don't like the number. I don't like the specs, and then I submit another study, and we iterate. So it's a time consuming process sometimes to develop these projects, and there there probably needs to be avenues that are more coordinated between the demand and supply side. And even if you don't, you know, even if you certainly shouldn't functionally reintegrate the utility business model, but there does need to be more coordination between the people who own the poles and wires and the people who are doing the generation. And that's kind of a missing link right now in this policy landscape.",
+    "startBeginning": 1563.4451,
+    "startEnd": 1740.455,
+    "ID": 51,
+    "numberOfWords": 577
+  },
+  {
+    "speaker": 5,
+    "text": "Other than sheer volume of power needs, I guess, sheer megawatts, do data centers have specific energy needs in terms of, I don't know, the type of electricity? I would assume a megawatt is a megawatt, but what do I know? But maybe in terms of timing and things like that, are there sort of operational considerations that are unique to data centers' electricity consumption versus, say, an industrial factory or us turning the lights on when we get home?",
+    "startBeginning": 1741.335,
+    "startEnd": 1770.6749,
+    "ID": 52,
+    "numberOfWords": 80
+  },
+  {
+    "speaker": 6,
+    "text": "Yeah. So, I mean, the first experience, you know, at any scale that anyone seemed to have with computing technologies, you know, were kind of, you know, cloud based servers and then really on the other side, like, crypto mining facilities. And both of them data centers, but the two could not be more different. Right? I mean, crypto can it becomes uneconomic at a certain strike price for cryptocurrency to continue mining, and so it's a highly flexible load that drops off the system when conditions become tight in an electricity market, and we see that all the time in Texas. On the other hand, for, you know, cloud services that are providing kind of real time instantaneous hosting capabilities, you know, they they kind of need they have a very high, what's called, a load factor of their power consumption. They're drawing from the system on a relatively consistent basis, and, of course, they need to be highly reliable. You know, they can't really be interrupted without having Cloudfare or AWS interruption style problems. So very different, and you can look back to analogs of, you know, other industrial customers, you know, aluminum smelters, high load factor when they were doing the batching of smelting, couldn't be interrupted. Paper mills, maybe you could interrupt them. So we the industry has some, like, kind of learnings from this, and there have been markets designed around the flexibility of demand to try to do for the power sector what previously happened to, say, the airline sector, which had used to have, you know, very low load factor. And then after restructuring and deregulation in the seventies, suddenly everyone's, you know, everyone's airplanes ended up full, you know, and too full in some cases where, you know, people get bumped and compensated for it. So we're we've yet to achieve that, though, in the power sector where load factors continue to be, you know, fifty, sixty, 70%. So there's a lot of headroom during certain hours and very little headroom during other hours. So the the kind of the primary question in terms of the network economics is if you end up with a bunch of high load factor data center customers, the type that can't be interrupted, how do you get them online without tripping into a bunch of necessary capital investments to serve that last few percent of hours where their demand needs to be served and firm? Or can you source flexibility out of the system somewhere else, like from residential air conditioning or something like that? That's a question again that's very important to figure out. People have kind of issue spotted it, but we've really yet to solve in any meaningful way. The markets like Texas are kind of geared towards solving it in more of a free enterprise premise. Other markets seem to be struggling a bit.",
+    "startBeginning": 1771.9199,
+    "startEnd": 1936.865,
+    "ID": 53,
+    "numberOfWords": 482
+  },
+  {
+    "speaker": 5,
+    "text": "Hey there, Odd Lots listeners. As we come into 2026, we are realizing that one thing we're constantly thinking about on the show is how companies actually get built. Not just, like, the headline version of that story, but the messy operational reality of it.",
+    "startBeginning": 1953.37,
+    "startEnd": 1971.1,
+    "ID": 54,
+    "numberOfWords": 45
+  },
+  {
+    "speaker": 4,
+    "text": "Right. We love messy operational reality of things. The never ending quest to dive deeper, how companies make it big, what causes one company to succeed, why others fail.",
+    "startBeginning": 1971.58,
+    "startEnd": 1981.5,
+    "ID": 55,
+    "numberOfWords": 29
+  },
+  {
+    "speaker": 5,
+    "text": "Well, I have good news. That is exactly what the Acquired podcast does. Ben Gilbert and David Rosenthal pick a company and then explore all the ins and outs of its trajectory. Lots of detail there, how it scaled, the ups and downs, and so much more.",
+    "startBeginning": 1982.46,
+    "startEnd": 1998.48,
+    "ID": 56,
+    "numberOfWords": 47
+  },
+  {
+    "speaker": 4,
+    "text": "Yeah. And we actually we had them on Odd Lots back in February. We talked to them about everything from TSMC, NVIDIA, Mars, Hermes, scale, capital structure, the importance of incentives, all of the different, I guess, ingredients that go into some of the success of these names that we talk about every day.",
+    "startBeginning": 1998.88,
+    "startEnd": 2016.435,
+    "ID": 57,
+    "numberOfWords": 54
+  },
+  {
+    "speaker": 5,
+    "text": "Also, their show actually turned ten years old in 2025 just like us. So we're, I guess, the same age in podcast years.",
+    "startBeginning": 2016.915,
+    "startEnd": 2023.875,
+    "ID": 58,
+    "numberOfWords": 23
+  },
+  {
+    "speaker": 4,
+    "text": "Big year. Anyway, if you like Odd Laws, the way we get into various market dynamics, how the economy actually works under the hood, you'll obviously appreciate and enjoy the Acquired podcast. They do similar work, similar ideas, all focused on the context of individual company.",
+    "startBeginning": 2024.435,
+    "startEnd": 2039.6,
+    "ID": 59,
+    "numberOfWords": 46
+  },
+  {
+    "speaker": 5,
+    "text": "So go check out the Acquired podcast. You can find them wherever you get your podcasts.",
+    "startBeginning": 2040.24,
+    "startEnd": 2044.6399,
+    "ID": 60,
+    "numberOfWords": 16
+  },
+  {
+    "speaker": 3,
+    "text": "Okay. New Year, fresh start. And honestly, I'm starting with dinner. This year, I'm being smarter about where my energy goes, and dinner was taking way too much of it. I just signed up for HelloFresh, and they take fresh start to a whole new level. Fresh high quality ingredients delivered right to my door, locally sourced whenever possible. Everything pre portioned, nothing wasted. Now I'm not dragging myself through weekend grocery runs or panic staring at the fridge at 05:30 trying to make something out of random leftovers. And I'm definitely not tossing up food I never used or falling back on expensive takeout apps because I ran out of ideas. Yeah. That happened a lot. Just simple stress free recipes and meals that help me save more, waste less. And for the first time in a long time, I actually look forward to dinner. Get your fresh start right now and get 50% off your first box plus free sides for life with HelloFresh. That's right. Free sides for life. Go to hellofresh.ca and use code yum 50. That's hellofresh.ca, code yum 50.",
+    "startBeginning": 2048.595,
+    "startEnd": 2109.2349,
+    "ID": 61,
+    "numberOfWords": 185
+  },
+  {
+    "speaker": 2,
+    "text": "Pro drivers live for race day. But for small business owners, every day is race day. That's why going pro with LenovoPro matters. One on one advice, IT solutions, and customized hardware powered by Intel Core Ultra processors keep your business on the right track. Business goes pro with Lenovo Pro. Sign up for free",
+    "startBeginning": 2110.595,
+    "startEnd": 2132.635,
+    "ID": 62,
+    "numberOfWords": 55
+  },
+  {
+    "speaker": 3,
+    "text": "at lenovo.com/pro. Lenovo. Lenovo.",
+    "startBeginning": 2132.875,
+    "startEnd": 2136.555,
+    "ID": 63,
+    "numberOfWords": 4
+  },
+  {
+    "speaker": 4,
+    "text": "It's funny to think about getting an alert on your phone. It's like, GPT six is completing its training run. Sorry. No. If we we would like you to turn down your air conditioning right now. No. I don't know if that would happen. But the part of the reason everyone's interested in data centers, period well, there's a lot of reasons. But people are worried when they hear these numbers. They're like, oh, am I as the consumer let's say I lived in Texas, which I sometimes have. Am I, as the consumer, going to, in some way or another, be paying the price for this massive expansion of demand thanks to data centers? Intuitively, it seems like, well, it shouldn't be. They can pay for their own electricity. They can pay for their own upgrades. But how does this massive increase in demand play out from the sort of the ratepayer perspective?",
+    "startBeginning": 2140.61,
+    "startEnd": 2186.0698,
+    "ID": 64,
+    "numberOfWords": 154
+  },
+  {
+    "speaker": 6,
+    "text": "Yeah. So we go back to the kind of segmentation between the regulated grid costs and the commodity costs on on in answer to that question. On the commodity side, you know, this tends to be a marginal cost pricing environment where if you have demand growth outstripping supply additions, the system becomes tighter. The supply curve moves up for the kind of last unit that's necessary to serve demand, and its marginal costs in a very real way establish the clearing price that all demand has to pay unless, and to the extent to, they are bilaterally contracted with some kind of hedging instruments, which everyone should be. No one should be in an ideal market exposed to that spot price, but we find that many people are for a variety of reasons. So some policy interventions that people have contemplated is, you know, usually, we would let these markets kind of equilibrate on their own. We would expect sort of organic growth to be met with organic supply additions. Here, people have observed, like, wow. This demand growth seems really out of scale with what the markets have organically been able to achieve. Maybe we should have a requirement to just bring your own generation. You know? We're not gonna let the power markets on a forward traded basis send the right signal and hope that enough generation shows up to serve this demand as sort of part of the social license or even a formalized regulatory requirement for them to get online. You gotta show us the megawatts that you're bringing out of the system. So that's one of the debates. On the other side of the ledger, the regulated costs, that too can be a problem usually in, again, this division problem of network economics for the regulated costs. If you're adding to that denominator of throughput at a rate that is higher, then you're adding two additions to the fixed cost of the system. Everyone's rates go down. You know, produces a lower quotient, which is the price of grid consumed electricity. The problem here is that in a kind of an inflationary environment for all the materials, the transformers, the cabling, everything that goes into the poles and wires, if you're adding demand and you're not just using headroom that already exists on the system, if you're not increasing that capacity factor on the system, if you're tripping into a lot of new capital expenditures, then even if you're adding demand that's paying regulated rates, it may not be enough to offset the total amount of expenditures incrementally you're making on the system. So there's policy interventions there too where you can try to directly assign the costs that are caused on the grid back to the data centers. But those are pretty nascent approaches, and some of the ones that have been tried are kinda aiming at the wrong thing. So a lot of policy work remains to be done here. And all of this is kind of a political debate where, you know, a lot of state governors, the people who are really the ones kind of in charge of you know, with their state utility commission setting these policies, They simultaneously want the economic development of data centers, but they don't want any negative externalities around reliability, affordability, clean energy. And all those things trade off against one another, but, you know, political actors will want to maximize all of those variables, which is not possible in the current environment.",
+    "startBeginning": 2187.535,
+    "startEnd": 2392.455,
+    "ID": 65,
+    "numberOfWords": 589
+  },
+  {
+    "speaker": 5,
+    "text": "Can I ask a very basic question? And I'm struggling to think of a way to frame it that doesn't sound like I've just taken an elderly family member to a medical office or something. But what is a node?",
+    "startBeginning": 2393.415,
+    "startEnd": 2405.49,
+    "ID": 66,
+    "numberOfWords": 40
+  },
+  {
+    "speaker": 6,
+    "text": "A node usually would be a place like a substation. It is the place on the physical grid at which electricity is bought and sold. It's a physical destination on the grid. When we say nodal markets, which is a way to describe electricity markets, we're referring to markets where electricity is priced on a so called locational marginal price basis. And the l the LMPs, as they're called, are based on physical destinations on the grid called nodes. I'm just, you know, estimated guess here, but a market like Texas will have a few thousand nodes at which electricity is traded on an individuated price basis.",
+    "startBeginning": 2407.41,
+    "startEnd": 2448.325,
+    "ID": 67,
+    "numberOfWords": 107
+  },
+  {
+    "speaker": 5,
+    "text": "That seems like such a weird way of doing it to me, and I'm sure there are very valid reasons for doing it in this way. But like nowadays, given all the data at our disposal, given the rise of AI, can't we work out some sort of average cost across the system? It seems really weird that we're taking it at like physical points. Although I guess, you know, there are plenty of commodities that do trade based on particular locations, but it just seems strange to me.",
+    "startBeginning": 2449.765,
+    "startEnd": 2472.7148,
+    "ID": 68,
+    "numberOfWords": 89
+  },
+  {
+    "speaker": 6,
+    "text": "Well, it is important that you have nodal pricing in the system only because it sends a powerful price signal for the accurate location of necessary power generation. There are certain markets, I'm thinking of Alberta, some of the European markets that actually do establish a zonal price across their entire market. But there, you you end up with power plant developers, you know, who develop wind in a particular area far away from demand to capture the average price, but then that energy ends up being undeliverable because there are transmission system constraints and congestion. So the nodal pricing formulation is intended to reflect a market that, unlike the stock exchange, isn't just trading bits of data to represent kind of paper securities. It, in a very real way, is meant to simulate a kind of flow of electrons on a system constrained basis. And then it provides valuable information too because if you continue to see locational marginal prices, you know, in one place that are very high and 20 miles away, they're very low, that's a signal to the people who plan the transmission grid that, hey. You know, we should probably build a transmission line here because the addition of the transmission line will be the thing that flattens out that price differential and creates a market that looks more like a, you know, a copper plate rather than two separate swimming pools.",
+    "startBeginning": 2473.4348,
+    "startEnd": 2564.795,
+    "ID": 69,
+    "numberOfWords": 237
+  },
+  {
+    "speaker": 5,
+    "text": "Interesting. Just to be clear, though, if I wanted to be public enemy number one, could I build a gigantic data center next to a locational marginal price point node and affect the cost of electricity for, you know, a greater area?",
+    "startBeginning": 2566.315,
+    "startEnd": 2580.4502,
+    "ID": 70,
+    "numberOfWords": 42
+  },
+  {
+    "speaker": 6,
+    "text": "Yes. You absolutely could. And in fact, I mean, I know of at least one example. You know, North Dakota is actually a good example of this, a place that is doesn't have a lot of robust transmission infrastructure, does have a lot of renewable resources that cause and those renewables are almost kind of dumping on the market in a way that causes the energy price to go down and even negative at times in North Dakota. And, you know, some of the first data centers that we've seen in this wave of expansion chose to locate in North Dakota because they had access to wholesale prices that were low or negative. They were just following the price signal. And so there's, you know, there's certain data centers out there that are literally being paid to consume electricity because there's such an over supply and so little transmission into the area.",
+    "startBeginning": 2581.81,
+    "startEnd": 2629.1501,
+    "ID": 71,
+    "numberOfWords": 152
+  },
+  {
+    "speaker": 4,
+    "text": "I you know, I got to ask this question on a podcast recently, and I didn't have a good answer. And I so now I wanna ask. So you mentioned, okay, all of these different pieces of electrical gear, they're in short supply. You might not be able to get some key equipment until 2030. Is that strain going to ease at all? Is there any additional capacity coming on the market? When I was asked this, I, like, sort of, like, hesitated. I was like, well, maybe they're not sure about the future, so they're, like, reluctant to do the capital expending involved. But do you think there's any, like is capacity growing for some of this core infrastructure as far as you can tell?",
+    "startBeginning": 2630.03,
+    "startEnd": 2664.64,
+    "ID": 72,
+    "numberOfWords": 126
+  },
+  {
+    "speaker": 6,
+    "text": "My impression is yes. I mean, you've seen public announcements from the largest gas turbine manufacturer, GE Vernova, about new manufacturing base additions. You know, some of the transformer equipment as well, I think you're seeing some incremental investment in. You're certainly seeing power generators like NRG, you know, take positions in lining up their optionality to have power projects that can be deployable to either the Texas market or the Mid Atlantic market depending on where consumer demand actually arises. So I I I think there is some development in that market. I will say, I think what people are waiting for, you know, everyone looks around the supply chain and, you know, is reasonably asking, well, who's got the deep pockets here? And then everyone turns to big tech. You know, big tech, obviously, if they signed a power purchase agreement for fifteen years or even less to take power at a certain price, some of this supply chain would fall into place pretty readily, I would say. And so people are kind of waiting in a sense for big tech to make those big bilateral contracting moves that would serve to propagate, sort of rationality around response to the perceived demand up and down the supply chain. And I think that's kind of the leading indicator to watch for in the sector. How many of those contracts are actually being signed?",
+    "startBeginning": 2665.1199,
+    "startEnd": 2752.605,
+    "ID": 73,
+    "numberOfWords": 234
+  },
+  {
+    "speaker": 4,
+    "text": "Big tech is just gonna do everything. They're gonna build nuclear plants, and they're gonna build their own chips, and they're gonna build their own fabs and everything. It'll be this entire ecosystem that is just alphabets from down the line. I wanna go back, though, to something you said, which is that part of what's tricky about the data center thing is that, okay. Here's this big boom in demand, but it's not because of, like, general, like, trend economic growth. And you could be perhaps that in a year from now or six months from now or tomorrow, people say, oh, I wanna slam the brakes on the AI spending. We're not getting this return, fears of a bubble, you know, forth. Talk to us a little bit more how the commissions are dealing with this risk and this very, yeah, binary state of planning.",
+    "startBeginning": 2753.965,
+    "startEnd": 2794.975,
+    "ID": 74,
+    "numberOfWords": 147
+  },
+  {
+    "speaker": 6,
+    "text": "Yeah. So commissions at the state level have dealt with this in a very different way. Some of them have candidly and regulated utilities themselves have said, we want no part of this risk. Like, we're a small mid cap utility, and someone is knocking at our door asking us to invest in power generation that would be, like, a third of our total existing balance sheet that's remained stable for decades. We're just not doing it. You can get on our grid, and you can pay the cost to get on our grid. But in terms of power generation, you've gotta bring your own project. We're not involved in that. Other utilities that have larger balance sheets, the southeastern utilities, are using their regulated balance sheets to build out generation and supply supply data center customers, devils in the details on those heavily redacted commercial agreements that I would I would desperately love to see about the degree to which they protect consumers. And then, of course, the other side of the industry, the competitive industry, you know, it's companies like mine and data centers that enter into commercial agreements for the purchase and sale of power, and neither of those parties have recourse to a captive base of customers. So they could go bust. We could go bust. It's not gonna, you know, be skin off the teeth of a set of, quote, unquote, ratepayers. Again, on the grid costs, it's about whether or not state commissions, and in this case, a federal regulator, the Federal Energy Regulatory Commission, are going to style take or pay contractual agreements to require large data centers that come on to the grid to essentially collateralize a revenue stream associated with the incremental costs of developing the grid to serve them. And so far, there seems to be relative unanimity that that is the right way to go in order to protect legacy customers. But, again, the devil's in the details, and I I have a problem with some of the math that's being done in those regulatory approaches. So there it's not as if this problem is invisible to the people who are economically regulating this industry, but they are trying to in a very real way, they are trying to figure it out in real time. And they and I'll be the first to say their solution set set is far from perfect.",
+    "startBeginning": 2796.02,
+    "startEnd": 2928.9248,
+    "ID": 75,
+    "numberOfWords": 403
+  },
+  {
+    "speaker": 5,
+    "text": "So just on this note, it strikes me that the difficulty in the system I mean, setting aside the patchwork of 50 different states all having their own different regulations. Like, the heart of the difficulty in the current system is we're trying to preserve the market signal for further investment, but also smooth out some of the volatility so that Joe and I don't have to spend an inordinate amount of time thinking about what is, like, the most cost effective time to blow dry our hair or do our laundry or something like that. So we're kind of trying to have our capitalism cake and eat it too. Caketalism. Caketalism. That kind of works. What is your platonic ideal of a electricity market? Do you have one either in The US or elsewhere in the world that you would say, look. Here is a system that actually manages to do both these things.",
+    "startBeginning": 2929.645,
+    "startEnd": 2982.79,
+    "ID": 76,
+    "numberOfWords": 155
+  },
+  {
+    "speaker": 6,
+    "text": "Yeah. Man, I love that question. I mean, I will say one of the real flaws in The US electricity system is that it is not as robustly a two sided market as you would hope for. It's still demand just exists on the system. It's coming onto the system based on people's on the supply side guesses about what will happen, and then the supply side is expected to solve all of it. There's very little in the way of demand elasticity. And that's been for a variety of historical reasons. I mean, the first and most obvious one is that you didn't even have the technology in the form of advanced metering infrastructure to understand when people were actually using the power in relation to a highly time variable set of upstream costs. Now you do have that. You are also increasingly having the software that allows financial settlements on the part of the people retailing electricity to end use consumers to be settled on the basis of that advanced metering infrastructure's actual meter reads, so on a time interval basis. And finally, because you shouldn't have to think about when you're going to blow dry your hair, you have a significant amount of device automation in the form of smart thermostats, battery storage, electric vehicles, manufacturing and industrial processes, which can be sort of a set it and forget it to automatically respond to high prices to try to increase the system's load factor and avoid using electricity at very high cost times. So that is just starting to happen in the American electricity sector. I would tend to look to The UK and Australia as places that have gone a bit ways further in trying to solve that problem and embrace the inherent flexibility of the system as versus The United States, which is kind of stuck in this sort of supply does something to demand framework of industry. So that that's definitely on my like, it's always on the top of my homework list if only because I think a lot of people are thinking about solving this problem highly conventionally with supply additions, which is going to be really important, but that demand flexibility component is actually essential to get to a market that looks like every other efficient and competitive market in the world, which has two sides to it.",
+    "startBeginning": 2983.75,
+    "startEnd": 3130.215,
+    "ID": 77,
+    "numberOfWords": 397
+  },
+  {
+    "speaker": 4,
+    "text": "We've been talking a lot about sort of the future looking forward and figuring out, you know, how that we're gonna get all of this, this new, capacity onto the market, etcetera. Let's look at the last several years. Like, what happened? Part of the reason we're even having this conversation is because electricity bills are on people's minds. Right? And they've been high. And it's a little unclear, like, how much of this is just keeping up with inflation. I presume that, like, grid maintenance is actually straightforwardly ineffective labor cost inflation, etcetera. One thing we do know, however, is that the pace of electricity price increases really since the pandemic seems to have been a level step up. What's driven that? How would you characterize the last several years of electricity prices and perhaps the role of load growth in driving those increases?",
+    "startBeginning": 3130.855,
+    "startEnd": 3176.43,
+    "ID": 78,
+    "numberOfWords": 145
+  },
+  {
+    "speaker": 6,
+    "text": "Yeah. So so far, load growth is really not the contributor to what has happened here. It is almost an awakening to the fact that we had already without any more load growth a less reliable system than we thought we did, And that's due to a variety of reasons. You know, we retired a lot of coal, which, you know, had a lot of emissions, but we replaced it with a bunch of natural gas that created a, you know, a a sort of more of a dependency on an interrelated network system, the gas supply and pipeline system, which, while usually very robust and very economically efficient, in winter conditions where there's a lot of residential heating drawn that system can show frailties. And so market operators in these electricity markets sort of derated the value of that capacity in how they set up these markets, which meant effectively a sort of administrative withdrawal of supply from some of these markets. Similar to that, renewables were seen",
+    "startBeginning": 3177.47,
+    "startEnd": 3244.8452,
+    "ID": 79,
+    "numberOfWords": 169
+  },
+  {
+    "speaker": 3,
+    "text": "not",
+    "startBeginning": 3245.245,
+    "startEnd": 3245.245,
+    "ID": 80,
+    "numberOfWords": 1
+  },
+  {
+    "speaker": 6,
+    "text": "as a one to one replacement for reliable generation in the parts of the country, the middle of the country, especially where they were heavily invested in, but they were really being leaned on as an effective substitute for more dispatchable power. I think everyone in the back of their head knew that wasn't the case, but only recently have as things have gotten tight have people begun to do a lot of hard math around it. And then finally, you know, we've just seen a few really traumatic winter storms in particular, one in the East and one in Texas, that have sort of reshaped the way in which the people who have responsibility to operate the grid think about the operational posture posture and need for reliable resources on the grid. And so there were a variety of regulatory changes that were made that had net of net the effect to tighten up the understanding of what generating capacity was available on the system relative to a base of demand that really didn't change. But suddenly, because of all of the retirements that had happened of coal and older gas due to economics as well as environmental regulation, we suddenly found ourselves pretty tight. And then this demand growth started to happen. So we were not particularly well positioned for the present moment of demand growth. We'd already driven the system to, you know, some might call it a tight and efficient system if you had demand growth that was level, but it it was not well situated to pick up tens and tens of new gigawatts of demand.",
+    "startBeginning": 3245.405,
+    "startEnd": 3341.7002,
+    "ID": 81,
+    "numberOfWords": 271
+  },
+  {
+    "speaker": 5,
+    "text": "I have a hypothetical question, but just as a theoretical exercise. If we are all in the pursuit of cheap and plentiful energy, and if as part of that pursuit, you could choose between two options, you could either wave a magic wand and get a bunch of nuclear reactors scattered around America, or you could wave a magic wand and get huge advances in battery technology across America. Which of those would be most conducive to having that cheap and plentiful energy supply?",
+    "startBeginning": 3342.58,
+    "startEnd": 3371.96,
+    "ID": 82,
+    "numberOfWords": 84
+  },
+  {
+    "speaker": 6,
+    "text": "Yeah. I mean, I I'm gonna make a lot of my friends unhappy with this one, but I'd probably go batteries and storage. I think there are some natural economic advantages and wide swaths of the country for relatively affordable, even without subsidies, solar production in particular, and batteries seem like a pretty good natural match to that. It really has been in the kinda Texas story to date, the pairing of batteries and solar together with natural gas additions that have supported really the only electricity market that has been growing without data centers. So I would take that as the leading indicator. That's not to speak to all of my friends in the nuclear bro community. I I hope that Many of whom listen to the podcast. That seem to be occurring in the small modular space come to fruition. I just so far, I don't see a lot of people laying down serious capital on that from a commercial perspective, but I do see people laying down money on storage.",
+    "startBeginning": 3373.145,
+    "startEnd": 3436.195,
+    "ID": 83,
+    "numberOfWords": 173
+  },
+  {
+    "speaker": 4,
+    "text": "I just have one last question, and it's kinda cheating. I'm actually my this question, I'm kinda gonna have you do our work for us, etcetera. Because, you know, I'm trying to think of a really good title for this episode. But if you look out over the next five years, you know, you mentioned adding a whole California to Texas. How are you thinking about the scale of the challenge overall that The US electricity system that the grid overall really faces in this moment? Like, how big is it that everyone from companies like yours to the various utility commissions? Like, how big is this, challenge gonna be?",
+    "startBeginning": 3437.315,
+    "startEnd": 3471.385,
+    "ID": 84,
+    "numberOfWords": 110
+  },
+  {
+    "speaker": 6,
+    "text": "It could be a substantial one. I mean, I think that AI demand growth for electricity consumption is real. I also think that that growth needs to pony up financial commitments to engender capital investments in the power sector that it intends to rely upon, I think those will be the table stakes of their social license to operate in a grid that even where competition has been introduced remains pretty heavily regulated. So I I think we're going to get there. I I do think that in terms of the regulatory policy that I deal with, there's too much small ball thinking on this, and there's too much trust in the way we've always done things. It's probably a time to really have kind of regulatory policy innovations like we've seen with the FCC regulating spectrum and the deregulation of the airline industry that tries to allocate the capacity on the grid to the highest value, the people who are actually willing to pay the most for it. And those payments, which would likely exceed the incremental cost of serving them, could then actually be a revenue source back to consumers that helps on the affordability side. So I you know, it's almost a call to your listeners that, you know, if you're doing a, a mundane corporate job and wanna do something completely different, consider becoming a utility regulator and applying some market based principles to to help solve some of these problems. Because, really, when you think about it, utility regulation, they need to be an agent of capital formation here in the sector and to clarify this moment in terms of demand uncertainty. And that is the kind of challenge on a conceptual basis that we're grappling with.",
+    "startBeginning": 3471.88,
+    "startEnd": 3584.2852,
+    "ID": 85,
+    "numberOfWords": 292
+  },
+  {
+    "speaker": 4,
+    "text": "Travis Cavula, you know, we could talk to you for hours actually just on you know, I have a million more questions just about specifics from your time in Montana and how all those things work, but, we'll let you go. Really appreciate your time. Let's do it again sometime, and, I did learn a few things on this episode, so appreciate you coming on Odd Love.",
+    "startBeginning": 3585.05,
+    "startEnd": 3601.915,
+    "ID": 86,
+    "numberOfWords": 67
+  },
+  {
+    "speaker": 6,
+    "text": "Thank you so much.",
+    "startBeginning": 3602.315,
+    "startEnd": 3602.795,
+    "ID": 87,
+    "numberOfWords": 4
+  },
+  {
+    "speaker": 5,
+    "text": "Thank you so much, Thomas. That was great.",
+    "startBeginning": 3603.195,
+    "startEnd": 3604.4749,
+    "ID": 88,
+    "numberOfWords": 8
+  },
+  {
+    "speaker": 4,
+    "text": "Tracy, I really like that. I really like the way you put it there in your question of we wanna have a market ish environment, and demand signals are pretty important, etcetera. And we want capital to flow where it's gonna be profitable and all that. We just don't really want any of the pain associated with the market.",
+    "startBeginning": 3617.22,
+    "startEnd": 3635.735,
+    "ID": 89,
+    "numberOfWords": 59
+  },
+  {
+    "speaker": 5,
+    "text": "Yeah. And, I mean, the irony is that the market could be functioning as intended in the sense that a large consumer of power, like a data center, decides to relocate itself to a place where energy costs are actually quite low. Yeah. And then because it does that Totally. Ends up distributing",
+    "startBeginning": 3636.5352,
+    "startEnd": 3653.1602,
+    "ID": 90,
+    "numberOfWords": 53
+  },
+  {
+    "speaker": 3,
+    "text": "Totally.",
+    "startBeginning": 3654.04,
+    "startEnd": 3654.04,
+    "ID": 91,
+    "numberOfWords": 1
+  },
+  {
+    "speaker": 5,
+    "text": "You know, the cost of its own power needs across a wider area. And it all seems, I mean, I'm just gonna go back to what I said earlier. It all seems so convoluted",
+    "startBeginning": 3654.2534,
+    "startEnd": 3662.135,
+    "ID": 92,
+    "numberOfWords": 34
+  },
+  {
+    "speaker": 6,
+    "text": "Yeah.",
+    "startBeginning": 3663.0151,
+    "startEnd": 3663.0151,
+    "ID": 93,
+    "numberOfWords": 1
+  },
+  {
+    "speaker": 5,
+    "text": "And so idiosyncratic across different jurisdictions. I do actually really respect Travis's call just then. If you're interested in markets and wanna have an impact on people's everyday lives, consider trying to clean up the mess that is energy regulation.",
+    "startBeginning": 3663.575,
+    "startEnd": 3678.01,
+    "ID": 94,
+    "numberOfWords": 40
+  },
+  {
+    "speaker": 4,
+    "text": "But, you know, even in the nonconvoluted version of it, if we just imagine the platonic ideal of a normal market and",
+    "startBeginning": 3678.73,
+    "startEnd": 3685.85,
+    "ID": 95,
+    "numberOfWords": 22
+  },
+  {
+    "speaker": 3,
+    "text": "there's this commodity, electrons, and",
+    "startBeginning": 3686.01,
+    "startEnd": 3686.138,
+    "ID": 96,
+    "numberOfWords": 5
+  },
+  {
+    "speaker": 4,
+    "text": "it's well, what if AI is electrons, and it's well, what if AI is this really valuable thing, and it's more valuable than blow drying your hair? I mean, for real, this could be a thing. Like, you know, we were talking about making cars or making steel, etcetera. We'd be like, oh, yeah. Well, this is this value productive thing.",
+    "startBeginning": 3686.17,
+    "startEnd": 3705.29,
+    "ID": 97,
+    "numberOfWords": 61
+  },
+  {
+    "speaker": 5,
+    "text": "I wasn't gonna do it. I wasn't going to, but now I'm gonna bring up that time you wrote that mining crypto could theoretically be a more valuable activity than running a fridge.",
+    "startBeginning": 3705.77,
+    "startEnd": 3714.65,
+    "ID": 98,
+    "numberOfWords": 33
+  },
+  {
+    "speaker": 4,
+    "text": "Well right. This is the question. In a normal market, the reason why that example seems absurd I'm glad you actually brought up. Because the reason why that example seems absurd is because very few people could ever wrap their heads around, well, could crypto mining be more valuable or value add than running a fridge? That being said, when it comes to something like AI, there really is a debate. And some people would say that's a total waste because AI is just a costly way to make fast poems, and other people would say, no. This is the fourth industrial revolution or whatever. And so I think part of the reason we're sort of uncomfortable with the, oh, let's just move the electrons to where they're who's gonna pay for them most is because I don't think a lot of people there are a lot of people who intuitively are skeptical that this is a good allocation of real resources.",
+    "startBeginning": 3715.385,
+    "startEnd": 3764.0999,
+    "ID": 99,
+    "numberOfWords": 162
+  },
+  {
+    "speaker": 5,
+    "text": "Right. I mean, I think, politically, the message that the cost of your electricity has to go up so that AI can do its thing and you can lose your job, is it an extremely unpalatable one? No. It's totally",
+    "startBeginning": 3764.66,
+    "startEnd": 3776.335,
+    "ID": 100,
+    "numberOfWords": 40
+  },
+  {
+    "speaker": 4,
+    "text": "it's totally I think this is why it's gonna, like, break a lot of people's brands. But on the other hand, if we accept that, you know, the belief that markets are generally good allocators of resources, etcetera, they're like, well, it's not really our job to have an opinion on. This is a good use. This is not a good use. But, anyway, I I did find that to be a very, interesting conversation. It does seem like those commissions that have to decide what is an appropriate amount to spend on upgrades and capacity, they really have their, work cut out for them right now.",
+    "startBeginning": 3776.735,
+    "startEnd": 3808.615,
+    "ID": 101,
+    "numberOfWords": 107
+  },
+  {
+    "speaker": 5,
+    "text": "Yeah. The way I would put it is they are not always the most popular people among their respective jurisdictions. That's for sure.",
+    "startBeginning": 3809.095,
+    "startEnd": 3816.04,
+    "ID": 102,
+    "numberOfWords": 23
+  },
+  {
+    "speaker": 4,
+    "text": "Well, someone has to have the job of doing the unpopular stuff. Right?",
+    "startBeginning": 3816.36,
+    "startEnd": 3818.92,
+    "ID": 103,
+    "numberOfWords": 13
+  },
+  {
+    "speaker": 5,
+    "text": "Someone has to have the job of adequately compensating investors in utilities for the risks that they take on in providing a necessary commodity for life and the fourth industrial revolution.",
+    "startBeginning": 3819.1602,
+    "startEnd": 3831.145,
+    "ID": 104,
+    "numberOfWords": 31
+  },
+  {
+    "speaker": 4,
+    "text": "That's right.",
+    "startBeginning": 3831.7852,
+    "startEnd": 3831.945,
+    "ID": 105,
+    "numberOfWords": 2
+  },
+  {
+    "speaker": 5,
+    "text": "Alright. Shall we leave it there?",
+    "startBeginning": 3832.3452,
+    "startEnd": 3833.3052,
+    "ID": 106,
+    "numberOfWords": 6
+  },
+  {
+    "speaker": 4,
+    "text": "Let's leave it there.",
+    "startBeginning": 3833.5452,
+    "startEnd": 3834.0251,
+    "ID": 107,
+    "numberOfWords": 4
+  },
+  {
+    "speaker": 5,
+    "text": "This has been another episode of the Odd Lots podcast. I'm Tracy Alloway. You can follow me at Tracy Alloway.",
+    "startBeginning": 3834.425,
+    "startEnd": 3839.145,
+    "ID": 108,
+    "numberOfWords": 20
+  },
+  {
+    "speaker": 4,
+    "text": "And I'm Jill Weisenthal. You can follow me at the stalwart. Follow our guest, Travis Cavula. He's at t cavula. Follow our producers, Carmen Rodriguez at Carmen Armond Dash, Joe Bennett at DashBot, and Cale Brooks at Cale Brooks. For more Odd Lots content, go to bloomberg.com/oddlots with the daily newsletter and all of our episodes, and you can chat about all these topics twenty four seven in our Discord, discord.gg/oddlots.",
+    "startBeginning": 3839.75,
+    "startEnd": 3862.2449,
+    "ID": 109,
+    "numberOfWords": 71
+  },
+  {
+    "speaker": 5,
+    "text": "And if you enjoy Odd Lots, if you like it when we try to untangle The US utility landscape, then please leave us a positive review on your favorite podcast platform. And remember, if you are a Bloomberg subscriber, you can listen to all of our episodes absolutely ad free. All you need to do is find the Bloomberg channel on Apple podcasts and follow the instructions there. Thanks for listening.",
+    "startBeginning": 3864.7249,
+    "startEnd": 3884.375,
+    "ID": 110,
+    "numberOfWords": 71
+  },
+  {
+    "speaker": 2,
+    "text": "Pro drivers live for race day. But for small business owners, every day is race day. That's why going pro with Lenovo Pro matters. One on one advice, IT solutions, and customized hardware powered by Intel Core Ultra processors keep your business on the right track. Business goes pro with Lenovo Pro. Sign up for",
+    "startBeginning": 3916.845,
+    "startEnd": 3938.72,
+    "ID": 111,
+    "numberOfWords": 55
+  },
+  {
+    "speaker": 3,
+    "text": "free at lenovo.com/pro. Lenovo. Lenovo.",
+    "startBeginning": 3938.88,
+    "startEnd": 3942.875,
+    "ID": 112,
+    "numberOfWords": 5
+  },
+  {
+    "speaker": 7,
+    "text": "This is Tom Keene inviting you to join me for the Bloomberg Surveillance Podcast. It's about making you smarter each and every business day. We bring you a recap of what happened overnight in Europe and Asia, the day's economic data, and complete coverage of The US market open. We cover stocks, bonds, commodities, currencies, even crypto, all the information you need to excel. Bloomberg Surveillance also brings you the analysis behind the headlines. We do that with lengthy conversations with our expert guests, the smartest names in economics, finance investment, and international relations. We do all this live each and every weekday that bring you the best analysis in our daily podcast. Search for Bloomberg Surveillance on YouTube, Apple, Spotify, or anywhere else you listen. On the East Coast, listen at lunch and on the West Coast when you wake up. That's the Bloomberg Surveillance Podcast with me, Tom Keene, along with Paul Sweeney and Lisa Mateo. Subscribe today wherever you get your podcast.",
+    "startBeginning": 3947.595,
+    "startEnd": 4011.3853,
+    "ID": 113,
+    "numberOfWords": 165
+  }
+]

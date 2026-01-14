@@ -1,8 +1,34 @@
 {
   "goldman1": {
     "label": "Commodities Outlook: What's Driving Oil, Gold, and Base Metals",
-    "moreinfo": "Goldman Exchanges, Jul 1, 2025, https://www.goldmansachs.com/insights/goldman-sachs-exchanges/commodities-outlook-whats-driving-oil-gold-and-base-metals",
+    "moreinfo": "Goldman Exchanges, 1 July 2025, https://www.goldmansachs.com/insights/goldman-sachs-exchanges/commodities-outlook-whats-driving-oil-gold-and-base-metals",
     "before": "data3/goldman1/beforellm.json",
     "after": "data3/goldman1/afterllm.json"
+  },
+  "oddlots1": {
+    "label": "Meet the Politician the AI Industry Is Trying to Stop",
+    "moreinfo": "Oddlots, 18 December 2025, https://omny.fm/shows/odd-lots/meet-the-politician-the-ai-industry-is-trying-to-stop",
+    "before": "data3/oddlots1/beforellm.json",
+    "after": "data3/oddlots1/afterllm.json"
+  },
+  "oddlots2": {
+    "label": "AI Can Tell Us Something About Credit Market Weakness",
+    "moreinfo": "Oddlots, 5 December 2026",
+    "before": "data3/oddlots2/beforellm.json",
+    "after": "data3/oddlots2/afterllm.json"
+  },
+  "oddlots3": {
+    "label": "Travis Kavulla Explains Why Electric Bills Shot Up",
+    "moreinfo": "Oddlots, 4 December 2026",
+    "before": "data3/oddlots2/beforellm.json",
+    "after": "data3/oddlots2/afterllm.json"
+  },
+  "harvard1": {
+    "label": "Future of Business: Standard Bank's CEO on Driving Sustainable Growth and Shared Prosperity",
+    "moreinfo": "HBS podcast, 13 November 2025, https://audio.hbr.org/ideacast/20251113090425-1052b_FutureofBusiness_StandardBanksCEOonDrivingSustainableGrowthandSharedProsperity.mp3",
+    "before": "data3/harvard1/beforellm.json",
+    "after":  "data3/harvard1/afterllm.json"
+   }
+   
+   
   }
-}
