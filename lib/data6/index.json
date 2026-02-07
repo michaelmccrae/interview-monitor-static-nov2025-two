@@ -1,0 +1,8 @@
+{
+  "oddlots1": {
+    "label": "Meet the Politician the AI industry is trying to stop",
+    "moreinfo": "Oddlots",
+    "before": "data6/oddlots1/beforellm.json",
+    "after": "data6/oddlots1/afterllm.json"
+  }
+}

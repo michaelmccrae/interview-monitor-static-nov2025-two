@@ -1,14 +1,14 @@
-'use client';
+"use client";
 
-import { useState, useMemo } from 'react';
-import LLMProcessor from './LLMProcessor2';
+import { useState, useMemo } from "react";
+import LLMProcessor from "./LLMProcessor3";
 
 export default function AudioAnalyzer() {
   const [file, setFile] = useState(null);
   const [jsonResult, setJsonResult] = useState(null);
   const [loading, setLoading] = useState(false);
-  const [error, setError] = useState('');
-  
+  const [error, setError] = useState("");
+
   // NEW: State to control when to trigger the Child Component
   const [startAI, setStartAI] = useState(false);
 
@@ -24,24 +24,24 @@ export default function AudioAnalyzer() {
   const handleAnalyze = async (e) => {
     e.preventDefault();
     if (!file) {
-      setError('Please select an MP3 file first.');
+      setError("Please select an MP3 file first.");
       return;
     }
 
     setLoading(true);
-    setError('');
+    setError("");
     setJsonResult(null);
     setStartAI(false); // Ensure AI doesn't run automatically
 
     try {
-      const res = await fetch('/api/dpanalyze', {
-        method: 'POST',
-        headers: { 'Content-Type': file.type },
+      const res = await fetch("/api/dpanalyze", {
+        method: "POST",
+        headers: { "Content-Type": file.type },
         body: file,
       });
 
       const data = await res.json();
-      if (!res.ok) throw new Error(data.error || 'Failed to analyze');
+      if (!res.ok) throw new Error(data.error || "Failed to analyze");
       setJsonResult(data);
     } catch (err) {
       setError(err.message);
@@ -54,8 +54,9 @@ export default function AudioAnalyzer() {
   // TRANSFORM RAW DEEPGRAM -> BEFORE_LLM
   // -----------------------------
   const beforeLLM = useMemo(() => {
-    if (!jsonResult?.results?.channels?.[0]?.alternatives?.[0]?.words) return [];
-    
+    if (!jsonResult?.results?.channels?.[0]?.alternatives?.[0]?.words)
+      return [];
+
     const words = jsonResult.results.channels[0].alternatives[0].words;
     if (!words.length) return [];
 
@@ -76,7 +77,9 @@ export default function AudioAnalyzer() {
       }
 
       if (currentWords.length > 0) {
-        const lastWordStart = currentBubbleWords[currentBubbleWords.length - 1]?.start ?? firstWordStart;
+        const lastWordStart =
+          currentBubbleWords[currentBubbleWords.length - 1]?.start ??
+          firstWordStart;
         safeGroups.push({
           speaker: currentSpeaker,
           text: currentWords.join(" ").trim(),
@@ -92,7 +95,9 @@ export default function AudioAnalyzer() {
     }
 
     if (currentWords.length > 0) {
-      const lastWordStart = currentBubbleWords[currentBubbleWords.length - 1]?.start ?? firstWordStart;
+      const lastWordStart =
+        currentBubbleWords[currentBubbleWords.length - 1]?.start ??
+        firstWordStart;
       safeGroups.push({
         speaker: currentSpeaker,
         text: currentWords.join(" ").trim(),
@@ -108,66 +113,79 @@ export default function AudioAnalyzer() {
     }));
   }, [jsonResult]);
 
-
   const copyBeforeLLM = () => {
     navigator.clipboard.writeText(JSON.stringify(beforeLLM, null, 2));
-    alert('BeforeLLM JSON copied!');
+    alert("BeforeLLM JSON copied!");
   };
 
   // Dark mode styles
   const styles = {
     container: {
-      padding: '20px',
-      maxWidth: '900px',
-      margin: '0 auto',
-      fontFamily: 'monospace',
-      color: '#e0e0e0',
+      padding: "20px",
+      maxWidth: "900px",
+      margin: "0 auto",
+      fontFamily: "monospace",
+      color: "#e0e0e0",
     },
-    form: { display: 'flex', gap: '10px', marginBottom: '20px', alignItems: 'center' },
+    form: {
+      display: "flex",
+      gap: "10px",
+      marginBottom: "20px",
+      alignItems: "center",
+    },
     input: {
       flex: 1,
-      padding: '8px',
-      backgroundColor: '#222',
-      color: '#fff',
-      border: '1px solid #444',
-      cursor: 'pointer',
+      padding: "8px",
+      backgroundColor: "#222",
+      color: "#fff",
+      border: "1px solid #444",
+      cursor: "pointer",
     },
     button: {
-      padding: '8px 16px',
-      backgroundColor: '#333',
-      color: '#fff',
-      border: '1px solid #555',
-      cursor: 'pointer',
-      whiteSpace: 'nowrap',
+      padding: "8px 16px",
+      backgroundColor: "#333",
+      color: "#fff",
+      border: "1px solid #555",
+      cursor: "pointer",
+      whiteSpace: "nowrap",
     },
     actionButton: {
-      padding: '12px 24px',
-      backgroundColor: '#2563eb', // Blue for primary action
-      color: '#fff',
-      border: 'none',
-      cursor: 'pointer',
-      fontSize: '14px',
-      marginTop: '10px',
-      borderRadius: '4px'
+      padding: "12px 24px",
+      backgroundColor: "#2563eb", // Blue for primary action
+      color: "#fff",
+      border: "none",
+      cursor: "pointer",
+      fontSize: "14px",
+      marginTop: "10px",
+      borderRadius: "4px",
     },
-    error: { color: '#ff6b6b', marginBottom: '10px' },
-    section: { marginTop: '30px', borderTop: '1px solid #444', paddingTop: '20px' },
-    headerWrapper: { display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '10px' },
+    error: { color: "#ff6b6b", marginBottom: "10px" },
+    section: {
+      marginTop: "30px",
+      borderTop: "1px solid #444",
+      paddingTop: "20px",
+    },
+    headerWrapper: {
+      display: "flex",
+      justifyContent: "space-between",
+      alignItems: "center",
+      marginBottom: "10px",
+    },
     textarea: {
-      width: '100%',
-      height: '250px', 
-      backgroundColor: '#111',
-      color: '#ccc',
-      border: '1px solid #333',
-      padding: '10px',
-      fontSize: '12px',
+      width: "100%",
+      height: "250px",
+      backgroundColor: "#111",
+      color: "#ccc",
+      border: "1px solid #333",
+      padding: "10px",
+      fontSize: "12px",
     },
   };
 
   return (
     <div style={styles.container}>
       <h3>Deepgram Audio Upload Analyzer</h3>
-      
+
       {/* 1. UPLOAD FORM */}
       <form onSubmit={handleAnalyze} style={styles.form}>
         <input
@@ -178,7 +196,7 @@ export default function AudioAnalyzer() {
           style={styles.input}
         />
         <button type="submit" disabled={loading} style={styles.button}>
-          {loading ? 'Processing...' : 'Upload & Generate BeforeLLM'}
+          {loading ? "Processing..." : "Upload & Generate BeforeLLM"}
         </button>
       </form>
 
@@ -193,7 +211,7 @@ export default function AudioAnalyzer() {
               Copy BeforeLLM JSON
             </button>
           </div>
-          
+
           <textarea
             readOnly
             value={JSON.stringify(beforeLLM, null, 2)}
@@ -203,16 +221,16 @@ export default function AudioAnalyzer() {
 
           {/* THE TRIGGER BUTTON */}
           {!startAI ? (
-            <div style={{ textAlign: 'center', marginTop: '20px' }}>
-              <button 
-                onClick={() => setStartAI(true)} 
+            <div style={{ textAlign: "center", marginTop: "20px" }}>
+              <button
+                onClick={() => setStartAI(true)}
                 style={styles.actionButton}
               >
                 Start AI Analysis &rarr;
               </button>
             </div>
           ) : (
-             /* 3. FINAL STEP: CHILD PROCESSOR */
+            /* 3. FINAL STEP: CHILD PROCESSOR */
             <LLMProcessor beforeLLM={beforeLLM} />
           )}
         </div>

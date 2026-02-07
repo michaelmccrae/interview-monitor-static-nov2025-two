@@ -22,7 +22,10 @@ export default function LLMProcessor({ beforeLLM }) {
   // -----------------------------
 
   function safeDurationSeconds(t) {
-    if (typeof t?.startBeginning !== "number" || typeof t?.startEnd !== "number")
+    if (
+      typeof t?.startBeginning !== "number" ||
+      typeof t?.startEnd !== "number"
+    )
       return 0;
     return Math.max(0, t.startEnd - t.startBeginning);
   }
@@ -38,7 +41,8 @@ export default function LLMProcessor({ beforeLLM }) {
         stats[s] = { turns: 0, words: 0, duration: 0 };
       }
       stats[s].turns += 1;
-      stats[s].words += typeof t?.numberOfWords === "number" ? t.numberOfWords : 0;
+      stats[s].words +=
+        typeof t?.numberOfWords === "number" ? t.numberOfWords : 0;
       stats[s].duration += safeDurationSeconds(t);
     }
     return stats;
@@ -57,11 +61,15 @@ export default function LLMProcessor({ beforeLLM }) {
       const prev = turns[i - 1];
       const next = turns[i + 1];
 
-      const curWords = typeof cur?.numberOfWords === "number" ? cur.numberOfWords : 999;
+      const curWords =
+        typeof cur?.numberOfWords === "number" ? cur.numberOfWords : 999;
 
       if (curWords > SHORT_WORDS) continue;
       if (typeof cur?.speaker !== "number") continue;
-      if (typeof prev?.speaker !== "number" || typeof next?.speaker !== "number")
+      if (
+        typeof prev?.speaker !== "number" ||
+        typeof next?.speaker !== "number"
+      )
         continue;
 
       // Sandwich rule: prev and next same speaker, current different -> correct it
@@ -89,8 +97,10 @@ export default function LLMProcessor({ beforeLLM }) {
       if (typeof s !== "number" || s < 0 || s > maxSpeakerIndex) continue;
 
       bySpeaker[s].turns += 1;
-      bySpeaker[s].words += typeof t?.numberOfWords === "number" ? t.numberOfWords : 0;
-      if (typeof t?.text === "string" && t.text.includes("?")) bySpeaker[s].questions += 1;
+      bySpeaker[s].words +=
+        typeof t?.numberOfWords === "number" ? t.numberOfWords : 0;
+      if (typeof t?.text === "string" && t.text.includes("?"))
+        bySpeaker[s].questions += 1;
     }
 
     const inferred = new Array(maxSpeakerIndex + 1).fill("Participant");
@@ -109,7 +119,7 @@ export default function LLMProcessor({ beforeLLM }) {
       const qRate = x.questions / Math.max(1, x.turns);
       const avgWords = x.words / Math.max(1, x.turns);
 
-      if (qRate >= 0.30 && x.turns >= 3) inferred[i] = "Interviewer";
+      if (qRate >= 0.3 && x.turns >= 3) inferred[i] = "Interviewer";
       else if (avgWords >= 45 && x.turns >= 3) inferred[i] = "Guest";
       else inferred[i] = "Participant";
     });
@@ -210,9 +220,9 @@ export default function LLMProcessor({ beforeLLM }) {
     const speakerStats = buildSpeakerStats(cleanContextTurns);
 
     const maxSpeakerIndex = Math.max(
-      ...((cleanContextTurns || []).map((t) =>
+      ...(cleanContextTurns || []).map((t) =>
         typeof t?.speaker === "number" ? t.speaker : -1
-      ))
+      )
     );
 
     const speakerCorrections =
@@ -225,14 +235,20 @@ export default function LLMProcessor({ beforeLLM }) {
       newMetadata.speakerName = new Array(maxSpeakerIndex + 1).fill(null);
     }
     if (!Array.isArray(newMetadata.speakerRole) && maxSpeakerIndex >= 0) {
-      newMetadata.speakerRole = new Array(maxSpeakerIndex + 1).fill("Undefined");
+      newMetadata.speakerRole = new Array(maxSpeakerIndex + 1).fill(
+        "Undefined"
+      );
     }
 
     // Fill missing/Undefined roles using heuristics (do not overwrite valid roles)
     if (maxSpeakerIndex >= 0) {
-      const inferredRoles = inferRolesFromSpeech(cleanContextTurns, maxSpeakerIndex);
+      const inferredRoles = inferRolesFromSpeech(
+        cleanContextTurns,
+        maxSpeakerIndex
+      );
       newMetadata.speakerRole = newMetadata.speakerRole.map((role, i) => {
-        if (!role || role === "Undefined") return inferredRoles[i] || "Participant";
+        if (!role || role === "Undefined")
+          return inferredRoles[i] || "Participant";
         return role;
       });
     }
@@ -300,12 +316,19 @@ export default function LLMProcessor({ beforeLLM }) {
       // -----------------------------
 
       // stats: sum them across passes (opening + refinement)
-      if (newMetadata.speakerStats && typeof newMetadata.speakerStats === "object") {
+      if (
+        newMetadata.speakerStats &&
+        typeof newMetadata.speakerStats === "object"
+      ) {
         if (!existingMeta.speakerStats) existingMeta.speakerStats = {};
         for (const [k, v] of Object.entries(newMetadata.speakerStats)) {
           const key = String(k);
           if (!existingMeta.speakerStats[key]) {
-            existingMeta.speakerStats[key] = { turns: 0, words: 0, duration: 0 };
+            existingMeta.speakerStats[key] = {
+              turns: 0,
+              words: 0,
+              duration: 0,
+            };
           }
           existingMeta.speakerStats[key].turns += v.turns || 0;
           existingMeta.speakerStats[key].words += v.words || 0;
@@ -318,8 +341,11 @@ export default function LLMProcessor({ beforeLLM }) {
         newMetadata.speakerCorrections &&
         typeof newMetadata.speakerCorrections === "object"
       ) {
-        if (!existingMeta.speakerCorrections) existingMeta.speakerCorrections = {};
-        for (const [turnId, spk] of Object.entries(newMetadata.speakerCorrections)) {
+        if (!existingMeta.speakerCorrections)
+          existingMeta.speakerCorrections = {};
+        for (const [turnId, spk] of Object.entries(
+          newMetadata.speakerCorrections
+        )) {
           if (existingMeta.speakerCorrections[turnId] == null) {
             existingMeta.speakerCorrections[turnId] = spk;
           }
@@ -388,14 +414,58 @@ export default function LLMProcessor({ beforeLLM }) {
               signal: abortController.current?.signal,
             });
             const json = await res.json();
-            if (task.key === "lookup" && json?.lookupTerm) {
-              json.lookupTerm.forEach((term) => {
-                if (term) globalLookupCache.current.add(term.toLowerCase());
+            if (task.key === "lookup" && json?.lookupTerm && json?.lookupType) {
+              json.lookupTerm.forEach((term, i) => {
+                const type = json.lookupType?.[i] ?? "UNKNOWN";
+                if (term) {
+                  globalLookupCache.current.add(
+                    `${type}:${term.toLowerCase()}`
+                  );
+                }
               });
             }
+
+            // ---------------------------------------
+            // FINANCIAL ENRICHMENT (MINIMAL ADDITION)
+            // ---------------------------------------
+            if (task.key === "lookup" && json?.lookupTerm && json?.lookupType) {
+              const financialEntities = json.lookupType
+                .map((type, i) => ({
+                  type,
+                  term: json.lookupTerm[i],
+                }))
+                .filter(
+                  (e) =>
+                    e.type === "COMPANY" ||
+                    e.type === "TICKER" ||
+                    e.type === "COMMODITY"
+                );
+
+              if (financialEntities.length > 0) {
+                try {
+                  const finRes = await fetch("/api/financial-enrich", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ entities: financialEntities }),
+                    signal: abortController.current?.signal,
+                  });
+
+                  const finJson = await finRes.json();
+
+                  // ✅ ONLY CHANGE: attach financial if present
+                  if (finJson && Object.keys(finJson).length > 0) {
+                    json.financial = finJson;
+                  }
+                } catch (err) {
+                  console.warn("⚠️ Financial enrichment failed:", err);
+                }
+              }
+            }
+
             return { key: task.key, json };
           } catch (e) {
-            if (e.name === "AbortError") return { key: task.key, aborted: true };
+            if (e.name === "AbortError")
+              return { key: task.key, aborted: true };
             return { key: task.key, json: null };
           }
         });
@@ -416,11 +486,12 @@ export default function LLMProcessor({ beforeLLM }) {
   }, [beforeLLM, processRunId]);
 
   // -----------------------------
-  // UNIFY
+  // UNIFY (RESTORED – NO LOGIC CHANGE)
   // -----------------------------
   const unifiedAfterLLM = useMemo(() => {
     const map = new Map();
     const others = [];
+
     afterLLM.forEach((item) => {
       if (item.ID != null) {
         const existing = map.get(item.ID) || {};
@@ -429,6 +500,7 @@ export default function LLMProcessor({ beforeLLM }) {
         others.push(item);
       }
     });
+
     return [...others, ...Array.from(map.values())];
   }, [afterLLM]);
 
